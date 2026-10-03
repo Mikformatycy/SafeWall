@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+/usr/sbin/nft -c -f /etc/nftables.conf
+/usr/sbin/nft -f /etc/nftables.conf
+/usr/local/sbin/pi-router-wan

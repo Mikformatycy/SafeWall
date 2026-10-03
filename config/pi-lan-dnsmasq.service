@@ -1,0 +1,16 @@
+[Unit]
+Description=Private Ethernet DHCP and DNS for iPhone
+After=NetworkManager.service nftables.service
+Wants=NetworkManager.service
+Requires=nftables.service
+
+[Service]
+Type=simple
+RuntimeDirectory=pi-lan-dnsmasq
+ExecStartPre=/usr/sbin/dnsmasq --test --conf-file=/etc/pi-router/dnsmasq-lan.conf
+ExecStart=/usr/sbin/dnsmasq --keep-in-foreground --conf-file=/etc/pi-router/dnsmasq-lan.conf
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

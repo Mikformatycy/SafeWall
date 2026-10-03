@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.pdf-venv/
+.env
+.env.*
+!.env.example
+logs/
+backups/
+*.pcap
+*.pcapng
+*.key
+*.pem
+*.nmconnection

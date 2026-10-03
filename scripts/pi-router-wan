@@ -1,0 +1,70 @@
+#!/usr/bin/python3
+"""Refresh only the router's cellular interface set and cellular DNS file."""
+import fcntl
+import ipaddress
+import json
+import os
+from pathlib import Path
+import re
+import subprocess
+import sys
+
+def run(*args):
+    return subprocess.run(args, text=True, capture_output=True, timeout=15)
+
+def main():
+    if os.geteuid() != 0:
+        sys.exit('Run with sudo.')
+    runtime = Path('/run/pi-router')
+    runtime.mkdir(exist_ok=True)
+    with (runtime / 'wan.lock').open('w') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        pinned_uuid = ''
+        conf = Path('/etc/pi-router/router.conf')
+        if conf.exists():
+            for line in conf.read_text().splitlines():
+                if line.startswith('MODEM_CONNECTION_UUID='):
+                    pinned_uuid = line.partition('=')[2].strip()
+        interfaces, dns = set(), set()
+        # Avoid starting NetworkManager through D-Bus before network-pre.target.
+        if run('systemctl', 'is-active', '--quiet', 'NetworkManager').returncode == 0:
+            active = run('nmcli', '-t', '-f', 'UUID,TYPE,DEVICE', 'connection', 'show', '--active')
+            if active.returncode:
+                raise RuntimeError(active.stderr.strip())
+            for line in active.stdout.splitlines():
+                connection_uuid, kind, device = line.split(':', 2)
+                if kind not in {'gsm', 'cdma'} and connection_uuid != pinned_uuid:
+                    continue
+                # cdc-wdm0 is a control device; use its IP interface (e.g. wwan0).
+                iface = run('nmcli', '-g', 'GENERAL.IP-IFACE', 'device', 'show', device).stdout.strip()
+                if iface in {'lo', 'usb0', 'eth0', 'wlan0', '', '--'}:
+                    continue
+                if not re.fullmatch(r'[A-Za-z0-9_.:-]{1,15}', iface):
+                    continue
+                if not Path('/sys/class/net', iface).exists():
+                    continue
+                interfaces.add(iface)
+                answer = run('nmcli', '--escape', 'no', '-g', 'IP4.DNS,IP6.DNS', 'device', 'show', device)
+                # nmcli may join multiple DNS values with ' | ' on one line.
+                for address in re.split(r'[\s,|]+', answer.stdout):
+                    try:
+                        dns.add(str(ipaddress.ip_address(address)))
+                    except ValueError:
+                        pass
+        dns_file = runtime / 'wan-resolv.conf'
+        contents = '# DNS from active cellular NetworkManager connections only.\n'
+        contents += ''.join(f'nameserver {address}\n' for address in sorted(dns))
+        if not dns_file.exists() or dns_file.read_text() != contents:
+            temporary = runtime / 'wan-resolv.conf.tmp'
+            temporary.write_text(contents)
+            temporary.chmod(0o644)
+            temporary.replace(dns_file)
+        if run('/usr/sbin/nft', 'list', 'set', 'inet', 'pi_router', 'wan_ifaces').returncode == 0:
+            batch = 'flush set inet pi_router wan_ifaces\n'
+            if interfaces:
+                batch += 'add element inet pi_router wan_ifaces { ' + ', '.join(json.dumps(i) for i in sorted(interfaces)) + ' }\n'
+            subprocess.run(['/usr/sbin/nft', '-f', '-'], input=batch, text=True, check=True)
+        print('Cellular WAN:', ', '.join(sorted(interfaces)) or 'none; forwarding blocked')
+
+if __name__ == '__main__':
+    main()
