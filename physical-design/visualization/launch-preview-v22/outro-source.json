@@ -1,0 +1,18 @@
+{
+  "path": "marketing/outro/safewall-outro-landscape.mp4",
+  "sha256": "8a8d90cfb3e30dbe217ffcfb019268cd2b7a0f603d4f78ce2c3dc5df37cb2920",
+  "source_duration": 6.2,
+  "source_resolution": [
+    1920,
+    1080
+  ],
+  "source_fps": 60,
+  "preview_frames": 149,
+  "preview_fps": 24,
+  "preview_resolution": [
+    960,
+    540
+  ],
+  "audio": false,
+  "speed_changed": false
+}

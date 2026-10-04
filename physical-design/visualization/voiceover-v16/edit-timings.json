@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "start": 0,
+    "end": 15.48,
+    "visual": "Deszczowy plener, historia i cenzura. Kontakt urządzenia z blatem i przejście do Blendera przy końcu bloku.",
+    "paragraphs": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 2,
+    "start": 15.48,
+    "end": 25.5,
+    "visual": "Przedstawienie SafeWall i formy powerbanku; równoczesne składanie 5 s oraz boczne zbliżenie MagSafe.",
+    "paragraphs": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": 3,
+    "start": 25.5,
+    "end": 48.24,
+    "visual": "Schemat Tora i osobnej bramy; zasada Tor albo brak połączenia, bez inscenizowanej awarii.",
+    "paragraphs": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": 4,
+    "start": 48.24,
+    "end": 68.72,
+    "visual": "Widoczność telefonu/AirDrop, iPhone (Piotrek), wyłączenie radiów. Przejście do Pi i realnego podłączenia oraz odświeżenia Tor Check.",
+    "paragraphs": [
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 5,
+    "start": 68.72,
+    "end": 79.44,
+    "visual": "Prototyp, dalsze testy i końcowa karta SafeWall.",
+    "paragraphs": [
+      10,
+      11
+    ]
+  }
+]

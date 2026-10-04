@@ -1,0 +1,18 @@
+{
+  "CM4_bounds_mm": [
+    [
+      7.5,
+      52.0,
+      15.7654
+    ],
+    [
+      62.5,
+      92.0,
+      20.5497
+    ]
+  ],
+  "document": "SafeWall B - detailed visualization v02",
+  "export": "physical-design/exports/SafeWall-B-detailed-visual-v02.f3d",
+  "official_CM4_body_count": 2263,
+  "scope": "Official CM4 in enclosure; decorative carrier and final shaders are in the Blender scene"
+}

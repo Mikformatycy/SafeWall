@@ -1,0 +1,2214 @@
+{
+  "language_code": "pol",
+  "language_probability": 1.0,
+  "text": "Ktoś powierzył ci swoją historię. Teraz chcesz ją przekazać dalej i chronić osobę, która ci zaufała. Są miejsca, w których dostęp do informacji ogranicza cenzura. Właśnie tam prywatność ma szczególne znaczenie. Dlatego projektujemy SafeWall. Sprzętową bramę prywatności dla dziennikarzy, aktywistów i organizacji społecznych. Z zewnątrz przypomina zwykły powerbank. SafeWall ma kierować połączenia przez sieć Tor. Tor prowadzi ruch przez kilka przekaźników, utrudniając ustalenie, kto z kim się komunikuje. Kontrolę połączenia przenosimy poza telefon. Osobna brama ma pilnować jednej zasady. Internet przez Tor albo brak połączenia, żeby awaria chronionej trasy nie otworzyła drogi do niechronionego połączenia. Telefon może też ujawniać swoją obecność urządzeniom w pobliżu. iPhone. Piotrek. Nietrudno się domyślić, do kogo należy. Z SafeWall możesz wyłączyć Wi-Fi, Bluetooth i łączność komórkową telefonu. Podłączasz przewód i nadal masz dostęp do Internetu, a połączenie przez Tor sprawdzasz w swojej przeglądarce. To nasz prototyp. Kolejny krok: miniaturyzacja, testy bezpieczeństwa i próby z przyszłymi użytkownikami. SafeWall. Bo za każdą historią stoi człowiek.",
+  "words": [
+    {
+      "text": "Ktoś",
+      "start": 0.08,
+      "end": 0.38,
+      "type": "word",
+      "logprob": -0.00011107968589207928
+    },
+    {
+      "text": " ",
+      "start": 0.38,
+      "end": 0.5,
+      "type": "spacing",
+      "logprob": -0.0001784403866622597
+    },
+    {
+      "text": "powierzył",
+      "start": 0.5,
+      "end": 0.94,
+      "type": "word",
+      "logprob": -7.891080531408079e-05
+    },
+    {
+      "text": " ",
+      "start": 0.94,
+      "end": 0.96,
+      "type": "spacing",
+      "logprob": -0.06995046138763428
+    },
+    {
+      "text": "ci",
+      "start": 0.96,
+      "end": 1.04,
+      "type": "word",
+      "logprob": -0.06995046138763428
+    },
+    {
+      "text": " ",
+      "start": 1.04,
+      "end": 1.12,
+      "type": "spacing",
+      "logprob": -5.245195097813848e-06
+    },
+    {
+      "text": "swoją",
+      "start": 1.12,
+      "end": 1.42,
+      "type": "word",
+      "logprob": -5.245195097813848e-06
+    },
+    {
+      "text": " ",
+      "start": 1.42,
+      "end": 1.46,
+      "type": "spacing",
+      "logprob": -0.00026520551182329655
+    },
+    {
+      "text": "historię.",
+      "start": 1.46,
+      "end": 2.06,
+      "type": "word",
+      "logprob": -0.0001776248925832786
+    },
+    {
+      "text": " ",
+      "start": 2.06,
+      "end": 2.66,
+      "type": "spacing",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": "Teraz",
+      "start": 2.66,
+      "end": 3.06,
+      "type": "word",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": " ",
+      "start": 3.06,
+      "end": 3.1,
+      "type": "spacing",
+      "logprob": -6.9141146923357155e-06
+    },
+    {
+      "text": "chcesz",
+      "start": 3.1,
+      "end": 3.36,
+      "type": "word",
+      "logprob": -6.9141146923357155e-06
+    },
+    {
+      "text": " ",
+      "start": 3.36,
+      "end": 3.42,
+      "type": "spacing",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": "ją",
+      "start": 3.42,
+      "end": 3.52,
+      "type": "word",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": " ",
+      "start": 3.52,
+      "end": 3.56,
+      "type": "spacing",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": "przekazać",
+      "start": 3.56,
+      "end": 4.0,
+      "type": "word",
+      "logprob": -4.7574433918068986e-05
+    },
+    {
+      "text": " ",
+      "start": 4.0,
+      "end": 4.1,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "dalej",
+      "start": 4.1,
+      "end": 4.44,
+      "type": "word",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": " ",
+      "start": 4.44,
+      "end": 4.86,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "i",
+      "start": 4.86,
+      "end": 4.9,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 4.9,
+      "end": 4.96,
+      "type": "spacing",
+      "logprob": -0.00012408917245920748
+    },
+    {
+      "text": "chronić",
+      "start": 4.96,
+      "end": 5.46,
+      "type": "word",
+      "logprob": -8.863512318514819e-05
+    },
+    {
+      "text": " ",
+      "start": 5.46,
+      "end": 5.52,
+      "type": "spacing",
+      "logprob": -1.6689286894688848e-06
+    },
+    {
+      "text": "osobę,",
+      "start": 5.52,
+      "end": 5.88,
+      "type": "word",
+      "logprob": -1.2318283779677586e-06
+    },
+    {
+      "text": " ",
+      "start": 5.88,
+      "end": 5.94,
+      "type": "spacing",
+      "logprob": -9.953480184776708e-05
+    },
+    {
+      "text": "która",
+      "start": 5.94,
+      "end": 6.16,
+      "type": "word",
+      "logprob": -9.953480184776708e-05
+    },
+    {
+      "text": " ",
+      "start": 6.16,
+      "end": 6.2,
+      "type": "spacing",
+      "logprob": -0.061979155987501144
+    },
+    {
+      "text": "ci",
+      "start": 6.2,
+      "end": 6.3,
+      "type": "word",
+      "logprob": -0.061979155987501144
+    },
+    {
+      "text": " ",
+      "start": 6.3,
+      "end": 6.34,
+      "type": "spacing",
+      "logprob": -0.00015209948469419032
+    },
+    {
+      "text": "zaufała.",
+      "start": 6.34,
+      "end": 6.96,
+      "type": "word",
+      "logprob": -5.960029329798999e-05
+    },
+    {
+      "text": " ",
+      "start": 6.96,
+      "end": 6.96,
+      "type": "spacing",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": "Są",
+      "start": 7.72,
+      "end": 7.88,
+      "type": "word",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": " ",
+      "start": 7.88,
+      "end": 7.92,
+      "type": "spacing",
+      "logprob": -8.4638240878121e-06
+    },
+    {
+      "text": "miejsca,",
+      "start": 7.92,
+      "end": 8.38,
+      "type": "word",
+      "logprob": -7.405846076835587e-06
+    },
+    {
+      "text": " ",
+      "start": 8.38,
+      "end": 8.46,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "w",
+      "start": 8.46,
+      "end": 8.48,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 8.48,
+      "end": 8.52,
+      "type": "spacing",
+      "logprob": -0.00010513706365600228
+    },
+    {
+      "text": "których",
+      "start": 8.52,
+      "end": 8.78,
+      "type": "word",
+      "logprob": -0.00010513706365600228
+    },
+    {
+      "text": " ",
+      "start": 8.78,
+      "end": 8.92,
+      "type": "spacing",
+      "logprob": -0.00014029949670657516
+    },
+    {
+      "text": "dostęp",
+      "start": 8.92,
+      "end": 9.3,
+      "type": "word",
+      "logprob": -0.00014029949670657516
+    },
+    {
+      "text": " ",
+      "start": 9.3,
+      "end": 9.34,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "do",
+      "start": 9.34,
+      "end": 9.42,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 9.42,
+      "end": 9.48,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "informacji",
+      "start": 9.48,
+      "end": 10.12,
+      "type": "word",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": " ",
+      "start": 10.12,
+      "end": 10.26,
+      "type": "spacing",
+      "logprob": -0.00010847456724150106
+    },
+    {
+      "text": "ogranicza",
+      "start": 10.26,
+      "end": 10.76,
+      "type": "word",
+      "logprob": -8.436910785450082e-05
+    },
+    {
+      "text": " ",
+      "start": 10.76,
+      "end": 10.82,
+      "type": "spacing",
+      "logprob": -0.00023040501400828362
+    },
+    {
+      "text": "cenzura.",
+      "start": 10.82,
+      "end": 11.38,
+      "type": "word",
+      "logprob": -3.716012327004137e-05
+    },
+    {
+      "text": " ",
+      "start": 11.38,
+      "end": 11.94,
+      "type": "spacing",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "Właśnie",
+      "start": 11.94,
+      "end": 12.28,
+      "type": "word",
+      "logprob": -1.0217760315559385e-05
+    },
+    {
+      "text": " ",
+      "start": 12.28,
+      "end": 12.34,
+      "type": "spacing",
+      "logprob": -1.0371154530730564e-05
+    },
+    {
+      "text": "tam",
+      "start": 12.34,
+      "end": 12.6,
+      "type": "word",
+      "logprob": -1.0371154530730564e-05
+    },
+    {
+      "text": " ",
+      "start": 12.6,
+      "end": 12.94,
+      "type": "spacing",
+      "logprob": -0.00018857131362892687
+    },
+    {
+      "text": "prywatność",
+      "start": 12.94,
+      "end": 13.66,
+      "type": "word",
+      "logprob": -0.00011333352299516263
+    },
+    {
+      "text": " ",
+      "start": 13.66,
+      "end": 13.72,
+      "type": "spacing",
+      "logprob": -2.9802276912960224e-06
+    },
+    {
+      "text": "ma",
+      "start": 13.72,
+      "end": 13.8,
+      "type": "word",
+      "logprob": -2.9802276912960224e-06
+    },
+    {
+      "text": " ",
+      "start": 13.8,
+      "end": 13.84,
+      "type": "spacing",
+      "logprob": -0.00016020445036701858
+    },
+    {
+      "text": "szczególne",
+      "start": 13.84,
+      "end": 14.4,
+      "type": "word",
+      "logprob": -0.00012816356029361488
+    },
+    {
+      "text": " ",
+      "start": 14.4,
+      "end": 14.46,
+      "type": "spacing",
+      "logprob": -1.1205610462639015e-05
+    },
+    {
+      "text": "znaczenie.",
+      "start": 14.46,
+      "end": 14.98,
+      "type": "word",
+      "logprob": -6.1273297603747775e-06
+    },
+    {
+      "text": " ",
+      "start": 14.98,
+      "end": 15.48,
+      "type": "spacing",
+      "logprob": -7.033323527139146e-06
+    },
+    {
+      "text": "Dlatego",
+      "start": 15.48,
+      "end": 15.84,
+      "type": "word",
+      "logprob": -7.033323527139146e-06
+    },
+    {
+      "text": " ",
+      "start": 15.84,
+      "end": 15.92,
+      "type": "spacing",
+      "logprob": -3.6000557884108275e-05
+    },
+    {
+      "text": "projektujemy",
+      "start": 15.92,
+      "end": 16.5,
+      "type": "word",
+      "logprob": -2.119900753427828e-05
+    },
+    {
+      "text": " ",
+      "start": 16.5,
+      "end": 16.64,
+      "type": "spacing",
+      "logprob": -0.024404002353549004
+    },
+    {
+      "text": "SafeWall.",
+      "start": 16.64,
+      "end": 17.2,
+      "type": "word",
+      "logprob": -0.11044801440503862
+    },
+    {
+      "text": " ",
+      "start": 17.2,
+      "end": 17.54,
+      "type": "spacing",
+      "logprob": -0.0002233732520835474
+    },
+    {
+      "text": "Sprzętową",
+      "start": 17.54,
+      "end": 18.1,
+      "type": "word",
+      "logprob": -0.0004327610020279988
+    },
+    {
+      "text": " ",
+      "start": 18.1,
+      "end": 18.14,
+      "type": "spacing",
+      "logprob": -0.0025719678960740566
+    },
+    {
+      "text": "bramę",
+      "start": 18.14,
+      "end": 18.38,
+      "type": "word",
+      "logprob": -0.002057622000569381
+    },
+    {
+      "text": " ",
+      "start": 18.38,
+      "end": 18.42,
+      "type": "spacing",
+      "logprob": -5.245195097813848e-06
+    },
+    {
+      "text": "prywatności",
+      "start": 18.42,
+      "end": 19.04,
+      "type": "word",
+      "logprob": -2.969387576389305e-06
+    },
+    {
+      "text": " ",
+      "start": 19.04,
+      "end": 19.08,
+      "type": "spacing",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": "dla",
+      "start": 19.08,
+      "end": 19.2,
+      "type": "word",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": " ",
+      "start": 19.2,
+      "end": 19.24,
+      "type": "spacing",
+      "logprob": -3.3378546504536644e-06
+    },
+    {
+      "text": "dziennikarzy,",
+      "start": 19.24,
+      "end": 19.94,
+      "type": "word",
+      "logprob": -3.874121732503856e-05
+    },
+    {
+      "text": " ",
+      "start": 19.94,
+      "end": 20.1,
+      "type": "spacing",
+      "logprob": -2.8132995794294402e-05
+    },
+    {
+      "text": "aktywistów",
+      "start": 20.1,
+      "end": 20.84,
+      "type": "word",
+      "logprob": -9.596252129995265e-06
+    },
+    {
+      "text": " ",
+      "start": 20.84,
+      "end": 20.88,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "i",
+      "start": 20.88,
+      "end": 20.92,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 20.92,
+      "end": 21.04,
+      "type": "spacing",
+      "logprob": -3.838465272565372e-05
+    },
+    {
+      "text": "organizacji",
+      "start": 21.04,
+      "end": 21.64,
+      "type": "word",
+      "logprob": -3.838465272565372e-05
+    },
+    {
+      "text": " ",
+      "start": 21.64,
+      "end": 21.7,
+      "type": "spacing",
+      "logprob": -5.960446742392378e-06
+    },
+    {
+      "text": "społecznych.",
+      "start": 21.7,
+      "end": 22.32,
+      "type": "word",
+      "logprob": -3.6287671373239995e-05
+    },
+    {
+      "text": " ",
+      "start": 22.32,
+      "end": 22.9,
+      "type": "spacing",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "Z",
+      "start": 22.9,
+      "end": 22.94,
+      "type": "word",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": " ",
+      "start": 22.94,
+      "end": 23.02,
+      "type": "spacing",
+      "logprob": -7.510157047363464e-06
+    },
+    {
+      "text": "zewnątrz",
+      "start": 23.02,
+      "end": 23.5,
+      "type": "word",
+      "logprob": -0.00012557810816815618
+    },
+    {
+      "text": " ",
+      "start": 23.5,
+      "end": 23.52,
+      "type": "spacing",
+      "logprob": -2.622600959512056e-06
+    },
+    {
+      "text": "przypomina",
+      "start": 23.52,
+      "end": 23.98,
+      "type": "word",
+      "logprob": -1.4901143856604904e-06
+    },
+    {
+      "text": " ",
+      "start": 23.98,
+      "end": 24.04,
+      "type": "spacing",
+      "logprob": -1.5497195136049413e-06
+    },
+    {
+      "text": "zwykły",
+      "start": 24.04,
+      "end": 24.38,
+      "type": "word",
+      "logprob": -1.3510375633056053e-06
+    },
+    {
+      "text": " ",
+      "start": 24.38,
+      "end": 24.44,
+      "type": "spacing",
+      "logprob": -0.00027211778797209263
+    },
+    {
+      "text": "powerbank.",
+      "start": 24.44,
+      "end": 25.02,
+      "type": "word",
+      "logprob": -0.0001921906135969209
+    },
+    {
+      "text": " ",
+      "start": 25.02,
+      "end": 25.5,
+      "type": "spacing",
+      "logprob": -0.02731895260512829
+    },
+    {
+      "text": "SafeWall",
+      "start": 25.5,
+      "end": 25.98,
+      "type": "word",
+      "logprob": -0.01597315282560885
+    },
+    {
+      "text": " ",
+      "start": 25.98,
+      "end": 26.02,
+      "type": "spacing",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "ma",
+      "start": 26.02,
+      "end": 26.1,
+      "type": "word",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": " ",
+      "start": 26.1,
+      "end": 26.14,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "kierować",
+      "start": 26.14,
+      "end": 26.5,
+      "type": "word",
+      "logprob": -7.748599131218725e-07
+    },
+    {
+      "text": " ",
+      "start": 26.5,
+      "end": 26.54,
+      "type": "spacing",
+      "logprob": -1.2397689715726301e-05
+    },
+    {
+      "text": "połączenia",
+      "start": 26.54,
+      "end": 27.02,
+      "type": "word",
+      "logprob": -5.245178113000293e-06
+    },
+    {
+      "text": " ",
+      "start": 27.02,
+      "end": 27.04,
+      "type": "spacing",
+      "logprob": -2.861018856492592e-06
+    },
+    {
+      "text": "przez",
+      "start": 27.04,
+      "end": 27.26,
+      "type": "word",
+      "logprob": -2.861018856492592e-06
+    },
+    {
+      "text": " ",
+      "start": 27.26,
+      "end": 27.32,
+      "type": "spacing",
+      "logprob": -0.00010656742961145937
+    },
+    {
+      "text": "sieć",
+      "start": 27.32,
+      "end": 27.6,
+      "type": "word",
+      "logprob": -8.591576715843985e-05
+    },
+    {
+      "text": " ",
+      "start": 27.6,
+      "end": 27.66,
+      "type": "spacing",
+      "logprob": -0.5762544870376587
+    },
+    {
+      "text": "Tor.",
+      "start": 27.66,
+      "end": 27.98,
+      "type": "word",
+      "logprob": -0.432190865278244
+    },
+    {
+      "text": " ",
+      "start": 27.98,
+      "end": 28.44,
+      "type": "spacing",
+      "logprob": -3.504691630951129e-05
+    },
+    {
+      "text": "Tor",
+      "start": 28.44,
+      "end": 28.72,
+      "type": "word",
+      "logprob": -3.504691630951129e-05
+    },
+    {
+      "text": " ",
+      "start": 28.72,
+      "end": 28.76,
+      "type": "spacing",
+      "logprob": -5.722029527532868e-06
+    },
+    {
+      "text": "prowadzi",
+      "start": 28.76,
+      "end": 29.12,
+      "type": "word",
+      "logprob": -4.291522145649651e-06
+    },
+    {
+      "text": " ",
+      "start": 29.12,
+      "end": 29.16,
+      "type": "spacing",
+      "logprob": -6.23445157543756e-05
+    },
+    {
+      "text": "ruch",
+      "start": 29.16,
+      "end": 29.32,
+      "type": "word",
+      "logprob": -6.23445157543756e-05
+    },
+    {
+      "text": " ",
+      "start": 29.32,
+      "end": 29.36,
+      "type": "spacing",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "przez",
+      "start": 29.36,
+      "end": 29.6,
+      "type": "word",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": " ",
+      "start": 29.6,
+      "end": 29.64,
+      "type": "spacing",
+      "logprob": -3.933898824470816e-06
+    },
+    {
+      "text": "kilka",
+      "start": 29.64,
+      "end": 29.92,
+      "type": "word",
+      "logprob": -3.933898824470816e-06
+    },
+    {
+      "text": " ",
+      "start": 29.92,
+      "end": 29.96,
+      "type": "spacing",
+      "logprob": -3.182837463100441e-05
+    },
+    {
+      "text": "przekaźników,",
+      "start": 29.96,
+      "end": 30.6,
+      "type": "word",
+      "logprob": -2.169574795866188e-05
+    },
+    {
+      "text": " ",
+      "start": 30.6,
+      "end": 30.9,
+      "type": "spacing",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "utrudniając",
+      "start": 30.9,
+      "end": 31.52,
+      "type": "word",
+      "logprob": -1.4857588604916765e-05
+    },
+    {
+      "text": " ",
+      "start": 31.52,
+      "end": 31.6,
+      "type": "spacing",
+      "logprob": -4.5536911784438416e-05
+    },
+    {
+      "text": "ustalenie,",
+      "start": 31.6,
+      "end": 32.02,
+      "type": "word",
+      "logprob": -5.976524516881909e-05
+    },
+    {
+      "text": " ",
+      "start": 32.02,
+      "end": 32.119,
+      "type": "spacing",
+      "logprob": -0.00010954733443213627
+    },
+    {
+      "text": "kto",
+      "start": 32.119,
+      "end": 32.4,
+      "type": "word",
+      "logprob": -0.00010954733443213627
+    },
+    {
+      "text": " ",
+      "start": 32.4,
+      "end": 32.46,
+      "type": "spacing",
+      "logprob": -3.123234637314454e-05
+    },
+    {
+      "text": "z",
+      "start": 32.46,
+      "end": 32.52,
+      "type": "word",
+      "logprob": -3.123234637314454e-05
+    },
+    {
+      "text": " ",
+      "start": 32.52,
+      "end": 32.58,
+      "type": "spacing",
+      "logprob": -1.7046782886609435e-05
+    },
+    {
+      "text": "kim",
+      "start": 32.58,
+      "end": 32.74,
+      "type": "word",
+      "logprob": -1.7046782886609435e-05
+    },
+    {
+      "text": " ",
+      "start": 32.74,
+      "end": 32.78,
+      "type": "spacing",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "się",
+      "start": 32.78,
+      "end": 32.9,
+      "type": "word",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": " ",
+      "start": 32.9,
+      "end": 32.94,
+      "type": "spacing",
+      "logprob": -0.00017951308109331876
+    },
+    {
+      "text": "komunikuje.",
+      "start": 32.94,
+      "end": 33.62,
+      "type": "word",
+      "logprob": -0.00011456071311758106
+    },
+    {
+      "text": " ",
+      "start": 33.62,
+      "end": 33.94,
+      "type": "spacing",
+      "logprob": -0.00017331528943032026
+    },
+    {
+      "text": "Kontrolę",
+      "start": 33.94,
+      "end": 34.34,
+      "type": "word",
+      "logprob": -0.00011426848140771995
+    },
+    {
+      "text": " ",
+      "start": 34.34,
+      "end": 34.38,
+      "type": "spacing",
+      "logprob": -8.106198947643861e-06
+    },
+    {
+      "text": "połączenia",
+      "start": 34.38,
+      "end": 34.96,
+      "type": "word",
+      "logprob": -4.959090892953099e-06
+    },
+    {
+      "text": " ",
+      "start": 34.96,
+      "end": 35.0,
+      "type": "spacing",
+      "logprob": -0.00015376816736534238
+    },
+    {
+      "text": "przenosimy",
+      "start": 35.0,
+      "end": 35.6,
+      "type": "word",
+      "logprob": -0.00013762844100710935
+    },
+    {
+      "text": " ",
+      "start": 35.6,
+      "end": 35.64,
+      "type": "spacing",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "poza",
+      "start": 35.64,
+      "end": 35.92,
+      "type": "word",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": " ",
+      "start": 35.92,
+      "end": 35.98,
+      "type": "spacing",
+      "logprob": -9.536697689327411e-06
+    },
+    {
+      "text": "telefon.",
+      "start": 35.98,
+      "end": 36.54,
+      "type": "word",
+      "logprob": -8.359511638467154e-06
+    },
+    {
+      "text": " ",
+      "start": 36.54,
+      "end": 36.92,
+      "type": "spacing",
+      "logprob": -0.14283879101276398
+    },
+    {
+      "text": "Osobna",
+      "start": 36.92,
+      "end": 37.32,
+      "type": "word",
+      "logprob": -0.023902737283293618
+    },
+    {
+      "text": " ",
+      "start": 37.32,
+      "end": 37.36,
+      "type": "spacing",
+      "logprob": -6.258291978156194e-05
+    },
+    {
+      "text": "brama",
+      "start": 37.38,
+      "end": 37.92,
+      "type": "word",
+      "logprob": -1.614053799130488e-05
+    },
+    {
+      "text": " ",
+      "start": 37.92,
+      "end": 37.98,
+      "type": "spacing",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "ma",
+      "start": 37.98,
+      "end": 38.08,
+      "type": "word",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": " ",
+      "start": 38.08,
+      "end": 38.12,
+      "type": "spacing",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": "pilnować",
+      "start": 38.12,
+      "end": 38.66,
+      "type": "word",
+      "logprob": -7.3015122765696105e-06
+    },
+    {
+      "text": " ",
+      "start": 38.66,
+      "end": 38.76,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "jednej",
+      "start": 38.76,
+      "end": 39.12,
+      "type": "word",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": " ",
+      "start": 39.12,
+      "end": 39.18,
+      "type": "spacing",
+      "logprob": -7.510157047363464e-06
+    },
+    {
+      "text": "zasady.",
+      "start": 39.18,
+      "end": 39.68,
+      "type": "word",
+      "logprob": -0.003937483353817177
+    },
+    {
+      "text": " ",
+      "start": 39.68,
+      "end": 40.18,
+      "type": "spacing",
+      "logprob": -8.821448318485636e-06
+    },
+    {
+      "text": "Internet",
+      "start": 40.18,
+      "end": 40.66,
+      "type": "word",
+      "logprob": -8.821448318485636e-06
+    },
+    {
+      "text": " ",
+      "start": 40.66,
+      "end": 40.7,
+      "type": "spacing",
+      "logprob": -1.6689286894688848e-06
+    },
+    {
+      "text": "przez",
+      "start": 40.7,
+      "end": 40.94,
+      "type": "word",
+      "logprob": -1.6689286894688848e-06
+    },
+    {
+      "text": " ",
+      "start": 40.94,
+      "end": 41.0,
+      "type": "spacing",
+      "logprob": -0.0002933310461230576
+    },
+    {
+      "text": "Tor",
+      "start": 41.0,
+      "end": 41.24,
+      "type": "word",
+      "logprob": -0.0002933310461230576
+    },
+    {
+      "text": " ",
+      "start": 41.24,
+      "end": 41.58,
+      "type": "spacing",
+      "logprob": -8.702239938429557e-06
+    },
+    {
+      "text": "albo",
+      "start": 41.58,
+      "end": 41.84,
+      "type": "word",
+      "logprob": -8.702239938429557e-06
+    },
+    {
+      "text": " ",
+      "start": 41.84,
+      "end": 41.88,
+      "type": "spacing",
+      "logprob": -3.564294092939235e-05
+    },
+    {
+      "text": "brak",
+      "start": 41.88,
+      "end": 42.14,
+      "type": "word",
+      "logprob": -3.564294092939235e-05
+    },
+    {
+      "text": " ",
+      "start": 42.14,
+      "end": 42.18,
+      "type": "spacing",
+      "logprob": -3.576272320060525e-06
+    },
+    {
+      "text": "połączenia,",
+      "start": 42.18,
+      "end": 42.8,
+      "type": "word",
+      "logprob": -0.02290640364613368
+    },
+    {
+      "text": " ",
+      "start": 42.8,
+      "end": 43.3,
+      "type": "spacing",
+      "logprob": -3.814689989667386e-06
+    },
+    {
+      "text": "żeby",
+      "start": 43.3,
+      "end": 43.5,
+      "type": "word",
+      "logprob": -3.814689989667386e-06
+    },
+    {
+      "text": " ",
+      "start": 43.5,
+      "end": 43.6,
+      "type": "spacing",
+      "logprob": -3.3378546504536644e-06
+    },
+    {
+      "text": "awaria",
+      "start": 43.6,
+      "end": 43.98,
+      "type": "word",
+      "logprob": -3.123215052861875e-05
+    },
+    {
+      "text": " ",
+      "start": 43.98,
+      "end": 44.02,
+      "type": "spacing",
+      "logprob": -2.634490556374658e-05
+    },
+    {
+      "text": "chronionej",
+      "start": 44.02,
+      "end": 44.44,
+      "type": "word",
+      "logprob": -4.8456845433975104e-05
+    },
+    {
+      "text": " ",
+      "start": 44.44,
+      "end": 44.48,
+      "type": "spacing",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "trasy",
+      "start": 44.48,
+      "end": 45.04,
+      "type": "word",
+      "logprob": -1.1444083384049008e-06
+    },
+    {
+      "text": " ",
+      "start": 45.04,
+      "end": 45.1,
+      "type": "spacing",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "nie",
+      "start": 45.1,
+      "end": 45.2,
+      "type": "word",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": " ",
+      "start": 45.2,
+      "end": 45.26,
+      "type": "spacing",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": "otworzyła",
+      "start": 45.26,
+      "end": 45.72,
+      "type": "word",
+      "logprob": -2.9616179037677488e-05
+    },
+    {
+      "text": " ",
+      "start": 45.72,
+      "end": 45.78,
+      "type": "spacing",
+      "logprob": -1.823885577323381e-05
+    },
+    {
+      "text": "drogi",
+      "start": 45.78,
+      "end": 46.1,
+      "type": "word",
+      "logprob": -1.0990997176918427e-05
+    },
+    {
+      "text": " ",
+      "start": 46.1,
+      "end": 46.16,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "do",
+      "start": 46.16,
+      "end": 46.3,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 46.3,
+      "end": 46.44,
+      "type": "spacing",
+      "logprob": -0.0019946456886827946
+    },
+    {
+      "text": "niechronionego",
+      "start": 46.44,
+      "end": 47.16,
+      "type": "word",
+      "logprob": -0.011566615633455513
+    },
+    {
+      "text": " ",
+      "start": 47.16,
+      "end": 47.24,
+      "type": "spacing",
+      "logprob": -2.8729025871143676e-05
+    },
+    {
+      "text": "połączenia.",
+      "start": 47.24,
+      "end": 47.86,
+      "type": "word",
+      "logprob": -1.1942451113678874e-05
+    },
+    {
+      "text": " ",
+      "start": 47.86,
+      "end": 48.24,
+      "type": "spacing",
+      "logprob": -0.0001858300092862919
+    },
+    {
+      "text": "Telefon",
+      "start": 48.24,
+      "end": 48.72,
+      "type": "word",
+      "logprob": -0.0001858300092862919
+    },
+    {
+      "text": " ",
+      "start": 48.72,
+      "end": 48.78,
+      "type": "spacing",
+      "logprob": -5.960446742392378e-06
+    },
+    {
+      "text": "może",
+      "start": 48.78,
+      "end": 48.96,
+      "type": "word",
+      "logprob": -5.960446742392378e-06
+    },
+    {
+      "text": " ",
+      "start": 48.96,
+      "end": 49.0,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "też",
+      "start": 49.0,
+      "end": 49.16,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 49.16,
+      "end": 49.24,
+      "type": "spacing",
+      "logprob": -2.074220174108632e-05
+    },
+    {
+      "text": "ujawniać",
+      "start": 49.24,
+      "end": 49.64,
+      "type": "word",
+      "logprob": -0.0020778932999334643
+    },
+    {
+      "text": " ",
+      "start": 49.64,
+      "end": 49.7,
+      "type": "spacing",
+      "logprob": -7.271740287251305e-06
+    },
+    {
+      "text": "swoją",
+      "start": 49.7,
+      "end": 49.98,
+      "type": "word",
+      "logprob": -7.271740287251305e-06
+    },
+    {
+      "text": " ",
+      "start": 49.98,
+      "end": 50.06,
+      "type": "spacing",
+      "logprob": -8.344646857949556e-07
+    },
+    {
+      "text": "obecność",
+      "start": 50.06,
+      "end": 50.64,
+      "type": "word",
+      "logprob": -5.960462488019402e-07
+    },
+    {
+      "text": " ",
+      "start": 50.64,
+      "end": 50.72,
+      "type": "spacing",
+      "logprob": -0.001796776195988059
+    },
+    {
+      "text": "urządzeniom",
+      "start": 50.72,
+      "end": 51.24,
+      "type": "word",
+      "logprob": -0.0008321266372632863
+    },
+    {
+      "text": " ",
+      "start": 51.24,
+      "end": 51.28,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "w",
+      "start": 51.28,
+      "end": 51.32,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 51.32,
+      "end": 51.36,
+      "type": "spacing",
+      "logprob": -7.867782187531702e-06
+    },
+    {
+      "text": "pobliżu.",
+      "start": 51.36,
+      "end": 51.92,
+      "type": "word",
+      "logprob": -2.892226075346116e-05
+    },
+    {
+      "text": " ",
+      "start": 51.92,
+      "end": 52.4,
+      "type": "spacing",
+      "logprob": -0.0007663412252441049
+    },
+    {
+      "text": "iPhone.",
+      "start": 52.4,
+      "end": 52.9,
+      "type": "word",
+      "logprob": -0.0010583241071019853
+    },
+    {
+      "text": " ",
+      "start": 52.9,
+      "end": 53.2,
+      "type": "spacing",
+      "logprob": -0.00027056847466155887
+    },
+    {
+      "text": "Piotrek.",
+      "start": 53.2,
+      "end": 53.62,
+      "type": "word",
+      "logprob": -0.00026744915884791
+    },
+    {
+      "text": " ",
+      "start": 53.62,
+      "end": 54.02,
+      "type": "spacing",
+      "logprob": -0.001899701775982976
+    },
+    {
+      "text": "Nietrudno",
+      "start": 54.02,
+      "end": 54.46,
+      "type": "word",
+      "logprob": -0.0008493186530055633
+    },
+    {
+      "text": " ",
+      "start": 54.46,
+      "end": 54.5,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "się",
+      "start": 54.5,
+      "end": 54.58,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 54.58,
+      "end": 54.62,
+      "type": "spacing",
+      "logprob": -1.883488948806189e-05
+    },
+    {
+      "text": "domyślić,",
+      "start": 54.62,
+      "end": 55.08,
+      "type": "word",
+      "logprob": -7.520075167930272e-05
+    },
+    {
+      "text": " ",
+      "start": 55.08,
+      "end": 55.16,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "do",
+      "start": 55.16,
+      "end": 55.24,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 55.24,
+      "end": 55.28,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "kogo",
+      "start": 55.28,
+      "end": 55.48,
+      "type": "word",
+      "logprob": -8.881039546437819e-06
+    },
+    {
+      "text": " ",
+      "start": 55.48,
+      "end": 55.54,
+      "type": "spacing",
+      "logprob": -3.2186455882765586e-06
+    },
+    {
+      "text": "należy.",
+      "start": 55.54,
+      "end": 55.98,
+      "type": "word",
+      "logprob": -2.9121080810260277e-06
+    },
+    {
+      "text": " ",
+      "start": 55.98,
+      "end": 56.42,
+      "type": "spacing",
+      "logprob": -9.179073458653875e-06
+    },
+    {
+      "text": "Z",
+      "start": 56.42,
+      "end": 56.58,
+      "type": "word",
+      "logprob": -9.179073458653875e-06
+    },
+    {
+      "text": " ",
+      "start": 56.58,
+      "end": 56.64,
+      "type": "spacing",
+      "logprob": -0.0003432638186495751
+    },
+    {
+      "text": "SafeWall",
+      "start": 56.64,
+      "end": 57.26,
+      "type": "word",
+      "logprob": -0.001087928467313759
+    },
+    {
+      "text": " ",
+      "start": 57.26,
+      "end": 57.34,
+      "type": "spacing",
+      "logprob": -0.003187577472999692
+    },
+    {
+      "text": "możesz",
+      "start": 57.34,
+      "end": 57.6,
+      "type": "word",
+      "logprob": -0.003187577472999692
+    },
+    {
+      "text": " ",
+      "start": 57.6,
+      "end": 57.64,
+      "type": "spacing",
+      "logprob": -5.495397272170521e-05
+    },
+    {
+      "text": "wyłączyć",
+      "start": 57.64,
+      "end": 58.12,
+      "type": "word",
+      "logprob": -5.128847806190606e-05
+    },
+    {
+      "text": " ",
+      "start": 58.12,
+      "end": 58.2,
+      "type": "spacing",
+      "logprob": -0.14442569017410278
+    },
+    {
+      "text": "Wi-Fi,",
+      "start": 58.2,
+      "end": 58.6,
+      "type": "word",
+      "logprob": -0.04816555893676385
+    },
+    {
+      "text": " ",
+      "start": 58.6,
+      "end": 58.8,
+      "type": "spacing",
+      "logprob": -0.00978483073413372
+    },
+    {
+      "text": "Bluetooth",
+      "start": 58.8,
+      "end": 59.4,
+      "type": "word",
+      "logprob": -0.00978483073413372
+    },
+    {
+      "text": " ",
+      "start": 59.4,
+      "end": 59.48,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "i",
+      "start": 59.48,
+      "end": 59.6,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 59.6,
+      "end": 59.68,
+      "type": "spacing",
+      "logprob": -5.364403477869928e-06
+    },
+    {
+      "text": "łączność",
+      "start": 59.68,
+      "end": 60.16,
+      "type": "word",
+      "logprob": -9.83470818027854e-06
+    },
+    {
+      "text": " ",
+      "start": 60.16,
+      "end": 60.2,
+      "type": "spacing",
+      "logprob": -8.344646857949556e-07
+    },
+    {
+      "text": "komórkową",
+      "start": 60.2,
+      "end": 60.72,
+      "type": "word",
+      "logprob": -7.28025990678955e-05
+    },
+    {
+      "text": " ",
+      "start": 60.72,
+      "end": 60.76,
+      "type": "spacing",
+      "logprob": -0.00013279033009894192
+    },
+    {
+      "text": "telefonu.",
+      "start": 60.76,
+      "end": 61.28,
+      "type": "word",
+      "logprob": -0.00011803584897683727
+    },
+    {
+      "text": " ",
+      "start": 61.28,
+      "end": 61.76,
+      "type": "spacing",
+      "logprob": -9.536697689327411e-06
+    },
+    {
+      "text": "Podłączasz",
+      "start": 61.76,
+      "end": 62.24,
+      "type": "word",
+      "logprob": -0.00031789512977411507
+    },
+    {
+      "text": " ",
+      "start": 62.24,
+      "end": 62.28,
+      "type": "spacing",
+      "logprob": -2.7894584491150454e-05
+    },
+    {
+      "text": "przewód",
+      "start": 62.28,
+      "end": 62.9,
+      "type": "word",
+      "logprob": -2.2717592790806e-05
+    },
+    {
+      "text": " ",
+      "start": 62.9,
+      "end": 62.98,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "i",
+      "start": 62.98,
+      "end": 63.04,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 63.04,
+      "end": 63.16,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "nadal",
+      "start": 63.16,
+      "end": 63.48,
+      "type": "word",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": " ",
+      "start": 63.48,
+      "end": 63.52,
+      "type": "spacing",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "masz",
+      "start": 63.52,
+      "end": 63.68,
+      "type": "word",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": " ",
+      "start": 63.68,
+      "end": 63.74,
+      "type": "spacing",
+      "logprob": -0.00017975145601667464
+    },
+    {
+      "text": "dostęp",
+      "start": 63.74,
+      "end": 64.06,
+      "type": "word",
+      "logprob": -0.00017975145601667464
+    },
+    {
+      "text": " ",
+      "start": 64.06,
+      "end": 64.08,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "do",
+      "start": 64.08,
+      "end": 64.16,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 64.16,
+      "end": 64.2,
+      "type": "spacing",
+      "logprob": -0.5233557820320129
+    },
+    {
+      "text": "Internetu,",
+      "start": 64.2,
+      "end": 64.739,
+      "type": "word",
+      "logprob": -0.41868466138839155
+    },
+    {
+      "text": " ",
+      "start": 64.739,
+      "end": 65.3,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "a",
+      "start": 65.3,
+      "end": 65.42,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 65.42,
+      "end": 65.48,
+      "type": "spacing",
+      "logprob": -1.6689286894688848e-06
+    },
+    {
+      "text": "połączenie",
+      "start": 65.48,
+      "end": 65.94,
+      "type": "word",
+      "logprob": -8.821481628729088e-07
+    },
+    {
+      "text": " ",
+      "start": 65.94,
+      "end": 65.98,
+      "type": "spacing",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "przez",
+      "start": 65.98,
+      "end": 66.22,
+      "type": "word",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": " ",
+      "start": 66.22,
+      "end": 66.26,
+      "type": "spacing",
+      "logprob": -0.00010346830822527409
+    },
+    {
+      "text": "Tor",
+      "start": 66.26,
+      "end": 66.64,
+      "type": "word",
+      "logprob": -0.00010346830822527409
+    },
+    {
+      "text": " ",
+      "start": 66.64,
+      "end": 66.76,
+      "type": "spacing",
+      "logprob": -0.0036301210056990385
+    },
+    {
+      "text": "sprawdzasz",
+      "start": 66.76,
+      "end": 67.18,
+      "type": "word",
+      "logprob": -0.0018184698704885704
+    },
+    {
+      "text": " ",
+      "start": 67.18,
+      "end": 67.22,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "w",
+      "start": 67.22,
+      "end": 67.26,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 67.26,
+      "end": 67.3,
+      "type": "spacing",
+      "logprob": -0.0001578206429257989
+    },
+    {
+      "text": "swojej",
+      "start": 67.3,
+      "end": 67.56,
+      "type": "word",
+      "logprob": -0.0001578206429257989
+    },
+    {
+      "text": " ",
+      "start": 67.56,
+      "end": 67.6,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "przeglądarce.",
+      "start": 67.6,
+      "end": 68.38,
+      "type": "word",
+      "logprob": -0.00011343969470964602
+    },
+    {
+      "text": " ",
+      "start": 68.38,
+      "end": 68.72,
+      "type": "spacing",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "To",
+      "start": 68.72,
+      "end": 68.8,
+      "type": "word",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": " ",
+      "start": 68.8,
+      "end": 68.86,
+      "type": "spacing",
+      "logprob": -1.3470558769768104e-05
+    },
+    {
+      "text": "nasz",
+      "start": 68.86,
+      "end": 69.02,
+      "type": "word",
+      "logprob": -1.3470558769768104e-05
+    },
+    {
+      "text": " ",
+      "start": 69.02,
+      "end": 69.06,
+      "type": "spacing",
+      "logprob": -0.00011383838864276186
+    },
+    {
+      "text": "prototyp.",
+      "start": 69.06,
+      "end": 69.6,
+      "type": "word",
+      "logprob": -0.0001011896787935661
+    },
+    {
+      "text": " ",
+      "start": 69.6,
+      "end": 69.94,
+      "type": "spacing",
+      "logprob": -5.602820692729438e-06
+    },
+    {
+      "text": "Kolejny",
+      "start": 69.94,
+      "end": 70.3,
+      "type": "word",
+      "logprob": -1.1886596049797455e-05
+    },
+    {
+      "text": " ",
+      "start": 70.3,
+      "end": 70.34,
+      "type": "spacing",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": "krok:",
+      "start": 70.34,
+      "end": 70.6,
+      "type": "word",
+      "logprob": -0.16217474937257065
+    },
+    {
+      "text": " ",
+      "start": 70.6,
+      "end": 70.88,
+      "type": "spacing",
+      "logprob": -0.004164594691246748
+    },
+    {
+      "text": "miniaturyzacja,",
+      "start": 70.88,
+      "end": 71.78,
+      "type": "word",
+      "logprob": -0.0008618853082675552
+    },
+    {
+      "text": " ",
+      "start": 71.78,
+      "end": 71.98,
+      "type": "spacing",
+      "logprob": -0.0001250427303602919
+    },
+    {
+      "text": "testy",
+      "start": 71.98,
+      "end": 72.26,
+      "type": "word",
+      "logprob": -0.00010003418428823352
+    },
+    {
+      "text": " ",
+      "start": 72.26,
+      "end": 72.3,
+      "type": "spacing",
+      "logprob": -6.318072337307967e-06
+    },
+    {
+      "text": "bezpieczeństwa",
+      "start": 72.3,
+      "end": 73.34,
+      "type": "word",
+      "logprob": -4.104192674857034e-06
+    },
+    {
+      "text": " ",
+      "start": 73.34,
+      "end": 73.42,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "i",
+      "start": 73.42,
+      "end": 73.52,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 73.52,
+      "end": 73.58,
+      "type": "spacing",
+      "logprob": -0.00012838016846217215
+    },
+    {
+      "text": "próby",
+      "start": 73.58,
+      "end": 73.86,
+      "type": "word",
+      "logprob": -7.869702767493436e-05
+    },
+    {
+      "text": " ",
+      "start": 73.86,
+      "end": 73.9,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "z",
+      "start": 73.9,
+      "end": 73.94,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 73.94,
+      "end": 73.98,
+      "type": "spacing",
+      "logprob": -7.390948667307384e-06
+    },
+    {
+      "text": "przyszłymi",
+      "start": 73.98,
+      "end": 74.44,
+      "type": "word",
+      "logprob": -3.764107775623415e-05
+    },
+    {
+      "text": " ",
+      "start": 74.44,
+      "end": 74.5,
+      "type": "spacing",
+      "logprob": -1.9430925021879375e-05
+    },
+    {
+      "text": "użytkownikami.",
+      "start": 74.5,
+      "end": 75.3,
+      "type": "word",
+      "logprob": -1.7940764182964942e-05
+    },
+    {
+      "text": " ",
+      "start": 75.3,
+      "end": 75.76,
+      "type": "spacing",
+      "logprob": -0.0012165057705715299
+    },
+    {
+      "text": "SafeWall.",
+      "start": 75.76,
+      "end": 76.34,
+      "type": "word",
+      "logprob": -0.0009814190367857616
+    },
+    {
+      "text": " ",
+      "start": 76.34,
+      "end": 76.74,
+      "type": "spacing",
+      "logprob": -1.0371154530730564e-05
+    },
+    {
+      "text": "Bo",
+      "start": 76.74,
+      "end": 76.82,
+      "type": "word",
+      "logprob": -1.0371154530730564e-05
+    },
+    {
+      "text": " ",
+      "start": 76.82,
+      "end": 76.86,
+      "type": "spacing",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": "za",
+      "start": 76.86,
+      "end": 77.0,
+      "type": "word",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": " ",
+      "start": 77.0,
+      "end": 77.06,
+      "type": "spacing",
+      "logprob": -0.00013958434283267707
+    },
+    {
+      "text": "każdą",
+      "start": 77.06,
+      "end": 77.42,
+      "type": "word",
+      "logprob": -8.537184876331594e-05
+    },
+    {
+      "text": " ",
+      "start": 77.42,
+      "end": 77.48,
+      "type": "spacing",
+      "logprob": -1.5616295058862306e-05
+    },
+    {
+      "text": "historią",
+      "start": 77.48,
+      "end": 78.1,
+      "type": "word",
+      "logprob": -1.3530156365959556e-05
+    },
+    {
+      "text": " ",
+      "start": 78.1,
+      "end": 78.42,
+      "type": "spacing",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "stoi",
+      "start": 78.42,
+      "end": 78.66,
+      "type": "word",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": " ",
+      "start": 78.66,
+      "end": 78.7,
+      "type": "spacing",
+      "logprob": -6.270212179515511e-05
+    },
+    {
+      "text": "człowiek.",
+      "start": 78.7,
+      "end": 79.22,
+      "type": "word",
+      "logprob": -9.67860961635678e-05
+    }
+  ],
+  "transcription_id": "wYn9XH3Y1yyap01wERfo",
+  "audio_duration_secs": 79.7653125
+}

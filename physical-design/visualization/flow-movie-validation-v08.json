@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "movie": "Full-sequence-flow-v08.mp4",
+  "duration_seconds": 9,
+  "resolution": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames_decoded": 216,
+  "render_seconds": 0.0,
+  "replacement_pixel_difference": 5.416878858024691,
+  "click_seconds": 7.333333333333333,
+  "click_pitch_preserved": true,
+  "premium_master_unchanged": true,
+  "static_holds": false,
+  "photo_blend_frames": [
+    169,
+    216
+  ],
+  "reused_render_frames": 216,
+  "source_scene": "Full-sequence-flow-v08.blend",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "216"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "422"
+      }
+    ],
+    "format": {
+      "duration": "9.000000"
+    }
+  },
+  "movie_bytes": 1085042,
+  "freeze_check": {
+    "threshold_dB": -70,
+    "minimum_duration_seconds": 0.2,
+    "events": []
+  }
+}

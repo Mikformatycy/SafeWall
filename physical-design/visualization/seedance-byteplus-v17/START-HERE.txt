@@ -1,0 +1,35 @@
+BYTEPLUS — SAFEWALL / SEEDANCE 2.5 / DOCELOWY WSTĘP 720p v17b — SFX BEZ GŁOSU
+
+1. W BytePlus ModelArk wybierz Dreamina Seedance 2.5, zwykłe Reference / Reference-to-video / Omni reference (nazwa zależy od widoku).
+2. Dodaj 01-product-appearance.png jako pierwszą referencję i 02-handoff-composition.png jako drugą. Obie z rolą Reference image, nie First frame ani Last frame.
+3. Wklej PROMPT-PASTE.txt. Jeśli interfejs nadaje inne etykiety obrazom, przypisz w tekście odpowiednie oznaczenia zamiast @Image1 i @Image2.
+4. Ustaw 720p (1280×720), 16:9, 18 sekund, Audio ON — tylko SFX. Draft OFF. Zwykła generacja w żądanej jakości; nie korzystaj z konwersji Draft → final. Pozostałe ustawienia pozostaw domyślne.
+5. Wygeneruj jeden klip. Pobierz oryginalny MP4. Jeśli interfejs ma opcję Return last frame, włącz ją i pobierz także końcowy obraz.
+
+TIMING Z DANIELEM
+Pełny lektor: 79,44 s. Wygenerować tylko 18-sekundowy wstęp.
+0,08–6,96 s: „Ktoś powierzył ci swoją historię...” — źródło odchodzi, dziennikarz chowa notatnik.
+7,72–15,00 s: „Są miejsca, w których dostęp do informacji ogranicza cenzura...” — podejście do blatu, wyjęcie i odłożenie urządzenia.
+15,48 s: „Dlatego projektujemy SafeWall...” — planowane cięcie do Blendera.
+Materiał od ok. 15,48 do 18 s to zapas montażowy; finalny wstęp nie musi wykorzystywać całego wygenerowanego klipu. Model nie gwarantuje dokładnego momentu kontaktu, więc cięcie dopasujemy po obejrzeniu wyniku.
+
+REFERENCJE I JAKOŚĆ
+Pierwszy obraz: docelowe materiały i kształt produktu.
+Drugi obraz: tylko skala i kąt kamery; płaskie cieniowanie Workbench nie jest stylem finalnego ujęcia.
+W tym trybie końcowy obraz jest wskazówką kompozycji, a nie gwarantowaną ostatnią klatką. Dalszy kadr Blendera dopasujemy do wyniku.
+Zostaje realistyczny thriller w deszczowym plenerze. Na obudowie tylko OLED; bez napisu SafeWall.
+
+DŹWIĘK
+Audio ON, tylko efekty SFX i atmosfera: deszcz, kroki, zamknięcie notatnika, szelest kurtki i kontakt urządzenia z blatem. Prompt wyklucza wszystkie ludzkie głosy, komunikaty dworcowe oraz muzykę. Głos Daniela z ElevenLabs dodamy osobno w montażu. Do Seedance przesyłamy tylko dwa obrazy, nie głos ani prawdziwe demo Tora. Po generacji sprawdzić, czy wynik rzeczywiście zawiera wyłącznie SFX.
+
+STATUS
+Pakiet gotowy do ręcznej generacji przez użytkownika. Żadnego zadania BytePlus nie wysłano.
+Ten pakiet zastępuje wcześniejsze 16 s / Draft 480p z v13. Zmiana na 720p dotyczy tej generacji; istniejące pliki preview Blendera pozostają archiwalne.
+
+ŹRÓDŁA, sprawdzone 2026-10-04
+https://docs.byteplus.com/es/docs/modelark/seedance-2-5 — rozdzielczości, Reference, zakres 4–30 s, Draft tylko 480p; Draft→final tylko 1080p.
+https://docs.byteplus.com/ko/docs/modelark/seedance-2-5-prompt-guide?redirect=1 — role referencji, opis ujęć, znaczniki pełnych sekund, kontrola dźwięku i napisów.
+https://docs.byteplus.com/zh-TW/docs/modelark/video-generation-tutorial — sterowanie generowaniem audio.
+
+AKTUALIZACJA DŹWIĘKU
+Zgodnie z doprecyzowaniem użytkownika: Seedance generuje efekty otoczenia, bez głosu i bez muzyki. To zastępuje wcześniejsze Audio OFF. Obraz, długość, referencje i timing pozostają bez zmian.

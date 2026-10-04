@@ -1,0 +1,30 @@
+{
+  "assembled_mesh": "SafeWall-B-concept-v01.obj",
+  "material_file": "SafeWall-B-concept-v01.mtl",
+  "OBJ_units": "millimeters",
+  "Blender_import_scale_for_meters": 0.001,
+  "expected_assembled_extent_m": [
+    0.07,
+    0.11,
+    0.024
+  ],
+  "animation_source": "SafeWall-B-exploded-v01.f3d",
+  "part_names_preserved": true,
+  "final_render_shaders_need_rebuilding": true,
+  "proposed_palette_sRGB": {
+    "shell": "#282C30",
+    "silicone": "#17191C",
+    "alternative_shell": "#E8E5DF"
+  },
+  "material_proposals": {
+    "print_prototype": "ASA grade TBD",
+    "molded_shell": "PC-ABS grade TBD",
+    "phone_contact_pad": "silicone grade TBD"
+  },
+  "limitations": [
+    "Simplified component envelopes; no PCB layout or production port locations",
+    "Magnetic geometry reserves space only; no qualified magnet array",
+    "No antenna, cooling, battery runtime or phone case fit validation",
+    "No total device mass estimate"
+  ]
+}

@@ -1,0 +1,3 @@
+# PiTalk UART uses TX/RX only: no DCD/DTR or RTS/CTS handshake.
+local
+nocrtscts

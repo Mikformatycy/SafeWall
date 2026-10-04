@@ -1,0 +1,12 @@
+{
+  "download": "/Users/piotrek/Downloads/3994e4a0-00cd-452e-9158-ef7329a6773a.mp4",
+  "stored": "physical-design/references/seedance-v23/Seedance-rain-opening-original.mp4",
+  "sha256": "589c5430a2744c86df57b38ca478abe860e1f945b8d3896ece5459297fbb0e6b",
+  "picture_source_range_seconds": [
+    0,
+    15.5
+  ],
+  "speed_multiplier": 1,
+  "output_frames": 372,
+  "audio": "Existing finished v22 mix preserved; this revision replaces picture only."
+}

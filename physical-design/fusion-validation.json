@@ -1,0 +1,449 @@
+{
+  "document": "SafeWall - A-B packaging study v01 - CONCEPT",
+  "variants": [
+    {
+      "name": "A PLANAR - battery beside electronics",
+      "bodies": [
+        {
+          "name": "01 Contact pad - silicone proposal",
+          "solid": true,
+          "volume_cm3": 8.406281402964463,
+          "box_mm": [
+            [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            [
+              128.0,
+              110.0,
+              0.6
+            ]
+          ]
+        },
+        {
+          "name": "02 Rear panel - magnet pockets",
+          "solid": true,
+          "volume_cm3": 31.75312402117808,
+          "box_mm": [
+            [
+              -0.0,
+              0.0,
+              0.6
+            ],
+            [
+              128.0,
+              110.0,
+              3.0
+            ]
+          ]
+        },
+        {
+          "name": "03 Magnet ring SPACE ONLY - not magnet specification",
+          "solid": true,
+          "volume_cm3": 0.7641704218371757,
+          "box_mm": [
+            [
+              36.95,
+              52.95,
+              1.1
+            ],
+            [
+              91.05,
+              107.05,
+              2.3
+            ]
+          ]
+        },
+        {
+          "name": "04 Orientation magnet SPACE ONLY",
+          "solid": true,
+          "volume_cm3": 0.139032,
+          "box_mm": [
+            [
+              61.0,
+              29.51,
+              1.1
+            ],
+            [
+              67.0,
+              48.82,
+              2.3
+            ]
+          ]
+        },
+        {
+          "name": "Shell perimeter",
+          "solid": true,
+          "volume_cm3": 7.434120990548074,
+          "box_mm": [
+            [
+              -0.0,
+              0.0,
+              3.0
+            ],
+            [
+              128.0,
+              110.0,
+              13.2
+            ]
+          ]
+        },
+        {
+          "name": "06 Battery reference - EEMB 3400mAh - not selected",
+          "solid": true,
+          "volume_cm3": 32.16001252855337,
+          "box_mm": [
+            [
+              67.0,
+              7.0,
+              4.0
+            ],
+            [
+              122.5,
+              99.0,
+              10.3
+            ]
+          ]
+        },
+        {
+          "name": "07 Custom carrier PCB ENVELOPE - no routing",
+          "solid": true,
+          "volume_cm3": 8.442506192982979,
+          "box_mm": [
+            [
+              4.0,
+              10.0,
+              4.0
+            ],
+            [
+              64.0,
+              98.0,
+              5.6
+            ]
+          ]
+        },
+        {
+          "name": "08 CM4 installed ENVELOPE incl connectors",
+          "solid": true,
+          "volume_cm3": 14.465953396475314,
+          "box_mm": [
+            [
+              6.5,
+              52.0,
+              5.6
+            ],
+            [
+              61.5,
+              92.0,
+              12.178
+            ]
+          ]
+        },
+        {
+          "name": "09 LTE module size reference 32x29 - model undecided",
+          "solid": true,
+          "volume_cm3": 2.2251398223686154,
+          "box_mm": [
+            [
+              9.0,
+              15.0,
+              5.6
+            ],
+            [
+              41.0,
+              44.0,
+              8.0
+            ]
+          ]
+        },
+        {
+          "name": "10 Power and IO SPACE RESERVATION",
+          "solid": true,
+          "volume_cm3": 1.7365663706143595,
+          "box_mm": [
+            [
+              46.0,
+              15.0,
+              5.6
+            ],
+            [
+              61.0,
+              44.0,
+              9.6
+            ]
+          ]
+        },
+        {
+          "name": "11 Thermal spreader CONCEPT - path unverified",
+          "solid": true,
+          "volume_cm3": 2.5251398223686152,
+          "box_mm": [
+            [
+              7.0,
+              14.0,
+              12.4
+            ],
+            [
+              61.0,
+              92.0,
+              13.0
+            ]
+          ]
+        },
+        {
+          "name": "12 Lid - graphite proposal",
+          "solid": true,
+          "volume_cm3": 22.392079408612886,
+          "box_mm": [
+            [
+              -0.0,
+              0.0,
+              13.4
+            ],
+            [
+              128.0,
+              110.0,
+              15.0
+            ]
+          ]
+        }
+      ],
+      "interferences": [],
+      "feature_issues": []
+    },
+    {
+      "name": "B LAYERED - battery below electronics",
+      "bodies": [
+        {
+          "name": "01 Contact pad - silicone proposal",
+          "solid": true,
+          "volume_cm3": 4.578281402964464,
+          "box_mm": [
+            [
+              158.0,
+              0.0,
+              0.0
+            ],
+            [
+              228.0,
+              110.0,
+              0.6
+            ]
+          ]
+        },
+        {
+          "name": "02 Rear panel - magnet pockets",
+          "solid": true,
+          "volume_cm3": 16.441124021178087,
+          "box_mm": [
+            [
+              158.0,
+              0.0,
+              0.6
+            ],
+            [
+              228.0,
+              110.0,
+              3.0
+            ]
+          ]
+        },
+        {
+          "name": "03 Magnet ring SPACE ONLY - not magnet specification",
+          "solid": true,
+          "volume_cm3": 0.7641704218371757,
+          "box_mm": [
+            [
+              165.95,
+              52.95,
+              1.1
+            ],
+            [
+              220.05,
+              107.05,
+              2.3
+            ]
+          ]
+        },
+        {
+          "name": "04 Orientation magnet SPACE ONLY",
+          "solid": true,
+          "volume_cm3": 0.139032,
+          "box_mm": [
+            [
+              190.0,
+              29.51,
+              1.1
+            ],
+            [
+              196.0,
+              48.82,
+              2.3
+            ]
+          ]
+        },
+        {
+          "name": "Shell perimeter",
+          "solid": true,
+          "volume_cm3": 10.430119511619807,
+          "box_mm": [
+            [
+              158.0,
+              0.0,
+              3.0
+            ],
+            [
+              228.0,
+              110.0,
+              22.2
+            ]
+          ]
+        },
+        {
+          "name": "06 Battery reference - EEMB 3400mAh - not selected",
+          "solid": true,
+          "volume_cm3": 32.16001252855337,
+          "box_mm": [
+            [
+              165.25,
+              7.0,
+              4.0
+            ],
+            [
+              220.75,
+              99.0,
+              10.3
+            ]
+          ]
+        },
+        {
+          "name": "07 Custom carrier PCB ENVELOPE - no routing",
+          "solid": true,
+          "volume_cm3": 8.442506192982979,
+          "box_mm": [
+            [
+              163.0,
+              10.0,
+              12.3
+            ],
+            [
+              223.0,
+              98.0,
+              13.9
+            ]
+          ]
+        },
+        {
+          "name": "08 CM4 installed ENVELOPE incl connectors",
+          "solid": true,
+          "volume_cm3": 14.465953396475314,
+          "box_mm": [
+            [
+              165.5,
+              52.0,
+              13.9
+            ],
+            [
+              220.5,
+              92.0,
+              20.478
+            ]
+          ]
+        },
+        {
+          "name": "09 LTE module size reference 32x29 - model undecided",
+          "solid": true,
+          "volume_cm3": 2.2251398223686154,
+          "box_mm": [
+            [
+              168.0,
+              15.0,
+              13.9
+            ],
+            [
+              200.0,
+              44.0,
+              16.3
+            ]
+          ]
+        },
+        {
+          "name": "10 Power and IO SPACE RESERVATION",
+          "solid": true,
+          "volume_cm3": 1.7365663706143595,
+          "box_mm": [
+            [
+              205.0,
+              15.0,
+              13.9
+            ],
+            [
+              220.0,
+              44.0,
+              17.9
+            ]
+          ]
+        },
+        {
+          "name": "11 Thermal spreader CONCEPT - path unverified",
+          "solid": true,
+          "volume_cm3": 2.5251398223686152,
+          "box_mm": [
+            [
+              166.0,
+              14.0,
+              21.4
+            ],
+            [
+              220.0,
+              92.0,
+              22.0
+            ]
+          ]
+        },
+        {
+          "name": "12 Lid - graphite proposal",
+          "solid": true,
+          "volume_cm3": 12.190302861874356,
+          "box_mm": [
+            [
+              158.0,
+              0.0,
+              22.4
+            ],
+            [
+              228.0,
+              110.0,
+              24.0
+            ]
+          ]
+        }
+      ],
+      "interferences": [],
+      "feature_issues": []
+    }
+  ],
+  "material_candidates": [
+    {
+      "library": "Fusion Material Library",
+      "id": "PrismMaterial-278",
+      "name": "PC/ABS Plastic"
+    },
+    {
+      "library": "Fusion Material Library",
+      "id": "PrismMaterial-102",
+      "name": "Polycarbonate, Bronze"
+    },
+    {
+      "library": "Fusion Material Library",
+      "id": "PrismMaterial-058",
+      "name": "Polycarbonate, Clear"
+    },
+    {
+      "library": "Fusion Material Library",
+      "id": "PrismMaterial-029",
+      "name": "Rubber, Silicone"
+    }
+  ]
+}

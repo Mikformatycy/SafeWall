@@ -1,0 +1,13 @@
+{
+  "frames": 96,
+  "engine": "BLENDER_WORKBENCH",
+  "sample_frames": [
+    1,
+    24,
+    48,
+    72,
+    96
+  ],
+  "stills_only": false,
+  "flat_slides": false
+}

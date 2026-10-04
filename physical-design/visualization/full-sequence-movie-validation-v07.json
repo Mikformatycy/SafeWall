@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "movie": "Full-sequence-preview-v07.mp4",
+  "duration_seconds": 15,
+  "resolution": [
+    960,
+    540
+  ],
+  "frames_decoded": 360,
+  "fps": 24,
+  "render_seconds": 3.27,
+  "rendered_CG_frames": 276,
+  "replacement_overlap_frames": 24,
+  "premium_shaders_used": false,
+  "reused_main_frames": 276,
+  "replacement_mean_pixel_difference": 5.416878858024691,
+  "premium_master_unchanged": true,
+  "real_photo_included": true,
+  "click_seconds": 10.458333333333334,
+  "click_sample_onset": 502000,
+  "audio_peak_dBFS": -12.040934750198868,
+  "photo_sha256": "32eabca7707c60df86d8b06ea46e2f8863f8912efd6c8d79553fbf85ca2f22a8",
+  "movie_bytes": 1453916,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "360"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "704"
+      }
+    ],
+    "format": {
+      "duration": "15.000000"
+    }
+  },
+  "ffmpeg_filter": "[0:v]format=gbrp,setpts=PTS-STARTPTS[case];[1:v]format=gbrp,tpad=start_mode=clone:start_duration=7:stop_mode=clone:stop_duration=3.5,setpts=PTS-STARTPTS[proto];[case][proto]blend=all_expr='if(lt(T,7),A,if(gte(T,8),A,A*(1-(pow(((T-7)/1),3)*(10-15*((T-7)/1)+6*pow(((T-7)/1),2))))+B*(pow(((T-7)/1),3)*(10-15*((T-7)/1)+6*pow(((T-7)/1),2)))))':shortest=1,tpad=stop_mode=clone:stop_duration=3.5[cg];[2:v]crop=1362:766:0:118,scale=960:540:flags=lanczos,setsar=1,format=gbrp,setpts=PTS-STARTPTS[photo];[cg][photo]blend=all_expr='if(lt(T,11.5),A,if(gte(T,13),B,A*(1-(pow(((T-11.5)/1.5),3)*(10-15*((T-11.5)/1.5)+6*pow(((T-11.5)/1.5),2))))+B*(pow(((T-11.5)/1.5),3)*(10-15*((T-11.5)/1.5)+6*pow(((T-11.5)/1.5),2)))))':shortest=1,format=yuv420p[out]"
+}

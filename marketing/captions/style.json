@@ -1,0 +1,15 @@
+{
+  "reference": "PlatinumCode/marketing/001_night_queue/subs_src",
+  "font_family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+  "font_weight": 700,
+  "font_size_at_540p": 32,
+  "stroke_width_at_540p": 3.86,
+  "text_color": "#FFFFFF",
+  "highlight_color": "#3ECF8E",
+  "stroke_color": "#161A13",
+  "letter_spacing_em": 0.01,
+  "bottom_margin_at_540p": 38,
+  "maximum_width_fraction": 0.90,
+  "display_offset_seconds": -0.2,
+  "phrase_tail_seconds": 0.5
+}

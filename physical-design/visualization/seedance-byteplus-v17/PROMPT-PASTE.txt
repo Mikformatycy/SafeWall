@@ -1,0 +1,19 @@
+Create an 18-second photorealistic contemporary thriller opening, landscape 16:9. A journalist leaves a confidential meeting in the rain and places a compact device on a sheltered counter. Three connected shots with continuous forward momentum, natural-speed action and restrained tension.
+
+REFERENCE ROLES
+@Image1 defines the device: compact graphite powerbank shape, rounded corners, glossy black face, small upper OLED showing 87% and recessed USB-C port on the lower edge. Keep this same object and its proportions throughout; it fits naturally in one hand.
+@Image2 defines only the ending composition: centered device, long axis vertical in the frame, OLED toward the top, USB-C edge toward the bottom, slightly angled overhead view. Render it with realistic materials and lighting from the scene. Both images are visual references, not the opening frame.
+
+LOOK AND LOCATION
+An outdoor railway-station concourse at night in steady rain. Cold overhead lamps, one distant warm light, reflections on wet pavement, subtle atmospheric depth. A dry matte dark-grey metal counter stands beside a closed kiosk under a canopy. Natural skin texture, realistic wet fabric, soft highlight roll-off and readable shadows. A fictional male journalist in his thirties wears a plain charcoal cap and dark jacket. Maintain the same person, clothes and device across all shots.
+
+00–06 seconds — Medium rear three-quarter tracking shot. An anonymous source walks away into the rainy background. The journalist closes a small notebook, slips it inside his jacket and turns toward the sheltered counter. The camera follows his movement. Both characters remain silent.
+
+06–10 seconds — Cut on movement to a closer side tracking shot. He walks a few steps toward the counter, briefly glances behind him and reaches into his jacket. His movement is purposeful and controlled. Rain remains visible beyond the canopy.
+
+10–15 seconds — Follow his hand as he takes out the device and gently releases it from just a few centimeters above the dry counter. It lands face-up with believable weight and a tiny slide. The camera smoothly rises and tilts toward the composition in @Image2. By the end of this shot, the device is fully visible and his hand has cleared it. Keep the enclosure intact and closed.
+
+15–18 seconds — Continue a very subtle camera drift over the device in the same centered framing. Preserve its shape, orientation, lighting and scale. Keep the entire object sharp and unobstructed, occupying approximately two-thirds of the frame height. The movement flows naturally into a later product-animation cut.
+
+SOUND DESIGN — ENVIRONMENT AND FOLEY ONLY
+Generate only synchronized environmental ambience and physical sound effects: steady rain on the canopy and pavement, footsteps matching the visible steps, a soft notebook closing, subtle jacket rustling, and a short muted tap followed by a brief scrape when the device lands and slides on the counter. Keep the sound restrained, clean and realistic, with continuous rain ambience across the cuts. No human voices of any kind: no dialogue, voiceover, whispers, singing, vocalizations, crowd chatter or station announcements. No music, soundtrack or musical drones. No subtitles, captions or added logos. The small battery indicator is the only visible text on the device. Natural-speed motion throughout; no slow motion, freeze frames or fade to black.

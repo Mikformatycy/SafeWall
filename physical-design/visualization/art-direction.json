@@ -1,0 +1,118 @@
+{
+  "revision": "v04",
+  "status": "visualization_concept",
+  "phone": "iPhone 16",
+  "look": {
+    "shell": "rounded unbranded form; graphite clearcoated polymer proposal, sRGB #14171B",
+    "cover": "piano black gloss with polished clearcoat, sRGB #080A0D",
+    "OLED": "upper cover; smoked black glass with reduced reflection, sRGB #05070A; cool white 87% demo readout and battery glyph",
+    "visible_project_branding": false,
+    "controls": "recessed USB-C socket with satin nickel lip and subtle battery-check button",
+    "contact": "dark silicone",
+    "background": "soft warm white",
+    "lighting": "studio softboxes, narrow rim and front edge lights, plus a controlled strip reflection along the cover",
+    "electronics": "official CM4 plus decorative carrier components; physically based shaders"
+  },
+  "animation": {
+    "seconds": 5,
+    "fps": 24,
+    "frames": 120,
+    "movie_resolution": [
+      1920,
+      1080
+    ],
+    "movie_samples": 24,
+    "still_samples": 64,
+    "easing": "shared asymmetric Beta(3,6) curve: soft launch, long ease-out; 85.5% progress halfway through motion",
+    "shared_motion_frames": [
+      9,
+      94
+    ],
+    "camera": "push-in synchronized with simultaneous closure, ending on illuminated OLED",
+    "display_wake_frames": [
+      94,
+      104
+    ],
+    "sequence": [
+      "exploded hold",
+      "battery, carrier, CM4, thermal concept and cover all close together",
+      "OLED fades on",
+      "assembled hero"
+    ]
+  },
+  "asset_sources": {
+    "CM4": "https://pip.raspberrypi.com/categories/1204-design-files",
+    "enclosure": "v01 Fusion packaging reference refined in Blender by scripts/refine_powerbank_scene.py and scripts/style_premium_scene.py",
+    "carrier_details": "original procedural visual concept"
+  },
+  "engineering_limitations": [
+    "Decorative carrier is not an electrical PCB design",
+    "Port and fastener details are visual proposals",
+    "Antenna and thermal performance unvalidated",
+    "Phone case geometry unconfirmed",
+    "OLED module, flex routing and control electronics not selected; percentage is illustrative",
+    "Current exterior styling is in Blender; Fusion files retain the previous packaging reference",
+    "Coating, lens treatment and production material grades not selected; enclosure thickness revision deferred"
+  ],
+  "transition_preview_v06": {
+    "description": "Overhead prototype connection, followed by a photo-aligned eased dissolve into supplied photograph",
+    "plan": "TRANSITION-PLAN.txt",
+    "seconds": 8,
+    "resolution": [
+      960,
+      540
+    ],
+    "CG_render_engine": "Workbench",
+    "target_phone_case": false,
+    "source_photo_contains_case": true,
+    "finalization": "Replace still with actual first steady video frame, align CG objects and port positions again; use consistent phone model across final shots"
+  },
+  "full_sequence_preview_v07": {
+    "movie": "Full-sequence-preview-v07.mp4",
+    "plan": "FULL-SEQUENCE-PLAN.txt",
+    "resolution": [
+      960,
+      540
+    ],
+    "seconds": 15,
+    "no_premium_shaders": true,
+    "complete_sequence": true,
+    "magnetic_attachment_shot_included": false,
+    "click_seconds": 10.458333333333334
+  },
+  "flow_sequence_preview_v08": {
+    "movie": "Full-sequence-flow-v08.mp4",
+    "plan": "FLOW-SEQUENCE-PLAN-v08.txt",
+    "seconds": 9,
+    "resolution": [
+      960,
+      540
+    ],
+    "overlapping_stages": true,
+    "static_holds": false,
+    "click_seconds": 7.333333333333333,
+    "premium_shaders": false
+  },
+  "narrated_sequence_preview_v09": {
+    "movie": "Full-sequence-voice-v09.mp4",
+    "scene": "Full-sequence-voice-v09.blend",
+    "plan": "VOICEOVER-PLAN-v09.txt",
+    "seconds": 8.5,
+    "resolution": [
+      960,
+      540
+    ],
+    "overlapping_stages": true,
+    "static_holds": false,
+    "click_seconds": 6.375,
+    "premium_shaders": false,
+    "voice": {
+      "model": "eleven_v4",
+      "name": "Brian",
+      "language": "pl",
+      "direction": "warm, confident, forward momentum, subtle inviting lift on CTA",
+      "native_speed": true
+    },
+    "audio_integrated_lufs": -16.51
+  }
+}

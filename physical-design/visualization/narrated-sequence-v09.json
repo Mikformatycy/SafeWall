@@ -1,0 +1,148 @@
+{
+  "revision": "v09",
+  "model_id": "eleven_v4",
+  "voice_id": "nPczCjzI2devNBz1zQrb",
+  "voice_name": "Brian",
+  "language": "pl",
+  "script": "Połączenie na twoich zasadach. Od projektu do prawdziwego prototypu. Jeden kabel. Zobacz, jak to działa.",
+  "request": "voiceover-v09/request-pl-a.json",
+  "voice_audio": "voiceover-v09/voice-pl-a-v09.mp3",
+  "alignment": "voiceover-v09/voice-pl-a-v09-alignment.json",
+  "voice_offset_seconds": 0.16666666666666666,
+  "spoken_end_seconds": 7.8567,
+  "duration_seconds": 8.5,
+  "frames": 204,
+  "fps": 24,
+  "resolution": [
+    960,
+    540
+  ],
+  "assembly_frames": [
+    1,
+    61
+  ],
+  "slide_frames": [
+    29,
+    85
+  ],
+  "replacement_frames": [
+    81,
+    113
+  ],
+  "phone_arrival_frames": [
+    48,
+    85
+  ],
+  "phone_visible_frame": 30,
+  "cable_arrival_frames": [
+    105,
+    131
+  ],
+  "insertion_frames": [
+    126,
+    154
+  ],
+  "photo_frames": [
+    151,
+    204
+  ],
+  "click_frame": 154,
+  "click_seconds": 6.375,
+  "photo_blend_curve": "linear",
+  "static_holds": false,
+  "words": [
+    {
+      "word": "Połączenie",
+      "start": 0.2567,
+      "end": 0.8167
+    },
+    {
+      "word": "na",
+      "start": 0.8967,
+      "end": 0.9767
+    },
+    {
+      "word": "twoich",
+      "start": 1.0567,
+      "end": 1.3767
+    },
+    {
+      "word": "zasadach.",
+      "start": 1.4567,
+      "end": 2.2167
+    },
+    {
+      "word": "Od",
+      "start": 2.4167,
+      "end": 2.4967
+    },
+    {
+      "word": "projektu",
+      "start": 2.5767,
+      "end": 3.2167
+    },
+    {
+      "word": "do",
+      "start": 3.2967,
+      "end": 3.3767
+    },
+    {
+      "word": "prawdziwego",
+      "start": 3.4567,
+      "end": 4.0967
+    },
+    {
+      "word": "prototypu.",
+      "start": 4.1767,
+      "end": 4.7767
+    },
+    {
+      "word": "Jeden",
+      "start": 5.3767,
+      "end": 5.6167
+    },
+    {
+      "word": "kabel.",
+      "start": 5.6967,
+      "end": 6.2967
+    },
+    {
+      "word": "Zobacz,",
+      "start": 6.6297,
+      "end": 7.0167
+    },
+    {
+      "word": "jak",
+      "start": 7.0567,
+      "end": 7.1367
+    },
+    {
+      "word": "to",
+      "start": 7.2167,
+      "end": 7.2967
+    },
+    {
+      "word": "działa.",
+      "start": 7.3367,
+      "end": 7.8567
+    }
+  ],
+  "phrase_cues": [
+    {
+      "phrase": "Połączenie na twoich zasadach.",
+      "visual": "Simultaneous sandwich assembly; slide starts before closure finishes."
+    },
+    {
+      "phrase": "Od projektu do prawdziwego prototypu.",
+      "visual": "Camera moves overhead and case changes into Raspberry Pi/LTE prototype."
+    },
+    {
+      "phrase": "Jeden kabel.",
+      "visual": "Cable arrives and plugs insert. Contact click just after the phrase."
+    },
+    {
+      "phrase": "Zobacz, jak to działa.",
+      "visual": "Continuous aligned dissolve into the real photograph."
+    }
+  ]
+}

@@ -1,0 +1,2570 @@
+{
+  "canonical_text": "physical-design/visualization/VOICEOVER-APPROVED-v22.txt",
+  "canonical_sha256": "19d8402bab335c54b2bce96690ae51fec6a0a87763a71ee87b37b0ea712cf193",
+  "audio_sha256": "eb9077c820b9dd64019731b5ce88962ea748eb61e833acca93f80555293d4967",
+  "model": "whisper-1",
+  "source_words": 125,
+  "display_words": 119,
+  "phrases": [
+    {
+      "text": "Ktoś powierzył ci",
+      "start": 0,
+      "end": 0.9200000047683716
+    },
+    {
+      "text": "swoją historię.",
+      "start": 0.9200000047683716,
+      "end": 2.3199999809265135
+    },
+    {
+      "text": "Teraz chcesz ją",
+      "start": 2.46,
+      "end": 3.3799999237060545
+    },
+    {
+      "text": "przekazać dalej —",
+      "start": 3.3799999237060545,
+      "end": 4.66
+    },
+    {
+      "text": "i chronić osobę,",
+      "start": 4.66,
+      "end": 5.74
+    },
+    {
+      "text": "która ci zaufała.",
+      "start": 5.74,
+      "end": 7.280000019073486
+    },
+    {
+      "text": "Są miejsca, w których",
+      "start": 7.52,
+      "end": 8.579999732971192
+    },
+    {
+      "text": "dostęp do informacji",
+      "start": 8.579999732971192,
+      "end": 9.900000381469727
+    },
+    {
+      "text": "ogranicza cenzura.",
+      "start": 9.900000381469727,
+      "end": 11.640000152587891
+    },
+    {
+      "text": "Właśnie tam prywatność",
+      "start": 11.900000381469727,
+      "end": 13.400000381469727
+    },
+    {
+      "text": "ma szczególne znaczenie.",
+      "start": 13.400000381469727,
+      "end": 15.199999618530274
+    },
+    {
+      "text": "Dlatego projektujemy SafeWall —",
+      "start": 15.379999923706055,
+      "end": 17.36
+    },
+    {
+      "text": "sprzętową bramę prywatności",
+      "start": 17.36,
+      "end": 18.8
+    },
+    {
+      "text": "dla dziennikarzy, aktywistów",
+      "start": 18.8,
+      "end": 20.539999771118165
+    },
+    {
+      "text": "i organizacji społecznych.",
+      "start": 20.539999771118165,
+      "end": 22.599999237060548
+    },
+    {
+      "text": "Z zewnątrz przypomina",
+      "start": 22.7,
+      "end": 23.740000534057618
+    },
+    {
+      "text": "zwykły powerbank.",
+      "start": 23.740000534057618,
+      "end": 25.320000457763673
+    },
+    {
+      "text": "SafeWall ma kierować połączenia",
+      "start": 25.42,
+      "end": 27.199999618530274
+    },
+    {
+      "text": "przez anonimizującą sieć Tor.",
+      "start": 27.199999618530274,
+      "end": 30.039999771118165
+    },
+    {
+      "text": "Kontrolę połączenia",
+      "start": 30.039999771118165,
+      "end": 31.000000762939454
+    },
+    {
+      "text": "przenosimy poza telefon.",
+      "start": 31.000000762939454,
+      "end": 33.040001678466794
+    },
+    {
+      "text": "SafeWall ma pilnować",
+      "start": 33.16000061035156,
+      "end": 34.25999908447265
+    },
+    {
+      "text": "jednej zasady:",
+      "start": 34.25999908447265,
+      "end": 35.779999542236325
+    },
+    {
+      "text": "internet przez Tor",
+      "start": 35.919999999999995,
+      "end": 37.4
+    },
+    {
+      "text": "albo brak połączenia.",
+      "start": 37.4,
+      "end": 38.939999389648435
+    },
+    {
+      "text": "Żeby awaria chronionej trasy",
+      "start": 39.36000137329101,
+      "end": 41.199999999999996
+    },
+    {
+      "text": "nie otworzyła drogi",
+      "start": 41.199999999999996,
+      "end": 42.16000061035156
+    },
+    {
+      "text": "do niechronionego połączenia.",
+      "start": 42.16000061035156,
+      "end": 44.339999999999996
+    },
+    {
+      "text": "Telefon może też ujawniać",
+      "start": 44.339999999999996,
+      "end": 45.75999908447265
+    },
+    {
+      "text": "swoją obecność",
+      "start": 45.75999908447265,
+      "end": 46.66000061035156
+    },
+    {
+      "text": "urządzeniom w pobliżu.",
+      "start": 46.66000061035156,
+      "end": 48.48
+    },
+    {
+      "text": "„iPhone (Piotrek)”.",
+      "start": 48.48,
+      "end": 50.23999862670898
+    },
+    {
+      "text": "Nietrudno się domyślić,",
+      "start": 50.23999862670898,
+      "end": 51.3
+    },
+    {
+      "text": "do kogo należy.",
+      "start": 51.3,
+      "end": 52.540001678466794
+    },
+    {
+      "text": "Z SafeWall możesz wyłączyć",
+      "start": 52.57999877929687,
+      "end": 54.16000061035156
+    },
+    {
+      "text": "Wi-Fi, Bluetooth",
+      "start": 54.16000061035156,
+      "end": 55.39999847412109
+    },
+    {
+      "text": "i łączność komórkową telefonu.",
+      "start": 55.39999847412109,
+      "end": 58.040001678466794
+    },
+    {
+      "text": "To nasz prototyp.",
+      "start": 58.14000015258789,
+      "end": 59.57999877929687
+    },
+    {
+      "text": "SafeWall.",
+      "start": 64.11999969482422,
+      "end": 65.13999633789062
+    },
+    {
+      "text": "Bo za każdą historią",
+      "start": 65.13999633789062,
+      "end": 66.78999999999999
+    },
+    {
+      "text": "stoi człowiek.",
+      "start": 66.78999999999999,
+      "end": 68.11999969482422
+    }
+  ],
+  "words": [
+    {
+      "index": 0,
+      "text": "Ktoś",
+      "start": 0.0,
+      "end": 0.5,
+      "whisper_indices": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 1,
+      "text": "powierzył",
+      "start": 0.5,
+      "end": 0.9800000190734863,
+      "whisper_indices": [
+        1,
+        1
+      ]
+    },
+    {
+      "index": 2,
+      "text": "ci",
+      "start": 0.9800000190734863,
+      "end": 1.1200000047683716,
+      "whisper_indices": [
+        2,
+        2
+      ]
+    },
+    {
+      "index": 3,
+      "text": "swoją",
+      "start": 1.1200000047683716,
+      "end": 1.399999976158142,
+      "whisper_indices": [
+        3,
+        3
+      ]
+    },
+    {
+      "index": 4,
+      "text": "historię.",
+      "start": 1.399999976158142,
+      "end": 2.0199999809265137,
+      "whisper_indices": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 5,
+      "text": "Teraz",
+      "start": 2.66,
+      "end": 3.06,
+      "whisper_indices": [
+        5,
+        5
+      ],
+      "whisper_original": {
+        "start": 2.9800000190734863,
+        "end": 3.059999942779541
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 6,
+      "text": "chcesz",
+      "start": 3.059999942779541,
+      "end": 3.380000114440918,
+      "whisper_indices": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 7,
+      "text": "ją",
+      "start": 3.380000114440918,
+      "end": 3.5799999237060547,
+      "whisper_indices": [
+        7,
+        7
+      ]
+    },
+    {
+      "index": 8,
+      "text": "przekazać",
+      "start": 3.5799999237060547,
+      "end": 4.099999904632568,
+      "whisper_indices": [
+        8,
+        8
+      ]
+    },
+    {
+      "index": 9,
+      "text": "dalej —",
+      "start": 4.099999904632568,
+      "end": 4.420000076293945,
+      "whisper_indices": [
+        9,
+        9
+      ]
+    },
+    {
+      "index": 10,
+      "text": "i",
+      "start": 4.86,
+      "end": 4.94,
+      "whisper_indices": [
+        10,
+        10
+      ],
+      "whisper_original": {
+        "start": 4.420000076293945,
+        "end": 5.039999961853027
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 11,
+      "text": "chronić",
+      "start": 5.039999961853027,
+      "end": 5.440000057220459,
+      "whisper_indices": [
+        11,
+        11
+      ]
+    },
+    {
+      "index": 12,
+      "text": "osobę,",
+      "start": 5.440000057220459,
+      "end": 5.940000057220459,
+      "whisper_indices": [
+        12,
+        12
+      ]
+    },
+    {
+      "index": 13,
+      "text": "która",
+      "start": 5.94,
+      "end": 6.16,
+      "whisper_indices": [
+        13,
+        13
+      ],
+      "whisper_original": {
+        "start": 6.119999885559082,
+        "end": 6.119999885559082
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 14,
+      "text": "ci",
+      "start": 6.119999885559082,
+      "end": 6.360000133514404,
+      "whisper_indices": [
+        14,
+        14
+      ]
+    },
+    {
+      "index": 15,
+      "text": "zaufała.",
+      "start": 6.360000133514404,
+      "end": 6.980000019073486,
+      "whisper_indices": [
+        15,
+        15
+      ]
+    },
+    {
+      "index": 16,
+      "text": "Są",
+      "start": 7.72,
+      "end": 7.88,
+      "whisper_indices": [
+        16,
+        16
+      ],
+      "whisper_original": {
+        "start": 7.840000152587891,
+        "end": 7.860000133514404
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 17,
+      "text": "miejsca,",
+      "start": 7.860000133514404,
+      "end": 8.34000015258789,
+      "whisper_indices": [
+        17,
+        17
+      ]
+    },
+    {
+      "index": 18,
+      "text": "w",
+      "start": 8.5,
+      "end": 8.779999732971191,
+      "whisper_indices": [
+        18,
+        18
+      ]
+    },
+    {
+      "index": 19,
+      "text": "których",
+      "start": 8.54,
+      "end": 8.86,
+      "whisper_indices": [
+        19,
+        19
+      ],
+      "whisper_original": {
+        "start": 8.779999732971191,
+        "end": 8.779999732971191
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 20,
+      "text": "dostęp",
+      "start": 8.779999732971191,
+      "end": 9.260000228881836,
+      "whisper_indices": [
+        20,
+        20
+      ]
+    },
+    {
+      "index": 21,
+      "text": "do",
+      "start": 9.260000228881836,
+      "end": 9.600000381469727,
+      "whisper_indices": [
+        21,
+        21
+      ]
+    },
+    {
+      "index": 22,
+      "text": "informacji",
+      "start": 9.600000381469727,
+      "end": 10.100000381469727,
+      "whisper_indices": [
+        22,
+        22
+      ]
+    },
+    {
+      "index": 23,
+      "text": "ogranicza",
+      "start": 10.100000381469727,
+      "end": 10.760000228881836,
+      "whisper_indices": [
+        23,
+        23
+      ]
+    },
+    {
+      "index": 24,
+      "text": "cenzura.",
+      "start": 10.760000228881836,
+      "end": 11.34000015258789,
+      "whisper_indices": [
+        24,
+        24
+      ]
+    },
+    {
+      "index": 25,
+      "text": "Właśnie",
+      "start": 12.100000381469727,
+      "end": 12.199999809265137,
+      "whisper_indices": [
+        25,
+        25
+      ]
+    },
+    {
+      "index": 26,
+      "text": "tam",
+      "start": 12.199999809265137,
+      "end": 12.84000015258789,
+      "whisper_indices": [
+        26,
+        26
+      ]
+    },
+    {
+      "index": 27,
+      "text": "prywatność",
+      "start": 12.84000015258789,
+      "end": 13.600000381469727,
+      "whisper_indices": [
+        27,
+        27
+      ]
+    },
+    {
+      "index": 28,
+      "text": "ma",
+      "start": 13.600000381469727,
+      "end": 13.880000114440918,
+      "whisper_indices": [
+        28,
+        28
+      ]
+    },
+    {
+      "index": 29,
+      "text": "szczególne",
+      "start": 13.880000114440918,
+      "end": 14.4399995803833,
+      "whisper_indices": [
+        29,
+        29
+      ]
+    },
+    {
+      "index": 30,
+      "text": "znaczenie.",
+      "start": 14.4399995803833,
+      "end": 14.899999618530273,
+      "whisper_indices": [
+        30,
+        30
+      ]
+    },
+    {
+      "index": 31,
+      "text": "Dlatego",
+      "start": 15.579999923706055,
+      "end": 15.84000015258789,
+      "whisper_indices": [
+        31,
+        31
+      ]
+    },
+    {
+      "index": 32,
+      "text": "projektujemy",
+      "start": 15.84000015258789,
+      "end": 16.5,
+      "whisper_indices": [
+        32,
+        32
+      ]
+    },
+    {
+      "index": 33,
+      "text": "SafeWall —",
+      "start": 16.5,
+      "end": 17.200000762939453,
+      "whisper_indices": [
+        33,
+        33
+      ]
+    },
+    {
+      "index": 34,
+      "text": "sprzętową",
+      "start": 17.56,
+      "end": 18.1,
+      "whisper_indices": [
+        34,
+        34
+      ],
+      "whisper_original": {
+        "start": 17.799999237060547,
+        "end": 18.100000381469727
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 35,
+      "text": "bramę",
+      "start": 18.100000381469727,
+      "end": 18.3799991607666,
+      "whisper_indices": [
+        35,
+        35
+      ]
+    },
+    {
+      "index": 36,
+      "text": "prywatności",
+      "start": 18.3799991607666,
+      "end": 19.0,
+      "whisper_indices": [
+        36,
+        36
+      ]
+    },
+    {
+      "index": 37,
+      "text": "dla",
+      "start": 19.0,
+      "end": 19.239999771118164,
+      "whisper_indices": [
+        37,
+        37
+      ]
+    },
+    {
+      "index": 38,
+      "text": "dziennikarzy,",
+      "start": 19.239999771118164,
+      "end": 19.940000534057617,
+      "whisper_indices": [
+        38,
+        38
+      ]
+    },
+    {
+      "index": 39,
+      "text": "aktywistów",
+      "start": 20.1,
+      "end": 20.84,
+      "whisper_indices": [
+        39,
+        39
+      ],
+      "whisper_original": {
+        "start": 20.5,
+        "end": 20.739999771118164
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 40,
+      "text": "i",
+      "start": 20.739999771118164,
+      "end": 21.020000457763672,
+      "whisper_indices": [
+        40,
+        40
+      ]
+    },
+    {
+      "index": 41,
+      "text": "organizacji",
+      "start": 21.020000457763672,
+      "end": 21.639999389648438,
+      "whisper_indices": [
+        41,
+        41
+      ]
+    },
+    {
+      "index": 42,
+      "text": "społecznych.",
+      "start": 21.639999389648438,
+      "end": 22.299999237060547,
+      "whisper_indices": [
+        42,
+        42
+      ]
+    },
+    {
+      "index": 43,
+      "text": "Z",
+      "start": 22.9,
+      "end": 22.94,
+      "whisper_indices": [
+        43,
+        43
+      ],
+      "whisper_original": {
+        "start": 22.299999237060547,
+        "end": 23.020000457763672
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 44,
+      "text": "zewnątrz",
+      "start": 23.020000457763672,
+      "end": 23.5,
+      "whisper_indices": [
+        44,
+        44
+      ]
+    },
+    {
+      "index": 45,
+      "text": "przypomina",
+      "start": 23.5,
+      "end": 23.940000534057617,
+      "whisper_indices": [
+        45,
+        45
+      ]
+    },
+    {
+      "index": 46,
+      "text": "zwykły",
+      "start": 23.940000534057617,
+      "end": 24.360000610351562,
+      "whisper_indices": [
+        46,
+        46
+      ]
+    },
+    {
+      "index": 47,
+      "text": "powerbank.",
+      "start": 24.360000610351562,
+      "end": 25.020000457763672,
+      "whisper_indices": [
+        47,
+        47
+      ]
+    },
+    {
+      "index": 48,
+      "text": "SafeWall",
+      "start": 25.62,
+      "end": 26.2,
+      "whisper_indices": [
+        48,
+        48
+      ],
+      "whisper_original": {
+        "start": 25.899999618530273,
+        "end": 26.18000030517578
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 49,
+      "text": "ma",
+      "start": 26.18000030517578,
+      "end": 26.459999084472656,
+      "whisper_indices": [
+        49,
+        49
+      ]
+    },
+    {
+      "index": 50,
+      "text": "kierować",
+      "start": 26.459999084472656,
+      "end": 26.799999237060547,
+      "whisper_indices": [
+        50,
+        50
+      ]
+    },
+    {
+      "index": 51,
+      "text": "połączenia",
+      "start": 26.799999237060547,
+      "end": 27.399999618530273,
+      "whisper_indices": [
+        51,
+        51
+      ]
+    },
+    {
+      "index": 52,
+      "text": "przez",
+      "start": 27.399999618530273,
+      "end": 27.760000228881836,
+      "whisper_indices": [
+        52,
+        52
+      ]
+    },
+    {
+      "index": 53,
+      "text": "anonimizującą",
+      "start": 27.760000228881836,
+      "end": 28.940000534057617,
+      "whisper_indices": [
+        53,
+        53
+      ]
+    },
+    {
+      "index": 54,
+      "text": "sieć",
+      "start": 28.940000534057617,
+      "end": 29.299999237060547,
+      "whisper_indices": [
+        54,
+        54
+      ]
+    },
+    {
+      "index": 55,
+      "text": "Tor.",
+      "start": 29.299999237060547,
+      "end": 29.739999771118164,
+      "whisper_indices": [
+        55,
+        55
+      ]
+    },
+    {
+      "index": 56,
+      "text": "Kontrolę",
+      "start": 30.239999771118164,
+      "end": 30.65999984741211,
+      "whisper_indices": [
+        56,
+        56
+      ]
+    },
+    {
+      "index": 57,
+      "text": "połączenia",
+      "start": 30.65999984741211,
+      "end": 31.200000762939453,
+      "whisper_indices": [
+        57,
+        57
+      ]
+    },
+    {
+      "index": 58,
+      "text": "przenosimy",
+      "start": 31.200000762939453,
+      "end": 31.760000228881836,
+      "whisper_indices": [
+        58,
+        58
+      ]
+    },
+    {
+      "index": 59,
+      "text": "poza",
+      "start": 31.760000228881836,
+      "end": 32.29999923706055,
+      "whisper_indices": [
+        59,
+        59
+      ]
+    },
+    {
+      "index": 60,
+      "text": "telefon.",
+      "start": 32.29999923706055,
+      "end": 32.7400016784668,
+      "whisper_indices": [
+        60,
+        60
+      ]
+    },
+    {
+      "index": 61,
+      "text": "SafeWall",
+      "start": 33.36000061035156,
+      "end": 33.779998779296875,
+      "whisper_indices": [
+        61,
+        61
+      ]
+    },
+    {
+      "index": 62,
+      "text": "ma",
+      "start": 33.779998779296875,
+      "end": 34.02000045776367,
+      "whisper_indices": [
+        62,
+        62
+      ]
+    },
+    {
+      "index": 63,
+      "text": "pilnować",
+      "start": 34.02000045776367,
+      "end": 34.459999084472656,
+      "whisper_indices": [
+        63,
+        63
+      ]
+    },
+    {
+      "index": 64,
+      "text": "jednej",
+      "start": 34.459999084472656,
+      "end": 34.959999084472656,
+      "whisper_indices": [
+        64,
+        64
+      ]
+    },
+    {
+      "index": 65,
+      "text": "zasady:",
+      "start": 34.959999084472656,
+      "end": 35.47999954223633,
+      "whisper_indices": [
+        65,
+        65
+      ]
+    },
+    {
+      "index": 66,
+      "text": "internet",
+      "start": 36.12,
+      "end": 36.6,
+      "whisper_indices": [
+        66,
+        66
+      ],
+      "whisper_original": {
+        "start": 36.41999816894531,
+        "end": 36.599998474121094
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 67,
+      "text": "przez",
+      "start": 36.599998474121094,
+      "end": 36.880001068115234,
+      "whisper_indices": [
+        67,
+        67
+      ]
+    },
+    {
+      "index": 68,
+      "text": "Tor",
+      "start": 36.880001068115234,
+      "end": 37.220001220703125,
+      "whisper_indices": [
+        68,
+        68
+      ]
+    },
+    {
+      "index": 69,
+      "text": "albo",
+      "start": 37.6,
+      "end": 37.82,
+      "whisper_indices": [
+        69,
+        69
+      ],
+      "whisper_original": {
+        "start": 37.220001220703125,
+        "end": 37.81999969482422
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 70,
+      "text": "brak",
+      "start": 37.81999969482422,
+      "end": 38.20000076293945,
+      "whisper_indices": [
+        70,
+        70
+      ]
+    },
+    {
+      "index": 71,
+      "text": "połączenia.",
+      "start": 38.20000076293945,
+      "end": 38.63999938964844,
+      "whisper_indices": [
+        71,
+        71
+      ]
+    },
+    {
+      "index": 72,
+      "text": "Żeby",
+      "start": 39.560001373291016,
+      "end": 39.84000015258789,
+      "whisper_indices": [
+        72,
+        72
+      ]
+    },
+    {
+      "index": 73,
+      "text": "awaria",
+      "start": 39.84000015258789,
+      "end": 40.2400016784668,
+      "whisper_indices": [
+        73,
+        73
+      ]
+    },
+    {
+      "index": 74,
+      "text": "chronionej",
+      "start": 40.2400016784668,
+      "end": 41.099998474121094,
+      "whisper_indices": [
+        74,
+        74
+      ]
+    },
+    {
+      "index": 75,
+      "text": "trasy",
+      "start": 40.78,
+      "end": 41.14,
+      "whisper_indices": [
+        75,
+        75
+      ],
+      "whisper_original": {
+        "start": 41.099998474121094,
+        "end": 41.119998931884766
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 76,
+      "text": "nie",
+      "start": 41.4,
+      "end": 41.5,
+      "whisper_indices": [
+        76,
+        76
+      ],
+      "whisper_original": {
+        "start": 41.119998931884766,
+        "end": 41.52000045776367
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 77,
+      "text": "otworzyła",
+      "start": 41.52000045776367,
+      "end": 42.08000183105469,
+      "whisper_indices": [
+        77,
+        77
+      ]
+    },
+    {
+      "index": 78,
+      "text": "drogi",
+      "start": 42.08000183105469,
+      "end": 42.36000061035156,
+      "whisper_indices": [
+        78,
+        78
+      ]
+    },
+    {
+      "index": 79,
+      "text": "do",
+      "start": 42.36000061035156,
+      "end": 42.7400016784668,
+      "whisper_indices": [
+        79,
+        79
+      ]
+    },
+    {
+      "index": 80,
+      "text": "niechronionego",
+      "start": 42.7400016784668,
+      "end": 43.47999954223633,
+      "whisper_indices": [
+        80,
+        80
+      ]
+    },
+    {
+      "index": 81,
+      "text": "połączenia.",
+      "start": 43.47999954223633,
+      "end": 44.08000183105469,
+      "whisper_indices": [
+        81,
+        81
+      ]
+    },
+    {
+      "index": 82,
+      "text": "Telefon",
+      "start": 44.54,
+      "end": 45.02,
+      "whisper_indices": [
+        82,
+        82
+      ],
+      "whisper_original": {
+        "start": 44.81999969482422,
+        "end": 44.97999954223633
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 83,
+      "text": "może",
+      "start": 44.97999954223633,
+      "end": 45.220001220703125,
+      "whisper_indices": [
+        83,
+        83
+      ]
+    },
+    {
+      "index": 84,
+      "text": "też",
+      "start": 45.220001220703125,
+      "end": 45.560001373291016,
+      "whisper_indices": [
+        84,
+        84
+      ]
+    },
+    {
+      "index": 85,
+      "text": "ujawniać",
+      "start": 45.560001373291016,
+      "end": 45.959999084472656,
+      "whisper_indices": [
+        85,
+        85
+      ]
+    },
+    {
+      "index": 86,
+      "text": "swoją",
+      "start": 45.959999084472656,
+      "end": 46.31999969482422,
+      "whisper_indices": [
+        86,
+        86
+      ]
+    },
+    {
+      "index": 87,
+      "text": "obecność",
+      "start": 46.31999969482422,
+      "end": 46.86000061035156,
+      "whisper_indices": [
+        87,
+        87
+      ]
+    },
+    {
+      "index": 88,
+      "text": "urządzeniom",
+      "start": 46.86000061035156,
+      "end": 47.52000045776367,
+      "whisper_indices": [
+        88,
+        88
+      ]
+    },
+    {
+      "index": 89,
+      "text": "w",
+      "start": 47.52000045776367,
+      "end": 48.0,
+      "whisper_indices": [
+        89,
+        89
+      ]
+    },
+    {
+      "index": 90,
+      "text": "pobliżu.",
+      "start": 47.66,
+      "end": 48.22,
+      "whisper_indices": [
+        90,
+        90
+      ],
+      "whisper_original": {
+        "start": 48.0,
+        "end": 48.15999984741211
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 91,
+      "text": "„iPhone",
+      "start": 48.68,
+      "end": 49.14,
+      "whisper_indices": [
+        91,
+        91
+      ],
+      "whisper_original": {
+        "start": 48.15999984741211,
+        "end": 49.13999938964844
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 92,
+      "text": "(Piotrek)”.",
+      "start": 49.560001373291016,
+      "end": 50.15999984741211,
+      "whisper_indices": [
+        92,
+        92
+      ]
+    },
+    {
+      "index": 93,
+      "text": "Nietrudno",
+      "start": 50.439998626708984,
+      "end": 50.7599983215332,
+      "whisper_indices": [
+        93,
+        94
+      ]
+    },
+    {
+      "index": 94,
+      "text": "się",
+      "start": 50.7599983215332,
+      "end": 51.0,
+      "whisper_indices": [
+        95,
+        95
+      ]
+    },
+    {
+      "index": 95,
+      "text": "domyślić,",
+      "start": 51.0,
+      "end": 51.439998626708984,
+      "whisper_indices": [
+        96,
+        96
+      ]
+    },
+    {
+      "index": 96,
+      "text": "do",
+      "start": 51.5,
+      "end": 51.68000030517578,
+      "whisper_indices": [
+        97,
+        97
+      ]
+    },
+    {
+      "index": 97,
+      "text": "kogo",
+      "start": 51.68000030517578,
+      "end": 51.7400016784668,
+      "whisper_indices": [
+        98,
+        98
+      ]
+    },
+    {
+      "index": 98,
+      "text": "należy.",
+      "start": 51.7400016784668,
+      "end": 52.2400016784668,
+      "whisper_indices": [
+        99,
+        99
+      ]
+    },
+    {
+      "index": 99,
+      "text": "Z",
+      "start": 52.779998779296875,
+      "end": 52.91999816894531,
+      "whisper_indices": [
+        100,
+        100
+      ]
+    },
+    {
+      "index": 100,
+      "text": "SafeWall",
+      "start": 52.91999816894531,
+      "end": 53.47999954223633,
+      "whisper_indices": [
+        101,
+        101
+      ]
+    },
+    {
+      "index": 101,
+      "text": "możesz",
+      "start": 53.47999954223633,
+      "end": 53.880001068115234,
+      "whisper_indices": [
+        102,
+        102
+      ]
+    },
+    {
+      "index": 102,
+      "text": "wyłączyć",
+      "start": 53.880001068115234,
+      "end": 54.36000061035156,
+      "whisper_indices": [
+        103,
+        103
+      ]
+    },
+    {
+      "index": 103,
+      "text": "Wi-Fi,",
+      "start": 54.36000061035156,
+      "end": 54.880001068115234,
+      "whisper_indices": [
+        104,
+        105
+      ]
+    },
+    {
+      "index": 104,
+      "text": "Bluetooth",
+      "start": 55.18000030517578,
+      "end": 55.599998474121094,
+      "whisper_indices": [
+        106,
+        106
+      ]
+    },
+    {
+      "index": 105,
+      "text": "i",
+      "start": 55.599998474121094,
+      "end": 55.939998626708984,
+      "whisper_indices": [
+        107,
+        107
+      ]
+    },
+    {
+      "index": 106,
+      "text": "łączność",
+      "start": 55.939998626708984,
+      "end": 56.41999816894531,
+      "whisper_indices": [
+        108,
+        108
+      ]
+    },
+    {
+      "index": 107,
+      "text": "komórkową",
+      "start": 56.41999816894531,
+      "end": 57.0,
+      "whisper_indices": [
+        109,
+        109
+      ]
+    },
+    {
+      "index": 108,
+      "text": "telefonu.",
+      "start": 57.0,
+      "end": 57.7400016784668,
+      "whisper_indices": [
+        110,
+        110
+      ]
+    },
+    {
+      "index": 109,
+      "text": "To",
+      "start": 58.34000015258789,
+      "end": 58.459999084472656,
+      "whisper_indices": [
+        111,
+        111
+      ]
+    },
+    {
+      "index": 110,
+      "text": "nasz",
+      "start": 58.459999084472656,
+      "end": 58.7400016784668,
+      "whisper_indices": [
+        112,
+        112
+      ]
+    },
+    {
+      "index": 111,
+      "text": "prototyp.",
+      "start": 58.7400016784668,
+      "end": 59.279998779296875,
+      "whisper_indices": [
+        113,
+        113
+      ]
+    },
+    {
+      "index": 112,
+      "text": "SafeWall.",
+      "start": 64.31999969482422,
+      "end": 64.87999725341797,
+      "whisper_indices": [
+        114,
+        114
+      ]
+    },
+    {
+      "index": 113,
+      "text": "Bo",
+      "start": 65.33999633789062,
+      "end": 65.41999816894531,
+      "whisper_indices": [
+        115,
+        115
+      ]
+    },
+    {
+      "index": 114,
+      "text": "za",
+      "start": 65.41999816894531,
+      "end": 65.62000274658203,
+      "whisper_indices": [
+        116,
+        116
+      ]
+    },
+    {
+      "index": 115,
+      "text": "każdą",
+      "start": 65.62000274658203,
+      "end": 66.0199966430664,
+      "whisper_indices": [
+        117,
+        117
+      ]
+    },
+    {
+      "index": 116,
+      "text": "historią",
+      "start": 66.0199966430664,
+      "end": 66.66000366210938,
+      "whisper_indices": [
+        118,
+        118
+      ]
+    },
+    {
+      "index": 117,
+      "text": "stoi",
+      "start": 66.99,
+      "end": 67.23,
+      "whisper_indices": [
+        119,
+        119
+      ],
+      "whisper_original": {
+        "start": 66.66000366210938,
+        "end": 67.19999694824219
+      },
+      "correction_reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "index": 118,
+      "text": "człowiek.",
+      "start": 67.19999694824219,
+      "end": 67.81999969482422,
+      "whisper_indices": [
+        120,
+        120
+      ]
+    }
+  ],
+  "events": [
+    {
+      "start": 0,
+      "end": 0.3,
+      "html": "<span class=\"hl\">Ktoś</span> powierzył ci",
+      "phrase_index": 0,
+      "highlight_word": 0,
+      "highlight_text": "Ktoś"
+    },
+    {
+      "start": 0.3,
+      "end": 0.78,
+      "html": "Ktoś <span class=\"hl\">powierzył</span> ci",
+      "phrase_index": 0,
+      "highlight_word": 1,
+      "highlight_text": "powierzył"
+    },
+    {
+      "start": 0.78,
+      "end": 0.92,
+      "html": "Ktoś powierzył <span class=\"hl\">ci</span>",
+      "phrase_index": 0,
+      "highlight_word": 2,
+      "highlight_text": "ci"
+    },
+    {
+      "start": 0.92,
+      "end": 1.2,
+      "html": "<span class=\"hl\">swoją</span> historię.",
+      "phrase_index": 1,
+      "highlight_word": 3,
+      "highlight_text": "swoją"
+    },
+    {
+      "start": 1.2,
+      "end": 2.32,
+      "html": "swoją <span class=\"hl\">historię.</span>",
+      "phrase_index": 1,
+      "highlight_word": 4,
+      "highlight_text": "historię."
+    },
+    {
+      "start": 2.46,
+      "end": 2.86,
+      "html": "<span class=\"hl\">Teraz</span> chcesz ją",
+      "phrase_index": 2,
+      "highlight_word": 5,
+      "highlight_text": "Teraz"
+    },
+    {
+      "start": 2.86,
+      "end": 3.18,
+      "html": "Teraz <span class=\"hl\">chcesz</span> ją",
+      "phrase_index": 2,
+      "highlight_word": 6,
+      "highlight_text": "chcesz"
+    },
+    {
+      "start": 3.18,
+      "end": 3.38,
+      "html": "Teraz chcesz <span class=\"hl\">ją</span>",
+      "phrase_index": 2,
+      "highlight_word": 7,
+      "highlight_text": "ją"
+    },
+    {
+      "start": 3.38,
+      "end": 3.9,
+      "html": "<span class=\"hl\">przekazać</span> dalej —",
+      "phrase_index": 3,
+      "highlight_word": 8,
+      "highlight_text": "przekazać"
+    },
+    {
+      "start": 3.9,
+      "end": 4.66,
+      "html": "przekazać <span class=\"hl\">dalej —</span>",
+      "phrase_index": 3,
+      "highlight_word": 9,
+      "highlight_text": "dalej —"
+    },
+    {
+      "start": 4.66,
+      "end": 4.84,
+      "html": "<span class=\"hl\">i</span> chronić osobę,",
+      "phrase_index": 4,
+      "highlight_word": 10,
+      "highlight_text": "i"
+    },
+    {
+      "start": 4.84,
+      "end": 5.24,
+      "html": "i <span class=\"hl\">chronić</span> osobę,",
+      "phrase_index": 4,
+      "highlight_word": 11,
+      "highlight_text": "chronić"
+    },
+    {
+      "start": 5.24,
+      "end": 5.74,
+      "html": "i chronić <span class=\"hl\">osobę,</span>",
+      "phrase_index": 4,
+      "highlight_word": 12,
+      "highlight_text": "osobę,"
+    },
+    {
+      "start": 5.74,
+      "end": 5.92,
+      "html": "<span class=\"hl\">która</span> ci zaufała.",
+      "phrase_index": 5,
+      "highlight_word": 13,
+      "highlight_text": "która"
+    },
+    {
+      "start": 5.92,
+      "end": 6.16,
+      "html": "która <span class=\"hl\">ci</span> zaufała.",
+      "phrase_index": 5,
+      "highlight_word": 14,
+      "highlight_text": "ci"
+    },
+    {
+      "start": 6.16,
+      "end": 7.28,
+      "html": "która ci <span class=\"hl\">zaufała.</span>",
+      "phrase_index": 5,
+      "highlight_word": 15,
+      "highlight_text": "zaufała."
+    },
+    {
+      "start": 7.52,
+      "end": 7.66,
+      "html": "<span class=\"hl\">Są</span> miejsca, w których",
+      "phrase_index": 6,
+      "highlight_word": 16,
+      "highlight_text": "Są"
+    },
+    {
+      "start": 7.66,
+      "end": 8.3,
+      "html": "Są <span class=\"hl\">miejsca,</span> w których",
+      "phrase_index": 6,
+      "highlight_word": 17,
+      "highlight_text": "miejsca,"
+    },
+    {
+      "start": 8.3,
+      "end": 8.34,
+      "html": "Są miejsca, <span class=\"hl\">w</span> których",
+      "phrase_index": 6,
+      "highlight_word": 18,
+      "highlight_text": "w"
+    },
+    {
+      "start": 8.34,
+      "end": 8.58,
+      "html": "Są miejsca, w <span class=\"hl\">których</span>",
+      "phrase_index": 6,
+      "highlight_word": 19,
+      "highlight_text": "których"
+    },
+    {
+      "start": 8.58,
+      "end": 9.06,
+      "html": "<span class=\"hl\">dostęp</span> do informacji",
+      "phrase_index": 7,
+      "highlight_word": 20,
+      "highlight_text": "dostęp"
+    },
+    {
+      "start": 9.06,
+      "end": 9.4,
+      "html": "dostęp <span class=\"hl\">do</span> informacji",
+      "phrase_index": 7,
+      "highlight_word": 21,
+      "highlight_text": "do"
+    },
+    {
+      "start": 9.4,
+      "end": 9.9,
+      "html": "dostęp do <span class=\"hl\">informacji</span>",
+      "phrase_index": 7,
+      "highlight_word": 22,
+      "highlight_text": "informacji"
+    },
+    {
+      "start": 9.9,
+      "end": 10.56,
+      "html": "<span class=\"hl\">ogranicza</span> cenzura.",
+      "phrase_index": 8,
+      "highlight_word": 23,
+      "highlight_text": "ogranicza"
+    },
+    {
+      "start": 10.56,
+      "end": 11.64,
+      "html": "ogranicza <span class=\"hl\">cenzura.</span>",
+      "phrase_index": 8,
+      "highlight_word": 24,
+      "highlight_text": "cenzura."
+    },
+    {
+      "start": 11.9,
+      "end": 12.0,
+      "html": "<span class=\"hl\">Właśnie</span> tam prywatność",
+      "phrase_index": 9,
+      "highlight_word": 25,
+      "highlight_text": "Właśnie"
+    },
+    {
+      "start": 12.0,
+      "end": 12.64,
+      "html": "Właśnie <span class=\"hl\">tam</span> prywatność",
+      "phrase_index": 9,
+      "highlight_word": 26,
+      "highlight_text": "tam"
+    },
+    {
+      "start": 12.64,
+      "end": 13.4,
+      "html": "Właśnie tam <span class=\"hl\">prywatność</span>",
+      "phrase_index": 9,
+      "highlight_word": 27,
+      "highlight_text": "prywatność"
+    },
+    {
+      "start": 13.4,
+      "end": 13.68,
+      "html": "<span class=\"hl\">ma</span> szczególne znaczenie.",
+      "phrase_index": 10,
+      "highlight_word": 28,
+      "highlight_text": "ma"
+    },
+    {
+      "start": 13.68,
+      "end": 14.24,
+      "html": "ma <span class=\"hl\">szczególne</span> znaczenie.",
+      "phrase_index": 10,
+      "highlight_word": 29,
+      "highlight_text": "szczególne"
+    },
+    {
+      "start": 14.24,
+      "end": 15.2,
+      "html": "ma szczególne <span class=\"hl\">znaczenie.</span>",
+      "phrase_index": 10,
+      "highlight_word": 30,
+      "highlight_text": "znaczenie."
+    },
+    {
+      "start": 15.38,
+      "end": 15.64,
+      "html": "<span class=\"hl\">Dlatego</span> projektujemy SafeWall —",
+      "phrase_index": 11,
+      "highlight_word": 31,
+      "highlight_text": "Dlatego"
+    },
+    {
+      "start": 15.64,
+      "end": 16.3,
+      "html": "Dlatego <span class=\"hl\">projektujemy</span> SafeWall —",
+      "phrase_index": 11,
+      "highlight_word": 32,
+      "highlight_text": "projektujemy"
+    },
+    {
+      "start": 16.3,
+      "end": 17.36,
+      "html": "Dlatego projektujemy <span class=\"hl\">SafeWall —</span>",
+      "phrase_index": 11,
+      "highlight_word": 33,
+      "highlight_text": "SafeWall —"
+    },
+    {
+      "start": 17.36,
+      "end": 17.9,
+      "html": "<span class=\"hl\">sprzętową</span> bramę prywatności",
+      "phrase_index": 12,
+      "highlight_word": 34,
+      "highlight_text": "sprzętową"
+    },
+    {
+      "start": 17.9,
+      "end": 18.179999,
+      "html": "sprzętową <span class=\"hl\">bramę</span> prywatności",
+      "phrase_index": 12,
+      "highlight_word": 35,
+      "highlight_text": "bramę"
+    },
+    {
+      "start": 18.179999,
+      "end": 18.8,
+      "html": "sprzętową bramę <span class=\"hl\">prywatności</span>",
+      "phrase_index": 12,
+      "highlight_word": 36,
+      "highlight_text": "prywatności"
+    },
+    {
+      "start": 18.8,
+      "end": 19.04,
+      "html": "<span class=\"hl\">dla</span> dziennikarzy, aktywistów",
+      "phrase_index": 13,
+      "highlight_word": 37,
+      "highlight_text": "dla"
+    },
+    {
+      "start": 19.04,
+      "end": 19.9,
+      "html": "dla <span class=\"hl\">dziennikarzy,</span> aktywistów",
+      "phrase_index": 13,
+      "highlight_word": 38,
+      "highlight_text": "dziennikarzy,"
+    },
+    {
+      "start": 19.9,
+      "end": 20.54,
+      "html": "dla dziennikarzy, <span class=\"hl\">aktywistów</span>",
+      "phrase_index": 13,
+      "highlight_word": 39,
+      "highlight_text": "aktywistów"
+    },
+    {
+      "start": 20.54,
+      "end": 20.82,
+      "html": "<span class=\"hl\">i</span> organizacji społecznych.",
+      "phrase_index": 14,
+      "highlight_word": 40,
+      "highlight_text": "i"
+    },
+    {
+      "start": 20.82,
+      "end": 21.439999,
+      "html": "i <span class=\"hl\">organizacji</span> społecznych.",
+      "phrase_index": 14,
+      "highlight_word": 41,
+      "highlight_text": "organizacji"
+    },
+    {
+      "start": 21.439999,
+      "end": 22.599999,
+      "html": "i organizacji <span class=\"hl\">społecznych.</span>",
+      "phrase_index": 14,
+      "highlight_word": 42,
+      "highlight_text": "społecznych."
+    },
+    {
+      "start": 22.7,
+      "end": 22.82,
+      "html": "<span class=\"hl\">Z</span> zewnątrz przypomina",
+      "phrase_index": 15,
+      "highlight_word": 43,
+      "highlight_text": "Z"
+    },
+    {
+      "start": 22.82,
+      "end": 23.3,
+      "html": "Z <span class=\"hl\">zewnątrz</span> przypomina",
+      "phrase_index": 15,
+      "highlight_word": 44,
+      "highlight_text": "zewnątrz"
+    },
+    {
+      "start": 23.3,
+      "end": 23.740001,
+      "html": "Z zewnątrz <span class=\"hl\">przypomina</span>",
+      "phrase_index": 15,
+      "highlight_word": 45,
+      "highlight_text": "przypomina"
+    },
+    {
+      "start": 23.740001,
+      "end": 24.160001,
+      "html": "<span class=\"hl\">zwykły</span> powerbank.",
+      "phrase_index": 16,
+      "highlight_word": 46,
+      "highlight_text": "zwykły"
+    },
+    {
+      "start": 24.160001,
+      "end": 25.32,
+      "html": "zwykły <span class=\"hl\">powerbank.</span>",
+      "phrase_index": 16,
+      "highlight_word": 47,
+      "highlight_text": "powerbank."
+    },
+    {
+      "start": 25.42,
+      "end": 25.98,
+      "html": "<span class=\"hl\">SafeWall</span> ma kierować połączenia",
+      "phrase_index": 17,
+      "highlight_word": 48,
+      "highlight_text": "SafeWall"
+    },
+    {
+      "start": 25.98,
+      "end": 26.259999,
+      "html": "SafeWall <span class=\"hl\">ma</span> kierować połączenia",
+      "phrase_index": 17,
+      "highlight_word": 49,
+      "highlight_text": "ma"
+    },
+    {
+      "start": 26.259999,
+      "end": 26.599999,
+      "html": "SafeWall ma <span class=\"hl\">kierować</span> połączenia",
+      "phrase_index": 17,
+      "highlight_word": 50,
+      "highlight_text": "kierować"
+    },
+    {
+      "start": 26.599999,
+      "end": 27.2,
+      "html": "SafeWall ma kierować <span class=\"hl\">połączenia</span>",
+      "phrase_index": 17,
+      "highlight_word": 51,
+      "highlight_text": "połączenia"
+    },
+    {
+      "start": 27.2,
+      "end": 27.56,
+      "html": "<span class=\"hl\">przez</span> anonimizującą sieć Tor.",
+      "phrase_index": 18,
+      "highlight_word": 52,
+      "highlight_text": "przez"
+    },
+    {
+      "start": 27.56,
+      "end": 28.740001,
+      "html": "przez <span class=\"hl\">anonimizującą</span> sieć Tor.",
+      "phrase_index": 18,
+      "highlight_word": 53,
+      "highlight_text": "anonimizującą"
+    },
+    {
+      "start": 28.740001,
+      "end": 29.099999,
+      "html": "przez anonimizującą <span class=\"hl\">sieć</span> Tor.",
+      "phrase_index": 18,
+      "highlight_word": 54,
+      "highlight_text": "sieć"
+    },
+    {
+      "start": 29.099999,
+      "end": 30.04,
+      "html": "przez anonimizującą sieć <span class=\"hl\">Tor.</span>",
+      "phrase_index": 18,
+      "highlight_word": 55,
+      "highlight_text": "Tor."
+    },
+    {
+      "start": 30.04,
+      "end": 30.46,
+      "html": "<span class=\"hl\">Kontrolę</span> połączenia",
+      "phrase_index": 19,
+      "highlight_word": 56,
+      "highlight_text": "Kontrolę"
+    },
+    {
+      "start": 30.46,
+      "end": 31.000001,
+      "html": "Kontrolę <span class=\"hl\">połączenia</span>",
+      "phrase_index": 19,
+      "highlight_word": 57,
+      "highlight_text": "połączenia"
+    },
+    {
+      "start": 31.000001,
+      "end": 31.56,
+      "html": "<span class=\"hl\">przenosimy</span> poza telefon.",
+      "phrase_index": 20,
+      "highlight_word": 58,
+      "highlight_text": "przenosimy"
+    },
+    {
+      "start": 31.56,
+      "end": 32.099999,
+      "html": "przenosimy <span class=\"hl\">poza</span> telefon.",
+      "phrase_index": 20,
+      "highlight_word": 59,
+      "highlight_text": "poza"
+    },
+    {
+      "start": 32.099999,
+      "end": 33.040002,
+      "html": "przenosimy poza <span class=\"hl\">telefon.</span>",
+      "phrase_index": 20,
+      "highlight_word": 60,
+      "highlight_text": "telefon."
+    },
+    {
+      "start": 33.160001,
+      "end": 33.579999,
+      "html": "<span class=\"hl\">SafeWall</span> ma pilnować",
+      "phrase_index": 21,
+      "highlight_word": 61,
+      "highlight_text": "SafeWall"
+    },
+    {
+      "start": 33.579999,
+      "end": 33.82,
+      "html": "SafeWall <span class=\"hl\">ma</span> pilnować",
+      "phrase_index": 21,
+      "highlight_word": 62,
+      "highlight_text": "ma"
+    },
+    {
+      "start": 33.82,
+      "end": 34.259999,
+      "html": "SafeWall ma <span class=\"hl\">pilnować</span>",
+      "phrase_index": 21,
+      "highlight_word": 63,
+      "highlight_text": "pilnować"
+    },
+    {
+      "start": 34.259999,
+      "end": 34.759999,
+      "html": "<span class=\"hl\">jednej</span> zasady:",
+      "phrase_index": 22,
+      "highlight_word": 64,
+      "highlight_text": "jednej"
+    },
+    {
+      "start": 34.759999,
+      "end": 35.78,
+      "html": "jednej <span class=\"hl\">zasady:</span>",
+      "phrase_index": 22,
+      "highlight_word": 65,
+      "highlight_text": "zasady:"
+    },
+    {
+      "start": 35.92,
+      "end": 36.399998,
+      "html": "<span class=\"hl\">internet</span> przez Tor",
+      "phrase_index": 23,
+      "highlight_word": 66,
+      "highlight_text": "internet"
+    },
+    {
+      "start": 36.399998,
+      "end": 36.680001,
+      "html": "internet <span class=\"hl\">przez</span> Tor",
+      "phrase_index": 23,
+      "highlight_word": 67,
+      "highlight_text": "przez"
+    },
+    {
+      "start": 36.680001,
+      "end": 37.4,
+      "html": "internet przez <span class=\"hl\">Tor</span>",
+      "phrase_index": 23,
+      "highlight_word": 68,
+      "highlight_text": "Tor"
+    },
+    {
+      "start": 37.4,
+      "end": 37.62,
+      "html": "<span class=\"hl\">albo</span> brak połączenia.",
+      "phrase_index": 24,
+      "highlight_word": 69,
+      "highlight_text": "albo"
+    },
+    {
+      "start": 37.62,
+      "end": 38.000001,
+      "html": "albo <span class=\"hl\">brak</span> połączenia.",
+      "phrase_index": 24,
+      "highlight_word": 70,
+      "highlight_text": "brak"
+    },
+    {
+      "start": 38.000001,
+      "end": 38.939999,
+      "html": "albo brak <span class=\"hl\">połączenia.</span>",
+      "phrase_index": 24,
+      "highlight_word": 71,
+      "highlight_text": "połączenia."
+    },
+    {
+      "start": 39.360001,
+      "end": 39.64,
+      "html": "<span class=\"hl\">Żeby</span> awaria chronionej trasy",
+      "phrase_index": 25,
+      "highlight_word": 72,
+      "highlight_text": "Żeby"
+    },
+    {
+      "start": 39.64,
+      "end": 40.040002,
+      "html": "Żeby <span class=\"hl\">awaria</span> chronionej trasy",
+      "phrase_index": 25,
+      "highlight_word": 73,
+      "highlight_text": "awaria"
+    },
+    {
+      "start": 40.040002,
+      "end": 40.58,
+      "html": "Żeby awaria <span class=\"hl\">chronionej</span> trasy",
+      "phrase_index": 25,
+      "highlight_word": 74,
+      "highlight_text": "chronionej"
+    },
+    {
+      "start": 40.58,
+      "end": 41.2,
+      "html": "Żeby awaria chronionej <span class=\"hl\">trasy</span>",
+      "phrase_index": 25,
+      "highlight_word": 75,
+      "highlight_text": "trasy"
+    },
+    {
+      "start": 41.2,
+      "end": 41.32,
+      "html": "<span class=\"hl\">nie</span> otworzyła drogi",
+      "phrase_index": 26,
+      "highlight_word": 76,
+      "highlight_text": "nie"
+    },
+    {
+      "start": 41.32,
+      "end": 41.880002,
+      "html": "nie <span class=\"hl\">otworzyła</span> drogi",
+      "phrase_index": 26,
+      "highlight_word": 77,
+      "highlight_text": "otworzyła"
+    },
+    {
+      "start": 41.880002,
+      "end": 42.160001,
+      "html": "nie otworzyła <span class=\"hl\">drogi</span>",
+      "phrase_index": 26,
+      "highlight_word": 78,
+      "highlight_text": "drogi"
+    },
+    {
+      "start": 42.160001,
+      "end": 42.540002,
+      "html": "<span class=\"hl\">do</span> niechronionego połączenia.",
+      "phrase_index": 27,
+      "highlight_word": 79,
+      "highlight_text": "do"
+    },
+    {
+      "start": 42.540002,
+      "end": 43.28,
+      "html": "do <span class=\"hl\">niechronionego</span> połączenia.",
+      "phrase_index": 27,
+      "highlight_word": 80,
+      "highlight_text": "niechronionego"
+    },
+    {
+      "start": 43.28,
+      "end": 44.34,
+      "html": "do niechronionego <span class=\"hl\">połączenia.</span>",
+      "phrase_index": 27,
+      "highlight_word": 81,
+      "highlight_text": "połączenia."
+    },
+    {
+      "start": 44.34,
+      "end": 44.78,
+      "html": "<span class=\"hl\">Telefon</span> może też ujawniać",
+      "phrase_index": 28,
+      "highlight_word": 82,
+      "highlight_text": "Telefon"
+    },
+    {
+      "start": 44.78,
+      "end": 45.020001,
+      "html": "Telefon <span class=\"hl\">może</span> też ujawniać",
+      "phrase_index": 28,
+      "highlight_word": 83,
+      "highlight_text": "może"
+    },
+    {
+      "start": 45.020001,
+      "end": 45.360001,
+      "html": "Telefon może <span class=\"hl\">też</span> ujawniać",
+      "phrase_index": 28,
+      "highlight_word": 84,
+      "highlight_text": "też"
+    },
+    {
+      "start": 45.360001,
+      "end": 45.759999,
+      "html": "Telefon może też <span class=\"hl\">ujawniać</span>",
+      "phrase_index": 28,
+      "highlight_word": 85,
+      "highlight_text": "ujawniać"
+    },
+    {
+      "start": 45.759999,
+      "end": 46.12,
+      "html": "<span class=\"hl\">swoją</span> obecność",
+      "phrase_index": 29,
+      "highlight_word": 86,
+      "highlight_text": "swoją"
+    },
+    {
+      "start": 46.12,
+      "end": 46.660001,
+      "html": "swoją <span class=\"hl\">obecność</span>",
+      "phrase_index": 29,
+      "highlight_word": 87,
+      "highlight_text": "obecność"
+    },
+    {
+      "start": 46.660001,
+      "end": 47.32,
+      "html": "<span class=\"hl\">urządzeniom</span> w pobliżu.",
+      "phrase_index": 30,
+      "highlight_word": 88,
+      "highlight_text": "urządzeniom"
+    },
+    {
+      "start": 47.32,
+      "end": 47.46,
+      "html": "urządzeniom <span class=\"hl\">w</span> pobliżu.",
+      "phrase_index": 30,
+      "highlight_word": 89,
+      "highlight_text": "w"
+    },
+    {
+      "start": 47.46,
+      "end": 48.48,
+      "html": "urządzeniom w <span class=\"hl\">pobliżu.</span>",
+      "phrase_index": 30,
+      "highlight_word": 90,
+      "highlight_text": "pobliżu."
+    },
+    {
+      "start": 48.48,
+      "end": 49.360001,
+      "html": "<span class=\"hl\">„iPhone</span> (Piotrek)”.",
+      "phrase_index": 31,
+      "highlight_word": 91,
+      "highlight_text": "„iPhone"
+    },
+    {
+      "start": 49.360001,
+      "end": 50.239999,
+      "html": "„iPhone <span class=\"hl\">(Piotrek)”.</span>",
+      "phrase_index": 31,
+      "highlight_word": 92,
+      "highlight_text": "(Piotrek)”."
+    },
+    {
+      "start": 50.239999,
+      "end": 50.559998,
+      "html": "<span class=\"hl\">Nietrudno</span> się domyślić,",
+      "phrase_index": 32,
+      "highlight_word": 93,
+      "highlight_text": "Nietrudno"
+    },
+    {
+      "start": 50.559998,
+      "end": 50.8,
+      "html": "Nietrudno <span class=\"hl\">się</span> domyślić,",
+      "phrase_index": 32,
+      "highlight_word": 94,
+      "highlight_text": "się"
+    },
+    {
+      "start": 50.8,
+      "end": 51.3,
+      "html": "Nietrudno się <span class=\"hl\">domyślić,</span>",
+      "phrase_index": 32,
+      "highlight_word": 95,
+      "highlight_text": "domyślić,"
+    },
+    {
+      "start": 51.3,
+      "end": 51.48,
+      "html": "<span class=\"hl\">do</span> kogo należy.",
+      "phrase_index": 33,
+      "highlight_word": 96,
+      "highlight_text": "do"
+    },
+    {
+      "start": 51.48,
+      "end": 51.540002,
+      "html": "do <span class=\"hl\">kogo</span> należy.",
+      "phrase_index": 33,
+      "highlight_word": 97,
+      "highlight_text": "kogo"
+    },
+    {
+      "start": 51.540002,
+      "end": 52.540002,
+      "html": "do kogo <span class=\"hl\">należy.</span>",
+      "phrase_index": 33,
+      "highlight_word": 98,
+      "highlight_text": "należy."
+    },
+    {
+      "start": 52.579999,
+      "end": 52.719998,
+      "html": "<span class=\"hl\">Z</span> SafeWall możesz wyłączyć",
+      "phrase_index": 34,
+      "highlight_word": 99,
+      "highlight_text": "Z"
+    },
+    {
+      "start": 52.719998,
+      "end": 53.28,
+      "html": "Z <span class=\"hl\">SafeWall</span> możesz wyłączyć",
+      "phrase_index": 34,
+      "highlight_word": 100,
+      "highlight_text": "SafeWall"
+    },
+    {
+      "start": 53.28,
+      "end": 53.680001,
+      "html": "Z SafeWall <span class=\"hl\">możesz</span> wyłączyć",
+      "phrase_index": 34,
+      "highlight_word": 101,
+      "highlight_text": "możesz"
+    },
+    {
+      "start": 53.680001,
+      "end": 54.160001,
+      "html": "Z SafeWall możesz <span class=\"hl\">wyłączyć</span>",
+      "phrase_index": 34,
+      "highlight_word": 102,
+      "highlight_text": "wyłączyć"
+    },
+    {
+      "start": 54.160001,
+      "end": 54.98,
+      "html": "<span class=\"hl\">Wi-Fi,</span> Bluetooth",
+      "phrase_index": 35,
+      "highlight_word": 103,
+      "highlight_text": "Wi-Fi,"
+    },
+    {
+      "start": 54.98,
+      "end": 55.399998,
+      "html": "Wi-Fi, <span class=\"hl\">Bluetooth</span>",
+      "phrase_index": 35,
+      "highlight_word": 104,
+      "highlight_text": "Bluetooth"
+    },
+    {
+      "start": 55.399998,
+      "end": 55.739999,
+      "html": "<span class=\"hl\">i</span> łączność komórkową telefonu.",
+      "phrase_index": 36,
+      "highlight_word": 105,
+      "highlight_text": "i"
+    },
+    {
+      "start": 55.739999,
+      "end": 56.219998,
+      "html": "i <span class=\"hl\">łączność</span> komórkową telefonu.",
+      "phrase_index": 36,
+      "highlight_word": 106,
+      "highlight_text": "łączność"
+    },
+    {
+      "start": 56.219998,
+      "end": 56.8,
+      "html": "i łączność <span class=\"hl\">komórkową</span> telefonu.",
+      "phrase_index": 36,
+      "highlight_word": 107,
+      "highlight_text": "komórkową"
+    },
+    {
+      "start": 56.8,
+      "end": 58.040002,
+      "html": "i łączność komórkową <span class=\"hl\">telefonu.</span>",
+      "phrase_index": 36,
+      "highlight_word": 108,
+      "highlight_text": "telefonu."
+    },
+    {
+      "start": 58.14,
+      "end": 58.259999,
+      "html": "<span class=\"hl\">To</span> nasz prototyp.",
+      "phrase_index": 37,
+      "highlight_word": 109,
+      "highlight_text": "To"
+    },
+    {
+      "start": 58.259999,
+      "end": 58.540002,
+      "html": "To <span class=\"hl\">nasz</span> prototyp.",
+      "phrase_index": 37,
+      "highlight_word": 110,
+      "highlight_text": "nasz"
+    },
+    {
+      "start": 58.540002,
+      "end": 59.579999,
+      "html": "To nasz <span class=\"hl\">prototyp.</span>",
+      "phrase_index": 37,
+      "highlight_word": 111,
+      "highlight_text": "prototyp."
+    },
+    {
+      "start": 64.12,
+      "end": 65.139996,
+      "html": "<span class=\"hl\">SafeWall.</span>",
+      "phrase_index": 38,
+      "highlight_word": 112,
+      "highlight_text": "SafeWall."
+    },
+    {
+      "start": 65.139996,
+      "end": 65.219998,
+      "html": "<span class=\"hl\">Bo</span> za każdą historią",
+      "phrase_index": 39,
+      "highlight_word": 113,
+      "highlight_text": "Bo"
+    },
+    {
+      "start": 65.219998,
+      "end": 65.420003,
+      "html": "Bo <span class=\"hl\">za</span> każdą historią",
+      "phrase_index": 39,
+      "highlight_word": 114,
+      "highlight_text": "za"
+    },
+    {
+      "start": 65.420003,
+      "end": 65.819997,
+      "html": "Bo za <span class=\"hl\">każdą</span> historią",
+      "phrase_index": 39,
+      "highlight_word": 115,
+      "highlight_text": "każdą"
+    },
+    {
+      "start": 65.819997,
+      "end": 66.79,
+      "html": "Bo za każdą <span class=\"hl\">historią</span>",
+      "phrase_index": 39,
+      "highlight_word": 116,
+      "highlight_text": "historią"
+    },
+    {
+      "start": 66.79,
+      "end": 66.999997,
+      "html": "<span class=\"hl\">stoi</span> człowiek.",
+      "phrase_index": 40,
+      "highlight_word": 117,
+      "highlight_text": "stoi"
+    },
+    {
+      "start": 66.999997,
+      "end": 68.12,
+      "html": "stoi <span class=\"hl\">człowiek.</span>",
+      "phrase_index": 40,
+      "highlight_word": 118,
+      "highlight_text": "człowiek."
+    }
+  ],
+  "timing_corrections": [
+    {
+      "word_index": 5,
+      "text": "Teraz",
+      "start": 2.66,
+      "end": 3.06,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 10,
+      "text": "i",
+      "start": 4.86,
+      "end": 4.94,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 13,
+      "text": "która",
+      "start": 5.94,
+      "end": 6.16,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 16,
+      "text": "Są",
+      "start": 7.72,
+      "end": 7.88,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 19,
+      "text": "których",
+      "start": 8.54,
+      "end": 8.86,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 34,
+      "text": "sprzętową",
+      "start": 17.56,
+      "end": 18.1,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 39,
+      "text": "aktywistów",
+      "start": 20.1,
+      "end": 20.84,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 43,
+      "text": "Z",
+      "start": 22.9,
+      "end": 22.94,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 48,
+      "text": "SafeWall",
+      "start": 25.62,
+      "end": 26.2,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 66,
+      "text": "internet",
+      "start": 36.12,
+      "end": 36.6,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 69,
+      "text": "albo",
+      "start": 37.6,
+      "end": 37.82,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 75,
+      "text": "trasy",
+      "start": 40.78,
+      "end": 41.14,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 76,
+      "text": "nie",
+      "start": 41.4,
+      "end": 41.5,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 82,
+      "text": "Telefon",
+      "start": 44.54,
+      "end": 45.02,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 90,
+      "text": "pobliżu.",
+      "start": 47.66,
+      "end": 48.22,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 91,
+      "text": "„iPhone",
+      "start": 48.68,
+      "end": 49.14,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    },
+    {
+      "word_index": 117,
+      "text": "stoi",
+      "start": 66.99,
+      "end": 67.23,
+      "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+    }
+  ],
+  "zero_duration_repairs": [],
+  "display_offset_seconds": -0.2,
+  "phrase_tail_seconds": 0.5
+}

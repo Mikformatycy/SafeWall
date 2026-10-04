@@ -1,0 +1,4 @@
+# Confirmed PiTalk Quectel EG25 on Pi 4 GPIO14/15 (serial0 -> ttyS0).
+ACTION!="add|change|move|bind", GOTO="mm_pitalk_uart_end"
+SUBSYSTEM=="tty", KERNEL=="ttyS0", KERNELS=="fe215040.serial", ENV{ID_MM_DEVICE_PROCESS}="1", ENV{ID_MM_PORT_TYPE_AT_PRIMARY}="1", ENV{ID_MM_TTY_BAUDRATE}="115200", ENV{ID_MM_TTY_FLOW_CONTROL}="none"
+LABEL="mm_pitalk_uart_end"

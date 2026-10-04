@@ -1,0 +1,59 @@
+{
+  "saved_scene": "SafeWall-keynote-v02.blend",
+  "checked_frames": 240,
+  "motion": {
+    "02 Battery | ANIMATE": {
+      "start": 34,
+      "end": 81,
+      "monotonic_without_overshoot": true,
+      "start_speed_fraction_of_peak": 0.002339457930848635,
+      "stop_speed_fraction_of_peak": 0.002338671644742341
+    },
+    "03 Decorative carrier PCB | ANIMATE": {
+      "start": 65,
+      "end": 116,
+      "monotonic_without_overshoot": true,
+      "start_speed_fraction_of_peak": 0.0019913054117756514,
+      "stop_speed_fraction_of_peak": 0.001991168121064478
+    },
+    "04 Official Raspberry Pi CM4 | ANIMATE": {
+      "start": 98,
+      "end": 150,
+      "monotonic_without_overshoot": true,
+      "start_speed_fraction_of_peak": 0.0019189452252576869,
+      "stop_speed_fraction_of_peak": 0.0019178183817158622
+    },
+    "05 Thermal concept | ANIMATE": {
+      "start": 130,
+      "end": 181,
+      "monotonic_without_overshoot": true,
+      "start_speed_fraction_of_peak": 0.001991916598529059,
+      "stop_speed_fraction_of_peak": 0.0019911688566244304
+    },
+    "06 Cover | ANIMATE": {
+      "start": 157,
+      "end": 211,
+      "monotonic_without_overshoot": true,
+      "start_speed_fraction_of_peak": 0.00178144558957261,
+      "stop_speed_fraction_of_peak": 0.001780188008396286
+    }
+  },
+  "OLED_off_until_cover_seated": true,
+  "OLED_fade_monotonic": true,
+  "shell_meshes": {
+    "02 Rear panel | soft lower edge": {
+      "non_manifold_edges": 0
+    },
+    "Shell perimeter | powerbank profile": {
+      "non_manifold_edges": 0
+    },
+    "12 Lid | rolled powerbank cover": {
+      "non_manifold_edges": 0
+    },
+    "OLED | flush black glass": {
+      "non_manifold_edges": 0
+    }
+  },
+  "external_images": [],
+  "external_libraries": 0
+}

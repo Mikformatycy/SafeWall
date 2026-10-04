@@ -1,0 +1,17 @@
+Create a 16-second contemporary thriller opening in landscape 16:9. Three connected shots, natural-speed action and continuous forward momentum.
+
+REFERENCES
+Use @Image1 only for the handheld device's appearance: compact rounded graphite body, glossy black top, small upper battery OLED and recessed USB-C port. Preserve its proportions. Use @Image2 only for the final camera angle, upright device orientation and centered framing after contact with the counter. Its flat preview shading is not the visual style. The environment is the station described below, not a studio.
+
+SETTING AND CHARACTER
+A sheltered outdoor railway-station concourse at night during steady rain. Wet pavement reflects cold overhead lamps and a distant warm light. A dry matte metal counter stands beside a closed kiosk under the canopy. A fictional male journalist in his thirties wears a plain charcoal cap and dark jacket. Natural skin and fabric, restrained tension, readable shadows. Maintain one consistent journalist, outfit and device. The device fits naturally in one hand.
+
+00–05 seconds: Medium rear three-quarter tracking shot. An anonymous source walks away into the rainy background. The journalist closes a small notebook, places it inside his jacket and turns toward the counter. Both people remain silent. Follow his movement with the camera.
+
+05–09 seconds: Cut to a closer side tracking shot. He walks a few steps to the sheltered counter, briefly glances behind him and reaches into his jacket for the device. The camera moves closer with him. Rain stays in the background, while his hands and the counter remain under shelter.
+
+09–14 seconds: Follow his hand as he takes out the device and gives it a controlled, very low toss from a few centimeters above the dry counter. Contact occurs near second 14. It lands face-up, slides only slightly and remains fully assembled. The hand clears the device. The camera moves into the centered three-quarter overhead composition of @Image2: long axis vertical in the frame, OLED toward the top, USB-C edge toward the bottom.
+
+14–16 seconds: Keep the intact device fully visible and retain that orientation and framing with a very subtle camera drift. This is an editing handle for a match cut into a separate Blender assembly shot.
+
+Silent video. No speech, voiceover, whispers, singing, music or generated sound. No captions, logos or added text; retain only the device's small battery indicator. Natural-speed motion, no slow motion or freeze frames. Keep the enclosure closed throughout; assembly and electronics will be animated separately.

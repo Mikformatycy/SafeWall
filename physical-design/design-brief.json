@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "project": "SafeWall",
+  "stage": "architecture_and_industrial_design_exploration",
+  "confirmed_requirements": {
+    "runtime_target_hours": 2,
+    "priority": "small_size_and_low_mass",
+    "attachment": "magnetic_attachment_to_MagSafe_phone",
+    "appearance": "compact_unbranded_consumer_accessory_with_premium_gloss_finish",
+    "visualization": "realistic_keynote_style_assembly_animation_with_detailed_electronics_and_shaders",
+    "phone_model": "iPhone 16",
+    "decorative_PCB_allowed_for_visualization": true,
+    "enclosure_styling": "powerbank_like_with_battery_percentage_OLED",
+    "animation_motion": "all_layers_close_simultaneously_with_strong_ease_out",
+    "animation_duration_seconds": 5,
+    "visible_project_branding": false,
+    "OLED_placement": "upper_area_of_top_cover",
+    "thickness_revision": "deferred_by_user",
+    "phone_case_for_live_action": "none",
+    "CG_to_live_action_transition": "overhead cable connection shot matched to first live-action frame; include supplied still in current preview",
+    "sequence_pacing": "continuous forward movement, faster, overlapping stages without pauses",
+    "voiceover": {
+      "language": "pl",
+      "model": "eleven_v4",
+      "sync_animation_to_voice": true,
+      "approved_text": "visualization/VOICEOVER-APPROVED-v22.txt",
+      "estimated_full_duration_seconds": [
+        69.91666666666667,
+        69.91666666666667
+      ],
+      "measured_duration_seconds": 69.91666666666667,
+      "latest_audio": "visualization/voiceover-v22/SafeWall-voiceover-pl-daniel-v22.mp3",
+      "voice_selection": "visualization/voice-auditions-v15/manifest.json",
+      "latest_audio_text_revision": "v22: SafeWall replaces Osobna brama; other v20 wording retained",
+      "voice_name": "Daniel",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "generation_status": "complete; final ASR matches all approved words",
+      "edit_timing": "visualization/voiceover-v22/edit.json"
+    },
+    "full_film_duration": "approximately 60 seconds; slightly longer acceptable",
+    "full_film_opening_copy": "Ktoś powierzył ci swoją historię. Teraz chcesz ją przekazać dalej — i chronić osobę, która ci zaufała.",
+    "full_film_tone": "more thriller-like",
+    "full_film_setting_direction": "outside an apartment; exterior preferred",
+    "seedance_audio": {
+      "human_voice_allowed": false,
+      "effects_allowed": true,
+      "voiceover_provider": "ElevenLabs",
+      "voiceover_model": "eleven_v4",
+      "voiceover_language": "pl",
+      "mix_separately": true
+    }
+  },
+  "working_assumptions_to_validate": {
+    "runtime_scenario": "active_LTE_and_target_Tor_routing_on_own_battery",
+    "attachment_does_not_imply_wireless_charging": true,
+    "phone_reference": "iPhone_16_confirmed_case_unconfirmed"
+  },
+  "proposals_not_yet_selected_by_user": {
+    "architecture": "custom_carrier_PCB_with_Compute_Module_and_ready_made_LTE_module",
+    "compute_module_candidate": "CM4_without_WiFi_Bluetooth_with_eMMC",
+    "battery_form": "flat_rechargeable_pack_with_matched_protection_charging_and_temperature_monitoring",
+    "existing_HAT_stack_role": "electrical_test_prototype",
+    "enclosure_form": "rounded_rectangle_with_serviceable_two_part_shell",
+    "materials": {
+      "functional_print_prototype": "ASA_grade_to_select",
+      "possible_injection_molded_shell": "PC_ABS_grade_to_select",
+      "phone_contact_pad": "silicone_grade_and_thickness_to_select"
+    },
+    "render_palette_srgb": {
+      "shell_graphite": "#14171B",
+      "cover_piano_black": "#080A0D",
+      "contact_pad_dark_graphite": "#17191C",
+      "alternative_shell_warm_light_gray": "#E8E5DF"
+    },
+    "visualization_workflow": "Fusion_parametric_components_then_Blender_product_animation",
+    "OLED_visual_proposal": {
+      "location": "upper_area_of_top_cover_opposite_USB_C_end",
+      "lens": "smoked_black_glass_with_reduced_reflection_and_cool_white_pixels",
+      "example_percent": 87,
+      "value_is_illustrative": true,
+      "part_selected": false,
+      "wake_animation": "fade_on_after_cover_seats"
+    }
+  },
+  "not_yet_determined": {
+    "average_input_power_w": null,
+    "peak_input_power_w": null,
+    "battery_nominal_voltage_v": null,
+    "battery_energy_wh": null,
+    "battery_capacity_mah": null,
+    "conversion_efficiency": null,
+    "usable_battery_energy_fraction": null,
+    "maximum_enclosure_dimensions_mm": null,
+    "maximum_total_mass_g": null,
+    "LTE_module": null,
+    "antenna_parts_and_keepouts": null,
+    "magnet_array_part_and_retention_requirements": null
+  },
+  "validation_before_freezing_geometry": [
+    "Measure_average_and_peak_power_in_defined_runtime_scenario",
+    "Resolve_current_LTE_transfer_problem_before_committing_modem_to_PCB",
+    "Select_battery_from_measured_energy_and_peak_current_requirements",
+    "Check_camera_case_and_connector_clearances_against_phone_geometry",
+    "Test_magnetic_retention_with_representative_mass_and_cable_load",
+    "Test_thermal_and_antenna_performance_while_attached_to_phone"
+  ],
+  "reference_photos": [
+    "2026-10-03 22.35.28.jpg",
+    "2026-10-03 22.35.37.jpg"
+  ],
+  "reference_video": "IMG_0965.MOV",
+  "film_sequence_plan": [
+    "Existing rainy Seedance opening",
+    "Simultaneous sandwich assembly into enclosure, 5-second close",
+    "MagSafe side docking",
+    "Blender 3D gateway, moving pulses and three spatial relays",
+    "Blender phone discovery with many exact iPhone (Piotrek) names; visible context label AirDrop",
+    "Enclosure moves left and transitions into rendered Raspberry Pi/LTE",
+    "Framing-matched transition to actual IMG_4626 footage before RJ45 insertion",
+    "Trimmed 6.208-second live connection, refresh and positive Tor Check result at 1.35x",
+    "Existing landscape marketing/outro MP4, full native-speed 6.2-second brand animation"
+  ],
+  "full_film_planning": {
+    "status": "v22_preview_complete",
+    "proposed_seconds": 69.91666666666667,
+    "plan": "visualization/voiceover-plan-v22.json",
+    "readable_plan": "visualization/launch-preview-v22/README.txt",
+    "audience": "journalists, activists and civil society organizations — approved narration",
+    "transition": "Existing Seedance handoff, Blender assembly and MagSafe, spatial 3D connection/discovery, framing-matched dissolve into actual live demo",
+    "proposed_opening_location": "sheltered exterior railway station concourse at night with dry metal counter",
+    "seedance_brief": "visualization/SEEDANCE-THRILLER-BRIEF-v10.txt",
+    "estimated_seconds": null,
+    "spoken_brand": "SafeWall",
+    "magsafe_spoken": false,
+    "failure_demo": false,
+    "real_demo": "User-supplied IMG_4626; trimmed and played at 1.35x, original browser result preserved.",
+    "measured_narration_seconds": 69.91666666666667,
+    "suggested_total_edit_seconds": [
+      69.91666666666667,
+      69.91666666666667
+    ],
+    "timing": "visualization/voiceover-v22/edit.json",
+    "seedance_provider": "BytePlus ModelArk",
+    "seedance_generation_package": "visualization/seedance-byteplus-v17/START-HERE.txt",
+    "seedance_trial_seconds": 18,
+    "seedance_target_edit_seconds": 15.5,
+    "live_footage": "references/live-demo-v13/IMG_4626-upright.mp4",
+    "live_entry_reference": "references/live-demo-v13/entry-00.0s.png",
+    "live_action_status": "Rotated, trimmed and incorporated into v22; original source frame hashes verified.",
+    "remaining_edit_work": "User review of v22; premium final rendering remains deferred.",
+    "powerbank_spoken_line": "Z zewnątrz przypomina zwykły powerbank.",
+    "narration_timing_note": "69.917-second audio timeline including quiet demo space; no narration time stretch.",
+    "current_render": "visualization/launch-preview-v22/SafeWall-launch-preview-v22.mp4",
+    "voice_name": "Daniel"
+  },
+  "latest_launch_preview": {
+    "movie": "visualization/launch-preview-v22/SafeWall-launch-preview-v22.mp4",
+    "duration_seconds": 69.91666666666667,
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 24,
+    "shader_mode": "Workbench / simple materials",
+    "narrator": "Daniel / Eleven v4; v22 SafeWall phrase pickup",
+    "seedance_and_actual_demo_included": true,
+    "all_flat_explanatory_slides_replaced_by_blender": true,
+    "live_demo_native_speed": false,
+    "plan": "visualization/voiceover-plan-v22.json",
+    "editable_cut": "visualization/launch-preview-v22/SafeWall-edit-v22.blend",
+    "outro_source": "../marketing/outro/safewall-outro-landscape.mp4",
+    "server_nodes": 3,
+    "emitted_phone_names": true,
+    "live_demo_speed_multiplier": 1.35,
+    "live_demo_duration_seconds": 6.208333333333333
+  },
+  "visual_revision_v19": {
+    "date": "2026-10-04",
+    "reason": "User rejected all flat slide-like explanatory sequences and invited Seedance as an alternative to Blender.",
+    "confirmed_direction": "Spatial cinematic animations; no flat slides anywhere in the next cut.",
+    "proposed_workflow": "Keep precise hardware in Blender; replace tor, radios and closing with Seedance inserts after checking generated outputs.",
+    "package": "physical-design/visualization/seedance-inserts-v19/START-HERE.txt",
+    "status": "proposal_not_used_user_selected_blender_v20",
+    "generation_submitted": false,
+    "new_video_rendered": false,
+    "replace_sections": [
+      "tor",
+      "radios",
+      "closing"
+    ],
+    "keep_current_narration": true,
+    "keep_preview_workbench": true,
+    "last_rendered_preview_remains_v18": true
+  },
+  "visual_revision_v20": {
+    "status": "complete_preview",
+    "voiceover": "visualization/VOICEOVER-APPROVED-v20.txt",
+    "changes": [
+      "Approved cuts only; full opening and iPhone (Piotrek) retained",
+      "All flat slides replaced with Blender scenes",
+      "Complete actual demo preserved",
+      "Further-steps sentence removed"
+    ],
+    "new_seedance_generation": false
+  },
+  "visual_revision_v21": {
+    "status": "complete_preview",
+    "changes": [
+      "Three downloaded CC0 server models replace the relay sculptures",
+      "Many iPhone (Piotrek) names emerge from the phone",
+      "Existing marketing/outro replaces the Blender ending"
+    ],
+    "narration_unchanged": true,
+    "live_demo_unchanged": true,
+    "new_seedance_generation": false
+  },
+  "visual_revision_v22": {
+    "status": "complete_preview",
+    "changes": [
+      "Remove dot and Wszyscy from AirDrop label",
+      "Replace spoken Osobna brama with SafeWall",
+      "Trim live demo and accelerate to 1.35x; 6.208 seconds"
+    ],
+    "narration_other_words_unchanged": true,
+    "browser_content_altered": false,
+    "new_seedance_generation": false
+  },
+  "historical_animation_preview_v09": {
+    "scene": "visualization/Full-sequence-voice-v09.blend",
+    "movie": "visualization/Full-sequence-voice-v09.mp4",
+    "shot": "complete assembly-to-prototype-to-real-photo sequence",
+    "target_phone": "iPhone 16 without case",
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 24,
+    "seconds": 8.5,
+    "premium_shaders_enabled": false,
+    "click_sound": true,
+    "click_seconds": 6.375,
+    "real_user_photo_included": true,
+    "documentation": "visualization/VOICEOVER-PLAN-v09.txt",
+    "static_holds": false,
+    "overlapping_motion": true,
+    "voiceover_model": "eleven_v4",
+    "voiceover_language": "pl"
+  },
+  "current_animation_preview": {
+    "movie": "visualization/launch-preview-v22/SafeWall-launch-preview-v22.mp4",
+    "duration_seconds": 69.91666666666667,
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 24,
+    "shader_mode": "Workbench / simple materials",
+    "narrator": "Daniel / Eleven v4; v22 SafeWall phrase pickup",
+    "seedance_and_actual_demo_included": true,
+    "all_flat_explanatory_slides_replaced_by_blender": true,
+    "live_demo_native_speed": false,
+    "plan": "visualization/voiceover-plan-v22.json",
+    "editable_cut": "visualization/launch-preview-v22/SafeWall-edit-v22.blend",
+    "outro_source": "../marketing/outro/safewall-outro-landscape.mp4",
+    "server_nodes": 3,
+    "emitted_phone_names": true,
+    "live_demo_speed_multiplier": 1.35,
+    "live_demo_duration_seconds": 6.208333333333333
+  }
+}

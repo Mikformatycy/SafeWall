@@ -1,0 +1,164 @@
+{
+  "revision": "v10_story_plan_only",
+  "status": "draft_for_discussion_not_a_new_render",
+  "user_duration_requirement": "approximately one minute, slightly longer is acceptable",
+  "proposed_duration_seconds": 65,
+  "language": "pl",
+  "approved_opening_copy": "Ktoś powierzył ci swoją historię. Teraz chcesz ją przekazać dalej — i chronić osobę, która ci zaufała.",
+  "audience_proposal": {
+    "primary_user": "journalist or reporter handling sensitive information",
+    "initial_buyers": "Polish newsrooms and civil society organizations",
+    "status": "recommendation, not yet a user-confirmed market decision",
+    "spoken_copy": "Projektujemy to urządzenie dla dziennikarzy i organizacji społecznych, które pracują z wrażliwymi informacjami.",
+    "spoken_window_seconds": [
+      9,
+      18
+    ]
+  },
+  "story_assumption": "Project presentation combining future product concept and real prototype demonstration; no commercial availability claim.",
+  "preferred_transition": {
+    "status": "recommended, not yet rendered",
+    "action": "Reporter lightly tosses the enclosure onto a dry matte metal counter under the station shelter; cut at contact to the matching closed Blender enclosure. A brief stylized layer opening feeds the existing simultaneous closure.",
+    "match_reference": "Author the contact frame in Blender before generating the Seedance shot. Match the dry counter, camera, enclosure pose/scale, cold overhead lighting and motion. Keep the composition bright enough to read the product. Evaluate and adjust the generated shot in the edit.",
+    "existing_scene_change": "Current v09 starts exploded; add a closed contact pose and approximately 0.6–0.8 seconds of opening. Avoid a pause at the reversal."
+  },
+  "sections": [
+    {
+      "start": 0,
+      "end": 9,
+      "role": "human_story",
+      "visual": "Night, sheltered exterior station concourse. An anonymous source walks away; the fictional reporter closes a notebook. Side/back view, dark cap and jacket, tracking camera; rain stays in the background.",
+      "audio": "Chosen opening copy from ElevenLabs only, added in edit. Separate rain, distant train and footsteps; no generated human voices.",
+      "source": "Seedance proposed; generation access not connected"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "role": "explicit_audience",
+      "visual": "Reporter walks a few steps to a dry matte metal counter beside a closed kiosk under the same shelter. Brief look back, takes out the enclosure and lightly tosses it onto the counter; camera follows into the Blender contact composition.",
+      "audio": "Audience sentence from ElevenLabs only. Separate cloth and enclosure contact sound lead into CG.",
+      "source": "Seedance proposed plus compositing"
+    },
+    {
+      "start": 18,
+      "end": 31,
+      "role": "product_and_mechanism",
+      "visual": "Closed contact pose → brief exploded view → simultaneous assembly → move left → Raspberry Pi prototype → cable connection → matched live-action frame. Simple labels identify phone, cable, gateway and LTE if needed.",
+      "audio": "Explain that the design connects a phone by cable to a separate LTE gateway, with phone radios switched off; avoid implying the whole system is radio-silent.",
+      "source": "Adapt v09 Blender and compositing; retain its continuous motion rather than uniformly slowing it down"
+    },
+    {
+      "start": 31,
+      "end": 52,
+      "role": "real_demonstration",
+      "visual": "Real prototype, actual phone settings and wired connection, then a readable result from a genuine connection test.",
+      "audio": "Describe only functionality shown and verified in the captured configuration.",
+      "source": "New real footage; existing still is a temporary preview placeholder",
+      "conditional": "Tor result only after actual deployment and verification. The local mock-check-tor page is a mock, not evidence of Tor routing. If Tor is not ready, show the actual connection test and identify protection features as planned."
+    },
+    {
+      "start": 52,
+      "end": 65,
+      "role": "direction_and_close",
+      "visual": "Return to future product concept: phone attachment, compact enclosure, OLED, short closing shot; keep subtle motion.",
+      "audio": "Name the next development step and invite pilot conversations with newsrooms/organizations. CTA is a proposal, not a claim that pilots already exist.",
+      "source": "Blender product concept; MagSafe shot must use a consistent phone model",
+      "conditional": "Battery, PCB, OLED and attachment remain proposed engineering features; no invented mass, runtime or test results."
+    }
+  ],
+  "narration_target": {
+    "words_approximate": [
+      100,
+      115
+    ],
+    "method": "Generate a complete coherent narration, measure actual timing, then finalize shot durations. Reserve short sound-only transitions without freezing the picture."
+  },
+  "preview_delivery": {
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 24,
+    "premium_shaders": false,
+    "comment": "Current v09 remains the delivered preview; this plan does not initiate rendering or API charges."
+  },
+  "sources_in_repo": [
+    "08-WIZJA-I-PLAN-PROJEKTU.md",
+    "physical-design/design-brief.json",
+    "physical-design/visualization/VOICEOVER-PLAN-v09.txt"
+  ],
+  "creative_constraints": {
+    "confirmed_tone": "more thriller-like",
+    "confirmed_setting_direction": "outside an apartment; prefer an exterior location",
+    "proposed_location": "Sheltered exterior concourse of a railway station at night, beside a closed kiosk and a dry matte metal standing counter.",
+    "location_status": "assistant proposal, not confirmed by user",
+    "character": "Fictional reporter in an ordinary dark cap and jacket; source leaves the frame. Restrained gestures and tension.",
+    "lighting": "Cold overhead pools of light, a distant warm practical light, wet pavement in the background, product contact surface dry.",
+    "visual_continuity": "Maintain recognizable reporter and product references across shots; preserve the final Blender contact composition."
+  },
+  "audio_plan": {
+    "confirmed_narration_provider": "ElevenLabs",
+    "confirmed_model": "eleven_v4",
+    "confirmed_language": "pl",
+    "seedance_speech_allowed": false,
+    "seedance_audio_request": "Only non-vocal environmental and contact effects if audio is generated. No dialogue, voiceover, whispers, singing, crowd chatter or station announcements.",
+    "edit_policy": "Import Seedance picture without its audio track. Add ElevenLabs narration and separate ambience/foley tracks in the edit. Generated Seedance SFX are optional reference material; do not automatically mix the original soundtrack.",
+    "sfx_palette": [
+      "rain on the shelter roof",
+      "distant train rumble",
+      "footsteps",
+      "jacket/cloth movement",
+      "controlled enclosure contact with the counter"
+    ],
+    "music_in_seedance": false,
+    "narration_direction_proposal": "Quiet, close, composed, restrained urgency; clear Polish delivery with forward momentum. Final voice direction to audition."
+  },
+  "seedance_shot_plan": [
+    {
+      "seconds": [
+        0,
+        6
+      ],
+      "action": "Source leaves; reporter closes notebook; camera tracks alongside.",
+      "narration_source": "ElevenLabs in post"
+    },
+    {
+      "seconds": [
+        6,
+        12
+      ],
+      "action": "Reporter approaches the sheltered counter, brief glance over shoulder, hand goes to device.",
+      "narration_source": "ElevenLabs in post"
+    },
+    {
+      "seconds": [
+        12,
+        18
+      ],
+      "action": "Close tracking view of hand and enclosure; low controlled toss, contact and final composition matched to Blender.",
+      "narration_source": "ElevenLabs in post"
+    }
+  ],
+  "seedance_prompt_document": "SEEDANCE-THRILLER-BRIEF-v10.txt",
+  "seedance_generation_trial": {
+    "model": "Seedance 2.5",
+    "provider": "not specified by user yet",
+    "duration_seconds": 20,
+    "target_edited_seconds": 18,
+    "aspect_ratio": "16:9",
+    "preview_resolution": "480p/Draft if available, otherwise 720p",
+    "audio": false,
+    "reference": "assembled-preview-v04.png",
+    "reference_role": "product identity, not first frame or studio environment",
+    "prompt": "SEEDANCE-2.5-PASTE-PROMPT-v10.txt",
+    "settings_and_sources": "SEEDANCE-2.5-SETTINGS-v10.txt",
+    "status": "prompt prepared; generation not run",
+    "transition_scope": "First trial of scene/motion. Exact contact-frame match requires review and possible end-shot regeneration."
+  },
+  "next_voiceover_draft": {
+    "path": "VOICEOVER-DRAFT-v11.txt",
+    "timing": "voiceover-plan-v11.json",
+    "status": "proposal for discussion",
+    "notes": "Geographic censorship context and precise Tor origin added; proposed tagline and audience timing revised. No rendered media changed."
+  }
+}

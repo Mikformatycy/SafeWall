@@ -1,0 +1,87 @@
+1
+00:00:00,080 --> 00:00:02,080
+Ktoś powierzył ci swoją historię.
+
+2
+00:00:02,660 --> 00:00:06,160
+Teraz chcesz ją przekazać dalej i chronić osobę, która
+
+3
+00:00:06,200 --> 00:00:06,960
+ci zaufała.
+
+4
+00:00:07,720 --> 00:00:11,400
+Są miejsca, w których dostęp do informacji ogranicza cenzura.
+
+5
+00:00:11,940 --> 00:00:15,000
+Właśnie tam prywatność ma szczególne znaczenie.
+
+6
+00:00:15,480 --> 00:00:20,840
+Dlatego projektujemy SafeWall, sprzętową bramę prywatności dla dziennikarzy, aktywistów
+
+7
+00:00:20,900 --> 00:00:22,320
+i organizacji społecznych.
+
+8
+00:00:22,900 --> 00:00:25,020
+Z zewnątrz przypomina zwykły powerbank.
+
+9
+00:00:25,620 --> 00:00:30,640
+Safewall ma kierować połączenia przez anonimizującą sieć Tor Kontrolę
+
+10
+00:00:30,680 --> 00:00:32,840
+połączenia przenosimy poza telefon.
+
+11
+00:00:33,220 --> 00:00:37,820
+Safewall ma pilnować jednej zasady: Internet przez Tor albo
+
+12
+00:00:37,940 --> 00:00:42,360
+brak połączenia żeby awaria chronionej trasy nie otworzyła drogi
+
+13
+00:00:42,460 --> 00:00:44,160
+do niechronionego połączenia.
+
+14
+00:00:44,540 --> 00:00:48,220
+Telefon może też ujawniać swoją obecność urządzeniom w pobliżu.
+
+15
+00:00:48,680 --> 00:00:49,140
+iPhone.
+
+16
+00:00:49,500 --> 00:00:49,920
+Piotrek.
+
+17
+00:00:50,320 --> 00:00:52,260
+Nietrudno się domyślić, do kogo należy.
+
+18
+00:00:52,720 --> 00:00:57,020
+Z SafeWall możesz wyłączyć Wi-Fi, Bluetooth i łączność komórkową
+
+19
+00:00:57,060 --> 00:00:57,580
+telefonu.
+
+20
+00:00:58,320 --> 00:00:59,180
+To nasz prototyp.
+
+21
+00:01:04,330 --> 00:01:04,910
+SafeWall.
+
+22
+00:01:05,310 --> 00:01:07,790
+Bo za każdą historią stoi człowiek.

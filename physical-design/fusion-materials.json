@@ -1,0 +1,18 @@
+[
+  {
+    "id": "A",
+    "shell_mass_g_using_Fusion_reference_PC_ABS": 67.73725686237293,
+    "contact_pad_mass_g_using_Fusion_reference_silicone": 10.507851753705578,
+    "total_device_mass_not_estimated": true,
+    "material_grades_not_selected": true,
+    "shell_solid_volume_cm3": 61.57932442033904
+  },
+  {
+    "id": "B",
+    "shell_mass_g_using_Fusion_reference_PC_ABS": 42.967701034139466,
+    "contact_pad_mass_g_using_Fusion_reference_silicone": 5.72285175370558,
+    "total_device_mass_not_estimated": true,
+    "material_grades_not_selected": true,
+    "shell_solid_volume_cm3": 39.06154639467225
+  }
+]

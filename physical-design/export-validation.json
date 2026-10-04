@@ -1,0 +1,49 @@
+{
+  "assembled_OBJ": {
+    "vertices": 6472,
+    "faces": 12904,
+    "extent_mm": [
+      70.0,
+      110.0,
+      24.0
+    ],
+    "verified": true
+  },
+  "exploded_F3D_reopened_and_verified": true,
+  "CAD_check_scope": "concept solids only; no electrical, RF, thermal or physical fit qualification",
+  "files": [
+    {
+      "name": "SafeWall-A-concept-v01.f3d",
+      "bytes": 276198
+    },
+    {
+      "name": "SafeWall-A-concept-v01.step",
+      "bytes": 193090
+    },
+    {
+      "name": "SafeWall-B-concept-v01.f3d",
+      "bytes": 278628
+    },
+    {
+      "name": "SafeWall-B-concept-v01.mtl",
+      "bytes": 550
+    },
+    {
+      "name": "SafeWall-B-concept-v01.obj",
+      "bytes": 1432087
+    },
+    {
+      "name": "SafeWall-B-concept-v01.step",
+      "bytes": 193250
+    },
+    {
+      "name": "SafeWall-B-exploded-v01.f3d",
+      "bytes": 299566
+    },
+    {
+      "name": "SafeWall-layout-comparison-v01.f3d",
+      "bytes": 501492
+    }
+  ],
+  "exploded_preview_visually_verified": true
+}

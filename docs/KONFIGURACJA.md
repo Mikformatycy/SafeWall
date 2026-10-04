@@ -1,4 +1,7 @@
-# Konfiguracja prototypu
+# Konfiguracja bazowego routera
+
+Stan plików `config/`: wcześniejsza baza NAT z 3 października. Nowsza deklaracja i nagranie Tora nie zostały jeszcze odtworzone w tych plikach. [Aktualny status](STATUS.md). Nie wdrażaj tej bazy na działającej chronionej bramie bez uzgodnienia konfiguracji; zastąpiłaby jej reguły wcześniejszym NAT.
+
 
 Baza: Raspberry Pi 4, Raspberry Pi OS Lite 64-bit (Debian Trixie), NetworkManager, nftables, dnsmasq i ModemManager. Modem PiTalk EG25-G jest połączony przez USB/QMI; `cdc-wdm0` steruje modemem, `wwan0` przenosi pakiety.
 
@@ -47,7 +50,7 @@ Po rozmieszczeniu plików i przygotowaniu profili sprawdź `nft -c -f /etc/nftab
 sudo python3 tests/test-router-isolated.py
 ```
 
-Test był wykonany podczas przygotowania prototypu. Nie jest testem SIM, radia, adaptera iPhone’a ani Tora. Przy publikowaniu repozytorium sprawdzono składnię kodu; nie powtarzano testów na sprzęcie. Na macOS nie uruchamiaj testu wymagającego przestrzeni sieciowych Linux.
+Test był wykonany podczas przygotowania prototypu. Nie jest testem SIM, radia, adaptera iPhone’a ani Tora. Przy aktualizacji repozytorium sprawdzono składnię i testy dashboardu; nie powtarzano testów routera na sprzęcie. Na macOS nie uruchamiaj testu wymagającego przestrzeni sieciowych Linux.
 
 ## Cofanie wdrożenia
 

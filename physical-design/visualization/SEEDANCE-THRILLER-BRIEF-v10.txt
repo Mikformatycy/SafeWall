@@ -1,0 +1,68 @@
+OTWARCIE THRILLEROWE — SEEDANCE — PLAN v10
+Status: propozycja ujęć, bez uruchamiania generacji. Film docelowy około 65 s.
+Otwarcie Seedance około 18 s, złożone roboczo z trzech ujęć po około 6 s.
+Czasy dopasujemy do pełnego lektora ElevenLabs; nie są gwarancją modelu.
+
+USTALONE PRZEZ UŻYTKOWNIKA
+Bardziej thrillerowo. Poza mieszkaniem. Żadnego głosu z Seedance.
+Cała narracja po polsku, osobno w ElevenLabs v4. Efekty dźwiękowe dopuszczalne.
+
+PROPONOWANA SCENA
+Zewnętrzny pasaż dworca nocą, pod zadaszeniem. Fikcyjny reporter w zwykłej
+ciemnej czapce i kurtce. Rozmówca odchodzi; reporter zamyka notes, podchodzi
+do blatu przy zamkniętym kiosku i wyciąga urządzenie. Tło po deszczu,
+chłodne światło nad głową, daleki ciepły punkt świetlny. Suchy blat i produkt.
+Napięcie budują spojrzenie, ruch kamery, kroki i odległy pociąg.
+
+OBRAZ I DŹWIĘK TO OSOBNE ELEMENTY
+Do Seedance nie wklejać tekstu lektora jako dialogu ani wypowiedzi postaci.
+Jeśli generowane jest audio, prosić wyłącznie o nieludzkie efekty otoczenia.
+Import obrazu do finalnego montażu bez oryginalnej ścieżki audio.
+Osobne ścieżki montażowe: VO ElevenLabs, ambience, foley, klik złącza.
+Efekty z Seedance mogą być materiałem referencyjnym; nie włączać automatycznie
+całego dźwięku z modelu. Film nie ma zawierać przypadkowych głosów w tle.
+
+WSPÓLNY KIERUNEK PROMPTÓW — TEKST KREATYWNY, NIE PAYLOAD API
+Cinematic contemporary thriller, restrained and believable. A fictional
+journalist in an ordinary dark cap and graphite jacket, at a sheltered outdoor
+railway-station concourse at night. Wet pavement in the background, dry surfaces
+under the canopy, cold overhead pools of light and one distant warm light.
+Natural human movement, continuous purposeful camera motion, readable faces
+and objects, subtle tension. Landscape 16:9. Consistent wardrobe and location
+across shots. No dialogue, no voiceover, no whispers, no singing, no crowd
+chatter, no station announcements, no human vocalizations, no music, no subtitles.
+If audio is generated: only rain on the canopy, distant train rumble, footsteps,
+cloth movement and the object's contact with the counter.
+
+UJĘCIE A — OKOŁO 0–6 S
+Track slowly alongside the journalist from a rear three-quarter angle as an
+anonymous source walks away into the distant concourse. The journalist closes
+a small notebook and turns toward the kiosk counter. Keep the moment quiet,
+tense and grounded. Mouths remain closed; there is no spoken exchange.
+
+UJĘCIE B — OKOŁO 6–12 S
+Continue with the same journalist walking a few steps toward a dry matte metal
+standing counter beside a closed kiosk, under the same canopy. A brief glance
+over the shoulder, then a hand reaches into the jacket for the compact device.
+The camera tracks closer toward the hand and counter without stopping.
+
+UJĘCIE C — OKOŁO 12–18 S
+Follow the hand as the journalist takes out the unbranded rounded graphite
+device shown in the product reference. A small controlled toss from a few
+centimeters above the dry counter. The device lands with a restrained contact
+and minimal slide. Camera descends into the three-quarter overhead composition
+shown in the Blender contact reference. Preserve device proportions, OLED
+placement and its plain unbranded exterior. Continuous motion through contact.
+
+REFERENCJE DO PRZYGOTOWANIA PRZED GENERACJĄ
+1. Wygląd fikcyjnego bohatera i szeroki kadr tej samej lokalizacji.
+2. Rzeczywisty render naszej zamkniętej obudowy.
+3. Kadr kontaktu z Blendera: położenie, kamera, skala, blat i oświetlenie.
+Referencje nie zostały jeszcze przygotowane do tej sceny. Ujęcie C wymaga ich
+dołączenia odpowiednim sposobem dla wybranego dostawcy Seedance.
+
+MONTAŻ
+Cięcie Seedance → Blender podczas kontaktu urządzenia z blatem. Dźwięk kontaktu
+dodany osobno. Dalej około 0,6–0,8 s stylizowanego otwarcia warstw i płynne wejście
+w równoczesne składanie. Ocenić dopasowanie wygenerowanego ujęcia do CG,
+zamiast zakładać identyczny końcowy kadr. Nie zatrzymywać ruchu na cięciu.

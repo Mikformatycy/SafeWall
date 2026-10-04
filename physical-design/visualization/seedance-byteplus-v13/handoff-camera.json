@@ -1,0 +1,31 @@
+{
+  "resolution": [
+    960,
+    540
+  ],
+  "device_bounds_normalized": [
+    0.375,
+    0.15864762663841248,
+    0.625,
+    0.8360506296157837
+  ],
+  "camera_location": [
+    0.0,
+    -0.2199999988079071,
+    0.4000000059604645
+  ],
+  "camera_rotation": [
+    0.5158089995384216,
+    -0.0,
+    0.0
+  ],
+  "ortho_scale": 0.2800000011920929,
+  "product_rotation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "role": "composition reference, not an exact last-frame constraint",
+  "source_scene_unchanged": "Product-keynote-v04.blend",
+  "render_engine": "BLENDER_WORKBENCH"
+}

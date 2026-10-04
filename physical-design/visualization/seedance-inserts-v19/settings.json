@@ -1,0 +1,121 @@
+{
+  "revision": "v19_seedance_replacement_prompt_pack",
+  "date": "2026-10-04",
+  "status": "prompts_and_references_ready_not_generated",
+  "provider": "BytePlus ModelArk",
+  "model_display_name": "Dreamina Seedance 2.5",
+  "documented_model_id": "dreamina-seedance-2-5-260628",
+  "mode": "Reference / omni reference",
+  "shared_settings": {
+    "ratio": "16:9",
+    "resolution": "720p",
+    "draft": false,
+    "generate_audio": true,
+    "return_last_frame": true,
+    "output_format": "mp4",
+    "omni_reference_task_type": "reference"
+  },
+  "reference_role": "reference_image",
+  "clips": [
+    {
+      "id": "tor",
+      "folder": "01-TOR",
+      "duration": 23,
+      "edit_start_seconds": 25.5,
+      "edit_end_seconds": 48.25,
+      "references": [
+        "01-product.png",
+        "02-phone-and-product.png"
+      ],
+      "download_filename": "SafeWall-v19-TOR.mp4"
+    },
+    {
+      "id": "radios",
+      "folder": "02-TELEFON",
+      "duration": 9,
+      "edit_start_seconds": 48.0,
+      "edit_end_seconds": 56.25,
+      "references": [
+        "01-phone-reference.png"
+      ],
+      "download_filename": "SafeWall-v19-TELEFON.mp4"
+    },
+    {
+      "id": "closing",
+      "folder": "03-FINAL",
+      "duration": 12,
+      "edit_start_seconds": 68.5,
+      "edit_end_seconds": 79.75,
+      "references": [
+        "01-product.png",
+        "02-prototype-reference.png"
+      ],
+      "download_filename": "SafeWall-v19-FINAL.mp4"
+    }
+  ],
+  "audio_policy": {
+    "human_voice": false,
+    "music": false,
+    "sfx_only": true,
+    "upload_narration_as_reference": false,
+    "requires_result_audio_check": true
+  },
+  "style": "Spatial 3D product animatic, simple matte surfaces, soft light, moving camera; no flat explanatory panels or slides",
+  "precise_typography_in_post": [
+    "iPhone (Piotrek)",
+    "AirDrop · Wszyscy",
+    "SafeWall"
+  ],
+  "brand_source": "brand/svg/safewall-logo.svg",
+  "enclosure_unbranded": true,
+  "preserve_blender_scenes": [
+    "assembly",
+    "docking",
+    "prototype"
+  ],
+  "preserve_real_demo": true,
+  "stage_tor_failure_demo": false,
+  "narration": "physical-design/visualization/voiceover-v16/SafeWall-voiceover-pl-daniel-v16.wav",
+  "target_full_edit_seconds": 79.75,
+  "full_preview_resolution": [
+    960,
+    540
+  ],
+  "full_preview_fps": 24,
+  "source_edit": "physical-design/visualization/launch-preview-v18/edit-timeline.json",
+  "generation_submitted": false,
+  "new_video_rendered": false,
+  "timestamp_note": "Integer-second prompt timing is guidance; inspect and edit generated results against the existing narration.",
+  "recommended_first_generation": "tor",
+  "sources": [
+    "https://docs.byteplus.com/es/docs/modelark/seedance-2-5",
+    "https://docs.byteplus.com/ko/docs/modelark/seedance-2-5-prompt-guide?redirect=1"
+  ],
+  "reference_manifest": [
+    {
+      "file": "01-TOR/01-product.png",
+      "source": "physical-design/visualization/seedance-byteplus-v17/01-product-appearance.png",
+      "sha256": "1ceab9eb0e67121b21c1cabedd51d94152a8a29c03c90d17fb139fb50eb6f541"
+    },
+    {
+      "file": "01-TOR/02-phone-and-product.png",
+      "source": "physical-design/visualization/phone-docking-attached-v05.png",
+      "sha256": "8f265e627a959dd6d008432cd85cc7f02e218028a1eb13eb536f06e6bf8d851b"
+    },
+    {
+      "file": "02-TELEFON/01-phone-reference.png",
+      "source": "physical-design/visualization/launch-preview-v18/prototype-frames/0114.png",
+      "sha256": "279dcc6d97f8869fcb692943dae1879d5bc500dc64999d3838f0d07f0cfcce76"
+    },
+    {
+      "file": "03-FINAL/01-product.png",
+      "source": "physical-design/visualization/seedance-byteplus-v17/01-product-appearance.png",
+      "sha256": "1ceab9eb0e67121b21c1cabedd51d94152a8a29c03c90d17fb139fb50eb6f541"
+    },
+    {
+      "file": "03-FINAL/02-prototype-reference.png",
+      "source": "physical-design/visualization/launch-preview-v18/prototype-frames/0114.png",
+      "sha256": "279dcc6d97f8869fcb692943dae1879d5bc500dc64999d3838f0d07f0cfcce76"
+    }
+  ]
+}

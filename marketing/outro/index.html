@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SafeWall · outro</title>
+  <link rel="icon" type="image/svg+xml" href="../../brand/icons/favicon.svg">
+  <style>
+    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #eeeaf7; background: #09080d; }
+    * { box-sizing: border-box; }
+    body { margin: 0 auto; padding: 28px; max-width: 1380px; }
+    header { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; }
+    header img { width: 44px; }
+    h1 { margin: 0; font-size: 20px; font-weight: 650; }
+    .meta { margin-left: auto; font-size: 13px; color: #9991ad; }
+    .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 18px; }
+    button, a { font: inherit; font-size: 14px; padding: 10px 14px; border: 1px solid #35303f; border-radius: 7px; color: #eeeaf7; background: #18141f; text-decoration: none; cursor: pointer; }
+    a { margin-left: auto; }
+    button:hover, a:hover { border-color: #b39afb; }
+    button:focus-visible, a:focus-visible { outline: 2px solid #b39afb; outline-offset: 3px; }
+    .screen { display: flex; align-items: center; justify-content: center; min-height: 250px; border: 1px solid #231c30; border-radius: 12px; background: #0e0c14; overflow: hidden; }
+    video { display: block; max-width: 100%; height: min(72vh, 850px); background: #0e0c14; }
+    footer { margin-top: 14px; color: #9991ad; font-size: 13px; }
+    @media(max-width: 540px) { body { padding: 18px; } .meta { display: none; } a { margin-left: 0; } video { height: auto; max-height: 70vh; } }
+  </style>
+</head>
+<body>
+  <header><img src="../../brand/svg/safewall-logo.svg" alt=""><h1>SafeWall · outro</h1><span class="meta">6,2 s · 60 fps · MP4</span></header>
+  <div class="toolbar" aria-label="Odtwarzanie wideo">
+    <button type="button" id="replay">Odtwórz od początku</button>
+    <a id="download" href="safewall-outro-landscape.mp4" download>Pobierz MP4 · 16:9</a>
+  </div>
+  <div class="screen"><video id="video" src="safewall-outro-landscape.mp4" poster="poster-landscape.png" autoplay muted loop playsinline controls aria-label="Outro SafeWall: Bo za każdą historią stoi człowiek."></video></div>
+  <footer id="description">1920 × 1080 · Logo 4A · Bez dźwięku</footer>
+  <script>
+    const video = document.getElementById('video');
+    document.getElementById('replay').addEventListener('click', () => { video.currentTime = 0; video.play().catch(() => {}); });
+  </script>
+</body>
+</html>

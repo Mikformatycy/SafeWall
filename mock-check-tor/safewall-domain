@@ -1,0 +1,112 @@
+#!/usr/bin/python3
+"""Change the private SafeWall mock hostname, retaining its local CA."""
+import argparse
+import datetime
+import fcntl
+import os
+from pathlib import Path
+import re
+import secrets
+import shutil
+import socket
+import ssl
+import subprocess
+import tempfile
+import time
+
+DNS = Path('/etc/pi-router/dnsmasq-lan.conf')
+HOSTS = Path('/etc/avahi/hosts')
+TLS = Path('/etc/safewall-mock')
+IP = '192.168.76.2'
+SERVICES = ['pi-lan-dnsmasq', 'avahi-daemon', 'safewall-mock-tls']
+
+def run(*args):
+    return subprocess.run(args, check=True, text=True, capture_output=True).stdout
+
+def valid_name(value):
+    value = value.rstrip('.').lower()
+    if len(value) > 253 or '.' not in value or not all(re.fullmatch(r'[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?', x) for x in value.split('.')):
+        raise argparse.ArgumentTypeError('Podaj nazwę DNS bez https://, portu i ścieżki.')
+    if all(x.isdigit() for x in value.split('.')):
+        raise argparse.ArgumentTypeError('Podaj domenę, nie adres IP.')
+    if value == 'torproject.org' or value.endswith('.torproject.org'):
+        raise argparse.ArgumentTypeError('Makieta nie może zastępować prawdziwej domeny Tor Project. Użyj nazwy lokalnej.')
+    return value
+
+def change(domain):
+    os.umask(0o077)
+    current = DNS.read_text()
+    hosts = HOSTS.read_text()
+    matches = re.findall(r'^host-record=([^,\n]+),192\.168\.76\.2\s*$', current, re.M)
+    if len(matches) != 1:
+        raise RuntimeError('Nie można jednoznacznie znaleźć wpisu makiety. Przerwano bez zmian.')
+    old = matches[0]
+    if domain != old and re.search(r'(?<![a-zA-Z0-9_.-])'+re.escape(domain)+r'(?![a-zA-Z0-9_.-])', current+'\n'+hosts):
+        raise RuntimeError('Nowa nazwa już występuje w konfiguracji. Sprawdź konflikt.')
+    files = [DNS, HOSTS, TLS/'server.crt', TLS/'server.ext', TLS/'domain']
+    with tempfile.TemporaryDirectory(prefix='safewall-domain-') as tmp:
+        tmp = Path(tmp)
+        new_dns = re.sub(r'^host-record='+re.escape(old)+r',192\.168\.76\.2\s*$', 'host-record='+domain+','+IP, current, flags=re.M).rstrip()+'\n'
+        # Suppress upstream lookups, including AAAA, for this local-only hostname.
+        new_dns = re.sub(r'^local=/'+re.escape(old)+r'/\s*\n?', '', new_dns, flags=re.M)
+        new_dns += 'local=/'+domain+'/\n'
+        new_hosts = '\n'.join(line for line in hosts.splitlines() if not (line.split() and line.split()[0] == IP and old in line.split()[1:]))+'\n'
+        if domain.endswith('.local'):
+            new_hosts += IP+' '+domain+'\n'
+        (tmp/'dnsmasq.conf').write_text(new_dns)
+        run('dnsmasq','--test','--conf-file='+str(tmp/'dnsmasq.conf'))
+        ext = 'basicConstraints=critical,CA:FALSE\nkeyUsage=critical,digitalSignature,keyEncipherment\nextendedKeyUsage=serverAuth\nsubjectAltName=DNS:'+domain+',IP:'+IP+',IP:10.12.194.1\n'
+        (tmp/'server.ext').write_text(ext)
+        run('openssl','req','-new','-key',str(TLS/'server.key'),'-out',str(tmp/'server.csr'),'-subj','/CN='+domain+'/O=SafeWall')
+        run('openssl','x509','-req','-in',str(tmp/'server.csr'),'-CA',str(TLS/'ca.crt'),'-CAkey',str(TLS/'ca.key'),'-set_serial','0x'+secrets.token_hex(16),'-out',str(tmp/'server.crt'),'-days','30','-sha256','-extfile',str(tmp/'server.ext'))
+        run('openssl','verify','-CAfile',str(TLS/'ca.crt'),'-verify_hostname',domain,str(tmp/'server.crt'))
+        backup = Path('/var/backups')/('safewall-domain-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S')+'-'+secrets.token_hex(3))
+        backup.mkdir(mode=0o700)
+        originals = {}
+        for i, path in enumerate(files):
+            originals[path] = path.exists()
+            if path.exists(): shutil.copy2(path, backup/str(i))
+        (backup/'manifest.txt').write_text('\n'.join(str(i)+' '+str(path)+' '+str(originals[path]) for i,path in enumerate(files)))
+        def write(path, data, mode):
+            new = path.with_name(path.name+'.safewall-new')
+            new.write_bytes(data); new.chmod(mode); new.replace(path)
+        try:
+            write(DNS,new_dns.encode(),0o644)
+            write(HOSTS,new_hosts.encode(),0o644)
+            write(TLS/'server.ext',ext.encode(),0o600)
+            write(TLS/'server.crt',(tmp/'server.crt').read_bytes(),0o644)
+            write(TLS/'domain',(domain+'\n').encode(),0o644)
+            run('systemctl','restart',*SERVICES)
+            run('systemctl','is-active',*SERVICES)
+            time.sleep(1)
+            answer = run('dig','@192.168.76.1',domain,'A','+short','+time=2','+tries=1').strip()
+            if answer != IP: raise RuntimeError('Nieprawidłowa odpowiedź DNS: '+answer)
+            context=ssl.create_default_context(cafile=str(TLS/'ca.crt'))
+            with socket.create_connection(('127.0.0.1',443),timeout=5) as raw:
+                with context.wrap_socket(raw,server_hostname=domain) as conn:
+                    conn.sendall(('GET / HTTP/1.0\r\nHost: '+domain+'\r\n\r\n').encode())
+                    if b'200' not in conn.recv(1024).split(b'\r\n')[0]: raise RuntimeError('Test HTTPS nie powiódł się.')
+        except Exception:
+            for i,path in enumerate(files):
+                if originals[path]:shutil.copy2(backup/str(i),path)
+                else:path.unlink(missing_ok=True)
+            subprocess.run(['systemctl','restart',*SERVICES],check=False)
+            print('Przywrócono poprzednie pliki. Kopia:',backup)
+            raise
+        print('Gotowe: https://'+domain)
+        print('DNS i HTTPS zweryfikowane. CA na iPhonie pozostaje bez zmian.')
+        print('Kopia:',backup)
+        if not domain.endswith('.local'):
+            print('Ta końcówka nie używa mDNS. iPhone musi korzystać z DNS 192.168.76.1 przez Ethernet.')
+        print('Poprzednia nazwa:',old)
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('domain',type=valid_name)
+    args=parser.parse_args()
+    if os.geteuid()!=0:parser.error('Uruchom przez sudo.')
+    with open('/run/lock/safewall-domain.lock','w') as lock:
+        fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        change(args.domain)
+if __name__=='__main__':
+    main()

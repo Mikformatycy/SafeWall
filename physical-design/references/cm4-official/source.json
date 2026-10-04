@@ -1,0 +1,8 @@
+{
+  "provider": "Raspberry Pi Ltd",
+  "source_page": "https://pip.raspberrypi.com/categories/1204-design-files",
+  "download_url": "https://pip-assets.raspberrypi.com/categories/1204-design-files/documents/RP-008170-DS-1-CM4-step.zip",
+  "archive_sha256": "667649c0728b260ea7ce6b595eb0458f53bd5eef5a3249d3a8b5415de81e23a5",
+  "usage": "official mechanical model used as reference and visualization asset",
+  "license_note": "No additional reuse license inferred; preserve source attribution and any archive notices."
+}

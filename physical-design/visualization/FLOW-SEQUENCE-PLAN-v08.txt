@@ -1,0 +1,29 @@
+CIĄGŁA SEKWENCJA — v08
+
+Podgląd: Full-sequence-flow-v08.mp4 — 9 s, 960 x 540, 24 kl./s.
+Wersja v07 (15 s) pozostaje zachowana do porównania.
+
+0,00–2,75 s: równoczesne składanie warstw, ruch od początku filmu.
+1,33–4,00 s: przesunięcie w lewo i przejście kamery do widoku z góry.
+3,67–4,67 s: zamiana obudowy na prototyp, jeszcze podczas ruchu kamery.
+4,33–5,67 s: kabel pojawia się podczas końcówki zamiany urządzenia.
+5,33–7,33 s: wtyki zaczynają się dosuwać przed końcem pojawiania się kabla.
+7,00–9,00 s: przenikanie do fotografii, zaczynające się pod koniec wpinania.
+7,33 s: klik osadzenia wtyków. Brak końcowego zatrzymania zdjęcia.
+
+Ruchy zachodzą na siebie. Nie przyspieszono po prostu całego starego filmu:
+zmieniono niezależnie animację warstw, urządzenia, kamery i kabla.
+Składanie ma krótsze wyhamowanie. Kamera przejmuje ruch jeszcze przed
+domknięciem obudowy. Usunięto postoje między etapami oraz na końcu filmu.
+Dźwięk kliknięcia zachowuje barwę i wysokość, zmienia się jego moment.
+
+Wygląd jest nadal podglądowy: Workbench, proste kolory, bez shaderów premium.
+Telefon w renderze jest bez etui. Końcowa robocza fotografia ma etui;
+zostanie zastąpiona właściwym nagraniem i ponownie dopasowana do jego kadru.
+Materiały premium i wcześniejsze pliki pozostają zachowane.
+
+Scena: Full-sequence-flow-v08.blend.
+Ruch: ../scripts/retime_flow_sequence.py uruchamiany na scenie v07.
+Render i montaż: ../scripts/render_flow_sequence.py.
+Timing: flow-sequence-v08.json.
+Sprawdzenie filmu: flow-movie-validation-v08.json.

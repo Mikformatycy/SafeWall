@@ -1,0 +1,46 @@
+{
+  "name": "SafeWall",
+  "selectedConcept": "4A",
+  "master": "svg/safewall-logo.svg",
+  "reference": "reference/4A.png",
+  "colors": {
+    "body": "#7D67E9",
+    "crown": "#B39AFB"
+  },
+  "viewBox": [
+    0,
+    0,
+    856,
+    442
+  ],
+  "geometry": "Reconstructed from the PNG alpha contour using straight segments and circular arcs; two solid vector paths, no embedded bitmap.",
+  "iconSizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    128,
+    180,
+    192,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "backgrounds": {
+    "transparent": null,
+    "dark": "#17171C",
+    "black": "#000000",
+    "light": "#FFFFFF"
+  },
+  "usage": {
+    "dashboardHeader": "svg/safewall-logo.svg",
+    "browserTab": "icons/favicon.svg",
+    "legacyBrowserTab": "icons/favicon.ico",
+    "appleHomeScreen": "icons/apple-touch-icon.png",
+    "maskableAppIcon": "icons/maskable-icon-512.png",
+    "monochromeOnDark": "svg/safewall-logo-white.svg",
+    "monochromeOnLight": "svg/safewall-logo-ink.svg"
+  }
+}

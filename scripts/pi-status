@@ -1,0 +1,27 @@
+#!/bin/sh
+# Read-only diagnostics; no SIM numbers, passwords, or full modem identity dump.
+printf '\nSYSTEM\n'
+hostname
+date --iso-8601=seconds
+uptime
+printf '\nPOWER\n'
+vcgencmd get_throttled
+vcgencmd measure_temp
+printf '\nNETWORK\n'
+ip -brief address
+ip -4 route
+nmcli -f NAME,TYPE,DEVICE connection show --active
+printf '\nSERVICES\n'
+systemctl is-active ssh nftables pi-lan-dnsmasq ModemManager
+printf '\nMODEM DISCOVERY\n'
+mmcli -L
+lsusb
+printf '\nFIREWALL\n'
+if [ "$(id -u)" = 0 ]; then
+    nft list set inet pi_router wan_ifaces
+    nft list chain inet pi_router forward
+    printf '\nLAN LEASES\n'
+    cat /var/lib/pi-router/dnsmasq.leases 2>/dev/null || true
+else
+    printf 'For firewall and DHCP details: sudo pi-status\n'
+fi

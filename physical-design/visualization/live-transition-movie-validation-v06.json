@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "movie": "CG-to-real-preview-v06.mp4",
+  "duration_seconds": 8,
+  "resolution": [
+    960,
+    540
+  ],
+  "frames_decoded": 192,
+  "fps": 24,
+  "render_seconds": 5.92,
+  "real_user_photo_included": true,
+  "photo_final_hold_seconds": 2,
+  "transition": "photo-aligned quintic eased dissolve; not optical-flow morph",
+  "premium_master_unchanged": true,
+  "photo_sha256": "32eabca7707c60df86d8b06ea46e2f8863f8912efd6c8d79553fbf85ca2f22a8",
+  "ffmpeg_filter": "[0:v]format=gbrp,tpad=stop_mode=clone:stop_duration=4,setpts=PTS-STARTPTS[cg];[1:v]crop=1362:766:0:118,scale=960:540:flags=lanczos,setsar=1,format=gbrp,setpts=PTS-STARTPTS[photo];[cg][photo]blend=all_expr='if(lt(T,4),A,if(gte(T,6),B,A*(1-(pow(((T-4)/2),3)*(10-15*((T-4)/2)+6*pow(((T-4)/2),2))))+B*(pow(((T-4)/2),3)*(10-15*((T-4)/2)+6*pow(((T-4)/2),2)))))':shortest=1,format=yuv420p[out]",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "192"
+      }
+    ],
+    "format": {
+      "duration": "8.000000"
+    }
+  },
+  "movie_bytes": 870100
+}

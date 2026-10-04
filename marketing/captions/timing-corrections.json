@@ -1,0 +1,121 @@
+[
+  {
+    "word_index": 5,
+    "text": "Teraz",
+    "start": 2.66,
+    "end": 3.06,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 10,
+    "text": "i",
+    "start": 4.86,
+    "end": 4.94,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 13,
+    "text": "która",
+    "start": 5.94,
+    "end": 6.16,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 16,
+    "text": "Są",
+    "start": 7.72,
+    "end": 7.88,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 19,
+    "text": "których",
+    "start": 8.54,
+    "end": 8.86,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 34,
+    "text": "sprzętową",
+    "start": 17.56,
+    "end": 18.1,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 39,
+    "text": "aktywistów",
+    "start": 20.1,
+    "end": 20.84,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 43,
+    "text": "Z",
+    "start": 22.9,
+    "end": 22.94,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 48,
+    "text": "SafeWall",
+    "start": 25.62,
+    "end": 26.2,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 66,
+    "text": "internet",
+    "start": 36.12,
+    "end": 36.6,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 69,
+    "text": "albo",
+    "start": 37.6,
+    "end": 37.82,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 75,
+    "text": "trasy",
+    "start": 40.78,
+    "end": 41.14,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 76,
+    "text": "nie",
+    "start": 41.4,
+    "end": 41.5,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 82,
+    "text": "Telefon",
+    "start": 44.54,
+    "end": 45.02,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 90,
+    "text": "pobliżu.",
+    "start": 47.66,
+    "end": 48.22,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 91,
+    "text": "„iPhone",
+    "start": 48.68,
+    "end": 49.14,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  },
+  {
+    "word_index": 117,
+    "text": "stoi",
+    "start": 66.99,
+    "end": 67.23,
+    "reason": "Whisper onset differs by more than 220 ms or has near-zero duration; use the existing verified v22 word alignment for this word."
+  }
+]

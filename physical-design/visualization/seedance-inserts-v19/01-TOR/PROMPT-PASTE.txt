@@ -1,0 +1,23 @@
+Create a 23-second cinematic 3D product animation explaining a connection routed through three relays, with continuous camera travel and clear spatial depth. This is a moving product film, not a presentation slide. Audio: quiet synchronized non-musical sound effects only. No human voice or music.
+
+REFERENCES
+@Image1 defines the unbranded rounded graphite accessory: its proportions, upper OLED battery window and bottom USB-C port. Use its shape, not its glossy surface treatment.
+@Image2 defines the phone proportions and the accessory's size relative to the phone. Use the geometry, not the background or the exact camera angle. The phone and accessory remain separate recognizable objects when both are visible.
+
+VISUAL LANGUAGE
+An elegant, restrained 3D animatic in a spacious charcoal studio. Simple matte graphite and pale grey surfaces, soft broad lighting, restrained lavender and pale teal accents. Real volume, occlusion, parallax and soft contact shadows. The camera moves through the scene rather than looking straight at a diagram. Smooth acceleration and deceleration through every move, with no frozen holds. No flat infographics, slide layouts, dashboard panels, floating UI cards, numbered circles, maps, arrows, captions or invented logos. Keep the enclosure unbranded. Avoid elaborate glossy shaders, chrome, excessive bloom, lens flares and cyberpunk effects.
+
+(0s-2s)
+Close three-quarter view of the graphite accessory beside the phone. A small pale teal light pulse begins at the accessory and travels away along a delicate curved path. The camera follows it forward, leaving the physical product behind. The phone does not send a separate bypass pulse.
+
+(2s-8s)
+Travel with the pulse as it passes through exactly three substantial rounded sculptural relay forms, one after another, at clearly different depths and heights. Their arrangement bends through space. Each relay briefly catches soft lavender light as the pulse arrives. The camera passes close to the first, curves around the second and follows the outgoing path beyond the third. The surrounding forms partially occlude one another, giving real depth. Each outgoing segment becomes visible as the pulse progresses. Keep the motion legible and graceful, with no explosion of particles. The relay sequence is an abstract spatial metaphor, not a literal equipment diagram.
+
+(8s-15s)
+Match cut from a rounded relay edge to a close view of the matching rounded edge of the physical accessory. The camera pulls back and arcs around it, revealing the phone separately in the background. A narrow restrained light path runs from the phone into the accessory, then continues from the accessory toward the distant relay forms. This composition makes the separate physical gateway legible. Nothing travels directly from the phone to the distant network.
+
+(15s-23s)
+Continue the orbit into an almost overhead oblique angle. Bring the accessory into the foreground and show the one active route leaving it toward the relay sequence in depth. Occasional small pulses travel only along this established path while the camera gently pushes closer to the accessory's upper face. The enclosure and route remain stable. Do not stage a connection failure, a red warning, an outage test or a bypass appearing. Keep meaningful camera motion until the final frame, with space to cut to a close shot of the phone.
+
+AUDIO AND TEXT
+Only brief soft air movements synchronized to camera passes and small dry ticks at relay arrivals. No dialogue, narration, whispers, vocal samples, singing, music, BGM, score, melody, rhythmic bed, synth drone or ambient pad. No subtitles or title text. Do not read any part of this prompt aloud. The Polish narration will be added separately in editing.

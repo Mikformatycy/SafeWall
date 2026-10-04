@@ -1,0 +1,41 @@
+{
+  "provider": "BytePlus ModelArk",
+  "model_display_name": "Dreamina Seedance 2.5",
+  "documented_model_id": "dreamina-seedance-2-5-260628",
+  "mode": "Reference / omni reference",
+  "duration": 16,
+  "ratio": "16:9",
+  "resolution": "480p",
+  "draft": true,
+  "generate_audio": false,
+  "return_last_frame": true,
+  "output_format": "mp4",
+  "omni_reference_task_type": "reference",
+  "reference_upload_order": [
+    {
+      "index": 1,
+      "file": "01-product-appearance.png",
+      "role": "reference_image",
+      "purpose": "device appearance only"
+    },
+    {
+      "index": 2,
+      "file": "02-handoff-composition.png",
+      "role": "reference_image",
+      "purpose": "final composition only, not preview shading"
+    }
+  ],
+  "ui_note": "Use equivalent controls exposed in the account console. These are verified ModelArk parameters; console may not expose every API field. If Draft unavailable, choose normal 480p Reference generation.",
+  "target_edit_contact_seconds": 14.12,
+  "tail_handle_seconds_approximate": 2,
+  "generation_submitted": false,
+  "no_audio_reference_needed": true,
+  "do_not_upload_live_demo_for_opening": true,
+  "reference_end_pose_is_guidance_not_frame_lock": true,
+  "sources": [
+    "https://docs.byteplus.com/es/docs/modelark/seedance-2-5",
+    "https://docs.byteplus.com/fr/docs/modelark/seedance-2-5-prompt-guide?redirect=1",
+    "https://docs.byteplus.com/de/docs/modelark/create-video-generation-task-api"
+  ],
+  "checked_on": "2026-10-04"
+}

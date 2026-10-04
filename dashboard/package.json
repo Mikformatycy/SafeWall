@@ -1,0 +1,16 @@
+{
+  "name": "safewall-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local SafeWall dashboard with an explicit demo data adapter.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs --dev",
+    "dev:safari": "node server.mjs --dev --open-safari",
+    "build": "node scripts/build-preview.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check server.mjs && node --check scripts/live-reload.js && node --check dist/app.js && node --check dist/data.js && node --check dist/config.js && node --check dist/contract.js"
+  }
+}

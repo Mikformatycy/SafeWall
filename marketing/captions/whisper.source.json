@@ -1,0 +1,12 @@
+{
+  "audio": "physical-design/visualization/voiceover-v22/SafeWall-voiceover-pl-daniel-v22.wav",
+  "audio_sha256": "eb9077c820b9dd64019731b5ce88962ea748eb61e833acca93f80555293d4967",
+  "model": "whisper-1",
+  "language": "pl",
+  "timestamp_granularities": [
+    "word",
+    "segment"
+  ],
+  "documentation": "https://developers.openai.com/api/docs/guides/speech-to-text",
+  "credentials_saved": false
+}

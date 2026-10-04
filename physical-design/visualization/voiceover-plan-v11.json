@@ -1,0 +1,73 @@
+{
+  "revision": "v11_voiceover_draft",
+  "status": "proposal_not_generated",
+  "language": "pl",
+  "planned_model": "eleven_v4",
+  "voice_candidate": "Brian",
+  "estimated_duration_seconds": [
+    65,
+    70
+  ],
+  "timing_status": "65-second editorial allocation; must measure synthesized speech before locking cut points",
+  "word_count": 109,
+  "segments": [
+    {
+      "seconds": [
+        0,
+        9
+      ],
+      "visual": "Deszcz, rozmówca odchodzi, reporter zamyka notes.",
+      "text": "Ktoś powierzył ci swoją historię. Teraz chcesz ją przekazać dalej — i chronić osobę, która ci zaufała."
+    },
+    {
+      "seconds": [
+        9,
+        18
+      ],
+      "visual": "Reporter podchodzi do blatu i wyciąga urządzenie. Kontakt około 18. sekundy.",
+      "text": "W krajach takich jak Rosja czy Chiny dostęp do informacji ogranicza cenzura."
+    },
+    {
+      "seconds": [
+        18,
+        36
+      ],
+      "visual": "Kontakt i składanie w Blenderze; krótki schemat trasy przez przekaźniki Tora.",
+      "text": "Projektujemy przenośną bramę do sieci Tor — dla dziennikarzy, aktywistów i organizacji społecznych. Tor prowadzi połączenie przez kilka przekaźników. Jego podstawą jest technologia opracowana w laboratorium badawczym amerykańskiej marynarki wojennej."
+    },
+    {
+      "seconds": [
+        36,
+        56
+      ],
+      "visual": "Przejście do prototypu, kabel i prawdziwe demo; planowane zasady ruchu oznaczone jako docelowe.",
+      "text": "Telefon łączymy przewodem z bramą wyposażoną w modem LTE. Wi-Fi, Bluetooth i łączność komórkowa telefonu mogą pozostać wyłączone. Docelowo brama ma kierować obsługiwany ruch aplikacji przez Tor i blokować połączenia internetowe omijające tę drogę."
+    },
+    {
+      "seconds": [
+        56,
+        65
+      ],
+      "visual": "Prawdziwy prototyp, powrót do wizji kompaktowego produktu, końcowe ujęcie.",
+      "text": "To nasz prototyp. Kolejny krok: kompaktowa obudowa i testy z przyszłymi użytkownikami. Bo za każdą historią stoi człowiek."
+    }
+  ],
+  "headline_proposal": "Przenośna brama do sieci Tor",
+  "replaces_proposed_tagline": "Połączenie na twoich zasadach",
+  "seedance_audio": false,
+  "staging_note": "Opening remains 18 seconds in the cut. Audience moves after country context to the first CG block. Retain rapid assembly; add a short Tor routing diagram rather than slowing the whole v09 animation.",
+  "engineering_claims": "Tor gateway, fail-closed policy and cross-app routing are targets, not verified deployed capabilities. Current checked config uses direct LTE NAT. External LTE modem still transmits and can be identified/located by its carrier.",
+  "comparison": "VPN apps can route device-wide traffic. Differentiate the proposed physical LTE/Tor gateway and phone radio setup, not a supposed browser-only limitation of VPN. Network routing does not reproduce Tor Browser anti-fingerprinting or protect compromised endpoints.",
+  "censorship": "China/Russia provide relevant examples. Tor itself can be blocked; bridges/transports and local testing may be needed. No guarantee of working in either country.",
+  "history": "Onion routing originated in research at the U.S. Naval Research Laboratory in the 1990s. This does not imply military certification, sponsorship or endorsement of this product.",
+  "sources": [
+    "https://www.torproject.org/about/history/",
+    "https://support.torproject.org/tor-browser/circumvention/connecting-from-censored-regions/",
+    "https://support.torproject.org/about-tor/introduction/tor-vs-other-proxies/",
+    "https://support.torproject.org/tor-browser/security/using-tb-safely/",
+    "https://support.torproject.org/relays/legal-and-abuse/ddos/",
+    "https://protonvpn.com/support/browser-extensions",
+    "08-WIZJA-I-PLAN-PROJEKTU.md",
+    "config/nftables.conf"
+  ]
+}

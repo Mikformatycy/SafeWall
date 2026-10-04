@@ -1,0 +1,88 @@
+{
+  "status": "technical_checks_passed",
+  "movie": "SafeWall-launch-preview-v21.mp4",
+  "duration_seconds": 72.66666666666667,
+  "resolution": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames_decoded": 1744,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "1744"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "3407"
+      }
+    ],
+    "format": {
+      "duration": "72.666667",
+      "size": "6880051"
+    }
+  },
+  "loudness": {
+    "input_i": "-14.55",
+    "input_tp": "-1.37",
+    "input_lra": "5.70",
+    "input_thresh": "-25.08",
+    "output_i": "-17.11",
+    "output_tp": "-2.02",
+    "output_lra": "4.60",
+    "output_thresh": "-27.61",
+    "normalization_type": "dynamic",
+    "target_offset": "0.11"
+  },
+  "new_blender_scenes": [
+    "tor",
+    "radios"
+  ],
+  "server_instances": 3,
+  "server_asset": "../../references/server-rack-v21/source.json",
+  "emitted_name_instances": 23,
+  "emitted_text": "iPhone (Piotrek)",
+  "discovery_context": "AirDrop · Wszyscy",
+  "outro_source": {
+    "path": "marketing/outro/safewall-outro-landscape.mp4",
+    "sha256": "8a8d90cfb3e30dbe217ffcfb019268cd2b7a0f603d4f78ce2c3dc5df37cb2920",
+    "source_duration": 6.2,
+    "source_resolution": [
+      1920,
+      1080
+    ],
+    "source_fps": 60,
+    "preview_frames": 149,
+    "preview_fps": 24,
+    "preview_resolution": [
+      960,
+      540
+    ],
+    "audio": false,
+    "speed_changed": false
+  },
+  "blender_closing_removed": true,
+  "premium_master_unchanged": true,
+  "narration_unchanged_from_v20": true,
+  "mix_prefix_sample_identical_to_v20": true,
+  "only_silence_added_for_longer_outro": true,
+  "live_demo_unchanged": true,
+  "live_demo_time_stretch": false,
+  "live_demo_source_frames": 215,
+  "live_demo_seconds": [
+    57.75,
+    66.70833333333333
+  ],
+  "flat_explanatory_slides": false,
+  "user_selected_existing_2D_brand_outro": true
+}

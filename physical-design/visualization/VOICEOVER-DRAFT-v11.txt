@@ -1,0 +1,40 @@
+LEKTOR PL — PROPOZYCJA v11 — 2026-10-04
+Około 65–70 sekund; czasy orientacyjne, przed generacją audio.
+Tekst: 109 słów. Głos ElevenLabs v4, bez głosów z Seedance.
+Hasło proponowane: „Przenośna brama do sieci Tor”.
+
+0–9 s | Deszcz, rozmówca odchodzi, reporter zamyka notes.
+Ktoś powierzył ci swoją historię. Teraz chcesz ją przekazać dalej — i chronić osobę, która ci zaufała.
+
+9–18 s | Reporter podchodzi do blatu i wyciąga urządzenie. Kontakt około 18. sekundy.
+W krajach takich jak Rosja czy Chiny dostęp do informacji ogranicza cenzura.
+
+18–36 s | Kontakt i składanie w Blenderze; krótki schemat trasy przez przekaźniki Tora.
+Projektujemy przenośną bramę do sieci Tor — dla dziennikarzy, aktywistów i organizacji społecznych. Tor prowadzi połączenie przez kilka przekaźników. Jego podstawą jest technologia opracowana w laboratorium badawczym amerykańskiej marynarki wojennej.
+
+36–56 s | Przejście do prototypu, kabel i prawdziwe demo; planowane zasady ruchu oznaczone jako docelowe.
+Telefon łączymy przewodem z bramą wyposażoną w modem LTE. Wi-Fi, Bluetooth i łączność komórkowa telefonu mogą pozostać wyłączone. Docelowo brama ma kierować obsługiwany ruch aplikacji przez Tor i blokować połączenia internetowe omijające tę drogę.
+
+56–65 s | Prawdziwy prototyp, powrót do wizji kompaktowego produktu, końcowe ujęcie.
+To nasz prototyp. Kolejny krok: kompaktowa obudowa i testy z przyszłymi użytkownikami. Bo za każdą historią stoi człowiek.
+
+ZAŁOŻENIA REDAKCYJNE
+Rosja i Chiny są przykładami cenzury, nie obietnicą sprawdzonego działania prototypu w tych krajach. Tor może wymagać mostów i transportów obchodzących blokady.
+Historia dotyczy korzeni onion routingu w US Naval Research Laboratory, nie wojskowej certyfikacji naszego produktu.
+VPN może obejmować ruch całego urządzenia. Nasz proponowany wyróżnik to osobna brama LTE/Tor i możliwość wyłączenia radiów telefonu.
+Tor nie przenosi dowolnego ruchu IP. W planowanej konfiguracji zgodny ruch ma być kierowany przez Tor, a nieobsługiwany i obchodzący ochronę — blokowany. Nie obiecujemy działania każdej aplikacji.
+Obecny zapis projektu i config/nftables.conf opisują bezpośredni NAT do LTE. Dlatego w narracji zachowujemy „projektujemy” i „docelowo”.
+Sieciowa brama Tor nie zapewnia wszystkich zabezpieczeń Tor Browser ani ochrony przed przejęciem telefonu. Modem LTE nadal nadaje; lokalizowanie go przez operatora pozostaje możliwe.
+Nowa propozycja przesuwa nazwanie odbiorców na wejście do CG. Otwarcie Seedance nadal kończy się około 18. sekundy. Dodatkowy czas CG służy krótkiemu schematowi Tora, bez spowalniania składania.
+Alternatywa montażowa: pominąć zdanie historyczne, zyskując około 6–8 sekund na wyjaśnienie lub demo.
+Nie wygenerowano nowego głosu ani filmu; aktualny render v09 pozostaje bez zmian.
+
+ŹRÓDŁA
+https://www.torproject.org/about/history/
+https://support.torproject.org/tor-browser/circumvention/connecting-from-censored-regions/
+https://support.torproject.org/about-tor/introduction/tor-vs-other-proxies/
+https://support.torproject.org/tor-browser/security/using-tb-safely/
+https://support.torproject.org/relays/legal-and-abuse/ddos/
+https://protonvpn.com/support/browser-extensions
+08-WIZJA-I-PLAN-PROJEKTU.md
+config/nftables.conf

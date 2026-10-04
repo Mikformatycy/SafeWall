@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "movie": "SafeWall-launch-preview-v18.mp4",
+  "duration_seconds": 79.75,
+  "resolution": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames_decoded": 1914,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "1914"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "3739"
+      }
+    ],
+    "format": {
+      "duration": "79.750000",
+      "size": "6099547"
+    }
+  },
+  "loudness": {
+    "input_i": "-14.26",
+    "input_tp": "-1.53",
+    "input_lra": "2.30",
+    "input_thresh": "-24.65",
+    "output_i": "-17.05",
+    "output_tp": "-4.24",
+    "output_lra": "2.10",
+    "output_thresh": "-27.44",
+    "normalization_type": "dynamic",
+    "target_offset": "0.05"
+  },
+  "workbench_only_new_CG": true,
+  "premium_master_unchanged": true,
+  "downloaded_seedance_unchanged": true,
+  "narration": "Daniel, Eleven v4, approved v14 script, v16 audio; no time stretch",
+  "seedance_sfx_ASR_detected_speech": false,
+  "music_added": false,
+  "original_live_audio_used": false,
+  "live_footage": "Actual user-supplied IMG_4626, counterclockwise rotation previously baked; native speed",
+  "live_global_seconds": [
+    59.75,
+    68.708333
+  ],
+  "foley_events": [
+    {
+      "time": 21.25,
+      "kind": "enclosure closure",
+      "peak": 0.045,
+      "tone": 680
+    },
+    {
+      "time": 24.325,
+      "kind": "magnetic attachment",
+      "peak": 0.1,
+      "tone": 1150
+    },
+    {
+      "time": 62.95,
+      "kind": "RJ45 insertion accent",
+      "peak": 0.06,
+      "tone": 2050
+    }
+  ],
+  "mix_filter": "[0:a]aresample=48000,apad,atrim=duration=79.75,asplit=2[vo][side];[1:a]aresample=48000,atrim=duration=16.0,asetpts=PTS-STARTPTS,highpass=f=65,loudnorm=I=-29:TP=-9:LRA=7,aresample=48000,afade=t=in:st=0:d=0.08,afade=t=out:st=14.8:d=1.2,apad,atrim=duration=79.75[amb];[amb][side]sidechaincompress=threshold=0.05:ratio=3:attack=15:release=180[duck];[vo]pan=stereo|c0=c0|c1=c0[vost];[2:a]pan=stereo|c0=c0|c1=c0[foley];[vost][duck][foley]amix=inputs=3:normalize=0:duration=longest,alimiter=limit=0.841395:level=false:latency=true[out]",
+  "transition_method": "Eased framing-matched cross-dissolves; 3D-to-live is a preview composite, not a finished optical morph",
+  "live_result_readability": "Green result from approximately 65.75 s; source footage is only 848x464 after rotation",
+  "subjective_audio_listening": "Not claimed; transcript and level checks only",
+  "final_mix_asr_matches_canonical_words": true,
+  "lexical_tokens": 159,
+  "final_asr_file": "final-audio-check-asr.json",
+  "source_script": "../VOICEOVER-APPROVED-v14.txt",
+  "final_encoded_contact_sheet_visually_reviewed": true,
+  "api_session": "closed",
+  "movie_sha256": "8291ca427d7f5bd17aad9134c4bebdc13111883229e4ec99a1bb4a679c7f5d59",
+  "desktop_copy": "/Users/piotrek/Desktop/SafeWall-preview-v18.mp4"
+}

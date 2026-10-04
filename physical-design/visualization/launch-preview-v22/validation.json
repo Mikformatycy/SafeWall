@@ -1,0 +1,97 @@
+{
+  "status": "technical_checks_passed",
+  "movie": "SafeWall-launch-preview-v22.mp4",
+  "duration_seconds": 69.91666666666667,
+  "resolution": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames_decoded": 1678,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "1678"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "3278"
+      }
+    ],
+    "format": {
+      "duration": "69.916667",
+      "size": "6628914"
+    }
+  },
+  "loudness": {
+    "input_i": "-14.80",
+    "input_tp": "-1.39",
+    "input_lra": "5.10",
+    "input_thresh": "-25.34",
+    "output_i": "-17.20",
+    "output_tp": "-2.03",
+    "output_lra": "4.50",
+    "output_thresh": "-27.74",
+    "normalization_type": "dynamic",
+    "target_offset": "0.20"
+  },
+  "new_blender_scenes": [
+    "radios"
+  ],
+  "server_instances": 3,
+  "server_asset": "../../references/server-rack-v21/source.json",
+  "emitted_name_instances": 23,
+  "emitted_text": "iPhone (Piotrek)",
+  "visible_discovery_label": "AirDrop",
+  "outro_source": {
+    "path": "marketing/outro/safewall-outro-landscape.mp4",
+    "sha256": "8a8d90cfb3e30dbe217ffcfb019268cd2b7a0f603d4f78ce2c3dc5df37cb2920",
+    "source_duration": 6.2,
+    "source_resolution": [
+      1920,
+      1080
+    ],
+    "source_fps": 60,
+    "preview_frames": 149,
+    "preview_fps": 24,
+    "preview_resolution": [
+      960,
+      540
+    ],
+    "audio": false,
+    "speed_changed": false
+  },
+  "blender_closing_removed": true,
+  "premium_master_unchanged": true,
+  "narration_change": "Osobna brama replaced with SafeWall; complete sentence pickup, Daniel / Eleven v4",
+  "canonical_text": "../VOICEOVER-APPROVED-v22.txt",
+  "independent_narration_ASR_all_120_tokens_match": true,
+  "narration_time_stretch": false,
+  "live_demo_speed_multiplier": 1.35,
+  "live_demo_source_frames_used": [
+    9,
+    209
+  ],
+  "live_demo_output_frames": 149,
+  "live_demo_seconds": [
+    57.75,
+    63.95833333333333
+  ],
+  "live_frame_hashes_match_originals": true,
+  "browser_content_altered": false,
+  "green_result_approx_seconds": [
+    61.95,
+    63.96
+  ],
+  "flat_explanatory_slides": false,
+  "user_selected_existing_2D_brand_outro": true
+}

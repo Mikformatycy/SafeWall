@@ -1,0 +1,21 @@
+Ktoś powierzył ci swoją historię. Teraz chcesz ją przekazać dalej — i chronić osobę, która ci zaufała.
+
+Są miejsca, w których dostęp do informacji ogranicza cenzura. Właśnie tam prywatność ma szczególne znaczenie.
+
+Dlatego projektujemy SafeWall — sprzętową bramę prywatności dla dziennikarzy, aktywistów i organizacji społecznych.
+
+Z zewnątrz przypomina zwykły powerbank.
+
+SafeWall ma kierować połączenia przez sieć Tor. Tor prowadzi ruch przez kilka przekaźników, utrudniając ustalenie, kto z kim się komunikuje.
+
+Kontrolę połączenia przenosimy poza telefon. Osobna brama ma pilnować jednej zasady: internet przez Tor albo brak połączenia. Żeby awaria chronionej trasy nie otworzyła drogi do niechronionego połączenia.
+
+Telefon może też ujawniać swoją obecność urządzeniom w pobliżu.
+
+„iPhone (Piotrek)”. Nietrudno się domyślić, do kogo należy.
+
+Z SafeWall możesz wyłączyć Wi-Fi, Bluetooth i łączność komórkową telefonu. Podłączasz przewód — i nadal masz dostęp do internetu. A połączenie przez Tor sprawdzasz w swojej przeglądarce.
+
+To nasz prototyp. Kolejny krok: miniaturyzacja, testy bezpieczeństwa i próby z przyszłymi użytkownikami.
+
+SafeWall. Bo za każdą historią stoi człowiek.

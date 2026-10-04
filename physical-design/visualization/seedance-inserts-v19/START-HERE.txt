@@ -1,0 +1,43 @@
+SAFEWALL — SEEDANCE ZAMIAST PLANSZ / v19
+
+NAJPIERW: otwórz 01-TOR/PROMPT-PASTE.txt. Wygeneruj tylko ten klip, żeby ocenić styl przed generowaniem pozostałych.
+
+1. W BytePlus wybierz Dreamina Seedance 2.5, tryb Reference / Omni reference. Nazwa widoku może się różnić.
+2. Wgraj obrazy z wybranego podfolderu, w kolejności 01, potem 02, jeśli jest. Każdy jako Reference image, nie First frame. Kolejność odpowiada @Image1 i @Image2 w prompcie; dostosuj oznaczenia do etykiet interfejsu.
+3. Wklej cały PROMPT-PASTE.txt z tego samego podfolderu. Ustaw 720p, 16:9, Draft OFF. Długości: TOR 23 s, TELEFON 9 s, FINAL 12 s.
+4. Audio ON: tylko SFX. Głos Daniela zostaje w montażu. Nie wgrywaj lektora jako referencji audio. Jeśli dostępne, włącz Return last frame. Resztę ustawień pozostaw domyślną.
+5. Pobierz oryginalny MP4 do Downloads. Pierwszy nazwij SafeWall-v19-TOR.mp4. Pozostałe, po ocenie stylu: SafeWall-v19-TELEFON.mp4 i SafeWall-v19-FINAL.mp4.
+
+KONCEPCJA
+Seedance: kamera podróżuje przez trzy przestrzenne przekaźniki; telefon emituje subtelny sygnał wykrywania; finał przechodzi z prototypu do koncepcji obudowy.
+Blender: zostają dokładne składanie „kanapki”, MagSafe oraz przejście do rzeczywistego podłączenia.
+W filmie nie będzie plansz HTML ani ich odpowiedników w postaci płaskich paneli 3D. Każde nowe ujęcie ma ruch kamery, głębię i przestrzenną akcję.
+Na tym etapie proste materiały matowe i miękkie światło. Zapisanych shaderów premium nie zmieniamy. Generacje Seedance są w 720p; kolejny złożony preview może pozostać 960×540 / 24 fps.
+
+TIMING POD GOTOWEGO DANIELA — BEZ ZMIANY LEKTORA
+01-TOR: generacja 23 s; docelowe miejsce 25,50–48,25 s filmu (22,75 s).
+  Lokalnie 0–8 s: ruch przez kilka przekaźników.
+  Lokalnie ok. 8–15 s: osobna fizyczna brama poza telefonem.
+  Lokalnie ok. 15–23 s: jedna kontrolowana trasa; brak inscenizacji awarii.
+02-TELEFON: generacja 9 s; miejsce 48,00–56,25 s (8,25 s).
+  Lokalnie 0–4 s: wykrywanie telefonu w pobliżu.
+  Lokalnie 4,38–7,96 s: lektor mówi „iPhone (Piotrek)” i wyjaśnia nazwę.
+03-FINAL: generacja 12 s; miejsce 68,50–79,75 s (11,25 s).
+  Lokalnie ok. 0–7 s: prototyp i kierunek miniaturyzacji.
+  Lokalnie 7,26 s zaczyna się końcowe „SafeWall”. Produkt pozostaje w ruchomym ujęciu.
+Przedziały zachodzą na sąsiednie klipy przez przejścia. Znaczniki sekund są wskazówkami dla modelu, nie gwarancją dokładnego timingu. Przy montażu najpierw przycinamy zapas, potem dopasowujemy cięcia do akcentów lektora; bez wydłużania filmu i bez sztucznych zatrzymań.
+
+PRECYZYJNE NAPISY — DO DODANIA PO GENERACJI
+„iPhone (Piotrek)” dodamy jako niewielki napis umieszczony w przestrzeni obok telefonu, z ruchem zgodnym z kamerą, przy słowach lektora. Mniejszy dopisek: „AirDrop · Wszyscy”. To przykład widocznej nazwy przy takim ustawieniu AirDrop, nie twierdzenie, że wszystkie pakiety Wi-Fi/Bluetooth zawierają imię właściciela. Nie ma osobnej planszy ani panelu UI.
+W finale nazwa SafeWall i obowiązujące logo 4A mogą powstać z dokładnego SVG w Blenderze, w wolnej przestrzeni obok produktu. Logo nie trafia na obudowę. Nie powierzamy generatorowi dokładnej typografii ani znaku.
+
+MONTAŻ PO OTRZYMANIU KLIPÓW
+Zastąpić wszystkie trzy płaskie fragmenty v18: tor, radios i closing. Początek Seedance, składanie, MagSafe, przejście do Pi i prawdziwe nagranie pozostają bazą montażu. Nie generować fikcyjnej strony Tor Check. Nie inscenizować awarii Tora. Ruch przez przekaźniki jest metaforą, nie symulacją sieci ani dowodem bezpieczeństwa.
+Przed podmianą sprawdzić: stałość geometrii, czytelność podróży kamery, trzy kolejne przekaźniki oraz brak przypadkowej mowy lub muzyki. Jeśli generator doda niepożądane audio, wykorzystać obraz bez tej ścieżki i osobno dołożyć SFX.
+Nowy montaż zapisujemy jako v19; gotowy preview v18 pozostaje archiwalny. W tej paczce są prompty i referencje, nie nowe wygenerowane filmy. Żadnego zadania BytePlus nie wysłano.
+
+ŹRÓDŁA — SPRAWDZONE 2026-10-04
+https://docs.byteplus.com/es/docs/modelark/seedance-2-5
+Model dreamina-seedance-2-5-260628, zakres 4–30 s, 720p 16:9 = 1280×720. Używamy standardowej generacji; Draft jest 480p, a konwersja Draft do final jest 1080p.
+https://docs.byteplus.com/ko/docs/modelark/seedance-2-5-prompt-guide?redirect=1
+Jasne role referencji, opis ujęć w kolejności, znaczniki pełnych sekund, ruch kamery i jawna kontrola audio. Wykluczenie muzyki w prompcie nie gwarantuje jej braku; wynik wymaga odsłuchu.

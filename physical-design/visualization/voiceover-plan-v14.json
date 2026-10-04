@@ -1,0 +1,230 @@
+{
+  "revision": "v14_approved_powerbank_line_voice_selection",
+  "status": "approved_text_daniel_audio_generated",
+  "date": "2026-10-04",
+  "language": "pl",
+  "model": "eleven_v4",
+  "voice_id": "onwK4e9ZLuTAKqWW03F9",
+  "voice_name": "Daniel",
+  "canonical_text": "VOICEOVER-APPROVED-v14.txt",
+  "canonical_sha256": "30e55694694a813b51c4273176c61f61a171ac2411b0a90c3e6d9c024ae6e7b5",
+  "word_count": 158,
+  "estimated_duration_seconds": [
+    75,
+    78
+  ],
+  "measured_duration_seconds": 79.44,
+  "timing_note": "Final Daniel v16 narration is 79.44 s, with all approved v14 words. Animation timings now follow ASR of the final edited audio. Old Brian/v12 and audition timings are historical.",
+  "voice_direction": "Restrained thriller opening, confident and readable product explanation, understated iPhone line, warmer sincere close. No theatrical trailer growl, comic sarcasm, laughter, music or SFX in narration.",
+  "verbatim_constraints": [
+    "iPhone (Piotrek)",
+    "niechronionego połączenia",
+    "SafeWall at product introduction and final sign-off"
+  ],
+  "sequence_order": [
+    "Rainy thriller exterior, human story and censorship without naming countries",
+    "Reporter places/tosses device onto dry counter; contact match into Blender",
+    "Simultaneous 5-second eased enclosure assembly; side-view MagSafe attachment under narration",
+    "Tor routing explanation before radio explanation; fail-closed goal spoken without a staged outage demonstration",
+    "Nearby visibility example: exact label iPhone (Piotrek), contextualized as AirDrop discovery with Everyone sharing",
+    "User disables phone Wi-Fi, Bluetooth and cellular; enclosure moves left and transitions to rendered Raspberry Pi/LTE prototype",
+    "Overhead transition morphs into the actual video BEFORE Pi Ethernet insertion; supplied live footage shows connection and refresh.",
+    "Real check.torproject.org test in same browser before/after cable connection; refresh and positive result only with working Tor",
+    "Prototype, next steps and SafeWall closing card"
+  ],
+  "visual_decisions": {
+    "magsafe": "Visual only; no spoken mention. No implied wireless data or charging.",
+    "motion": "Continuous, overlapping, eased movement; no long holds. Readable Tor result can use slow camera motion.",
+    "assembly_seconds": 5,
+    "show_failure_demo": false,
+    "show_actual_tor_check": true,
+    "exact_device_label": "iPhone (Piotrek)",
+    "airdrop_context": "Everyone sharing; not a claim that every Wi-Fi or Bluetooth packet contains the owner name.",
+    "radio_visual": "Only the disabled phone interfaces lose their depicted signals. Show separate LTE uplink from gateway.",
+    "preview": {
+      "resolution": [
+        960,
+        540
+      ],
+      "fps": 24,
+      "shaders": "Workbench/solid, preserve premium materials separately"
+    },
+    "branding": "SafeWall in narration and closing card; keep existing unbranded enclosure scenes intact.",
+    "real_video_suggested_in_seconds": 59.735,
+    "real_video_suggested_out_seconds": 68.72,
+    "real_video_timing_note": "Proposed native-speed placement against Daniel narration; final edit and match frame still to build. New film has not been rendered."
+  },
+  "sound": {
+    "narrator": "ElevenLabs only",
+    "seedance_human_voice": false,
+    "seedance_import_audio": false,
+    "separate_foley": [
+      "rain",
+      "steps",
+      "cloth",
+      "device contact",
+      "magnetic attachment",
+      "USB click"
+    ],
+    "music_in_generated_narration": false,
+    "seedance_generated_audio": true,
+    "seedance_music": false,
+    "seedance_foley": [
+      "rain",
+      "footsteps",
+      "notebook close",
+      "cloth rustle",
+      "device contact and brief slide"
+    ]
+  },
+  "claim_boundaries": {
+    "current_repo": "08-WIZJA-I-PLAN-PROJEKTU.md describes direct LTE NAT. Tor and fail-closed are implementation goals.",
+    "real_demo_gate": "Record a genuine Tor result only after deployment. mock-check-tor is a UI mock and must be labeled if used for editing.",
+    "tor_check_scope": "Result verifies that browser request, not all apps or overall anonymity.",
+    "word_niechronionego": "Approved shorthand for loss of the intended Tor route, not a claim that HTTPS outside Tor is unencrypted.",
+    "phone_radios": "Disabled by user; separate LTE modem remains identifiable to carrier.",
+    "tor_scope": "Supported TCP/DNS traffic; unsupported/bypassing traffic must be blocked and tested.",
+    "hardware": "Separate policy enforcement is the proposed benefit; no blanket claim of superiority over every VPN."
+  },
+  "not_in_voiceover": [
+    "U.S. Navy/onion routing history",
+    "Russia or China by name",
+    "MagSafe name",
+    "Battery runtime, mass, PCB specification",
+    "Universal anonymity or hardware-only security"
+  ],
+  "production_status": {
+    "new_full_audio_generated": true,
+    "auditions_requested": true,
+    "previous_full_audio": "voiceover-v12/SafeWall-voiceover-pl-v12.mp3",
+    "new_video_rendered": true,
+    "current_full_audio_directory": "voiceover-v16",
+    "current_full_audio": "voiceover-v16/SafeWall-voiceover-pl-daniel-v16.mp3",
+    "current_full_audio_wav": "voiceover-v16/SafeWall-voiceover-pl-daniel-v16.wav",
+    "current_video_preview": "launch-preview-v18/SafeWall-launch-preview-v18.mp4",
+    "current_video_preview_duration_seconds": 79.75,
+    "current_video_preview_resolution": [
+      960,
+      540
+    ],
+    "current_video_preview_fps": 24,
+    "final_premium_render_done": false
+  },
+  "research_notes": "voiceover-v12/ELEVEN-V4-DIRECTION-AND-SOURCES.txt",
+  "timing_source": "voiceover-v16/paragraph-timings.json",
+  "edit_timing": "voiceover-v16/edit-timings.json",
+  "live_action_update_v13": {
+    "source": "../references/live-demo-v13/manifest.json",
+    "status": "recording_provided_by_user_and_rotated",
+    "user_reports_active_tor": true,
+    "visual_result_transition_observed": true,
+    "deployment_independently_audited": false,
+    "handoff": "morph to start of real clip before Pi Ethernet insertion",
+    "seedance_provider": "BytePlus ModelArk",
+    "seedance_ready_package": "seedance-byteplus-v17/START-HERE.txt"
+  },
+  "voice_selection": "voice-auditions-v15/manifest.json",
+  "paragraphs": [
+    {
+      "id": 1,
+      "start": 0.08,
+      "end": 6.96,
+      "text": "Ktoś powierzył ci swoją historię. Teraz chcesz ją przekazać dalej — i chronić osobę, która ci zaufała."
+    },
+    {
+      "id": 2,
+      "start": 7.72,
+      "end": 15.0,
+      "text": "Są miejsca, w których dostęp do informacji ogranicza cenzura. Właśnie tam prywatność ma szczególne znaczenie."
+    },
+    {
+      "id": 3,
+      "start": 15.48,
+      "end": 22.32,
+      "text": "Dlatego projektujemy SafeWall — sprzętową bramę prywatności dla dziennikarzy, aktywistów i organizacji społecznych."
+    },
+    {
+      "id": 4,
+      "start": 22.9,
+      "end": 25.02,
+      "text": "Z zewnątrz przypomina zwykły powerbank."
+    },
+    {
+      "id": 5,
+      "start": 25.5,
+      "end": 33.62,
+      "text": "SafeWall ma kierować połączenia przez sieć Tor. Tor prowadzi ruch przez kilka przekaźników, utrudniając ustalenie, kto z kim się komunikuje."
+    },
+    {
+      "id": 6,
+      "start": 33.94,
+      "end": 47.86,
+      "text": "Kontrolę połączenia przenosimy poza telefon. Osobna brama ma pilnować jednej zasady: internet przez Tor albo brak połączenia. Żeby awaria chronionej trasy nie otworzyła drogi do niechronionego połączenia."
+    },
+    {
+      "id": 7,
+      "start": 48.24,
+      "end": 51.92,
+      "text": "Telefon może też ujawniać swoją obecność urządzeniom w pobliżu."
+    },
+    {
+      "id": 8,
+      "start": 52.38,
+      "end": 55.96,
+      "text": "„iPhone (Piotrek)”. Nietrudno się domyślić, do kogo należy."
+    },
+    {
+      "id": 9,
+      "start": 56.42,
+      "end": 68.38,
+      "text": "Z SafeWall możesz wyłączyć Wi-Fi, Bluetooth i łączność komórkową telefonu. Podłączasz przewód — i nadal masz dostęp do internetu. A połączenie przez Tor sprawdzasz w swojej przeglądarce."
+    },
+    {
+      "id": 10,
+      "start": 68.72,
+      "end": 75.3,
+      "text": "To nasz prototyp. Kolejny krok: miniaturyzacja, testy bezpieczeństwa i próby z przyszłymi użytkownikami."
+    },
+    {
+      "id": 11,
+      "start": 75.76,
+      "end": 79.22,
+      "text": "SafeWall. Bo za każdą historią stoi człowiek."
+    }
+  ],
+  "voice_selection_note": "User selected Daniel (sample 03) from complete-opening v15 auditions. Full approved v14 copy remains unchanged.",
+  "seedance_current_generation": {
+    "package": "seedance-byteplus-v17/START-HERE.txt",
+    "duration": 18,
+    "ratio": "16:9",
+    "resolution": "720p",
+    "draft": false,
+    "audio": true,
+    "intended_use": "final-quality opening, subject to generated result review",
+    "target_blender_cut_seconds": 15.48,
+    "generation_submitted": false,
+    "audio_content": "Environmental ambience and synchronized SFX only; no human voice or music",
+    "status": "user_generated_result_received_and_incorporated",
+    "received_source": "../references/seedance-v18/Seedance-rain-opening-original.mp4"
+  },
+  "current_edit_timeline": "launch-preview-v18/edit-timeline.json",
+  "visual_revision_v19": {
+    "date": "2026-10-04",
+    "reason": "User rejected all flat slide-like explanatory sequences and invited Seedance as an alternative to Blender.",
+    "confirmed_direction": "Spatial cinematic animations; no flat slides anywhere in the next cut.",
+    "proposed_workflow": "Keep precise hardware in Blender; replace tor, radios and closing with Seedance inserts after checking generated outputs.",
+    "package": "physical-design/visualization/seedance-inserts-v19/START-HERE.txt",
+    "status": "proposal_not_used_user_selected_blender_v20",
+    "generation_submitted": false,
+    "new_video_rendered": false,
+    "replace_sections": [
+      "tor",
+      "radios",
+      "closing"
+    ],
+    "keep_current_narration": true,
+    "keep_preview_workbench": true,
+    "last_rendered_preview_remains_v18": true
+  },
+  "superseded_by": "voiceover-plan-v20.json"
+}

@@ -1,0 +1,163 @@
+1
+00:00:00,000 --> 00:00:00,920
+Ktoś powierzył ci
+
+2
+00:00:00,920 --> 00:00:02,320
+swoją historię.
+
+3
+00:00:02,460 --> 00:00:03,380
+Teraz chcesz ją
+
+4
+00:00:03,380 --> 00:00:04,660
+przekazać dalej —
+
+5
+00:00:04,660 --> 00:00:05,740
+i chronić osobę,
+
+6
+00:00:05,740 --> 00:00:07,280
+która ci zaufała.
+
+7
+00:00:07,520 --> 00:00:08,580
+Są miejsca, w których
+
+8
+00:00:08,580 --> 00:00:09,900
+dostęp do informacji
+
+9
+00:00:09,900 --> 00:00:11,640
+ogranicza cenzura.
+
+10
+00:00:11,900 --> 00:00:13,400
+Właśnie tam prywatność
+
+11
+00:00:13,400 --> 00:00:15,200
+ma szczególne znaczenie.
+
+12
+00:00:15,380 --> 00:00:17,360
+Dlatego projektujemy SafeWall —
+
+13
+00:00:17,360 --> 00:00:18,800
+sprzętową bramę prywatności
+
+14
+00:00:18,800 --> 00:00:20,540
+dla dziennikarzy, aktywistów
+
+15
+00:00:20,540 --> 00:00:22,600
+i organizacji społecznych.
+
+16
+00:00:22,700 --> 00:00:23,740
+Z zewnątrz przypomina
+
+17
+00:00:23,740 --> 00:00:25,320
+zwykły powerbank.
+
+18
+00:00:25,420 --> 00:00:27,200
+SafeWall ma kierować połączenia
+
+19
+00:00:27,200 --> 00:00:30,040
+przez anonimizującą sieć Tor.
+
+20
+00:00:30,040 --> 00:00:31,000
+Kontrolę połączenia
+
+21
+00:00:31,000 --> 00:00:33,040
+przenosimy poza telefon.
+
+22
+00:00:33,160 --> 00:00:34,260
+SafeWall ma pilnować
+
+23
+00:00:34,260 --> 00:00:35,780
+jednej zasady:
+
+24
+00:00:35,920 --> 00:00:37,400
+internet przez Tor
+
+25
+00:00:37,400 --> 00:00:38,940
+albo brak połączenia.
+
+26
+00:00:39,360 --> 00:00:41,200
+Żeby awaria chronionej trasy
+
+27
+00:00:41,200 --> 00:00:42,160
+nie otworzyła drogi
+
+28
+00:00:42,160 --> 00:00:44,340
+do niechronionego połączenia.
+
+29
+00:00:44,340 --> 00:00:45,760
+Telefon może też ujawniać
+
+30
+00:00:45,760 --> 00:00:46,660
+swoją obecność
+
+31
+00:00:46,660 --> 00:00:48,480
+urządzeniom w pobliżu.
+
+32
+00:00:48,480 --> 00:00:50,240
+„iPhone (Piotrek)”.
+
+33
+00:00:50,240 --> 00:00:51,300
+Nietrudno się domyślić,
+
+34
+00:00:51,300 --> 00:00:52,540
+do kogo należy.
+
+35
+00:00:52,580 --> 00:00:54,160
+Z SafeWall możesz wyłączyć
+
+36
+00:00:54,160 --> 00:00:55,400
+Wi-Fi, Bluetooth
+
+37
+00:00:55,400 --> 00:00:58,040
+i łączność komórkową telefonu.
+
+38
+00:00:58,140 --> 00:00:59,580
+To nasz prototyp.
+
+39
+00:01:04,120 --> 00:01:05,140
+SafeWall.
+
+40
+00:01:05,140 --> 00:01:06,790
+Bo za każdą historią
+
+41
+00:01:06,790 --> 00:01:08,120
+stoi człowiek.

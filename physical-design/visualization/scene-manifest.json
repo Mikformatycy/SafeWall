@@ -1,0 +1,57 @@
+{
+  "status": "editable_visual_concept_scene",
+  "phone": "iPhone 16",
+  "frames": 240,
+  "fps": 24,
+  "duration_seconds": 10,
+  "CM4_source": "official Raspberry Pi STEP converted in Fusion",
+  "CM4_imported_mesh_objects": 2263,
+  "CM4_bounds_mm": [
+    55.0,
+    40.0,
+    4.784
+  ],
+  "enclosure_extent_mm": [
+    70.0,
+    110.0,
+    24.0
+  ],
+  "objects": 2662,
+  "decorative_only": [
+    "carrier components and traces",
+    "battery finish and label",
+    "port appearance",
+    "cover fasteners"
+  ],
+  "animation_parts": [
+    "base",
+    "battery",
+    "carrier",
+    "cm4",
+    "thermal",
+    "lid"
+  ],
+  "renderer": "Cycles Metal if available",
+  "GPU_devices": [
+    "Apple M5 (GPU - 10 cores)"
+  ],
+  "studio_background": "composited soft white with a Cycles shadow catcher",
+  "camera_framing_checked_frames": 240,
+  "source_resolution": [
+    1920,
+    1080
+  ],
+  "review_movie_resolution": [
+    960,
+    540
+  ],
+  "review_movie_samples": 8,
+  "stills": [
+    "exploded-preview.png",
+    "assembled-preview.png",
+    "cm4-detail.png"
+  ],
+  "review_movie_engine": "Cycles Metal",
+  "review_movie_status": "complete",
+  "source_samples": 64
+}

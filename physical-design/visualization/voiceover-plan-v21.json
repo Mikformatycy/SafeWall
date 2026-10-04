@@ -1,0 +1,79 @@
+{
+  "revision": "v21_visual_revision_voiceover_unchanged",
+  "date": "2026-10-04",
+  "status": "preview_rendered_and_technically_validated",
+  "canonical_text": "VOICEOVER-APPROVED-v20.txt",
+  "canonical_sha256": "7c0d8d394c01861f34a85094ba6f861d58662d85f39a4c5d8dc26b9daa01a5ac",
+  "language": "pl",
+  "model": "eleven_v4",
+  "voice_name": "Daniel",
+  "voice_id": "onwK4e9ZLuTAKqWW03F9",
+  "lexical_token_count": 121,
+  "audio": "voiceover-v20/SafeWall-voiceover-pl-daniel-v20.wav",
+  "audio_duration_seconds": 71.0,
+  "audio_timing_note": "Includes deliberate space for the complete native-speed demo. No narration time stretch.",
+  "voiceover_edit": "voiceover-v20/edit.json",
+  "independent_ASR": "voiceover-v20/final-edit-asr.json",
+  "approved_changes": [
+    "Replace Tor relay explanation with: SafeWall ma kierować połączenia przez anonimizującą sieć Tor.",
+    "Remove narration about plugging in and checking the browser; preserve actual demo footage.",
+    "Remove next-steps sentence about miniaturization, security testing and user trials."
+  ],
+  "retained_content": [
+    "Full history and censorship opening",
+    "Audience including civil society organizations",
+    "Powerbank appearance",
+    "Separate gateway and Tor-or-offline principle",
+    "Nearby discovery and exact iPhone (Piotrek)",
+    "Phone radios can be turned off",
+    "To nasz prototyp",
+    "Final SafeWall line"
+  ],
+  "visual_direction": {
+    "tool": "Blender",
+    "engine": "BLENDER_WORKBENCH",
+    "flat_slides": false,
+    "new_scenes": [
+      "tor",
+      "radios"
+    ],
+    "docking_re_rendered": true,
+    "seedance_inserts_v19": "proposed pack not used; user selected Blender",
+    "premium_materials_preserved": true,
+    "enclosure_unbranded": true,
+    "brand_logo": "../../brand/svg/safewall-logo.svg",
+    "server_instances": 3,
+    "server_model_source": "../references/server-rack-v21/source.json",
+    "emitted_name_instances": 23,
+    "outro": "../../marketing/outro/safewall-outro-landscape.mp4",
+    "outro_note": "User explicitly selected the existing brand outro instead of the Blender closing.",
+    "blender_closing_used": false
+  },
+  "edit_timeline": "launch-preview-v21/edit-timeline.json",
+  "live_demo": {
+    "source": "../references/live-demo-v13/IMG_4626-upright-preview-540p.mp4",
+    "frames": 215,
+    "fps": 24,
+    "duration": 8.958333333333334,
+    "global_start": 57.75,
+    "altered_result": false,
+    "speed_multiplier": 1.0
+  },
+  "sound": {
+    "seedance_sfx_only": true,
+    "music": false,
+    "new_voice_generation": "Only the revised Tor sentence",
+    "live_original_audio": false
+  },
+  "claim_boundaries": [
+    "Three relays are a spatial visual metaphor, not a packet capture.",
+    "No staged fail-closed outage test.",
+    "Nearby name contextualized as AirDrop Everyone.",
+    "Real Tor Check result concerns that browser request.",
+    "Device is a prototype; 3D enclosure is a design concept."
+  ],
+  "current_movie": "launch-preview-v21/SafeWall-launch-preview-v21.mp4",
+  "validation": "launch-preview-v21/validation.json",
+  "blender_edit": "launch-preview-v21/SafeWall-edit-v21.blend",
+  "full_film_duration_seconds": 72.66666666666667
+}

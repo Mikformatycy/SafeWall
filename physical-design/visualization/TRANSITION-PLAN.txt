@@ -1,0 +1,55 @@
+PRZEJŚCIE Z ANIMACJI DO PRAWDZIWEGO PROTOTYPU — v06
+
+Otwórz CG-to-real-preview-v06.mp4: 8 sekund, 960 x 540, 24 kl./s.
+
+0–0,7 s: nieruchomy kadr z góry; płytki po lewej, telefon po prawej.
+0,7–3 s: oba wtyki dosuwają się do portów; kabel wygina się z ruchem.
+3–4 s: gotowe połączenie, zatrzymany kadr zgodny z kompozycją zdjęcia.
+4–6 s: płynne przejście z renderu w prawdziwe zdjęcie.
+6–8 s: samo dostarczone zdjęcie, bez elementów 3D.
+
+TO JEST PODGLĄD MONTAŻU
+Przejście wykorzystuje wspólne położenie przedmiotów i łagodne przenikanie
+obrazu. Nie jest to automatyczny morph geometrii ani optical flow.
+Stos Raspberry Pi, modem, antena i przód telefonu są modelami poglądowymi
+dopasowanymi do fotografii; nie stanowią dokładnego CAD-u elektroniki.
+Widać dwa końce jednego kabla; jego dolna pętla pozostaje poza kadrem.
+Obudowa urządzenia z poprzednich ujęć pozostaje osobnym konceptem produktu.
+
+TELEFON BEZ ETUI — POTWIERDZONA DECYZJA
+Docelowy telefon użytkownika: iPhone 16, bez etui, ekranem do góry.
+W renderze nie ma etui. Robocze zdjęcie ma etui, więc przy przenikaniu
+pojawi się dodatkowy obrys. Po nagraniu bez etui dopasujemy obrys modelu
+do pierwszej klatki filmu. Obecny przód telefonu to model zastępczy.
+Wcześniejszy v05 z Pro Max pozostaje wariantem koncepcyjnym; przed finalnym
+montażem trzeba ujednolicić telefon między ujęciami z telefonem na nagraniu.
+
+JAK NAGRAĆ KLATKĘ WEJŚCIOWĄ
+1. Ustaw nieruchomą kamerę nad stołem; telefon po prawej bez etui, prototyp
+   z anteną po lewej. Orientuj się na overhead-connected-v06.png.
+2. Podłącz kabel, poprowadź jego pętlę pod dolną krawędzią kadru. Wyłącz ekran,
+   usuń dłonie z kadru, zablokuj ostrość, ekspozycję i balans bieli kamery.
+3. Nagraj najpierw 2 sekundy bez ruchu. Potem rozpocznij pokaz działania.
+   Zachowaj pełny plik nagrania; 540p dotyczy obecnego podglądu montażu.
+
+Nie trzeba odtwarzać tego zdjęcia co do milimetra. Po otrzymaniu nagrania
+bierzemy jego pierwszą stabilną klatkę i ponownie ustawiamy modele oraz
+kamerę, zgrywając: środek i obrys telefonu, płytkę modemu, oba wtyki i antenę.
+Zdjęcie w tej wersji obejmuje pełną szerokość oryginału; pionowe kadrowanie
+to y=118..884 px z oryginału 1362 x 1002. Nie zmieniono treści fotografii.
+
+PLAN CAŁEGO FILMU
+Animacja składania obudowy -> ujęcie mocowania magnetycznego -> osobne
+ujęcie prototypu z góry i wpięcie kabla -> dopasowane przejście do nagrania.
+Ujęcie prototypu pokazuje obecną elektronikę; obudowa jest wizją przyszłego
+urządzenia. Nowe ujęcie jest osobnym plikiem, żeby łatwo ocenić jego rytm.
+
+PLIKI I ODTWORZENIE
+Scena 3D: Overhead-photo-transition-v06.blend, Workbench, klatki 1–96.
+Geometria i ruch: ../scripts/build_live_transition.py.
+Render, przenikanie zdjęcia i MP4: ../scripts/render_live_transition.py.
+Zdjęcie źródłowe: ../references/live-transition/prototype-phone-photo.png.
+Parametry kompozycji: live-transition-v06.json.
+Parametry montażu i walidacja: live-transition-movie-validation-v06.json.
+Wcześniejsze shadery premium: RESTORE-PREMIUM.txt i Product-keynote-v04.blend.
+Wersja v06 ich nie używa ani nie modyfikuje.

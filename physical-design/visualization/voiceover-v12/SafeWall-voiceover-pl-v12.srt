@@ -1,0 +1,115 @@
+1
+00:00:00,020 --> 00:00:01,820
+Ktoś powierzył ci swoją historię.
+
+2
+00:00:02,360 --> 00:00:06,280
+Teraz chcesz ją przekazać dalej — i
+chronić osobę, która ci zaufała.
+
+3
+00:00:06,900 --> 00:00:10,440
+Są miejsca, w których dostęp do
+informacji ogranicza cenzura.
+
+4
+00:00:11,040 --> 00:00:13,700
+Właśnie tam prywatność ma szczególne
+znaczenie.
+
+5
+00:00:14,120 --> 00:00:18,000
+Dlatego projektujemy SafeWall —
+sprzętową bramę prywatności dla
+
+6
+00:00:18,000 --> 00:00:21,200
+dziennikarzy, aktywistów i organizacji
+społecznych.
+
+7
+00:00:21,740 --> 00:00:24,180
+SafeWall ma kierować połączenia przez
+sieć Tor.
+
+8
+00:00:24,660 --> 00:00:29,140
+Tor prowadzi ruch przez kilka
+przekaźników, utrudniając ustalenie, kto
+z kim
+
+9
+00:00:29,140 --> 00:00:29,940
+się komunikuje.
+
+10
+00:00:30,320 --> 00:00:32,880
+Kontrolę połączenia przenosimy poza
+telefon.
+
+11
+00:00:33,300 --> 00:00:37,940
+Osobna brama ma pilnować jednej zasady:
+internet przez Tor albo brak
+
+12
+00:00:37,940 --> 00:00:38,560
+połączenia.
+
+13
+00:00:39,000 --> 00:00:42,640
+Żeby awaria chronionej trasy nie
+otworzyła drogi do niechronionego
+
+14
+00:00:42,660 --> 00:00:43,240
+połączenia.
+
+15
+00:00:43,620 --> 00:00:47,240
+Telefon może też ujawniać swoją obecność
+urządzeniom w pobliżu.
+
+16
+00:00:47,720 --> 00:00:48,880
+„iPhone (Piotrek)”.
+
+17
+00:00:49,260 --> 00:00:51,180
+Nietrudno się domyślić, do kogo należy.
+
+18
+00:00:51,660 --> 00:00:56,000
+Z SafeWall możesz wyłączyć Wi-Fi,
+Bluetooth i łączność komórkową telefonu.
+
+19
+00:00:56,400 --> 00:00:59,360
+Podłączasz przewód — i nadal masz dostęp
+do internetu.
+
+20
+00:00:59,760 --> 00:01:02,740
+A połączenie przez Tor sprawdzasz w
+swojej przeglądarce.
+
+21
+00:01:03,140 --> 00:01:04,020
+To nasz prototyp.
+
+22
+00:01:04,340 --> 00:01:08,760
+Kolejny krok: miniaturyzacja, testy
+bezpieczeństwa i próby z przyszłymi
+
+23
+00:01:08,760 --> 00:01:09,600
+użytkownikami.
+
+24
+00:01:10,080 --> 00:01:10,640
+SafeWall.
+
+25
+00:01:11,020 --> 00:01:13,160
+Bo za każdą historią stoi człowiek.

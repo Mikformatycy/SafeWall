@@ -1,0 +1,19 @@
+{
+  "endpoint": "http://127.0.0.1:27182/mcp",
+  "connection_verified": true,
+  "mcp_client_requirement": "initialize and notifications/initialized on one persistent HTTP connection before tool calls",
+  "macOS_Desktop_permission": "resolved by user",
+  "screen_recording_permission_needed_for_this_workflow": false,
+  "capture_method": "Fusion viewport API export",
+  "last_build_result": "complete; local concept exports and presentation verified",
+  "CAD_export_verified": true,
+  "validation_files": [
+    "fusion-validation.json",
+    "export-validation.json",
+    "export-archive-validation.json"
+  ],
+  "active_document": "SafeWall B - detailed visualization v02",
+  "cloud_save_performed": false,
+  "stage": "packaging concepts only; not manufacturing-ready",
+  "latest_visual_export": "exports/SafeWall-B-detailed-visual-v02.f3d"
+}

@@ -1,0 +1,14 @@
+{
+  "referenceBounds": [
+    84,
+    302,
+    940,
+    744
+  ],
+  "vectorSize": [
+    856,
+    442
+  ],
+  "silhouetteIoU": 0.9995262609354767,
+  "rasterDifferencePixels": 165
+}

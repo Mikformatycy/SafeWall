@@ -1,0 +1,74 @@
+{
+  "fps": 24,
+  "resolution": [
+    960,
+    540
+  ],
+  "duration": 72.66666666666667,
+  "frames": 1744,
+  "clips": [
+    {
+      "name": "seedance",
+      "start": 0.0,
+      "end": 15.5,
+      "frames": 372,
+      "source": "v18"
+    },
+    {
+      "name": "assembly",
+      "start": 15.0,
+      "end": 22.0,
+      "frames": 168,
+      "source": "v18"
+    },
+    {
+      "name": "docking",
+      "start": 21.75,
+      "end": 25.75,
+      "frames": 96,
+      "source": "v20"
+    },
+    {
+      "name": "tor",
+      "start": 25.5,
+      "end": 44.5,
+      "frames": 456,
+      "source": "v21"
+    },
+    {
+      "name": "radios",
+      "start": 44.25,
+      "end": 54.0,
+      "frames": 234,
+      "source": "v21"
+    },
+    {
+      "name": "prototype",
+      "start": 53.5,
+      "end": 58.25,
+      "frames": 114,
+      "source": "v18"
+    },
+    {
+      "name": "live",
+      "start": 57.75,
+      "end": 66.70833333333333,
+      "frames": 215,
+      "source": "v18"
+    },
+    {
+      "name": "outro",
+      "start": 66.4583333333,
+      "end": 72.66666666666667,
+      "frames": 149,
+      "source": "v21"
+    }
+  ],
+  "voice": "../voiceover-v20/SafeWall-voiceover-pl-daniel-v20.wav",
+  "native_speed_live_demo": true,
+  "all_new_visuals": "Blender Workbench scenes + existing marketing/outro MP4",
+  "flat_slides": false,
+  "outro_source": "../../../marketing/outro/safewall-outro-landscape.mp4",
+  "outro_native_speed": true,
+  "flat_explanatory_slides": false
+}

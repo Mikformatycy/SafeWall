@@ -1,0 +1,7 @@
+{
+  "blender_version": "4.5.14 LTS",
+  "runtime_path": "/Users/piotrek/Library/Caches/safewall-render/blender-volume/Blender.app/Contents/MacOS/Blender",
+  "source": "https://download.blender.org/release/Blender4.5/",
+  "sha256": "65134d9b07b20e2fa8d3c9e44f6f44ffb5c9774dd521b95f50387310241ca170",
+  "portable_runtime": true
+}

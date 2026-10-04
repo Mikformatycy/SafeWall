@@ -1,0 +1,116 @@
+{
+  "primary_editable_scene": "visualization/launch-preview-v22/SafeWall-edit-v22.blend",
+  "animation_preview": "visualization/launch-preview-v22/SafeWall-launch-preview-v22.mp4",
+  "stills": [
+    "visualization/assembled-preview-v04.png",
+    "visualization/exploded-preview-v04.png",
+    "visualization/cm4-detail.png"
+  ],
+  "Fusion_visual_reference": "exports/SafeWall-B-detailed-visual-v02.f3d",
+  "official_reference": "references/cm4-official/CM4.step",
+  "source_credit": "Raspberry Pi Ltd — https://pip.raspberrypi.com/categories/1204-design-files",
+  "workflow": {
+    "build_scene": "scripts/run_product_render.py",
+    "review_stills": "scripts/render_product_reviews.py",
+    "render_movie": "scripts/render_product_movie.py",
+    "encode_and_validate": "scripts/finish_product_movie.py",
+    "refine_powerbank_scene": "scripts/refine_powerbank_scene.py",
+    "render_current_movie": "scripts/render_powerbank_movie.py",
+    "retime_current_scene": "scripts/retime_simultaneous_assembly.py",
+    "style_current_scene": "scripts/style_premium_scene.py",
+    "build_docking_preview": "scripts/build_phone_docking_preview.py",
+    "render_docking_preview": "scripts/render_docking_preview.py",
+    "build_live_transition": "scripts/build_live_transition.py",
+    "render_live_transition": "scripts/render_live_transition.py",
+    "build_full_sequence": "scripts/build_full_sequence.py",
+    "render_full_sequence": "scripts/render_full_sequence.py",
+    "retime_flow_sequence": "scripts/retime_flow_sequence.py",
+    "render_flow_sequence": "scripts/render_flow_sequence.py",
+    "retime_narrated_sequence": "scripts/retime_narrated_sequence.py",
+    "render_narrated_sequence": "scripts/render_narrated_sequence.py",
+    "generate_voice": "scripts/eleven_voice_session.py"
+  },
+  "scene_units": "meters; dimensional inputs authored in millimeters",
+  "engineering_scope": "Visual concept; shell, OLED and material finishes are Blender styling proposals, Fusion CAD is previous packaging reference",
+  "premium_master_scene": "visualization/Product-keynote-v04.blend",
+  "premium_assembly_animation": "visualization/Product-assembly-v04.mp4",
+  "preview_quality": {
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 24,
+    "seconds": 69.91666666666667,
+    "engine": "BLENDER_WORKBENCH + video compositing",
+    "PBR_shaders": false,
+    "sound": "Daniel / Eleven v4 + SFX",
+    "motion": "overlapping action tracks; no static holds"
+  },
+  "premium_material_documentation": [
+    "visualization/RESTORE-PREMIUM.txt",
+    "visualization/premium-materials-v04.json"
+  ],
+  "docking_stills": [
+    "visualization/phone-docking-open-v05.png",
+    "visualization/phone-docking-attached-v05.png"
+  ],
+  "phone_reference": {
+    "current_preview": "photo-matched uncased phone front proxy",
+    "target_live_phone": "iPhone 16 without case",
+    "source_photo": "references/live-transition/prototype-phone-photo.png"
+  },
+  "magnetic_docking_preview": "visualization/Phone-docking-preview-v05.mp4",
+  "transition_plan": "visualization/launch-preview-v22/README.txt",
+  "real_photo_reference": "references/live-transition/prototype-phone-photo.png",
+  "transition_stills": [
+    "visualization/overhead-connected-v06.png",
+    "visualization/transition-halfway-v06.png",
+    "visualization/transition-real-photo-v06.png"
+  ],
+  "previous_overhead_transition_preview": "visualization/CG-to-real-preview-v06.mp4",
+  "previous_official_phone_reference": {
+    "model": "iPhone 18 Pro Max",
+    "author": "Apple Inc.",
+    "source": "https://www.apple.com/iphone-18-pro/",
+    "provenance": "references/iphone/source.json"
+  },
+  "previous_full_sequence_preview": "visualization/Full-sequence-preview-v07.mp4",
+  "previous_flow_sequence_preview": "visualization/Full-sequence-flow-v08.mp4",
+  "voiceover": {
+    "model": "eleven_v4",
+    "language": "pl",
+    "voice": "Daniel",
+    "source": "visualization/voiceover-v22/SafeWall-voiceover-pl-daniel-v22.mp3",
+    "documentation": "visualization/voiceover-v22/README.txt",
+    "timing": "visualization/voiceover-v22/edit.json",
+    "validation": "visualization/launch-preview-v22/validation.json"
+  },
+  "historical_v09": {
+    "primary_editable_scene": "visualization/Full-sequence-voice-v09.blend",
+    "animation_preview": "visualization/Full-sequence-voice-v09.mp4",
+    "preview_quality": {
+      "resolution": [
+        960,
+        540
+      ],
+      "fps": 24,
+      "seconds": 8.5,
+      "engine": "BLENDER_WORKBENCH + matched video compositing",
+      "PBR_shaders": false,
+      "sound": "Polish Eleven v4 narration and synchronized connector click",
+      "motion": "overlapping action tracks; no static holds"
+    },
+    "voiceover": {
+      "model": "eleven_v4",
+      "language": "pl",
+      "voice": "Brian",
+      "source": "visualization/voiceover-v09/voice-pl-a-v09.mp3",
+      "prompt": "visualization/voiceover-v09/request-pl-a.json",
+      "documentation": "visualization/VOICEOVER-PLAN-v09.txt",
+      "timing": "visualization/narrated-sequence-v09.json",
+      "validation": "visualization/narrated-movie-validation-v09.json"
+    },
+    "transition_plan": "visualization/VOICEOVER-PLAN-v09.txt"
+  },
+  "git_scope": "Source scripts, plans, metadata and selected stills; movies, audio and native Blender scenes are local-only."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "calculated_estimates_not_measurements",
+  "nominal_battery_energy_wh": 12.58,
+  "minimum_capacity_based_energy_wh": 11.840000000000002,
+  "assumed_conversion_efficiency": 0.9,
+  "assumed_usable_energy_fraction": 0.9,
+  "average_load_limit_for_2h_typical_w": 5.0949,
+  "average_load_limit_for_2h_minimum_capacity_w": 4.795200000000001,
+  "runtime_scenarios_h": {
+    "4": 2.54745,
+    "5": 2.03796,
+    "6": 1.6983,
+    "8": 1.273725
+  },
+  "variants": [
+    {
+      "id": "A",
+      "width_length_height_mm": [
+        128,
+        110,
+        15
+      ],
+      "bounding_box_volume_cm3": 211.2
+    },
+    {
+      "id": "B",
+      "width_length_height_mm": [
+        70,
+        110,
+        24
+      ],
+      "bounding_box_volume_cm3": 184.8
+    }
+  ]
+}

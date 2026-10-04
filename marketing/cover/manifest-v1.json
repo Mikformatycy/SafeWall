@@ -1,0 +1,24 @@
+{
+  "width": 1448,
+  "height": 1086,
+  "aspect_ratio": "4:3",
+  "generation": "builtin image_gen",
+  "source_image": "safewall-cover-4x3-v1.png",
+  "prompt": "prompt-v1.txt",
+  "references": [
+    "../../physical-design/visualization/exploded-preview-v04.png",
+    "../outro/poster-landscape.png",
+    "../../brand/png/logo/safewall-logo-1024.png"
+  ],
+  "files": [
+    {
+      "path": "safewall-cover-4x3-v1.png",
+      "bytes": 1422311
+    },
+    {
+      "path": "safewall-cover-4x3-v1.jpg",
+      "bytes": 281814
+    }
+  ],
+  "original_generation_path": "Retained in local archive; not needed to use this asset."
+}

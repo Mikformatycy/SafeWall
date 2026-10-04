@@ -1,0 +1,22 @@
+{
+  "stage": "complete",
+  "source_geometry_ready": true,
+  "blender_script": "scripts/build_product_scene.py",
+  "official_CM4_imported_to_Fusion": true,
+  "blender_runtime_downloaded_and_hash_verified": true,
+  "Fusion_detailed_scene_extra_population": "official_CM4_reference_export_complete; decorative carrier authored in Blender",
+  "concept_scope": "visual only; no electrical PCB design or phone-case fit claim",
+  "editable_blend_created": true,
+  "stills_rendered_and_visually_reviewed": true,
+  "runtime": "Blender 4.5.14 LTS portable; Metal GPU",
+  "current_process": null,
+  "movie_rendered_and_decoded": true,
+  "movie": "Product-assembly-v04.mp4",
+  "review_movie_resolution": [
+    1920,
+    1080
+  ],
+  "duration_seconds": 5.0,
+  "fps": 24,
+  "editable_scene": "Product-keynote-v04.blend"
+}

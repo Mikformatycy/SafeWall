@@ -1,0 +1,48 @@
+SAFEWALL — USTALENIA FILMU I LEKTORA v12
+Zapis: 2026-10-04, przed generacją audio.
+
+OBOWIĄZUJĄCY TEKST
+VOICEOVER-APPROVED-v12.txt jest pełnym tekstem zaakceptowanym w rozmowie.
+Nie skracać ani nie przepisywać przy dodawaniu intonacji. Wersja TTS ma tylko dodatkowe tagi głosu.
+Kolejność: historia → cenzura bez nazw krajów → SafeWall i grupa odbiorców → Tor → osobna brama i cel blokowania obejścia → widoczność telefonu → dokładne „iPhone (Piotrek)” → wyłączenie radiów i kabel → rzeczywisty test → rozwój → finał.
+Ostatnia zaakceptowana zmiana: „zwykłego połączenia” na „niechronionego połączenia”.
+Wstępne 75–80 s to szacunek, nie zmierzona długość. Ostateczne cięcia wynikną z audio.
+
+OBRAZ
+16:9. Deszczowy, thrillerowy plener, bez mieszkania. Reporter przy osłoniętym blacie; stacja/kiosk pozostają propozycją lokacji. Seedance bez mowy; lektor i efekty osobno.
+Kontakt obudowy z blatem przechodzi w pasujący kadr Blendera.
+Warstwy zamykają się jednocześnie w 5 s z easingiem. Dalej ruch bez zbędnych zatrzymań.
+MagSafe pokazujemy wizualnie: boczne ujęcie telefonu i obudowy, narastająca prędkość zbliżenia, krótkie osadzenie i klik. Nie dokładamy wypowiadanej nazwy ani dodatkowej pauzy.
+Tor wyjaśniamy przed Wi-Fi/Bluetooth. Lektor zachowuje cel blokowania obejścia, ale nie pokazujemy testu awarii/zerwania trasy.
+„iPhone (Piotrek)” to dokładna etykieta na ekranie. Uczciwy kontekst: widoczność w AirDrop przy udostępnianiu wszystkim, nie nazwisko w każdym pakiecie.
+Po ręcznym wyłączeniu radiów telefonu znikają ich symbole; SafeWall nadal pokazuje własną łączność LTE.
+Obudowa przesuwa się w lewo, przechodzi w Raspberry Pi/LTE; pojawia się kabel, wtyki i klik. Widok z góry przechodzi w zdjęcie referencyjne, a docelowo nagranie iPhone'a 16 bez etui.
+Demo: ta sama przeglądarka przed i po podłączeniu, check.torproject.org, odświeżenie, rzeczywiste potwierdzenie Tora. Widoczny wynik przez 2–3 s z subtelnym ruchem kamery.
+Nazwa SafeWall pojawia się w lektorze i finale; istniejąca obudowa pozostaje bez marki.
+Preview: 960×540, 24 fps, bez premium shaderów. Zachować materiały zapisane dla późniejszego renderu premium.
+
+STAN TECHNICZNY I GRANICE POKAZU
+Repo nadal opisuje bezpośredni NAT LTE. Tor oraz blokada obejścia wymagają wdrożenia i testów przed nagraniem pozytywnego wyniku.
+Tor Check potwierdza konkretne połączenie przeglądarki. Lokalny mock-check-tor jest makietą, nie dowodem działania.
+„Niechronionego” dotyczy utraty ochrony trasy Tor; nie oznacza, że HTTPS poza Torem jest nieszyfrowane.
+Wyłączenie radiów telefonu nie wyłącza emisji modemu LTE. Zestaw nie jest niewykrywalny.
+MagSafe, kompaktowa PCB, bateria około 2 h i materiały to kierunek projektu, nie zakończone testy.
+
+DŹWIĘK I ARTEFAKTY
+Głos: dotychczasowy Brian, język polski, Eleven v4. Jedna spójna wypowiedź, wyraźne zmiany intonacji bez efektów w ścieżce głosu.
+Kanoniczny tekst: VOICEOVER-APPROVED-v12.txt.
+Plan maszynowy: voiceover-plan-v12.json.
+Prompt i parametry: voiceover-v12/performance-prompt-pl.txt i request-pl-a.json.
+Zalecenia, źródła i uzasadnienie: voiceover-v12/ELEVEN-V4-DIRECTION-AND-SOURCES.txt.
+Dotychczasowy film Full-sequence-voice-v09.mp4 pozostaje archiwalnym krótkim preview. Ten zapis nie oznacza wyrenderowania pełnego filmu.
+
+WYNIK GENERACJI
+Gotowy lektor: 73.280 s. Aktualny timing i pliki: voiceover-v12/README.txt. Poprzedni szacunek 75–80 s zastąpiony pomiarem.
+
+AKTUALIZACJA LIVE ACTION I BYTEPLUS — v13
+Użytkownik dostarczył IMG_4626.MOV i potwierdził aktywnego Tora. Klatki pokazują podłączenie i zmianę wyniku na zielony. Materiał obrócono w lewo o 90°, oryginał zachowano; references/live-demo-v13/manifest.json zawiera stan i zakres obserwacji.
+Nowe wejście do live action ma nastąpić przed wpięciem RJ45 do Raspberry Pi. Wpięcie i refresh pokazujemy już z prawdziwego klipu. Poprzednia klatka ze zdjęcia i animowane końcówki USB wymagają retargetowania do nowego układu.
+Provider Seedance potwierdzony: BytePlus. Zaktualizowany prompt i dwie referencje: seedance-byteplus-v13/START-HERE.txt. Generujemy 16 s, z czego około 14 s trafia do wstępu. Draft 480p, 16:9, dźwięk wyłączony. Zadania generacji jeszcze nie wysłano.
+
+AKTUALIZACJA v14 — DOPISEK I WYBÓR GŁOSU
+Zatwierdzono „Z zewnątrz przypomina zwykły powerbank.” po przedstawieniu grupy odbiorców. Aktualny pełny tekst: VOICEOVER-APPROVED-v14.txt. Użytkownik poprosił o dokładnie dwa pierwsze słowa w kilku męskich głosach Eleven v4 do wyboru. Próbki po polsku: voice-auditions-v14/. Pełną ścieżkę i timing należy odtworzyć po wyborze głosu; v12 pozostaje poprzednim nagraniem.

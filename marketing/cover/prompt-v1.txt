@@ -1,0 +1,16 @@
+Use case: ads-marketing / compositing.
+Create ONE finished premium project cover for SafeWall. Landscape 4:3 canvas, ideally 2048 x 1536 pixels. The cover is displayed around 637 x 477 pixels in a hackathon project listing, so all branding must remain readable at that size.
+
+INPUTS:
+Image 1: the exact Blender product render to incorporate on the RIGHT. This is a small privacy/network hardware device shown in exploded view, a vertically separated sandwich. Preserve the pictured product geometry and identifiable details, the six layers, their order, materials, and three-quarter perspective: glossy graphite cover with small black display window; thin copper heat spreader; small green compute module; larger green carrier PCB with rectangular metal RF shield; silver rectangular battery; graphite enclosure base with front USB-C port and small oval button. Faithfully composite this hardware from the reference, do not invent a different device or add boards. Keep the product unbranded. All layers must remain entirely in frame and identifiable. Replace its white studio background with the cover's dark background. Subtle neutral studio rim highlights ensure graphite edges remain visible, copper and PCBs retain natural colors.
+Image 2: the finished SafeWall outro used as BRAND AND TYPOGRAPHY STYLE REFERENCE. Keep its quiet elegant near-black violet atmosphere, its sans-serif wordmark, restrained lavender, and correct Polish wording. Adapt the composition into left text / right product, not a centered outro.
+Image 3: the EXACT chosen SafeWall 4A logo. Preserve this flat simple silhouette exactly, with three broad battlements, two rounded shallow notches, rounded external corners, straight bottom. Two flat colors: lower body #7D67E9 and upper crown #B39AFB. Do not redesign, do not add a shield, do not add bevels, glow or texture to the logo.
+
+COMPOSITION:
+A polished editorial/product cover, calm, minimal, premium. No website chrome, badges, cards, labels, dividers or CTA. Dark backdrop #0E0C14 with an extremely subtle broad violet studio glow behind the hardware. No grids, network lines, neon effects or ornament.
+Left half: logo 4A as a compact flat mark, with a large bold clean 'SafeWall' wordmark beside it. Both form a single brand row. Under that row place the tagline in two graceful left-aligned lines, comfortably large to read on a project thumbnail:
+'Bo za każdą historią'
+'stoi człowiek.'
+Make 'człowiek.' softly lavender and slightly heavier; remaining tagline muted light lavender-gray. Maintain generous breathing room and hierarchy. Exact visible wording is ONLY 'SafeWall' and 'Bo za każdą historią stoi człowiek.' Polish diacritics are mandatory: ż in każdą, ą in każdą and historią, ł in człowiek. Do not add quotation marks.
+Right half: the exploded hardware stack from Image 1, full height balanced against the left branding, approximately 75–82% of canvas height. Restrained soft studio grounding shadow below base. Keep left type entirely separate from hardware.
+Safe margins of at least 7% of canvas width/height. Sophisticated negative space, balanced editorial composition. Final image must look like a coherent high quality Blender product presentation from the same SafeWall brand as the outro, with crisp flat typography and real precise hardware, not a generic AI cyber-security poster.

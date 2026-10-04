@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "video": "Product-assembly-v04.mp4",
+  "metadata": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "24/1",
+    "duration": "5.000000",
+    "nb_read_frames": "120"
+  },
+  "PNG_frames_checked": 120,
+  "all_frames_decode": true,
+  "all_frames_inside_camera": true,
+  "video_bytes": 1485552,
+  "sha256": "10489612a4dbb9c1cfb598b5de615922c5edeaa2ff99fe5ba52bc4d718375d11",
+  "source_scene": "Product-keynote-v04.blend",
+  "source_resolution": [
+    1920,
+    1080
+  ],
+  "renderer": "Cycles GPU",
+  "review_samples": 24,
+  "resumed_frames": 0,
+  "denoiser": "OpenImageDenoise",
+  "GPU_denoising_for_resumed_render": true,
+  "render_seconds": 853,
+  "display_percentage_is_demo": true
+}

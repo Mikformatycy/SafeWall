@@ -1,0 +1,31 @@
+{
+  "pages": 8,
+  "aspect_ratio": "16:9",
+  "bytes": 3400770,
+  "fonts": [
+    "/AAAAAA+.SFNSRounded-Regular",
+    "/Helvetica",
+    "/Times-Roman"
+  ],
+  "links": [
+    {
+      "page": 2,
+      "uri": "https://youtube.com/"
+    },
+    {
+      "page": 2,
+      "uri": "https://youtube.com/"
+    },
+    {
+      "page": 2,
+      "uri": "https://youtube.com/"
+    },
+    {
+      "page": 8,
+      "uri": "https://github.com/Mikformatycy/SafeWall"
+    }
+  ],
+  "text_overflows": [],
+  "video_placeholder": true,
+  "visual_review": "All pages inspected; final export rasterized with pdftocairo."
+}

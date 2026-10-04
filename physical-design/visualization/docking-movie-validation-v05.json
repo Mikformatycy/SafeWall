@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "movie": "Phone-docking-preview-v05.mp4",
+  "resolution": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "duration_seconds": 5,
+  "frames_rendered_and_decoded": 120,
+  "render_engine": "BLENDER_WORKBENCH",
+  "render_seconds": 11.09,
+  "premium_shaders_used_in_preview": false,
+  "premium_master_unchanged": true,
+  "movie_bytes": 153464,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 960,
+        "height": 540,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "120"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+CAŁA SEKWENCJA — PODGLĄD v07
+
+Otwórz Full-sequence-preview-v07.mp4.
+15 sekund, 960 x 540, 24 kl./s, prosty render Workbench + zdjęcie.
+Bez shaderów premium. Kliknięcie jest w ścieżce dźwiękowej filmu.
+
+0–5 s    Wszystkie warstwy „kanapki” składają się równocześnie w obudowę.
+5–7 s    Obudowa przesuwa się w lewo. Kamera płynnie przechodzi nad stół,
+         poszerza kadr, a telefon pojawia się po prawej.
+7–8 s    Obudowa płynnie ustępuje miejsca modelowi aktualnego prototypu:
+         Raspberry Pi, niebieska płytka modemu i antena.
+8–9 s    Jeden kabel wraz z oboma wtykami pojawia się od dołu kadru.
+9–10,5 s Wtyki dosuwają się do portów. Klik przy osadzeniu: 10,458 s.
+10,5–11,5 s Zatrzymanie gotowego połączenia.
+11,5–13 s Dopasowane przenikanie renderu do przesłanej fotografii.
+13–15 s  Sama fotografia, zatrzymana przez 2 sekundy.
+
+Ruch kamery, przesunięcie i kabel mają łagodne rozpędzenie i wyhamowanie.
+Składanie zachowuje wspólny, wcześniejszy easing wszystkich warstw.
+Przejścia obudowa–prototyp oraz render–zdjęcie mają easing przenikania.
+Są to dopasowane przenikania, nie symulacja fizycznej przemiany urządzenia.
+Kliknięcie jest krótkim, wygenerowanym dźwiękiem użytym wyłącznie w podglądzie.
+
+USTALENIA DO WŁAŚCIWEGO NAGRANIA
+Docelowy telefon: iPhone 16, bez etui, ekranem do góry, jak potwierdzono.
+Przód telefonu i stos obecnego prototypu są modelami poglądowymi dobranymi
+do zdjęcia. To nie jest dokładny CAD produkcyjny tych elementów.
+W przesłanym zdjęciu telefon ma etui; różnica obrysu jest tymczasowa.
+Po otrzymaniu filmu dopasujemy kadr i geometrię do jego pierwszej nieruchomej
+klatki, a zdjęcie zastąpimy nagraniem. Warto zacząć od 2 sekund bez dłoni
+i ruchu, ze stałą ostrością, ekspozycją oraz balansem bieli.
+Ujęcie mocowania magnetycznego z v05 pozostaje osobną wcześniejszą wersją;
+nie jest częścią tej sekwencji zamówionej przez użytkownika.
+
+ODTWORZENIE I PLIKI
+Full-sequence-preview-v07.blend: wspólna scena 3D i klatki 1–276.
+../scripts/build_full_sequence.py: łączy v04 i v06, ustawia kamerę i ruch.
+../scripts/render_full_sequence.py: renderuje klatki oraz dodatkowy przebieg
+zamiany obudowy na prototyp, montuje przejścia i dodaje dźwięk do MP4.
+full-sequence-v07.json: dokładny timing i kontrola kadrowania.
+full-sequence-movie-validation-v07.json: sprawdzenie klatek, filmu i audio.
+connector-click-v07.wav: ścieżka z kliknięciem w odpowiednim momencie.
+Wcześniejsze sceny oraz materiały premium pozostają zachowane w v04–v06.
+Instrukcja powrotu do shaderów: RESTORE-PREMIUM.txt.

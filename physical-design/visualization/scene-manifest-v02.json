@@ -1,0 +1,28 @@
+{
+  "revision": "v02",
+  "source_scene": "SafeWall-keynote-v01.blend",
+  "editable_scene": "SafeWall-keynote-v02.blend",
+  "envelope_mm": [
+    70,
+    110,
+    24
+  ],
+  "changes": [
+    "rounded powerbank enclosure",
+    "recessed USB-C and status button",
+    "smoked OLED lens and animated 87% readout",
+    "quintic eased assembly and camera"
+  ],
+  "OLED_window_mm": [
+    28.35,
+    16.35
+  ],
+  "OLED_value_is_demo": true,
+  "engineering_status": "visual concept; no display part selection or revised Fusion production geometry",
+  "fps": 24,
+  "frames": 240,
+  "source_resolution": [
+    1920,
+    1080
+  ]
+}

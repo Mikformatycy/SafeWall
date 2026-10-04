@@ -1,0 +1,100 @@
+{
+  "revision": "v01",
+  "status": "packaging_concepts_not_manufacturing_designs",
+  "units": "mm",
+  "battery_reference": {
+    "model": "EEMB LP605590-PCM-NTC-LD",
+    "selection_status": "dimensional_and_energy_reference_only_not_selected_for_purchase",
+    "pack_max_width": 55.5,
+    "pack_max_length": 92.0,
+    "pack_max_thickness": 6.3,
+    "capacity_typical_mah": 3400,
+    "capacity_minimum_mah": 3200,
+    "nominal_voltage_v": 3.7,
+    "cell_reference_mass_g": 68,
+    "pack_mass_note": "68 g is the cell reference; PCM, leads and connector add mass",
+    "source": "https://jm.pl/gfx-base/s_1/orgs/18/LP605590.pdf",
+    "source_pages": [3, 8]
+  },
+  "energy_assumptions_not_measurements": {
+    "runtime_target_hours": 2,
+    "average_conversion_efficiency": 0.9,
+    "usable_energy_fraction": 0.9,
+    "load_scenarios_w": [4, 5, 6, 8],
+    "formula": "runtime_h = capacity_Ah * nominal_voltage_V * conversion_efficiency * usable_energy_fraction / average_load_W",
+    "scope": "entire_router_load_including_compute_LTE_and_peripherals; excludes_charging_phone"
+  },
+  "common": {
+    "shell_wall": 1.6,
+    "rear_panel_thickness": 2.4,
+    "contact_pad_thickness": 0.6,
+    "carrier_width": 60,
+    "carrier_length": 88,
+    "carrier_thickness": 1.6,
+    "cm4_width": 55,
+    "cm4_length": 40,
+    "cm4_mounted_height": 6.578,
+    "lte_width": 32,
+    "lte_length": 29,
+    "lte_height": 2.4,
+    "magnet_outer_diameter": 54.1,
+    "magnet_inner_diameter": 46,
+    "magnet_thickness_placeholder": 1.2,
+    "magnet_center_y": 80,
+    "orientation_magnet_width": 6,
+    "orientation_magnet_length": 19.31,
+    "orientation_magnet_near_edge_from_ring_center": 31.18,
+    "magnet_geometry_status": "space_reservations_only; segmentation_polarity_shielding_and_assembly_not_designed"
+  },
+  "variants": [
+    {
+      "id": "A",
+      "name": "PLANAR - battery beside electronics",
+      "width": 128,
+      "length": 110,
+      "height": 15,
+      "corner_radius": 9,
+      "carrier_x": 4,
+      "carrier_y": 10,
+      "carrier_z": 4,
+      "battery_x": 67,
+      "battery_y": 7,
+      "battery_z": 4,
+      "display_x": 0,
+      "finding": "Thin but wider than reference phone; large magnetic lever arm"
+    },
+    {
+      "id": "B",
+      "name": "LAYERED - battery below electronics",
+      "width": 70,
+      "length": 110,
+      "height": 24,
+      "corner_radius": 9,
+      "carrier_x": 5,
+      "carrier_y": 10,
+      "carrier_z": 12.3,
+      "battery_x": 7.25,
+      "battery_y": 7,
+      "battery_z": 4,
+      "display_x": 158,
+      "finding": "Preferred packaging direction for phone width; thermal and retention tests required"
+    }
+  ],
+  "unresolved_before_fit_or_production_claims": [
+    "Real PCB routing, power components, connector choices and footprints",
+    "LTE main/diversity antenna selection and clearances beside phone and magnets",
+    "USB host/device architecture for simultaneous modem and phone connection",
+    "Battery supplier expansion allowance, lead routing and pack peak current",
+    "Phone-specific MagSafe position, camera and case geometry",
+    "Thermal path and surface temperatures in attached use",
+    "Fasteners, seals, tolerances, service access and physical material grades",
+    "Final magnetic assembly and qualification"
+  ],
+  "sources": {
+    "cm4": "https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf",
+    "lte_size_reference_not_selection": "https://www.quectel.com.cn/product/eg25-g",
+    "magsafe": "https://developer.apple.com/accessories/Accessory-Design-Guidelines.pdf",
+    "magsafe_document_date": "2026-09-21",
+    "magsafe_reference_pages": [276, 278, 282, 284]
+  }
+}

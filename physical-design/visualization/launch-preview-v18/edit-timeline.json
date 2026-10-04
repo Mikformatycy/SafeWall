@@ -1,0 +1,61 @@
+{
+  "fps": 24,
+  "resolution": [
+    960,
+    540
+  ],
+  "duration": 79.75,
+  "frames": 1914,
+  "clips": [
+    {
+      "name": "seedance",
+      "start": 0.0,
+      "end": 15.5,
+      "frames": 372
+    },
+    {
+      "name": "assembly",
+      "start": 15.0,
+      "end": 22.0,
+      "frames": 168
+    },
+    {
+      "name": "docking",
+      "start": 21.75,
+      "end": 25.75,
+      "frames": 96
+    },
+    {
+      "name": "tor",
+      "start": 25.5,
+      "end": 48.25
+    },
+    {
+      "name": "radios",
+      "start": 48.0,
+      "end": 56.25
+    },
+    {
+      "name": "prototype",
+      "start": 55.75,
+      "end": 60.5,
+      "frames": 114
+    },
+    {
+      "name": "live",
+      "start": 59.75,
+      "end": 68.75,
+      "frames": 215
+    },
+    {
+      "name": "closing",
+      "start": 68.5,
+      "end": 79.75
+    }
+  ],
+  "voice": "../voiceover-v16/SafeWall-voiceover-pl-daniel-v16.wav",
+  "voice_offset": 0,
+  "native_speed_live_demo": true,
+  "full_preview_only": true,
+  "transition_method": "Framing-matched eased cross-dissolves; no optical-flow warping of actual Tor-check footage"
+}

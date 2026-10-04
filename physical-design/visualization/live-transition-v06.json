@@ -1,0 +1,518 @@
+{
+  "status": "shot_ready",
+  "resolution": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "CG_frames": 96,
+  "edit_seconds": 8,
+  "insertions_frames": [
+    16,
+    72
+  ],
+  "CG_hold_frames": [
+    72,
+    96
+  ],
+  "photo_transition_seconds": [
+    4,
+    6
+  ],
+  "photo_hold_seconds": [
+    6,
+    8
+  ],
+  "photo_crop_original_px": [
+    0,
+    118,
+    1362,
+    766.125
+  ],
+  "geometry": "Photo-matched visual proxies, not production CAD",
+  "phone_case": false,
+  "reference_photo_contains_case": true,
+  "single_continuous_cable": true,
+  "motion_checks": [
+    {
+      "frame": 1,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 2,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 3,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 4,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 5,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 6,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 7,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 8,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 9,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 10,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 11,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 12,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 13,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 14,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 15,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 16,
+      "modem_insertion_remaining_px": 65,
+      "phone_insertion_remaining_px": 70
+    },
+    {
+      "frame": 17,
+      "modem_insertion_remaining_px": 64.99639717538288,
+      "phone_insertion_remaining_px": 69.99612003502773
+    },
+    {
+      "frame": 18,
+      "modem_insertion_remaining_px": 64.97195353405576,
+      "phone_insertion_remaining_px": 69.9697961135985
+    },
+    {
+      "frame": 19,
+      "modem_insertion_remaining_px": 64.90792437950775,
+      "phone_insertion_remaining_px": 69.90084163946989
+    },
+    {
+      "frame": 20,
+      "modem_insertion_remaining_px": 64.78777443922175,
+      "phone_insertion_remaining_px": 69.77144939608496
+    },
+    {
+      "frame": 21,
+      "modem_insertion_remaining_px": 64.59709288682845,
+      "phone_insertion_remaining_px": 69.5661000319691
+    },
+    {
+      "frame": 22,
+      "modem_insertion_remaining_px": 64.32350836426043,
+      "phone_insertion_remaining_px": 69.27147054612661
+    },
+    {
+      "frame": 23,
+      "modem_insertion_remaining_px": 63.95660400390625,
+      "phone_insertion_remaining_px": 68.8763427734375
+    },
+    {
+      "frame": 24,
+      "modem_insertion_remaining_px": 63.48783245076456,
+      "phone_insertion_remaining_px": 68.37151187005415
+    },
+    {
+      "frame": 25,
+      "modem_insertion_remaining_px": 62.91043088459816,
+      "phone_insertion_remaining_px": 67.74969479879802
+    },
+    {
+      "frame": 26,
+      "modem_insertion_remaining_px": 62.21933604208812,
+      "phone_insertion_remaining_px": 67.00543881455644
+    },
+    {
+      "frame": 27,
+      "modem_insertion_remaining_px": 61.4110992389878,
+      "phone_insertion_remaining_px": 66.13502994967916
+    },
+    {
+      "frame": 28,
+      "modem_insertion_remaining_px": 60.48380139227702,
+      "phone_insertion_remaining_px": 65.13640149937525
+    },
+    {
+      "frame": 29,
+      "modem_insertion_remaining_px": 59.436968042316124,
+      "phone_insertion_remaining_px": 64.00904250710967
+    },
+    {
+      "frame": 30,
+      "modem_insertion_remaining_px": 58.271484375,
+      "phone_insertion_remaining_px": 62.75390625
+    },
+    {
+      "frame": 31,
+      "modem_insertion_remaining_px": 56.98951024391227,
+      "phone_insertion_remaining_px": 61.37331872421322
+    },
+    {
+      "frame": 32,
+      "modem_insertion_remaining_px": 55.594395192479325,
+      "phone_insertion_remaining_px": 59.870887130362355
+    },
+    {
+      "frame": 33,
+      "modem_insertion_remaining_px": 54.09059347612439,
+      "phone_insertion_remaining_px": 58.25140835890319
+    },
+    {
+      "frame": 34,
+      "modem_insertion_remaining_px": 52.48357908442166,
+      "phone_insertion_remaining_px": 56.52077747553103
+    },
+    {
+      "frame": 35,
+      "modem_insertion_remaining_px": 50.77976076325038,
+      "phone_insertion_remaining_px": 54.68589620657733
+    },
+    {
+      "frame": 36,
+      "modem_insertion_remaining_px": 48.986397036948894,
+      "phone_insertion_remaining_px": 52.754581424406496
+    },
+    {
+      "frame": 37,
+      "modem_insertion_remaining_px": 47.11151123046875,
+      "phone_insertion_remaining_px": 50.7354736328125
+    },
+    {
+      "frame": 38,
+      "modem_insertion_remaining_px": 45.163806491528824,
+      "phone_insertion_remaining_px": 48.63794545241566
+    },
+    {
+      "frame": 39,
+      "modem_insertion_remaining_px": 43.15258081276937,
+      "phone_insertion_remaining_px": 46.47201010605932
+    },
+    {
+      "frame": 40,
+      "modem_insertion_remaining_px": 41.08764205390611,
+      "phone_insertion_remaining_px": 44.248229904206575
+    },
+    {
+      "frame": 41,
+      "modem_insertion_remaining_px": 38.97922296388432,
+      "phone_insertion_remaining_px": 41.977624730336956
+    },
+    {
+      "frame": 42,
+      "modem_insertion_remaining_px": 36.83789620303297,
+      "phone_insertion_remaining_px": 39.67158052634319
+    },
+    {
+      "frame": 43,
+      "modem_insertion_remaining_px": 34.67448936521869,
+      "phone_insertion_remaining_px": 37.34175777792782
+    },
+    {
+      "frame": 44,
+      "modem_insertion_remaining_px": 32.5,
+      "phone_insertion_remaining_px": 35.0
+    },
+    {
+      "frame": 45,
+      "modem_insertion_remaining_px": 30.325510634781303,
+      "phone_insertion_remaining_px": 32.65824222207217
+    },
+    {
+      "frame": 46,
+      "modem_insertion_remaining_px": 28.162103796967024,
+      "phone_insertion_remaining_px": 30.328419473656798
+    },
+    {
+      "frame": 47,
+      "modem_insertion_remaining_px": 26.020777036115685,
+      "phone_insertion_remaining_px": 28.022375269663044
+    },
+    {
+      "frame": 48,
+      "modem_insertion_remaining_px": 23.912357946093888,
+      "phone_insertion_remaining_px": 25.751770095793415
+    },
+    {
+      "frame": 49,
+      "modem_insertion_remaining_px": 21.847419187230642,
+      "phone_insertion_remaining_px": 23.527989893940692
+    },
+    {
+      "frame": 50,
+      "modem_insertion_remaining_px": 19.83619350847118,
+      "phone_insertion_remaining_px": 21.36205454758435
+    },
+    {
+      "frame": 51,
+      "modem_insertion_remaining_px": 17.88848876953125,
+      "phone_insertion_remaining_px": 19.2645263671875
+    },
+    {
+      "frame": 52,
+      "modem_insertion_remaining_px": 16.013602963051078,
+      "phone_insertion_remaining_px": 17.24541857559347
+    },
+    {
+      "frame": 53,
+      "modem_insertion_remaining_px": 14.220239236749618,
+      "phone_insertion_remaining_px": 15.314103793422667
+    },
+    {
+      "frame": 54,
+      "modem_insertion_remaining_px": 12.516420915578319,
+      "phone_insertion_remaining_px": 13.479222524468959
+    },
+    {
+      "frame": 55,
+      "modem_insertion_remaining_px": 10.909406523875623,
+      "phone_insertion_remaining_px": 11.748591641096823
+    },
+    {
+      "frame": 56,
+      "modem_insertion_remaining_px": 9.40560480752068,
+      "phone_insertion_remaining_px": 10.129112869637655
+    },
+    {
+      "frame": 57,
+      "modem_insertion_remaining_px": 8.010489756087761,
+      "phone_insertion_remaining_px": 8.62668127578682
+    },
+    {
+      "frame": 58,
+      "modem_insertion_remaining_px": 6.728515625,
+      "phone_insertion_remaining_px": 7.24609375
+    },
+    {
+      "frame": 59,
+      "modem_insertion_remaining_px": 5.5630319576838545,
+      "phone_insertion_remaining_px": 5.990957492890305
+    },
+    {
+      "frame": 60,
+      "modem_insertion_remaining_px": 4.516198607722948,
+      "phone_insertion_remaining_px": 4.863598500624713
+    },
+    {
+      "frame": 61,
+      "modem_insertion_remaining_px": 3.588900761012237,
+      "phone_insertion_remaining_px": 3.8649700503208706
+    },
+    {
+      "frame": 62,
+      "modem_insertion_remaining_px": 2.780663957911851,
+      "phone_insertion_remaining_px": 2.9945611854435317
+    },
+    {
+      "frame": 63,
+      "modem_insertion_remaining_px": 2.089569115401755,
+      "phone_insertion_remaining_px": 2.25030520120189
+    },
+    {
+      "frame": 64,
+      "modem_insertion_remaining_px": 1.5121675492353814,
+      "phone_insertion_remaining_px": 1.6284881299457954
+    },
+    {
+      "frame": 65,
+      "modem_insertion_remaining_px": 1.04339599609375,
+      "phone_insertion_remaining_px": 1.1236572265625
+    },
+    {
+      "frame": 66,
+      "modem_insertion_remaining_px": 0.6764916357394712,
+      "phone_insertion_remaining_px": 0.7285294538732767
+    },
+    {
+      "frame": 67,
+      "modem_insertion_remaining_px": 0.4029071131715023,
+      "phone_insertion_remaining_px": 0.4338999680308486
+    },
+    {
+      "frame": 68,
+      "modem_insertion_remaining_px": 0.21222556077834298,
+      "phone_insertion_remaining_px": 0.2285506039151386
+    },
+    {
+      "frame": 69,
+      "modem_insertion_remaining_px": 0.09207562049232898,
+      "phone_insertion_remaining_px": 0.09915836053020044
+    },
+    {
+      "frame": 70,
+      "modem_insertion_remaining_px": 0.028046465944329135,
+      "phone_insertion_remaining_px": 0.030203886401585223
+    },
+    {
+      "frame": 71,
+      "modem_insertion_remaining_px": 0.003602824617114919,
+      "phone_insertion_remaining_px": 0.0038799649722776053
+    },
+    {
+      "frame": 72,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 73,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 74,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 75,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 76,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 77,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 78,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 79,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 80,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 81,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 82,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 83,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 84,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 85,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 86,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 87,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 88,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 89,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 90,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 91,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 92,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 93,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 94,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 95,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    },
+    {
+      "frame": 96,
+      "modem_insertion_remaining_px": 0,
+      "phone_insertion_remaining_px": 0
+    }
+  ]
+}

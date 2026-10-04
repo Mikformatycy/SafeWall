@@ -1,0 +1,159 @@
+{
+  "revision": "v12_approved_full_narration",
+  "status": "audio_generated_and_automatically_verified",
+  "date": "2026-10-04",
+  "language": "pl",
+  "model": "eleven_v4",
+  "voice_id": "nPczCjzI2devNBz1zQrb",
+  "voice_name": "Brian - Deep, Resonant and Comforting",
+  "canonical_text": "VOICEOVER-APPROVED-v12.txt",
+  "canonical_sha256": "5a1cb21b205dae1ecba7e08cfc5a2fab0e21698df8d5e6f99a3d220ff46d0c88",
+  "word_count": 153,
+  "estimated_duration_seconds": [
+    75,
+    80
+  ],
+  "measured_duration_seconds": 73.28,
+  "timing_note": "Actual recorded audio supersedes the prior 75–80 s estimate. No time stretching applied. Times relative to narration start, before any film intro/tail handles.",
+  "paragraphs": [
+    {
+      "id": 1,
+      "text": "Ktoś powierzył ci swoją historię. Teraz chcesz ją przekazać dalej — i chronić osobę, która ci zaufała.",
+      "performance_cue": "[Low, close, composed voice, restrained urgency, fluent Polish]"
+    },
+    {
+      "id": 2,
+      "text": "Są miejsca, w których dostęp do informacji ogranicza cenzura. Właśnie tam prywatność ma szczególne znaczenie.",
+      "performance_cue": ""
+    },
+    {
+      "id": 3,
+      "text": "Dlatego projektujemy SafeWall — sprzętową bramę prywatności dla dziennikarzy, aktywistów i organizacji społecznych.",
+      "performance_cue": "[Clear, quietly confident voice, purposeful forward momentum]"
+    },
+    {
+      "id": 4,
+      "text": "SafeWall ma kierować połączenia przez sieć Tor. Tor prowadzi ruch przez kilka przekaźników, utrudniając ustalenie, kto z kim się komunikuje.",
+      "performance_cue": ""
+    },
+    {
+      "id": 5,
+      "text": "Kontrolę połączenia przenosimy poza telefon. Osobna brama ma pilnować jednej zasady: internet przez Tor albo brak połączenia. Żeby awaria chronionej trasy nie otworzyła drogi do niechronionego połączenia.",
+      "performance_cue": "[Firm, measured voice, clear emphasis]"
+    },
+    {
+      "id": 6,
+      "text": "Telefon może też ujawniać swoją obecność urządzeniom w pobliżu.",
+      "performance_cue": "[Lower, observant voice]"
+    },
+    {
+      "id": 7,
+      "text": "„iPhone (Piotrek)”. Nietrudno się domyślić, do kogo należy.",
+      "performance_cue": "[Quietly pointed, matter-of-fact voice]"
+    },
+    {
+      "id": 8,
+      "text": "Z SafeWall możesz wyłączyć Wi-Fi, Bluetooth i łączność komórkową telefonu. Podłączasz przewód — i nadal masz dostęp do internetu. A połączenie przez Tor sprawdzasz w swojej przeglądarce.",
+      "performance_cue": "[Assured, conversational voice, flowing delivery]"
+    },
+    {
+      "id": 9,
+      "text": "To nasz prototyp. Kolejny krok: miniaturyzacja, testy bezpieczeństwa i próby z przyszłymi użytkownikami.",
+      "performance_cue": "[Grounded, confident voice]"
+    },
+    {
+      "id": 10,
+      "text": "SafeWall. Bo za każdą historią stoi człowiek.",
+      "performance_cue": "[Warm, sincere voice, gently settled ending]"
+    }
+  ],
+  "voice_direction": "Restrained thriller opening, confident and readable product explanation, understated iPhone line, warmer sincere close. No theatrical trailer growl, comic sarcasm, laughter, music or SFX in narration.",
+  "verbatim_constraints": [
+    "iPhone (Piotrek)",
+    "niechronionego połączenia",
+    "SafeWall at product introduction and final sign-off"
+  ],
+  "sequence_order": [
+    "Rainy thriller exterior, human story and censorship without naming countries",
+    "Reporter places/tosses device onto dry counter; contact match into Blender",
+    "Simultaneous 5-second eased enclosure assembly; side-view MagSafe attachment under narration",
+    "Tor routing explanation before radio explanation; fail-closed goal spoken without a staged outage demonstration",
+    "Nearby visibility example: exact label iPhone (Piotrek), contextualized as AirDrop discovery with Everyone sharing",
+    "User disables phone Wi-Fi, Bluetooth and cellular; enclosure moves left and transitions to rendered Raspberry Pi/LTE prototype",
+    "Cable inserts with click; overhead morph to supplied photo in preview, later actual footage of uncased iPhone 16",
+    "Real check.torproject.org test in same browser before/after cable connection; refresh and positive result only with working Tor",
+    "Prototype, next steps and SafeWall closing card"
+  ],
+  "visual_decisions": {
+    "magsafe": "Visual only; no spoken mention. No implied wireless data or charging.",
+    "motion": "Continuous, overlapping, eased movement; no long holds. Readable Tor result can use slow camera motion.",
+    "assembly_seconds": 5,
+    "show_failure_demo": false,
+    "show_actual_tor_check": true,
+    "exact_device_label": "iPhone (Piotrek)",
+    "airdrop_context": "Everyone sharing; not a claim that every Wi-Fi or Bluetooth packet contains the owner name.",
+    "radio_visual": "Only the disabled phone interfaces lose their depicted signals. Show separate LTE uplink from gateway.",
+    "preview": {
+      "resolution": [
+        960,
+        540
+      ],
+      "fps": 24,
+      "shaders": "Workbench/solid, preserve premium materials separately"
+    },
+    "branding": "SafeWall in narration and closing card; keep existing unbranded enclosure scenes intact."
+  },
+  "sound": {
+    "narrator": "ElevenLabs only",
+    "seedance_human_voice": false,
+    "seedance_import_audio": false,
+    "separate_foley": [
+      "rain",
+      "steps",
+      "cloth",
+      "device contact",
+      "magnetic attachment",
+      "USB click"
+    ],
+    "music_in_generated_narration": false
+  },
+  "claim_boundaries": {
+    "current_repo": "08-WIZJA-I-PLAN-PROJEKTU.md describes direct LTE NAT. Tor and fail-closed are implementation goals.",
+    "real_demo_gate": "Record a genuine Tor result only after deployment. mock-check-tor is a UI mock and must be labeled if used for editing.",
+    "tor_check_scope": "Result verifies that browser request, not all apps or overall anonymity.",
+    "word_niechronionego": "Approved shorthand for loss of the intended Tor route, not a claim that HTTPS outside Tor is unencrypted.",
+    "phone_radios": "Disabled by user; separate LTE modem remains identifiable to carrier.",
+    "tor_scope": "Supported TCP/DNS traffic; unsupported/bypassing traffic must be blocked and tested.",
+    "hardware": "Separate policy enforcement is the proposed benefit; no blanket claim of superiority over every VPN."
+  },
+  "not_in_voiceover": [
+    "U.S. Navy/onion routing history",
+    "Russia or China by name",
+    "MagSafe name",
+    "Battery runtime, mass, PCB specification",
+    "Universal anonymity or hardware-only security"
+  ],
+  "production_status": {
+    "current_movie": "Full-sequence-voice-v09.mp4",
+    "new_video_rendered": false,
+    "new_audio_generated": true,
+    "audio_mp3": "voiceover-v12/SafeWall-voiceover-pl-v12.mp3",
+    "audio_wav": "voiceover-v12/SafeWall-voiceover-pl-v12.wav",
+    "raw_take": "voiceover-v12/SafeWall-voiceover-pl-v12-take-a.mp3",
+    "transcript_verification": "154/154 normalized lexical tokens match; punctuation and casing ignored",
+    "human_listening_review": "pending user audition; ASR is not a subjective assessment of intonation"
+  },
+  "research_notes": "voiceover-v12/ELEVEN-V4-DIRECTION-AND-SOURCES.txt",
+  "timing_source": "voiceover-v12/paragraph-timings.json (independent Scribe v2 transcription of generated audio)",
+  "edit_timing": "voiceover-v12/edit-timings.json",
+  "live_action_update_v13": {
+    "source": "../references/live-demo-v13/manifest.json",
+    "status": "recording_provided_by_user_and_rotated",
+    "user_reports_active_tor": true,
+    "visual_result_transition_observed": true,
+    "deployment_independently_audited": false,
+    "handoff": "morph to start of real clip before Pi Ethernet insertion",
+    "seedance_provider": "BytePlus ModelArk",
+    "seedance_ready_package": "seedance-byteplus-v13/START-HERE.txt"
+  }
+}

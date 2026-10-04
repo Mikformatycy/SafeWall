@@ -1,0 +1,27 @@
+{
+  "source_voice": "voiceover-v22/SafeWall-voiceover-pl-daniel-v22.wav",
+  "foley_events": [
+    [
+      21.25,
+      "closure",
+      0.045,
+      680
+    ],
+    [
+      24.3,
+      "magnet",
+      0.075,
+      1150
+    ],
+    [
+      59.873456790123456,
+      "RJ45",
+      0.06,
+      2050
+    ]
+  ],
+  "music_added": false,
+  "insertion_global_seconds": 59.873456790123456,
+  "original_live_audio_used": false,
+  "filter": "[0:a]aresample=48000,apad,atrim=duration=69.91666666666667,asplit=2[vo][side];[1:a]aresample=48000,atrim=duration=16,asetpts=PTS-STARTPTS,highpass=f=65,loudnorm=I=-29:TP=-9:LRA=7,aresample=48000,afade=t=in:st=0:d=0.08,afade=t=out:st=14.8:d=1.2,apad,atrim=duration=69.91666666666667[amb];[amb][side]sidechaincompress=threshold=0.05:ratio=3:attack=15:release=180[duck];[vo]pan=stereo|c0=c0|c1=c0[vost];[2:a]pan=stereo|c0=c0|c1=c0[fx];[vost][duck][fx]amix=inputs=3:normalize=0:duration=longest,alimiter=limit=0.841395:level=false:latency=true[out]"
+}

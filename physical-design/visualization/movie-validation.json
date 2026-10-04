@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "video": "SafeWall-assembly-v01.mp4",
+  "video_metadata": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 540,
+    "r_frame_rate": "24/1",
+    "duration": "10.000000",
+    "nb_read_frames": "240"
+  },
+  "PNG_frames_checked": 240,
+  "all_frames_decode": true,
+  "camera_framing_checked_frames": 240,
+  "file_bytes": 804284,
+  "video_sha256": "8ace8d5958ca695509d12eebf6fba1407fa6055e09d235f39983bcce03e01ea4",
+  "source_scene": "SafeWall-keynote-v01.blend",
+  "source_resolution": [
+    1920,
+    1080
+  ],
+  "source_scene_embeds_geometry": true,
+  "renderer": "Cycles Metal",
+  "preview_samples": 8,
+  "concept_note": "Official CM4 reference plus decorative carrier; no electrical PCB design or phone-case fit qualification."
+}

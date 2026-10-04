@@ -1,0 +1,20 @@
+Create a 12-second cinematic 3D product-film ending that moves from an exposed working-prototype concept to an unbranded compact enclosure. Keep the objects and camera moving gracefully throughout. Audio: quiet synchronized non-musical sound effects only. No human voice or music.
+
+REFERENCES
+@Image1 defines the unbranded compact enclosure: a rounded graphite powerbank-like accessory with an upper OLED battery window and a bottom USB-C port. Use the geometry, not the premium glossy shading.
+@Image2 defines the exposed prototype: stacked circuit boards, shielded radio module, connectors and a straight antenna pointing left, with a phone to the right. Use it as a geometry and composition reference. Do not invent a different circuit layout. It is a concept visualization, not a new recording of a security test.
+
+VISUAL LANGUAGE
+An elegant restrained 3D animatic, simple matte graphite and muted circuit-board surfaces with soft broad studio light. Begin near the reference's grey tabletop and move into a charcoal studio composition. Soft shadows, real depth, controlled focus and camera parallax. Keep the product legible. No presentation slides, flat cards, bullet points, dashboard graphics, graphs or floating feature lists. Avoid elaborate glossy shaders, excessive glow and lens flares. The enclosure remains unbranded.
+
+(0s-4s)
+Begin above the exposed circuit-board prototype, antenna pointing left and phone on the right. Move continuously from a near-overhead view into a close oblique view of the prototype. The camera sweeps past the edge of its metal radio shield and board layers. Keep the board rigid and recognizable. Do not generate readable browser content on the phone.
+
+(4s-7s)
+Use the large metal shield edge passing across the lens as a clean match-cut wipe into the similarly framed rounded edge of the compact enclosure from @Image1. Reveal the proposed enclosure as a separate design vision. Do not show impossible circuit boards compressing or melting. Continue the camera in the same direction, making the transition feel like one graceful movement.
+
+(7s-12s)
+Pull back into a three-quarter hero view with the graphite enclosure slightly left of centre, its upper OLED window visible. Continue a slow camera orbit with subtle changing parallax and a restrained light sweep across its rounded edge. Leave clean darker space on the right for precise 3D brand typography to be added later. Keep the enclosure steady in shape, with no extra ports or decoration. Maintain gentle motion through the final frame; do not turn this into a static end card and do not fade to black.
+
+AUDIO AND TEXT
+Only a soft short air movement at the match cut and a faint non-tonal contact sound as the hero composition settles. No dialogue, narration, whispers, vocal samples, singing, music, BGM, score, melody, synth drone, ambient pad or rhythmic bed. No subtitles, titles, extra text or generated logos. The SafeWall brand and Polish narration will be added separately in editing; do not write SafeWall on the enclosure.

@@ -1,0 +1,65 @@
+{
+  "status": "packaging_concept_only",
+  "variants": [
+    {
+      "id": "A",
+      "envelope_mm": [
+        128,
+        110,
+        15
+      ],
+      "bounding_box_volume_cm3": 211.2,
+      "shell_solid_volume_cm3": 61.57932442033904,
+      "mass_is_not_total_device_mass": true,
+      "battery_to_carrier_vertical_gap_mm": null,
+      "assembly_component_count": 12,
+      "finding": "Thin but wider than reference phone; large magnetic lever arm",
+      "shell_mass_g_using_Fusion_reference_PC_ABS": 67.73725686237293,
+      "contact_pad_mass_g_using_Fusion_reference_silicone": 10.507851753705578,
+      "total_device_mass_not_estimated": true,
+      "material_grades_not_selected": true
+    },
+    {
+      "id": "B",
+      "envelope_mm": [
+        70,
+        110,
+        24
+      ],
+      "bounding_box_volume_cm3": 184.8,
+      "shell_solid_volume_cm3": 39.06154639467225,
+      "mass_is_not_total_device_mass": true,
+      "battery_to_carrier_vertical_gap_mm": 2.0,
+      "assembly_component_count": 12,
+      "finding": "Preferred packaging direction for phone width; thermal and retention tests required",
+      "shell_mass_g_using_Fusion_reference_PC_ABS": 42.967701034139466,
+      "contact_pad_mass_g_using_Fusion_reference_silicone": 5.72285175370558,
+      "total_device_mass_not_estimated": true,
+      "material_grades_not_selected": true
+    }
+  ],
+  "notes": [
+    "Real PCB routing, power components, connector choices and footprints",
+    "LTE main/diversity antenna selection and clearances beside phone and magnets",
+    "USB host/device architecture for simultaneous modem and phone connection",
+    "Battery supplier expansion allowance, lead routing and pack peak current",
+    "Phone-specific MagSafe position, camera and case geometry",
+    "Thermal path and surface temperatures in attached use",
+    "Fasteners, seals, tolerances, service access and physical material grades",
+    "Final magnetic assembly and qualification"
+  ],
+  "energy_estimate": {
+    "nominal_wh": 12.58,
+    "minimum_capacity_based_wh": 11.84,
+    "assumed_efficiency_times_usable_fraction": 0.81,
+    "max_average_load_for_2h_typical_w": 5.0949,
+    "max_average_load_for_2h_minimum_capacity_w": 4.7952,
+    "runtime_scenarios_h": {
+      "4": 2.54745,
+      "5": 2.03796,
+      "6": 1.6983,
+      "8": 1.273725
+    },
+    "measurement_status": "no_power_or_runtime_measurement_performed"
+  }
+}

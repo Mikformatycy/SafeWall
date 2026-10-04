@@ -1,0 +1,901 @@
+{
+  "duration_seconds": 71.0,
+  "segments": [
+    {
+      "source": "v16",
+      "in": 0.0,
+      "out": 25.3,
+      "at": 0.0,
+      "purpose": "Original opening, product and powerbank"
+    },
+    {
+      "source": "pickup",
+      "in": 0.0,
+      "out": 4.56,
+      "at": 25.5,
+      "purpose": "Revised Tor sentence",
+      "gain": 1.0013499805526016
+    },
+    {
+      "source": "v16",
+      "in": 33.8,
+      "out": 48.04,
+      "at": 30.1,
+      "purpose": "Separate gateway and fail-closed principle"
+    },
+    {
+      "source": "v16",
+      "in": 48.1,
+      "out": 56.16,
+      "at": 44.4,
+      "purpose": "Nearby discovery and iPhone (Piotrek)"
+    },
+    {
+      "source": "v16",
+      "in": 56.3,
+      "out": 61.48,
+      "at": 52.6,
+      "purpose": "Phone radio interfaces"
+    },
+    {
+      "source": "v16",
+      "in": 68.6,
+      "out": 69.78,
+      "at": 58.2,
+      "purpose": "To nasz prototyp, over actual footage"
+    },
+    {
+      "source": "v16",
+      "in": 75.58,
+      "out": 79.44,
+      "at": 66.9,
+      "purpose": "Final SafeWall line"
+    }
+  ],
+  "words": [
+    {
+      "text": "Ktoś",
+      "start": 0.08,
+      "end": 0.46,
+      "type": "word",
+      "logprob": -6.270113953910084e-05
+    },
+    {
+      "text": "powierzył",
+      "start": 0.5,
+      "end": 0.92,
+      "type": "word",
+      "logprob": -9.269665679312311e-05
+    },
+    {
+      "text": "ci",
+      "start": 0.96,
+      "end": 1.08,
+      "type": "word",
+      "logprob": -0.10022179037332535
+    },
+    {
+      "text": "swoją",
+      "start": 1.14,
+      "end": 1.42,
+      "type": "word",
+      "logprob": -4.0531076592742465e-06
+    },
+    {
+      "text": "historię.",
+      "start": 1.48,
+      "end": 2.08,
+      "type": "word",
+      "logprob": -0.0001284291428760298
+    },
+    {
+      "text": "Teraz",
+      "start": 2.66,
+      "end": 3.06,
+      "type": "word",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": "chcesz",
+      "start": 3.1,
+      "end": 3.36,
+      "type": "word",
+      "logprob": -1.0847986231965479e-05
+    },
+    {
+      "text": "ją",
+      "start": 3.42,
+      "end": 3.52,
+      "type": "word",
+      "logprob": -7.033323527139146e-06
+    },
+    {
+      "text": "przekazać",
+      "start": 3.56,
+      "end": 4.04,
+      "type": "word",
+      "logprob": -4.5548205333842714e-05
+    },
+    {
+      "text": "dalej",
+      "start": 4.1,
+      "end": 4.44,
+      "type": "word",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": "i",
+      "start": 4.86,
+      "end": 4.94,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "chronić",
+      "start": 4.98,
+      "end": 5.46,
+      "type": "word",
+      "logprob": -8.671098371897707e-05
+    },
+    {
+      "text": "osobę,",
+      "start": 5.52,
+      "end": 5.88,
+      "type": "word",
+      "logprob": -2.106028053579697e-06
+    },
+    {
+      "text": "która",
+      "start": 5.94,
+      "end": 6.16,
+      "type": "word",
+      "logprob": -9.285972191719338e-05
+    },
+    {
+      "text": "ci",
+      "start": 6.2,
+      "end": 6.3,
+      "type": "word",
+      "logprob": -0.016041386872529984
+    },
+    {
+      "text": "zaufała.",
+      "start": 6.36,
+      "end": 6.96,
+      "type": "word",
+      "logprob": -6.976121494517429e-05
+    },
+    {
+      "text": "Są",
+      "start": 7.72,
+      "end": 7.88,
+      "type": "word",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "miejsca,",
+      "start": 7.92,
+      "end": 8.38,
+      "type": "word",
+      "logprob": -8.761839012549899e-06
+    },
+    {
+      "text": "w",
+      "start": 8.46,
+      "end": 8.48,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "których",
+      "start": 8.54,
+      "end": 8.86,
+      "type": "word",
+      "logprob": -0.00012265883560758084
+    },
+    {
+      "text": "dostęp",
+      "start": 8.92,
+      "end": 9.3,
+      "type": "word",
+      "logprob": -0.00014029949670657516
+    },
+    {
+      "text": "do",
+      "start": 9.34,
+      "end": 9.44,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": "informacji",
+      "start": 9.5,
+      "end": 10.12,
+      "type": "word",
+      "logprob": -1.4305104514278355e-06
+    },
+    {
+      "text": "ogranicza",
+      "start": 10.28,
+      "end": 10.76,
+      "type": "word",
+      "logprob": -0.00011598199166150557
+    },
+    {
+      "text": "cenzura.",
+      "start": 10.82,
+      "end": 11.4,
+      "type": "word",
+      "logprob": -2.2649073684100074e-05
+    },
+    {
+      "text": "Właśnie",
+      "start": 11.94,
+      "end": 12.28,
+      "type": "word",
+      "logprob": -6.198818596203637e-06
+    },
+    {
+      "text": "tam",
+      "start": 12.34,
+      "end": 12.6,
+      "type": "word",
+      "logprob": -6.198863957251888e-06
+    },
+    {
+      "text": "prywatność",
+      "start": 12.94,
+      "end": 13.66,
+      "type": "word",
+      "logprob": -9.717157222439709e-05
+    },
+    {
+      "text": "ma",
+      "start": 13.72,
+      "end": 13.82,
+      "type": "word",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "szczególne",
+      "start": 13.84,
+      "end": 14.4,
+      "type": "word",
+      "logprob": -0.0001580082345753908
+    },
+    {
+      "text": "znaczenie.",
+      "start": 14.46,
+      "end": 15.0,
+      "type": "word",
+      "logprob": -6.234610984279243e-06
+    },
+    {
+      "text": "Dlatego",
+      "start": 15.48,
+      "end": 15.88,
+      "type": "word",
+      "logprob": -2.861018856492592e-06
+    },
+    {
+      "text": "projektujemy",
+      "start": 15.92,
+      "end": 16.5,
+      "type": "word",
+      "logprob": -2.1566554678997818e-05
+    },
+    {
+      "text": "SafeWall,",
+      "start": 16.64,
+      "end": 17.2,
+      "type": "word",
+      "logprob": -0.15370918562014899
+    },
+    {
+      "text": "sprzętową",
+      "start": 17.56,
+      "end": 18.1,
+      "type": "word",
+      "logprob": -3.554948923718055e-05
+    },
+    {
+      "text": "bramę",
+      "start": 18.14,
+      "end": 18.38,
+      "type": "word",
+      "logprob": -0.0002649583853667536
+    },
+    {
+      "text": "prywatności",
+      "start": 18.42,
+      "end": 19.04,
+      "type": "word",
+      "logprob": -4.519098405870119e-06
+    },
+    {
+      "text": "dla",
+      "start": 19.08,
+      "end": 19.2,
+      "type": "word",
+      "logprob": -2.3841830625315197e-06
+    },
+    {
+      "text": "dziennikarzy,",
+      "start": 19.24,
+      "end": 19.94,
+      "type": "word",
+      "logprob": -3.605475492699602e-05
+    },
+    {
+      "text": "aktywistów",
+      "start": 20.1,
+      "end": 20.84,
+      "type": "word",
+      "logprob": -7.617396181558433e-06
+    },
+    {
+      "text": "i",
+      "start": 20.9,
+      "end": 20.98,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": "organizacji",
+      "start": 21.04,
+      "end": 21.64,
+      "type": "word",
+      "logprob": -3.6238969187252223e-05
+    },
+    {
+      "text": "społecznych.",
+      "start": 21.7,
+      "end": 22.32,
+      "type": "word",
+      "logprob": -6.38906409686039e-05
+    },
+    {
+      "text": "Z",
+      "start": 22.9,
+      "end": 22.94,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "zewnątrz",
+      "start": 23.02,
+      "end": 23.5,
+      "type": "word",
+      "logprob": -0.0001607837978099269
+    },
+    {
+      "text": "przypomina",
+      "start": 23.52,
+      "end": 23.98,
+      "type": "word",
+      "logprob": -2.3245759130929855e-06
+    },
+    {
+      "text": "zwykły",
+      "start": 24.04,
+      "end": 24.38,
+      "type": "word",
+      "logprob": -9.536737811307224e-07
+    },
+    {
+      "text": "powerbank.",
+      "start": 24.44,
+      "end": 25.02,
+      "type": "word",
+      "logprob": -0.00015602729108650238
+    },
+    {
+      "text": "Safewall",
+      "start": 25.62,
+      "end": 26.2,
+      "type": "word",
+      "logprob": -0.03398122708313167
+    },
+    {
+      "text": "ma",
+      "start": 26.32,
+      "end": 26.4,
+      "type": "word",
+      "logprob": -8.702239938429557e-06
+    },
+    {
+      "text": "kierować",
+      "start": 26.46,
+      "end": 26.86,
+      "type": "word",
+      "logprob": -2.5629933553261708e-06
+    },
+    {
+      "text": "połączenia",
+      "start": 26.88,
+      "end": 27.44,
+      "type": "word",
+      "logprob": -2.408024170108547e-06
+    },
+    {
+      "text": "przez",
+      "start": 27.52,
+      "end": 27.759999999999998,
+      "type": "word",
+      "logprob": -5.483612312673358e-06
+    },
+    {
+      "text": "anonimizującą",
+      "start": 27.92,
+      "end": 28.86,
+      "type": "word",
+      "logprob": -0.0036906999208230653
+    },
+    {
+      "text": "sieć",
+      "start": 28.98,
+      "end": 29.240000000000002,
+      "type": "word",
+      "logprob": -4.9381172175344545e-05
+    },
+    {
+      "text": "Tor",
+      "start": 29.38,
+      "end": 29.740000000000002,
+      "type": "word",
+      "logprob": -0.07897710800170898
+    },
+    {
+      "text": "Kontrolę",
+      "start": 30.240000000000002,
+      "end": 30.640000000000008,
+      "type": "word",
+      "logprob": -0.00013095594749401585
+    },
+    {
+      "text": "połączenia",
+      "start": 30.680000000000007,
+      "end": 31.260000000000005,
+      "type": "word",
+      "logprob": -3.1948014338922805e-06
+    },
+    {
+      "text": "przenosimy",
+      "start": 31.300000000000004,
+      "end": 31.900000000000006,
+      "type": "word",
+      "logprob": -0.0001909381491714157
+    },
+    {
+      "text": "poza",
+      "start": 31.940000000000005,
+      "end": 32.24,
+      "type": "word",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "telefon.",
+      "start": 32.28,
+      "end": 32.84,
+      "type": "word",
+      "logprob": -6.318070049360358e-06
+    },
+    {
+      "text": "Osobna",
+      "start": 33.220000000000006,
+      "end": 33.620000000000005,
+      "type": "word",
+      "logprob": -0.0007974415541980306
+    },
+    {
+      "text": "brama",
+      "start": 33.660000000000004,
+      "end": 34.220000000000006,
+      "type": "word",
+      "logprob": -1.740410880302079e-05
+    },
+    {
+      "text": "ma",
+      "start": 34.28,
+      "end": 34.38,
+      "type": "word",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": "pilnować",
+      "start": 34.42,
+      "end": 34.96,
+      "type": "word",
+      "logprob": -6.15413951265964e-06
+    },
+    {
+      "text": "jednej",
+      "start": 35.06,
+      "end": 35.42,
+      "type": "word",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": "zasady.",
+      "start": 35.480000000000004,
+      "end": 35.980000000000004,
+      "type": "word",
+      "logprob": -0.0037593503458798034
+    },
+    {
+      "text": "Internet",
+      "start": 36.480000000000004,
+      "end": 36.96,
+      "type": "word",
+      "logprob": -7.629365427419543e-06
+    },
+    {
+      "text": "przez",
+      "start": 37.00000000000001,
+      "end": 37.24,
+      "type": "word",
+      "logprob": -1.7881377516459906e-06
+    },
+    {
+      "text": "Tor",
+      "start": 37.300000000000004,
+      "end": 37.540000000000006,
+      "type": "word",
+      "logprob": -0.0002057340752799064
+    },
+    {
+      "text": "albo",
+      "start": 37.88,
+      "end": 38.14000000000001,
+      "type": "word",
+      "logprob": -2.622600959512056e-06
+    },
+    {
+      "text": "brak",
+      "start": 38.18000000000001,
+      "end": 38.400000000000006,
+      "type": "word",
+      "logprob": -3.802703940891661e-05
+    },
+    {
+      "text": "połączenia,",
+      "start": 38.480000000000004,
+      "end": 39.1,
+      "type": "word",
+      "logprob": -0.014571317212729891
+    },
+    {
+      "text": "żeby",
+      "start": 39.6,
+      "end": 39.800000000000004,
+      "type": "word",
+      "logprob": -8.34461570775602e-06
+    },
+    {
+      "text": "awaria",
+      "start": 39.900000000000006,
+      "end": 40.28,
+      "type": "word",
+      "logprob": -2.920566407738079e-05
+    },
+    {
+      "text": "chronionej",
+      "start": 40.32000000000001,
+      "end": 40.74,
+      "type": "word",
+      "logprob": -6.119892514035996e-05
+    },
+    {
+      "text": "trasy",
+      "start": 40.78,
+      "end": 41.14000000000001,
+      "type": "word",
+      "logprob": -1.0013573955802713e-06
+    },
+    {
+      "text": "nie",
+      "start": 41.400000000000006,
+      "end": 41.50000000000001,
+      "type": "word",
+      "logprob": -1.5497195136049413e-06
+    },
+    {
+      "text": "otworzyła",
+      "start": 41.56,
+      "end": 42.02,
+      "type": "word",
+      "logprob": -2.9708771232132374e-05
+    },
+    {
+      "text": "drogi",
+      "start": 42.080000000000005,
+      "end": 42.36000000000001,
+      "type": "word",
+      "logprob": -8.344592967546304e-06
+    },
+    {
+      "text": "do",
+      "start": 42.46,
+      "end": 42.6,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": "niechronionego",
+      "start": 42.74,
+      "end": 43.440000000000005,
+      "type": "word",
+      "logprob": -0.023067250425421144
+    },
+    {
+      "text": "połączenia.",
+      "start": 43.540000000000006,
+      "end": 44.160000000000004,
+      "type": "word",
+      "logprob": -1.876965821297331e-05
+    },
+    {
+      "text": "Telefon",
+      "start": 44.54,
+      "end": 45.019999999999996,
+      "type": "word",
+      "logprob": -0.0001714082609396428
+    },
+    {
+      "text": "może",
+      "start": 45.08,
+      "end": 45.239999999999995,
+      "type": "word",
+      "logprob": -7.033323527139146e-06
+    },
+    {
+      "text": "też",
+      "start": 45.3,
+      "end": 45.459999999999994,
+      "type": "word",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": "ujawniać",
+      "start": 45.54,
+      "end": 45.94,
+      "type": "word",
+      "logprob": -0.002324601948032523
+    },
+    {
+      "text": "swoją",
+      "start": 46.0,
+      "end": 46.279999999999994,
+      "type": "word",
+      "logprob": -6.794906312279636e-06
+    },
+    {
+      "text": "obecność",
+      "start": 46.36,
+      "end": 46.94,
+      "type": "word",
+      "logprob": -6.55650836733912e-07
+    },
+    {
+      "text": "urządzeniom",
+      "start": 47.0,
+      "end": 47.54,
+      "type": "word",
+      "logprob": -0.0005851654462803294
+    },
+    {
+      "text": "w",
+      "start": 47.58,
+      "end": 47.599999999999994,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "pobliżu.",
+      "start": 47.66,
+      "end": 48.22,
+      "type": "word",
+      "logprob": -4.4745815785063314e-05
+    },
+    {
+      "text": "iPhone.",
+      "start": 48.68,
+      "end": 49.14,
+      "type": "word",
+      "logprob": -0.000566325690929911
+    },
+    {
+      "text": "Piotrek.",
+      "start": 49.5,
+      "end": 49.919999999999995,
+      "type": "word",
+      "logprob": -0.00031736405434656945
+    },
+    {
+      "text": "Nietrudno",
+      "start": 50.32,
+      "end": 50.76,
+      "type": "word",
+      "logprob": -0.0006603593102328079
+    },
+    {
+      "text": "się",
+      "start": 50.8,
+      "end": 50.879999999999995,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": "domyślić,",
+      "start": 50.919999999999995,
+      "end": 51.379999999999995,
+      "type": "word",
+      "logprob": -0.00010997592783547184
+    },
+    {
+      "text": "do",
+      "start": 51.459999999999994,
+      "end": 51.54,
+      "type": "word",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "kogo",
+      "start": 51.58,
+      "end": 51.779999999999994,
+      "type": "word",
+      "logprob": -9.447277527385722e-06
+    },
+    {
+      "text": "należy.",
+      "start": 51.82,
+      "end": 52.26,
+      "type": "word",
+      "logprob": -3.048346245902524e-06
+    },
+    {
+      "text": "Z",
+      "start": 52.720000000000006,
+      "end": 52.88,
+      "type": "word",
+      "logprob": -3.2186455882765586e-06
+    },
+    {
+      "text": "SafeWall",
+      "start": 52.940000000000005,
+      "end": 53.580000000000005,
+      "type": "word",
+      "logprob": -0.0017367925029248
+    },
+    {
+      "text": "możesz",
+      "start": 53.64000000000001,
+      "end": 53.900000000000006,
+      "type": "word",
+      "logprob": -0.0019456282025203109
+    },
+    {
+      "text": "wyłączyć",
+      "start": 53.940000000000005,
+      "end": 54.42,
+      "type": "word",
+      "logprob": -6.246371594897937e-05
+    },
+    {
+      "text": "Wi-Fi,",
+      "start": 54.480000000000004,
+      "end": 54.900000000000006,
+      "type": "word",
+      "logprob": -0.02385382875903967
+    },
+    {
+      "text": "Bluetooth",
+      "start": 55.1,
+      "end": 55.6,
+      "type": "word",
+      "logprob": -0.016089484095573425
+    },
+    {
+      "text": "i",
+      "start": 55.78,
+      "end": 55.84,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": "łączność",
+      "start": 55.980000000000004,
+      "end": 56.46,
+      "type": "word",
+      "logprob": -9.238672646461055e-06
+    },
+    {
+      "text": "komórkową",
+      "start": 56.50000000000001,
+      "end": 57.02,
+      "type": "word",
+      "logprob": -4.492576475535593e-05
+    },
+    {
+      "text": "telefonu.",
+      "start": 57.06,
+      "end": 57.580000000000005,
+      "type": "word",
+      "logprob": -0.00015331641770899296
+    },
+    {
+      "text": "To",
+      "start": 58.32000000000001,
+      "end": 58.400000000000006,
+      "type": "word",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "nasz",
+      "start": 58.44000000000001,
+      "end": 58.620000000000005,
+      "type": "word",
+      "logprob": -9.65590606938349e-06
+    },
+    {
+      "text": "prototyp.",
+      "start": 58.66000000000001,
+      "end": 59.18000000000001,
+      "type": "word",
+      "logprob": -0.00012100243475288153
+    },
+    {
+      "text": "SafeWall.",
+      "start": 67.08000000000001,
+      "end": 67.66000000000001,
+      "type": "word",
+      "logprob": -0.0008602062136754777
+    },
+    {
+      "text": "Bo",
+      "start": 68.06,
+      "end": 68.14,
+      "type": "word",
+      "logprob": -1.6093124941107817e-05
+    },
+    {
+      "text": "za",
+      "start": 68.18,
+      "end": 68.32000000000001,
+      "type": "word",
+      "logprob": -1.9073468138230965e-06
+    },
+    {
+      "text": "każdą",
+      "start": 68.38000000000001,
+      "end": 68.74000000000001,
+      "type": "word",
+      "logprob": -0.00010518131621211069
+    },
+    {
+      "text": "historią",
+      "start": 68.80000000000001,
+      "end": 69.42,
+      "type": "word",
+      "logprob": -1.6391139524785103e-05
+    },
+    {
+      "text": "stoi",
+      "start": 69.74000000000001,
+      "end": 69.98,
+      "type": "word",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "człowiek.",
+      "start": 70.02000000000001,
+      "end": 70.54,
+      "type": "word",
+      "logprob": -0.0026542085226740003
+    }
+  ],
+  "canonical_text": "../VOICEOVER-APPROVED-v20.txt",
+  "word_check": "All retained ASR tokens and pickup ASR match canonical v20",
+  "narration_time_stretch": false,
+  "demo_has_intentional_space_for_source_action": true
+}

@@ -1,0 +1,46 @@
+{
+  "revision": "v04",
+  "source_scene": "SafeWall-keynote-v03.blend",
+  "editable_scene": "Product-keynote-v04.blend",
+  "envelope_mm": [
+    70,
+    110,
+    24
+  ],
+  "changes": [
+    "remove visible project branding",
+    "OLED in upper cover",
+    "piano black and polished graphite materials",
+    "studio reflection lighting"
+  ],
+  "OLED_window_mm": [
+    28.35,
+    16.35
+  ],
+  "OLED_value_is_demo": true,
+  "engineering_status": "visual concept; no display part selection or revised Fusion production geometry",
+  "fps": 24,
+  "frames": 120,
+  "source_resolution": [
+    1920,
+    1080
+  ],
+  "duration_seconds": 5,
+  "shared_motion_frames": [
+    9,
+    94
+  ],
+  "easing": "Beta(3,6) CDF",
+  "render_stem": "Product",
+  "review_resolution": [
+    1920,
+    1080
+  ],
+  "review_samples": 24,
+  "removed_brand_objects": [
+    "Battery label",
+    "Carrier identity",
+    "Cover wordmark"
+  ],
+  "OLED_center_y_mm": 29
+}

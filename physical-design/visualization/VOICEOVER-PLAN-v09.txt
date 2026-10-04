@@ -1,0 +1,75 @@
+PREVIEW Z POLSKIM LEKTOREM — v09 — 2026-10-04
+
+Otwórz Full-sequence-voice-v09.mp4. Film: 8,5 s, 960 × 540, 24 kl./s.
+Workbench, bez shaderów premium. Zachowana równoczesna składanka, przesunięcie
+w lewo, zamiana obudowy w prototyp, kabel, klik i przejście w dostarczone zdjęcie.
+
+TEKST
+„Połączenie na twoich zasadach. Od projektu do prawdziwego prototypu.
+Jeden kabel. Zobacz, jak to działa.”
+
+GŁOS I USTAWIENIA
+Rzeczywista generacja API ElevenLabs, model eleven_v4, głos Brian
+(nPczCjzI2devNBz1zQrb), language_code=pl, stability=0.5, similarity=0.75,
+seed=42. Jedno wygenerowane ujęcie, jeden mówca, około 7,7 s.
+Reżyseria: ciepło, pewność, naturalne tempo, lekki wzrost energii na końcu.
+Trzy opisowe tagi; pełny prompt: voiceover-v09/request-pl-a.json.
+Nie użyto klonowania głosu użytkownika ani zmiany tempa/wysokości nagrania.
+
+MONTAŻ DO ZNACZNIKÓW CZASU Z API
+Głos zaczyna ścieżkę 0,167 s od początku filmu; pierwsze słowo ok. 0,257 s.
+0,000–2,500 s: wszystkie warstwy zamykają się równocześnie.
+1,167–3,500 s: przesunięcie i najazd kamery do widoku z góry.
+3,333–4,667 s: przejście obudowa → Raspberry Pi, przy „prawdziwego prototypu”.
+4,333–5,417 s: kabel wchodzi w kadr, zanim kończy się przejście prototypu.
+5,208–6,375 s: wtyczki wsuwają się podczas „jeden kabel”.
+6,375 s: klik w przerwie między „kabel” a „zobacz”; oryginalny dźwięk ciszej o 8 dB.
+6,250–8,458 s: ciągłe przejście w zdjęcie, bez zatrzymania ostatniej klatki.
+7,857 s: koniec wypowiedzi; obraz nadal przechodzi w fotografię.
+Dokładne słowa i klatki: narrated-sequence-v09.json.
+
+ZALECENIA ELEVENLABS, ZASTOSOWANE DO TEGO FILMU
+1. Wybrać bazowy głos pasujący do charakteru filmu. V4 wierniej odtwarza jego
+   cechy, więc instrukcje nie zastępują właściwego doboru głosu. [1]
+2. Kierować sposobem mówienia opisowymi tagami w nawiasach kwadratowych.
+   Interpunkcja pomaga prowadzić frazę. Efekt tagów trzeba sprawdzić odsłuchem. [1, 2]
+3. Stability steruje spójnością, Similarity podobieństwem do głosu bazowego.
+   V4 nie ma suwaków Speed/Style i nie obsługuje SSML. [1]
+4. Używać Text to Dialogue z timestampami do synchronizacji. API zwraca czasy
+   znaków; w naszym montażu tagi pominięto przy wyznaczaniu czasów słów. [3]
+5. Zachować wygenerowane audio oraz parametry. Seed daje powtarzalność jedynie
+   na zasadzie best effort; model może się zmieniać wraz z aktualizacjami. [1, 3]
+
+DECYZJE MONTAŻOWE TEGO PROJEKTU
+Krótki tekst opisuje pokazaną drogę od koncepcji do prototypu. Nie obiecuje
+niezweryfikowanego czasu pracy, wydajności ani anonimowości. Całość wygenerowano
+jednym ujęciem, aby utrzymać spójny głos. Nakładanie etapów animacji zachowuje
+ciągły ruch również podczas naturalnych przerw w wypowiedzi.
+Głośność ustawiana w dwóch przebiegach: -19 LUFS mono przed miksem, następnie
+głos i klik jako stereo. To ustawienie miksu dla preview, nie wymóg modelu.
+Pomiar finalnego MP4: narrated-movie-validation-v09.json.
+
+PLIKI I POWRÓT DO EDYCJI
+Film: Full-sequence-voice-v09.mp4
+Scena 3D: Full-sequence-voice-v09.blend
+Oryginalny głos: voiceover-v09/voice-pl-a-v09.mp3
+WAV po wyrównaniu głośności: voiceover-v09/voice-pl-normalized-v09.wav
+Odpowiedź czasowa API: voiceover-v09/voice-pl-a-v09-alignment.json
+Budowanie sceny: scripts/retime_narrated_sequence.py na scenie v07.
+Render i miks: scripts/render_narrated_sequence.py na scenie v09.
+Ponowny miks z gotowych PNG: dodać -- --encode-only po skrypcie Blendera.
+Scena zawiera geometrię i ruch; przejścia obrazu oraz miks wykonuje renderer.
+Klient generacji: scripts/eleven_voice_session.py; klucz przyjmowany przez
+ukryty prompt terminala, bez zapisywania do plików ani argumentów procesu.
+
+ZAKRES PREVIEW
+Kontrola techniczna obejmuje wszystkie klatki, poziomy audio, synchronizację
+według API i brak zatrzymań. Barwa i polska wymowa pozostają do odsłuchu użytkownika.
+Oryginalne shadery v04 i ich dokumentacja RESTORE-PREMIUM.txt pozostają zachowane.
+Przejście w zdjęcie jest dopasowanym przenikaniem, a nie deformacją optyczną.
+Zdjęcie nadal przedstawia etui; model CG jest bez etui zgodnie z planem nagrania.
+
+ŹRÓDŁA OFICJALNE, SPRAWDZONE 2026-10-04
+[1] https://elevenlabs.io/docs/overview/capabilities/text-to-speech/eleven-v4
+[2] https://elevenlabs.io/docs/overview/capabilities/text-to-speech/best-practices#prompting-eleven-v4
+[3] https://elevenlabs.io/docs/api-reference/text-to-dialogue/convert-with-timestamps

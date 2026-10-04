@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1120" viewBox="0 0 1200 1120">
+<rect width="1200" height="1120" fill="#F3F4F1"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#202B34}.muted{fill:#63717D}.small{font-size:16px}.body{font-size:18px}.title{font-size:32px;font-weight:700}.dim{font-size:19px;font-weight:700}</style>
+<text x="48" y="52" class="title" >SafeWall / porównanie układu wnętrza</text>
+<text x="48" y="83" class="body" >KONCEPCJA v01 · ta sama bateria w obu wariantach · wymiary robocze, przed walidacją</text>
+<rect x="46" y="108" width="1108" height="2" rx="0" fill="#CFD7D7" />
+<text x="84" y="150" class="dim" >A / bateria obok elektroniki</text>
+<text x="84" y="178" class="dim" >128 × 110 × 15 mm</text>
+<rect x="84" y="212" width="384" height="330" rx="27" fill="#282C30" />
+<rect x="88.8" y="216.8" width="374.4" height="320.4" rx="22" fill="#E4E9E6" />
+<rect x="285" y="245" width="166.5" height="276" rx="4" fill="#CBD4DE" />
+<text x="293" y="268" class="small" >Akumulator</text>
+<rect x="96" y="248" width="180" height="264" rx="4" fill="#74A990" />
+<rect x="103.5" y="266" width="165" height="120" rx="4" fill="#C0D9CB" />
+<text x="111.5" y="289" class="small" >CM4</text>
+<rect x="111" y="410" width="96" height="87" rx="4" fill="#A7B8C7" />
+<text x="119" y="433" class="small" >LTE*</text>
+<rect x="222" y="410" width="45" height="87" rx="4" fill="#D8B382" />
+<circle cx="276.0" cy="302" r="81.15" fill="none" stroke="#EAF6FD" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="84" y="575" class="small" >Mniejsza grubość, duża szerokość</text>
+<text x="84" y="599" class="small" >Bateria i elektronika na jednym poziomie</text>
+<text x="84" y="640" class="dim" >Przekrój gabarytowy (X–Z)</text>
+<rect x="84" y="705" width="384" height="45" rx="5" fill="#282C30" />
+<rect x="88.8" y="709.8" width="374.4" height="31.200000000000003" rx="1" fill="#E4E9E6" />
+<rect x="285" y="719.1" width="166.5" height="18.9" rx="1" fill="#A7B8C7" />
+<rect x="96" y="733.2" width="180" height="4.800000000000001" rx="1" fill="#287555" />
+<rect x="103.5" y="713.466" width="165" height="19.734" rx="1" fill="#74A990" />
+<text x="84" y="783" class="dim" >Grubość: 15 mm</text>
+<text x="754" y="150" class="dim" >B / bateria pod elektroniką</text>
+<text x="754" y="178" class="dim" >70 × 110 × 24 mm</text>
+<rect x="754" y="212" width="210" height="330" rx="27" fill="#282C30" />
+<rect x="758.8" y="216.8" width="200.39999999999998" height="320.4" rx="22" fill="#E4E9E6" />
+<rect x="775.75" y="245" width="166.5" height="276" rx="4" fill="#CBD4DE" stroke="#64737C" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="769" y="248" width="180" height="264" rx="4" fill="#74A990" />
+<rect x="776.5" y="266" width="165" height="120" rx="4" fill="#C0D9CB" />
+<text x="784.5" y="289" class="small" >CM4</text>
+<rect x="784" y="410" width="96" height="87" rx="4" fill="#A7B8C7" />
+<text x="792" y="433" class="small" >LTE*</text>
+<rect x="895" y="410" width="45" height="87" rx="4" fill="#D8B382" />
+<circle cx="859.0" cy="302" r="81.15" fill="none" stroke="#EAF6FD" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="754" y="575" class="small" >Kierunek preferowany do MagSafe</text>
+<text x="754" y="599" class="small" >Bateria schowana pod płytką bazową</text>
+<text x="754" y="640" class="dim" >Przekrój gabarytowy (X–Z)</text>
+<rect x="754" y="678" width="210" height="72" rx="5" fill="#282C30" />
+<rect x="758.8" y="682.8" width="200.39999999999998" height="58.199999999999996" rx="1" fill="#E4E9E6" />
+<rect x="775.75" y="719.1" width="166.5" height="18.9" rx="1" fill="#A7B8C7" />
+<rect x="769" y="708.3" width="180" height="4.800000000000001" rx="1" fill="#287555" />
+<rect x="776.5" y="688.566" width="165" height="19.734" rx="1" fill="#74A990" />
+<text x="754" y="783" class="dim" >Grubość: 24 mm</text>
+<text x="84" y="815" class="small" >* Moduł LTE jest tylko odniesieniem wymiarowym. Pomarańczowy: rezerwa zasilania i I/O.</text>
+<rect x="48" y="844" width="1104" height="166" rx="16" fill="#FFFFFF" />
+<text x="72" y="881" class="dim" >Cel: 2 godziny pracy</text>
+<text x="72" y="912" class="body" >3400 mAh × 3,7 V = 12.58 Wh; założenia: sprawność 90%, użyteczna energia 90%.</text>
+<text x="72" y="942" class="body" >Limit średniego poboru: 5.09 W typowo / 4.80 W przy pojemności minimalnej.</text>
+<text x="72" y="976" class="body" >Szacunek czasu: 4 W → 2.55 h   ·   5 W → 2.04 h   ·   6 W → 1.70 h   ·   8 W → 1.27 h</text>
+<text x="48" y="1044" class="small" >Niezweryfikowane: anteny, termika, PCB, porty, luzy baterii, geometria telefonu i siła mocowania.</text>
+<text x="48" y="1073" class="small" >Źródła: Raspberry Pi CM4 datasheet; EEMB LP605590-PCM-NTC-LD; Apple Accessory Design Guidelines 2026-09-21.</text>
+<text x="48" y="1097" class="small" >Wspólna skala widoków. To rysunek obliczeniowy, nie zrzut z Fusion ani projekt do produkcji.</text>
+</svg>

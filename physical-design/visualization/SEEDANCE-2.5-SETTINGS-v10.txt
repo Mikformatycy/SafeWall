@@ -1,0 +1,51 @@
+SEEDANCE 2.5 — USTAWIENIA PIERWSZEJ PRÓBY — 2026-10-04
+
+MODEL: Seedance 2.5.
+TRYB: Reference / Omni reference, zależnie od aplikacji.
+REFERENCJA: assembled-preview-v04.png, tylko wygląd urządzenia.
+Nie używać tego packshotu jako pierwszej klatki: film zaczyna się od reportera.
+PROPORCJE: 16:9, ustawione w interfejsie.
+DŁUGOŚĆ: 20 sekund. Cel montażowy to około 18 sekund, z zapasem na cięcie.
+JAKOŚĆ: Draft / 480p na pierwszą próbę, jeśli dostępne. W przeciwnym razie 720p.
+DŹWIĘK: Audio / Generate Audio OFF. Deszcz, kroki i kontakt do osobnego montażu.
+FPS: 24, jeśli aplikacja pozwala wybrać; w przeciwnym razie natywny wynik.
+LICZBA PRÓB: Najpierw jedna; ocenić ruch i kontakt urządzenia przed kolejną.
+PROMPT: SEEDANCE-2.5-PASTE-PROMPT-v10.txt.
+
+ZAKRES ZALECEŃ
+Użytkownik nie wskazał jeszcze dostawcy. Powyżej są ustawienia docelowe,
+nie gwarancja identycznych pól w każdym interfejsie. Runway dokumentuje m.in.
+16:9, 4–30 s, 480p/720p/1080p i przełącznik Audio. Runware dokumentuje
+4–30 s, 480p/720p i wyłączenie audio. Dreamina używa trybu Omni reference.
+Nie zakładać dostępności tych samych rozdzielczości i trybów u wszystkich.
+
+ZALECENIA Z DOKUMENTACJI
+1. Opisać format, bohatera, widoczne działania, kamerę, oświetlenie i dźwięk.
+2. Rozdzielić ruch bohatera od ruchu kamery i ułożyć ciągłe okna czasowe.
+3. Nadać referencji jasną rolę; tu przenosi wygląd produktu, nie biały plan zdjęciowy.
+4. Używać zwięzłych, obserwowalnych poleceń; utrzymać spójność ubioru i geometrii.
+5. Testować w niższej rozdzielczości. Czasy w prompcie prowadzą rytm, lecz cięcie
+   do konkretnej klatki należy wykonać w montażu.
+
+DECYZJE TEGO PROJEKTU
+20 sekund, trzy ujęcia, nocny dworzec, deszcz i podział 6/6/8 s to nasza reżyseria.
+Prompt nie zawiera tekstu ElevenLabs. Wyłączone audio zapewnia oddzielny montaż
+voiceoveru; jeśli dostawca nie umożliwia jego wyłączenia, przed montażem usunąć
+całą oryginalną ścieżkę i dodać osobno głos oraz efekty.
+Aktualny render produktu jest referencją jego wyglądu. Nie jest przygotowaną
+klatką końcową na dworcu. Ta pierwsza generacja sprawdza klimat, gest i kadrowanie.
+Dokładne przejście do Blendera dopasować po ocenie materiału; w razie potrzeby
+wygenerować osobno końcowe ujęcie na podstawie kadru kontaktu z Blendera.
+W scenie Seedance nie otwierać obudowy ani nie generować jej składania.
+
+ŹRÓDŁA PIERWOTNE
+ByteDance — opis Seedance 2.5:
+https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5
+Dreamina — struktura promptów:
+https://dreamina.capcut.com/seedance/seedance-2-5-prompt
+Dreamina — tryb Omni reference:
+https://dreamina.capcut.com/seedance/how-to-use-seedance-2-5
+Runware — kamera, czas, dźwięk i parametry implementacji:
+https://runware.ai/docs/models/bytedance-seedance-2-5/guides/prompting
+Runway — ustawienia, Draft i ograniczenia precyzji timestampów:
+https://help.runwayml.com/hc/en-us/articles/53542207042323-Creating-with-Seedance-2-5

@@ -1,0 +1,19 @@
+MATERIAŁY PREMIUM — ZAPIS WERSJI v04
+
+Dokładny poprzedni wygląd: otwórz Product-keynote-v04.blend.
+Scena zawiera komplet shaderów, światła studyjne i animację 5 s.
+Ten plik pozostaje niezmieniony podczas tworzenia podglądu z telefonem.
+
+Pokrywa: piano black #080A0D, roughness 0.12, clearcoat 1.0 / roughness 0.07.
+Boki: grafit #14171B, roughness 0.20, clearcoat 1.0 / roughness 0.13.
+OLED: szkło #05070A, roughness 0.065, clearcoat 0.2 / roughness 0.045.
+Ekran: chłodne białe piksele, przykładowe 87%.
+Pełne parametry węzłów, kolory liniowe i światła: premium-materials-v04.json.
+Skrypt odtwarzający wariant na bazie v03: ../scripts/style_premium_scene.py.
+
+Podgląd telefonu: Phone-docking-preview-v05.blend, Workbench, 960 x 540.
+Workbench pokazuje proste kolory obiektów i pomija shadery oraz lampy sceny.
+Materiały premium pozostają przypisane do urządzenia; nie są kasowane.
+Aby użyć ich w ujęciu telefonu, wybierz Cycles i dopasuj oświetlenie do nowej
+orientacji urządzenia i kamery. Sama zmiana silnika nie odtworzy starego kadru.
+Kolekcje wnętrza są ukryte tylko w tej scenie podglądowej.

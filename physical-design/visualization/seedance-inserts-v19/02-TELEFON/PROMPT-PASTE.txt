@@ -1,0 +1,19 @@
+Create a 9-second continuous cinematic 3D shot of a smartphone becoming discoverable to a nearby device. Use spatial movement and camera parallax, not a slide or interface diagram. Audio: quiet synchronized non-musical sound effects only. No human voice or music.
+
+REFERENCE
+@Image1 defines the phone shape and proportions. Reconstruct only the phone from this reference. Do not include the exposed circuit board, antenna, accessory, cables or reference background. Keep the phone rigid and consistent throughout.
+
+VISUAL LANGUAGE
+An elegant 3D animatic on a spacious charcoal studio stage. Simple matte pale grey phone frame, dark screen and soft broad lighting, matching a graphite product film. A restrained pale teal accent represents nearby discovery. Clear volume, soft shadows and parallax. Smooth flowing camera motion with no static pauses. Avoid elaborate reflective shaders and excessive neon glow. No flat infographics, slide layouts, dashboard cards, large Wi-Fi symbols or animated browser interfaces.
+
+(0s-3s)
+Begin close to the phone's upper side edge and smoothly orbit toward its front. Two subtle shallow light ripples expand outward into the nearby space. One small pale teal point leaves the phone and travels only a short distance toward the near background, visually suggesting discovery by another nearby device, not a connection to a distant server.
+
+(3s-6s)
+The camera continues a gentle arc. Place the phone in the left half of the frame. Keep the right half uncluttered and darker so a small precise identity label can be added there later, anchored beside the phone in 3D space. One discovery ripple crosses that space, then gently dissipates. Render no placeholder lettering and no UI panel. The label will be added in postproduction; do not generate words or read a name aloud.
+
+(6s-9s)
+Continue the camera's movement upward toward an oblique overhead view of the phone, with a gentle forward drift. Keep the discovery effect subtle. Preserve the phone's shape and its location so the next shot can cut into the physical product sequence. Do not animate a settings menu, automatic radio shutdown or a claim that the whole system becomes radio-silent.
+
+AUDIO AND TEXT
+Only a very quiet short air movement accompanying each ripple. No dialogue, narration, whispers, vocal samples, singing, music, BGM, score, melody, synth drone, ambient pad or rhythmic bed. No subtitles, text, letters, numbers or logos. The exact Polish identity label and the existing Polish narration will be added separately in editing.

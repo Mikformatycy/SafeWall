@@ -1,0 +1,83 @@
+FILM OKOŁO MINUTY — PROPOZYCJA 65 SEKUND
+Status: plan do rozmowy. To nie jest nowy render.
+
+USTALONE
+Całość około minuty, może być nieco dłuższa. Polski lektor z ElevenLabs v4.
+Płynne tempo. Bardziej thrillerowy klimat, poza mieszkaniem.
+Seedance nie ma dostarczać żadnego ludzkiego głosu: dialogów, narracji,
+szeptów, śpiewu, rozmów w tle ani komunikatów dworcowych. Dopuszczalne są efekty.
+Do montażu importujemy sam obraz Seedance; voiceover i efekty mają osobne ścieżki.
+Otwarcie: „Ktoś powierzył ci swoją historię. Teraz chcesz ją przekazać dalej
+— i chronić osobę, która ci zaufała.”
+
+PROPOZYCJA ODBIORCÓW
+Główny bohater: reporter pracujący z wrażliwymi informacjami.
+Pierwsi odbiorcy biznesowi do rozmów: polskie redakcje i organizacje społeczne.
+Odbiorców nazywamy wprost po scenie otwierającej, między 9. a 18. sekundą:
+„Projektujemy to urządzenie dla dziennikarzy i organizacji społecznych,
+które pracują z wrażliwymi informacjami.”
+To proponowany kierunek, nie potwierdzony popyt ani lista partnerów.
+
+0–9 S — CZŁOWIEK I ZAUFANIE
+Propozycja lokalizacji: zewnętrzny pasaż dworca nocą, pod zadaszeniem.
+Rozmówca odchodzi w głąb kadru. Fikcyjny reporter w ciemnej czapce zamyka notes.
+Mokry chodnik w tle, chłodne światło, odległy pociąg. Kamera śledzi bohatera.
+Wybrany tekst otwierający dodajemy dopiero w montażu z ElevenLabs.
+
+9–18 S — DLA KOGO
+Lektor ElevenLabs wypowiada zdanie o odbiorcach. Reporter podchodzi do suchego,
+matowego metalowego blatu przy zamkniętym kiosku, pod tym samym zadaszeniem.
+Krótko ogląda się za siebie, wyciąga urządzenie i lekko rzuca je na blat.
+Kontakt prowadzi do dopasowanego kadru CG. Lokalizacja jest propozycją.
+
+18–31 S — URZĄDZENIE I ZASADA DZIAŁANIA
+Zamknięta obudowa dotyka stołu. Krótkie rozłożenie na warstwy (około 0,6–0,8 s)
+przechodzi w równoczesne składanie. Dalej zachowujemy kolejność v09:
+przesunięcie → prototyp Raspberry Pi → kabel → klik → rzeczywisty obraz.
+Objaśniamy przewodowe połączenie telefonu z osobną bramą LTE i cel korzystania
+z telefonu przy wyłączonych jego radiach. Modem bramy nadal korzysta z LTE.
+Dodatkowy czas służy objaśnieniu i nowemu wejściu; nie spowalniamy całego v09.
+
+31–52 S — PRAWDZIWE DEMO
+Nowe nagranie prototypu, ustawień telefonu, połączenia przewodowego i wyniku
+rzeczywistego testu. Kadr ekranu musi dawać czas na przeczytanie wyniku.
+Aktualny plan repo opisuje Tor jako niewdrożony. Pokazujemy go jako działający
+dopiero po wdrożeniu i weryfikacji. Makieta mock-check-tor nie potwierdza Tora.
+Jeśli ta funkcja nie będzie gotowa, pokazujemy faktycznie działające łącze,
+a funkcje ochrony prywatności nazywamy planowanymi. Zdjęcie jest placeholderem
+do prób montażowych; w filmie docelowym ten fragment ma być nagraniem.
+
+52–65 S — KIERUNEK ROZWOJU I ZAMKNIĘCIE
+Powrót do wizji produktu: mocowanie do telefonu, kompaktowa forma, OLED.
+Proponowane wezwanie końcowe: zaproszenie redakcji i organizacji do rozmów
+o pilotażu. Nie deklarujemy istniejących wdrożeń ani gotowości sprzedażowej.
+Materiały koncepcyjne oznaczamy czytelnie; masa i czas pracy dopiero po pomiarach.
+Bez napisu SafeWall na obudowie. Napisy informacyjne filmu to osobna warstwa.
+
+PRZEJŚCIE SEEDANCE → BLENDER
+Najpierw przygotować kadr kontaktu w Blenderze: kamera, pozycja, skala obudowy,
+suchy metalowy blat i chłodne światło z góry. Ten kadr posłuży jako referencja
+dla ujęcia z człowiekiem. Zachować czytelność produktu mimo nocnego otoczenia.
+Po wygenerowaniu ocenić zgodność i dopasować montaż. Nie zakładać, że sama
+referencja zapewni identyczną geometrię lub idealnie płynne przejście.
+Obecny v09 zaczyna się od rozłożonych warstw; wymaga krótkiego nowego początku.
+Seedance pozostaje propozycją narzędzia; dostęp do generacji nie jest podłączony.
+
+TEMPO I LEKTOR
+Seedance: bez ludzkich głosów i muzyki; ewentualnie dźwięki otoczenia i kontaktu.
+W montażu odrzucamy oryginalną ścieżkę Seedance. Osobno dodajemy ElevenLabs
+i efekty: deszcz na zadaszeniu, odległy pociąg, kroki, szelest kurtki, stuk obudowy.
+Pozwala to utrzymać pełną kontrolę nad słowami, głośnością i czasem kliknięcia.
+Proponowana intonacja: blisko mikrofonu, spokojnie, z powściągniętym napięciem.
+Cel roboczy: około 100–115 słów na całość, z miejscem na dźwięk kontaktu,
+klik złącza i demonstrację. Dokładne czasy po wygenerowaniu pełnego lektora.
+Pełny film ma być dłuższy dzięki dodatkowej treści i demo, z ciągłym ruchem
+w animacjach. Czytelność wyniku na ekranie ma pierwszeństwo przed ruchem kamery.
+Preview nadal 960 × 540, 24 kl./s, bez shaderów premium. Dotychczasowy film
+Full-sequence-voice-v09.mp4 pozostaje aktualnym wyrenderowanym materiałem.
+
+ŹRÓDŁA PROJEKTOWE
+08-WIZJA-I-PLAN-PROJEKTU.md — aktualny zapis wizji, uwag mentorów i zakresu demo.
+physical-design/design-brief.json — wymagania i niezweryfikowane elementy sprzętu.
+physical-design/visualization/film-plan-v10.json — edytowalna oś czasu tego planu.
+physical-design/visualization/SEEDANCE-THRILLER-BRIEF-v10.txt — kierunek obrazu i prompty.

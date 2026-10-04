@@ -1,0 +1,48 @@
+{
+  "provider": "BytePlus ModelArk",
+  "model_display_name": "Dreamina Seedance 2.5",
+  "documented_model_id": "dreamina-seedance-2-5-260628",
+  "mode": "Reference / omni reference",
+  "duration": 18,
+  "ratio": "16:9",
+  "resolution": "720p",
+  "draft": false,
+  "generate_audio": true,
+  "return_last_frame": true,
+  "output_format": "mp4",
+  "omni_reference_task_type": "reference",
+  "reference_upload_order": [
+    {
+      "index": 1,
+      "file": "01-product-appearance.png",
+      "role": "reference_image",
+      "purpose": "device appearance only"
+    },
+    {
+      "index": 2,
+      "file": "02-handoff-composition.png",
+      "role": "reference_image",
+      "purpose": "final composition only, not preview shading"
+    }
+  ],
+  "ui_note": "Use standard reference-to-video generation at 720p, not Draft or Draft-to-final enhancement. UI labels can vary. If available enable return_last_frame; leave FPS and seed at defaults.",
+  "target_edit_contact_seconds": 15.0,
+  "tail_handle_seconds_approximate": 2.52,
+  "generation_submitted": false,
+  "no_audio_reference_needed": true,
+  "do_not_upload_live_demo_for_opening": true,
+  "reference_end_pose_is_guidance_not_frame_lock": true,
+  "sources": [
+    "https://docs.byteplus.com/es/docs/modelark/seedance-2-5",
+    "https://docs.byteplus.com/ko/docs/modelark/seedance-2-5-prompt-guide?redirect=1",
+    "https://docs.byteplus.com/zh-TW/docs/modelark/video-generation-tutorial"
+  ],
+  "checked_on": "2026-10-04",
+  "revision": "v17b_daniel_final_720p_sfx_only",
+  "target_blender_cut_seconds": 15.48,
+  "voiceover": "../voiceover-v16/SafeWall-voiceover-pl-daniel-v16.mp3",
+  "prompt_timestamp_note": "Integer-second timing guides the model; actual shot timing and handoff require inspection after generation.",
+  "audio_direction": "Synchronized environmental ambience and foley only; no human voice, station announcements or music. Daniel voiceover added separately in postproduction.",
+  "seedance_human_voice": false,
+  "seedance_music": false
+}

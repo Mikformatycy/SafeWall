@@ -1,0 +1,119 @@
+1
+00:00:00,080 --> 00:00:02,080
+Ktoś powierzył ci swoją historię.
+
+2
+00:00:02,660 --> 00:00:06,960
+Teraz chcesz ją przekazać dalej — i
+chronić osobę, która ci zaufała.
+
+3
+00:00:07,720 --> 00:00:11,400
+Są miejsca, w których dostęp do
+informacji ogranicza cenzura.
+
+4
+00:00:11,940 --> 00:00:15,000
+Właśnie tam prywatność ma szczególne
+znaczenie.
+
+5
+00:00:15,480 --> 00:00:19,200
+Dlatego projektujemy SafeWall —
+sprzętową bramę prywatności dla
+
+6
+00:00:19,240 --> 00:00:22,320
+dziennikarzy, aktywistów i organizacji
+społecznych.
+
+7
+00:00:22,900 --> 00:00:25,020
+Z zewnątrz przypomina zwykły powerbank.
+
+8
+00:00:25,500 --> 00:00:27,980
+SafeWall ma kierować połączenia przez
+sieć Tor.
+
+9
+00:00:28,440 --> 00:00:32,740
+Tor prowadzi ruch przez kilka
+przekaźników, utrudniając ustalenie, kto
+z kim
+
+10
+00:00:32,780 --> 00:00:33,620
+się komunikuje.
+
+11
+00:00:33,940 --> 00:00:36,540
+Kontrolę połączenia przenosimy poza
+telefon.
+
+12
+00:00:36,920 --> 00:00:42,100
+Osobna brama ma pilnować jednej zasady:
+internet przez Tor albo brak
+
+13
+00:00:42,180 --> 00:00:42,800
+połączenia.
+
+14
+00:00:43,300 --> 00:00:47,140
+Żeby awaria chronionej trasy nie
+otworzyła drogi do niechronionego
+
+15
+00:00:47,240 --> 00:00:47,860
+połączenia.
+
+16
+00:00:48,240 --> 00:00:51,920
+Telefon może też ujawniać swoją obecność
+urządzeniom w pobliżu.
+
+17
+00:00:52,380 --> 00:00:53,620
+„iPhone (Piotrek)”.
+
+18
+00:00:54,020 --> 00:00:55,960
+Nietrudno się domyślić, do kogo należy.
+
+19
+00:00:56,420 --> 00:01:01,280
+Z SafeWall możesz wyłączyć Wi-Fi,
+Bluetooth i łączność komórkową telefonu.
+
+20
+00:01:01,760 --> 00:01:04,739
+Podłączasz przewód — i nadal masz dostęp
+do internetu.
+
+21
+00:01:05,300 --> 00:01:08,380
+A połączenie przez Tor sprawdzasz w
+swojej przeglądarce.
+
+22
+00:01:08,720 --> 00:01:09,580
+To nasz prototyp.
+
+23
+00:01:09,940 --> 00:01:14,440
+Kolejny krok: miniaturyzacja, testy
+bezpieczeństwa i próby z przyszłymi
+
+24
+00:01:14,500 --> 00:01:15,300
+użytkownikami.
+
+25
+00:01:15,760 --> 00:01:16,340
+SafeWall.
+
+26
+00:01:16,740 --> 00:01:19,220
+Bo za każdą historią stoi człowiek.

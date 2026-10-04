@@ -1,0 +1,1231 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="SafeWall — Twoje połączenie, ruch sieciowy i filtr DNS w jednym miejscu.">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#000000">
+    <title>SafeWall — Przegląd</title>
+    <link rel="icon" href="data:image/x-icon;base64,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" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC9ElEQVR42u2Wv24dRRTGf9/szt6ba+OYNBFEBGidgiIKDRUv4AbhHgkUkHgDCssFBU9ArsgTGCHAPEAkJBpSUTgtxBTQ2Q7J/TOzOx+F/1zn4oICx5bwJ620Mzq75zvnfOfMwCUu8X+Hjl7W1x1u3Zqtj7C2pm5+z+sOX8/Zvr+NtaEyb7u56Wp+b3sbb5xiez4ZsC1J3hr65sICb4xG2V1BdR3pSk7T5fhwPgvffDl966WmWR7lbIBBjPorpb33Pun9Mh99by/fqUJs2jZTBTwYRD17xm+rd7VjWzWCraEHkH8Miq/HOtIEcIGlhcjebvoIuL+56WZtTWlrmO40sf6ZAFdCPC7kQi+yNUxvr95tHh7Z9nfTB8tLzVejMcR+xAWCAPLjraFXEOMg5CbQF1wbjSk55y6lXFLOqRSMdOPBuuurj4kP1l1b5XpdiUnKOeVcUs5lknKuK2GV6ydtkW6UglPOKaVccs7daEwRXDvwKdcAbcauaCWCwUICB0Ay6d0NtUAL8O298VjCMgEpzOqIS/H4pO0Pw5QOhR5AwdgSMrRtxgD1TNrIBvtwaVejSUeBj7+7N30VAhIF807KnQzCMy2l3ClQffH9MP9kE6BQYHU06bBdgTj+v2cddEwg1qKKIISCgEo2DPrxZr/HpwASTBNMU0eMVeCYQQi2WVyIt3sNt4+CmEwhtx1NUwkOdFVHCIgunSCwsw9NN6GuI22X0YkWt4vRrAt0mM7Tm8rFUE58XOkgmsMkm7qKtG0mVYsnCOzsQxpThUjnjKz5YVX/y7YOh8/p9GQqRbqSoelOKUElQtFzGfgvYaAKInQiz2vgSCD22U09808f4bxH8cUhIPALPIL93BzoJdRVVLbLwQyyzsizbctQ9dKB0muwnk7/nF4Z6EmvWVzK7YSgs/FfbGLdZzzZe/J0Op6CJbBA/uzDP97sN1dfS2nX5YwYhGI3zcuapP3fP7//yq8Hvi/SlezRI14Io5WVC3Qlu8Qlzh1/A0jgjeX/VexlAAAAAElFTkSuQmCC">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIj48dGl0bGUgaWQ9InRpdGxlIj5TYWZlV2FsbDwvdGl0bGU+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNC4wMDAwMDAwMDAwMDAwMDM2IDE3LjU0MjA1NjA3NDc2NjM1Nykgc2NhbGUoMC4wNjU0MjA1NjA3NDc2NjM1NCkiPjxwYXRoIGZpbGw9IiM3RDY3RTkiIGQ9Ik0zMCAwSDE2OEEzMCAzMCAwIDAgMSAxOTggMzBWODhBMjQgMjQgMCAwIDAgMjIyIDExMkgzMDRBMjQgMjQgMCAwIDAgMzI4IDg4VjMwQTMwIDMwIDAgMCAxIDM1OCAwSDQ5OEEzMCAzMCAwIDAgMSA1MjggMzBWODhBMjQgMjQgMCAwIDAgNTUyIDExMkg2MzRBMjQgMjQgMCAwIDAgNjU4IDg4VjMwQTMwIDMwIDAgMCAxIDY4OCAwSDgyNkEzMCAzMCAwIDAgMSA4NTYgMzBWNDE0QTI4IDI4IDAgMCAxIDgyOCA0NDJIMjhBMjggMjggMCAwIDEgMCA0MTRWMzBBMzAgMzAgMCAwIDEgMzAgMFoiLz48cGF0aCBmaWxsPSIjQjM5QUZCIiBkPSJNMzAgMEgxNjhBMzAgMzAgMCAwIDEgMTk4IDMwVjg4QTI0IDI0IDAgMCAwIDIyMiAxMTJIMzA0QTI0IDI0IDAgMCAwIDMyOCA4OFYzMEEzMCAzMCAwIDAgMSAzNTggMEg0OThBMzAgMzAgMCAwIDEgNTI4IDMwVjg4QTI0IDI0IDAgMCAwIDU1MiAxMTJINjM0QTI0IDI0IDAgMCAwIDY1OCA4OFYzMEEzMCAzMCAwIDAgMSA2ODggMEg4MjZBMzAgMzAgMCAwIDEgODU2IDMwVjE3OEgwVjMwQTMwIDMwIDAgMCAxIDMwIDBaIi8+PC9nPjwvc3ZnPgo=">
+    <link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAHpUlEQVR42u3dX4hcVx3A8d/vnHvvzO5ms0m33cmf3WT/RGvAbUygSZBqpH80RBNNTUUI5MGABaV/HnxqhAqx8aE+NJSClvoiBKHQFiWEVNPSIkKtYKgKgk2a1E0aoqbZpDsz98/cc3wYjEXizkznT3bT75c8hp0zZz/33D9zd66WSqNCdL0MU0DgIHAQOAgcBA4CB4GDwEHgIHAQgYPAQeAgcBA4CBwEDgIHgYPAQQQOAgeBg8BB4CBwEDgIHAQOAgcROAgcBA4CB4GDwEHgIHAQOAgcBA4icBA4CBwEDrohBc3/V1Vj1HjxnR2BijrvvHfdeHuqqtqtDcB7573vzrAXxFQ3iUONMXEyl2WJMVZUpTPjVvHeuTwMi8XCgHN5h1dFY7NaEifl/xDp1FxrnUWxMBAGhW4MO07KWRZ3Z6oLxcIS51wzPzZoZuPz3pUrVz85vuXO6R2l4QlV26lZdi678K9Tb/7p6OmZk/3FQZFOzYUYY8vV2eGh0fs++62p0Y1h2N9BHFlWOT1z8o23fnnpyrmBvmWd86Eifq5yeWps0+Y7dq68dcqYsFPD9j6/eOnMH/587G9nf99XXKJqGi572uhJTSri8ry2d+fB7Z/bXwhNx9dRNVKNs1+9+szzx5+IwmIHZWzd8PX99x+6bbjknXgR7dTeRERF1Mg/L1382YuPvfHWCx30kWXxA9sP7Lr7u33FsON7WlVJUnf8t88dOfq4NVYaraYNcBg1lfjq/j2Hd9+z7/LV1HmnHZvka3PtjbHLB8MjR58+cvT7S/qXtznRxthK9crG9dsfe/AXeS5JGqt2eMwi4r0vREVr5dBPv3nyry/39w21P+y5yuzerxzcu/Ohy1cy5/OuTLWa5Uujl078/LkXHhkoLnXzApwPh1FbSa5Of+ILj3/nxUqcqDEdH+61iRbxYRAcOPylM+dOFqKBNo5PVcSJmCcefXVsxbpqElsTSHfKXa2vUJy5cOrA4bvrL/qRdwGqJknLk6Mbf/jIy1mtVj+S7spUi/fO9RcLP3jm/r+ceq2/sNT5/KOcyqpqnmdbN+y21nvxXZJRfyHnXSEyW6Z3ZVli2ji/MMbESfn2ia1jK9fFSdo9GSJiTRAn6diqdbdPbImTsjFtDFtNliWb79hViIzzrksy6icsXry1fuuGr+V5Nv8Lzfd+nHeBjUZuWZM77Z6MD51lSenWCWNsm6dwuauVhscD66XTp4LX3RQD60eGJ/L29in1fWtpeNJ56cFU505HhtcGNpp/t2KauVLQs6su1gRtv5yKiDFBt6f4w3NtTSBtH/KqqjW2Z1NtVBsOmCukBA4CB4GDwEHgIHAQOAgcBI4e16EbW25AumDe/s2HQ9U5GRosWRtKG/eMGFURv3zpClHx3Z9rL15Ulg2WRLxp58K/99aGQ4Ml50RUwfG/H0smaW1qzfTk6Ka56mwYFFSNtpg1QVZL+otDd356R5p6o6YHw05Tv3n6y/3FoayW1D8bajETBtFcdXZydNPUmukkrfVg2NLxG4y7nfMusuH+PU/+6NkHLs2eK0T9rX54luWJePn2N55eu3pduZK28xl6K/dhZGtXr9v31UPPPv+waDkMCi0tWF78B+XK8LLR/XueDGwQ5xk4rr8Vxkk2NTZ98OHjL5146vTMH2u1tKU7OUZuGd/x+Qc3rt9WqfZCxrXXrVTT7XftGxlee+z1n/zj/bMt3ZIeBNHU2Kbd9z668rbxaty7YS8yHPWJrsbpyPD4Q3ufKlezWp5p0wdyRk1/X1FVynHa441P1ZTjdOP6bZ/51LZyteq9b37YgQ0H+sK0JgtNxoLDUfeRZWmaemOCFu839tUkFS83ZIqNmko1EdUwiFo6c/Hez1USVV1oMhYijvqGqFqfN9fqb0j0BrK29b90avn2+x7e47PocdzoKxYfwzFzhZTAQeAgcBA4CBwEDpKPxzf7eP/ff3QT1PxvswEOa+Wds2WfVdJ0Tg3LzE2Bw7koWnLmfNnatleONHXVqk+zXJWl4+ZYOVye+zR1HfnaJzFGjOnpX1RTN3GoMU3dbsaegsBB4CBwEDgIHAQOAgeBg8BB4CACB4GDwEHgIHAQOAgcBA4CB4GDCBwEDgIHgYPAQeAgcBA4CBwEDiJwEDgIHAQOAgeBg8BB4CBwEDgIHP8nda5WSd5XNT14Ljz1Ji9e1VSSS87V5n9coWn4mMN3L7xm1Lb+RExauN99btS+e+H1hk+yDOZ9uHwehYNvzxw7894rk6u/WK5eFL7/fHGvGSLeL+lb8c75X789cywKB53P51sdSqXReRcPzV1WiJbet+XHU6vuFVXPY1cWbaoq3p8+f+I3b34vSa9aE85/tNAAR/350HmeenGTq+4ZK91VLCzj8GNx0pA4ufz3i787894rKsbaqOGhQmMcdXHeS5p94L1T5QRnER9tqJooHFSVZvYAQXM/1ItIIRpSYdVY1GuHeBHv8yYPDYJW3OXIWPQHpFwEI+EKKYGDwEHgIHAQOAgcBA4icBA4CBwEDgIHgYPAQeAgcBA4iMBB4CBwEDgIHAQOAgeBg8BB4CBwEIGDwEHgIHAQOAgcBA4CB4GDwEEEDgIHgYPAQeAgcNCC79+Qx7vRqJVjqwAAAABJRU5ErkJggg==">
+    <link rel="mask-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHJvbGU9ImltZyIgYXJpYS1sYWJlbGxlZGJ5PSJ0aXRsZSI+PHRpdGxlIGlkPSJ0aXRsZSI+U2FmZVdhbGw8L3RpdGxlPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY0LjAwMDAwMDAwMDAwMDA2IDI4MC42NzI4OTcxOTYyNjE3KSBzY2FsZSgxLjA0NjcyODk3MTk2MjYxNjcpIj48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMzAgMEgxNjhBMzAgMzAgMCAwIDEgMTk4IDMwVjg4QTI0IDI0IDAgMCAwIDIyMiAxMTJIMzA0QTI0IDI0IDAgMCAwIDMyOCA4OFYzMEEzMCAzMCAwIDAgMSAzNTggMEg0OThBMzAgMzAgMCAwIDEgNTI4IDMwVjg4QTI0IDI0IDAgMCAwIDU1MiAxMTJINjM0QTI0IDI0IDAgMCAwIDY1OCA4OFYzMEEzMCAzMCAwIDAgMSA2ODggMEg4MjZBMzAgMzAgMCAwIDEgODU2IDMwVjQxNEEyOCAyOCAwIDAgMSA4MjggNDQySDI4QTI4IDI4IDAgMCAxIDAgNDE0VjMwQTMwIDMwIDAgMCAxIDMwIDBaIi8+PC9nPjwvc3ZnPgo=" color="#7D67E9">
+    <style>
+:root {
+  color-scheme: dark;
+  font-family: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f6f6fa;
+  background: #000;
+  font-synthesis: none;
+  --surface: #1b1c1e;
+  --surface-hover: #24252c;
+  --muted: #a6a7ab;
+  --line: #ffffff0f;
+  --blue: #3898ff;
+  --purple: #aa96ff;
+  --teal: #75d9c1;
+  --radius: 26px;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; min-width: 280px; -webkit-font-smoothing: antialiased; }
+body::before { content: ""; position: absolute; z-index: -1; top: 260px; left: 50%; transform: translateX(-50%); width: min(100%, 1240px); height: 780px; background: radial-gradient(ellipse at center, #5330bd2b, #32157512 42%, transparent 69%); pointer-events: none; }
+a { color: inherit; text-decoration: none; }
+button, input, select { font: inherit; }
+button, select, input { -webkit-tap-highlight-color: transparent; }
+button, select, summary { cursor: pointer; }
+button { color: inherit; }
+button:disabled { cursor: wait; opacity: .5; }
+button, a, select, summary { touch-action: manipulation; }
+button, a, select { transition: background-color .16s ease, color .16s ease, border-color .16s ease; }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+main:focus { outline: none; }
+::selection { background: #5750a5; color: #fff; }
+h1, h2, h3, p, dl { margin: 0; }
+h2 { font-size: 17px; line-height: 1.4; font-weight: 700; letter-spacing: -.2px; }
+h3 { font-size: inherit; font-weight: 600; }
+svg { display: block; }
+.icon, .icon-button svg { width: 20px; height: 20px; flex-shrink: 0; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.skip-link { position: fixed; top: -80px; left: 20px; z-index: 20; padding: 12px 18px; border-radius: 12px; background: #3898ff; }
+.skip-link:focus { top: 12px; }
+.muted { color: var(--muted); }
+.small { font-size: 12px; font-weight: 500; }
+.mono { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 12px; }
+.site-header { max-width: 1440px; min-height: 88px; margin: auto; padding: 23px 40px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.brand { display: inline-flex; align-items: center; gap: 12px; font-size: 22px; font-weight: 750; letter-spacing: -.25px; }
+.brand-mark { width: 54px; height: 42px; display: grid; place-items: center; flex-shrink: 0; }
+.brand-mark img { display: block; width: 100%; height: auto; }
+.local-label { font-size: 11px; letter-spacing: 0; padding: 4px 8px; border-radius: 100px; background: #202123; color: #a5a5aa; font-weight: 600; }
+.header-actions { display: flex; align-items: center; gap: 10px; }
+.source-label { color: #bdbdc4; background: #202123; border: 1px solid #ffffff08; border-radius: 100px; font-size: 12px; font-weight: 600; padding: 6px 11px; white-space: nowrap; }
+.demo-control { padding: 0; margin: 0; border: 0; min-width: 0; }
+select { appearance: none; color: #ececf2; background: #222329 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='m3 4.5 3 3 3-3' fill='none' stroke='%23aaaab7' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") right 12px center / 12px no-repeat; border: 1px solid #ffffff0a; border-radius: 11px; padding: 10px 32px 10px 13px; font-size: 12px; font-weight: 600; min-height: 40px; max-width: 100%; }
+select:hover { background-color: #2b2c35; }
+.demo-control select { background-color: transparent; border-color: transparent; color: var(--muted); }
+.demo-control select:hover { color: #fff; background-color: #191a1f; }
+.icon-button, .icon-link { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--line); background: #1a1b21; color: #aaaab7; }
+.icon-button:hover, .icon-link:hover { background: #2a2b35; color: #fff; }
+.icon-button svg { width: 18px; height: 18px; }
+.icon-button:disabled svg { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+main { max-width: 1080px; margin: 0 auto; padding: 12px 0 0; }
+.main-nav { display: flex; width: fit-content; margin: 0 auto; padding: 5px; gap: 4px; border: 1px solid #ffffff08; border-radius: 100px; background: #151517; }
+.main-nav a { padding: 10px 21px; min-height: 40px; border-radius: 100px; color: #a4a4ad; font-size: 14px; font-weight: 700; white-space: nowrap; }
+.main-nav a:hover { color: #f6f6fa; background: #ffffff06; }
+.main-nav a[aria-current="page"] { background: #2b2c30; color: #fff; box-shadow: 0 2px 6px #0002, inset 0 1px 0 #ffffff0a; }
+.page-heading { text-align: center; padding: 44px 0 40px; }
+.eyebrow { font-size: 32px; font-weight: 750; letter-spacing: -.4px; background: linear-gradient(100deg, #3898ff 25%, #8465ff 85%); background-clip: text; -webkit-background-clip: text; color: transparent; width: fit-content; margin: 0 auto 10px; }
+h1 { font-size: clamp(34px, 4vw, 52px); line-height: 1.12; letter-spacing: -.8px; font-weight: 750; text-wrap: balance; }
+.page-description { color: #bcbcc4; font-size: 18px; line-height: 1.55; margin-top: 16px; text-wrap: balance; }
+.hero-state:empty { display: none; }
+.hero-state { display: flex; justify-content: center; margin-top: 25px; }
+.connection-pill { display: inline-flex; align-items: center; gap: 10px; padding: 11px 19px; min-height: 44px; border: 1px solid #ffffff0d; border-radius: 100px; background: linear-gradient(105deg, #328df5, #7c60ef); color: #fff; font-size: 14px; font-weight: 750; box-shadow: 0 4px 16px #2939b322; }
+.connection-pill:hover { filter: brightness(1.13); }
+.connection-pill .icon { width: 15px; height: 15px; margin-left: 2px; }
+.connection-pill.waiting { background: #4c3c1f; border-color: #d9a63a30; color: #f3d78b; box-shadow: none; }
+.connection-pill.inactive, .connection-pill.unknown { background: #292a30; border-color: #ffffff12; color: #d0cedd; box-shadow: none; }
+.status-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; background: currentColor; }
+.section-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; gap: 16px; }
+.section-toolbar h2 { color: #f1f1f5; font-size: 22px; font-weight: 750; letter-spacing: -.3px; }
+.period-control select { min-height: 37px; padding-top: 8px; padding-bottom: 8px; border-radius: 100px; background-color: #222326; }
+.metrics-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-bottom: 20px; }
+.metric-card { min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 23px 26px 22px; }
+.metric-label { display: flex; gap: 10px; align-items: center; color: #d4d4dd; font-size: 14px; font-weight: 700; }
+.metric-icon { display: inline-grid; place-items: center; width: 32px; height: 32px; border-radius: 10px; flex-shrink: 0; }
+.metric-icon .icon { width: 17px; height: 17px; }
+.blue .metric-icon, .section-icon.blue { color: var(--blue); }
+.purple .metric-icon, .section-icon.purple { color: var(--purple); }
+.teal .metric-icon { color: var(--teal); }
+.metric-value { margin-top: 17px; font-size: 43px; letter-spacing: -1px; font-weight: 750; line-height: 1.15; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.unit { margin-left: 1px; font-size: 18px; font-weight: 550; letter-spacing: -.3px; color: #9f9fab; }
+.missing-value { font-size: 25px; color: #adaeba; letter-spacing: -.8px; }
+.metric-detail { margin-top: 9px; color: #a3a3af; font-size: 12px; font-weight: 500; min-height: 17px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; min-width: 0; box-shadow: 0 12px 32px #00000014; }
+.card-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 22px; }
+.card-heading h2 { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; }
+.card-heading > .icon-link { width: 28px; height: 28px; border-radius: 9px; background: transparent; border: 0; }
+.card-heading .small { text-align: right; }
+.traffic-card .card-heading { margin-bottom: 16px; }
+.chart-mode select { min-height: 34px; padding-top: 6px; padding-bottom: 6px; font-size: 11px; border-radius: 100px; }
+.chart-units { margin-left: auto; }
+.chart-legend { display: flex; gap: 20px; margin-bottom: 16px; color: #acaebb; font-size: 11px; font-weight: 500; }
+.chart-legend > span { display: inline-flex; gap: 7px; align-items: center; }
+.legend-dot { display: inline-block; height: 6px; width: 6px; border-radius: 50%; }
+.legend-dot.blue { background: #58a6ff; }
+.legend-dot.purple { background: #9c8bf2; }
+.traffic-chart { width: 100%; height: auto; overflow: visible; }
+.chart-grid { stroke: #ffffff0c; stroke-dasharray: 3 6; }
+.chart-label { fill: #9698a3; font-size: 10px; font-family: inherit; }
+.chart-line { fill: none; stroke-width: 2.3; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
+.chart-line.download { stroke: #58a6ff; }
+.chart-line.upload { stroke: #9c8bf2; }
+.chart-point.download { fill: #58a6ff; }
+.chart-point.upload { fill: #9c8bf2; }
+.traffic-totals { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-top: 20px; font-size: 12px; color: var(--muted); }
+.traffic-totals strong { color: #d1d1da; font-weight: 600; margin-left: 5px; }
+.disclosure { border-top: 1px solid var(--line); margin-top: 20px; font-size: 12px; }
+.disclosure summary { padding: 15px 0 0; color: #b3b3c1; font-weight: 600; width: fit-content; }
+.disclosure summary:hover { color: #fff; }
+.disclosure[open] summary { margin-bottom: 16px; }
+.disclosure .table-scroll { max-height: 320px; }
+.connection-path { display: flex; align-items: flex-start; justify-content: space-between; padding: 0 6px; margin: 22px 0 19px; }
+.path-node { display: flex; flex-direction: column; align-items: center; gap: 9px; min-width: 46px; font-size: 10px; font-weight: 650; color: #b0b0bd; }
+.path-icon { display: grid; place-items: center; width: 43px; height: 43px; border-radius: 14px; border: 1px solid #7b91ff19; background: #7b91ff0c; color: #8eb7ff; }
+.path-node:nth-of-type(2) .path-icon { color: #bbaaff; background: #957aff12; border-color: #957aff21; }
+.path-node.disconnected .path-icon { color: #828392; border-color: #ffffff09; background: #ffffff05; }
+.path-connector { height: 1px; margin: 21px 8px 0; background: linear-gradient(90deg, #688cc743, #8672c740); flex: 1; }
+.data-list { font-size: 12px; }
+.data-list > div { display: flex; justify-content: space-between; gap: 20px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.data-list > div:last-child { border: 0; }
+.data-list dt { color: var(--muted); line-height: 1.5; }
+.data-list dd { margin: 0; text-align: right; font-weight: 600; line-height: 1.5; overflow-wrap: anywhere; min-width: 0; }
+.status-tag { display: inline-flex; align-items: center; gap: 7px; font-size: 11px; font-weight: 550; white-space: nowrap; }
+.status-tag.positive { color: var(--teal); }
+.status-tag.waiting { color: #e4bf72; }
+.status-tag.unknown, .status-tag.inactive { color: #aba9b7; }
+.text-link { display: inline-flex; gap: 7px; align-items: center; color: #87b6ff; font-size: 12px; font-weight: 600; margin-top: 17px; min-height: 24px; }
+.text-link .icon { width: 15px; height: 15px; }
+.text-link:hover { color: #b4d1ff; }
+.clients-card { margin-top: 28px; }
+.count-badge { display: inline-grid; place-items: center; background: #ffffff09; color: #aaaab8; font-size: 11px; font-weight: 550; height: 21px; min-width: 21px; padding: 0 6px; border-radius: 7px; }
+.clients-card .card-heading { margin-bottom: 24px; }
+.client-row { display: flex; align-items: center; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); }
+.client-row:first-child { padding-top: 0; border: 0; }
+.client-row:last-child { padding-bottom: 0; }
+.client-icon { display: grid; place-items: center; width: 42px; height: 46px; border-radius: 13px; background: #ffffff05; color: #b5bfd3; flex-shrink: 0; }
+.client-name { display: flex; flex-direction: column; gap: 5px; font-size: 14px; }
+.client-name strong { font-weight: 650; }
+.client-name > span { font-size: 11px; color: var(--muted); }
+.client-address { margin-left: auto; color: #aaaab8; }
+.client-row > .status-tag { margin-left: 30px; }
+.two-column { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; align-items: start; }
+.protection-card h2 { font-size: 16px; }
+.protection-card > p { font-size: 12px; line-height: 1.6; }
+.protection-card .card-heading { margin-bottom: 12px; }
+.protection-card .connection-path { max-width: 320px; margin: 22px auto; }
+.card-note { color: #9697a6; font-size: 11px; line-height: 1.7; margin-top: 17px; }
+.interface-row { display: flex; flex-direction: column; gap: 9px; padding: 17px 0; border-top: 1px solid var(--line); font-size: 13px; }
+.interface-row strong { font-weight: 600; }
+.interface-row .mono { margin-top: 3px; color: #cccbd9; }
+.blocked-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 48px; }
+.blocked-row { display: flex; gap: 18px; justify-content: space-between; align-items: center; padding: 14px 0; border-top: 1px solid var(--line); min-width: 0; }
+.blocked-row > div { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.blocked-row strong { font-size: 12px; font-weight: 550; overflow-wrap: anywhere; }
+.blocked-row div > span { color: var(--muted); font-size: 11px; }
+.blocked-count { color: #beb2f5; font-size: 13px; font-weight: 600; flex-shrink: 0; }
+.queries-card { margin-top: 20px; }
+.queries-card > .table-scroll { max-height: 420px; }
+.queries-card thead { position: sticky; top: 0; z-index: 1; background: var(--surface); }
+.query-filters { display: flex; gap: 10px; align-items: center; margin-bottom: 20px; }
+.search-field { display: flex; flex: 1; align-items: center; border: 1px solid #ffffff0f; background: #101115; border-radius: 12px; padding: 0 13px; gap: 9px; min-width: 0; }
+.search-field .icon { color: #828390; width: 17px; height: 17px; }
+.search-field:focus-within { border-color: #58a6ff; box-shadow: 0 0 0 2px #58a6ff22; }
+input[type="search"] { min-height: 42px; width: 100%; background: transparent; color: #eeeefa; font-size: 12px; border: 0; min-width: 0; outline: none; }
+input::placeholder { color: #8e8f9e; }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 42px; padding: 11px 19px; color: white; background: linear-gradient(105deg, #3289ef, #7662eb); border: 0; border-radius: 13px; font-size: 13px; font-weight: 650; box-shadow: inset 0 1px 0 #ffffff1a; }
+.button:hover { filter: brightness(1.12); }
+.button.secondary { background: #2c2d37; border: 1px solid #ffffff06; box-shadow: none; }
+.table-scroll { overflow: auto; max-width: 100%; scrollbar-width: thin; scrollbar-color: #454650 transparent; }
+table { width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; white-space: nowrap; }
+th { color: #91929f; font-size: 11px; font-weight: 550; }
+th, td { padding: 15px 12px; border-bottom: 1px solid var(--line); }
+th:first-child, td:first-child { padding-left: 0; }
+th:last-child, td:last-child { padding-right: 0; text-align: right; }
+tbody tr:last-child td { border: 0; }
+.domain-cell { font-weight: 550; }
+.query-status { display: inline-block; font-size: 10px; font-weight: 600; padding: 5px 9px; border-radius: 7px; }
+.query-status.blocked { color: #c1b1ff; background: #a48bff12; }
+.query-status.allowed { color: #8bccba; background: #68c8a90d; }
+.service-row { display: flex; align-items: center; justify-content: space-between; padding: 17px 0; border-top: 1px solid var(--line); gap: 12px; }
+.service-row > div { display: flex; flex-direction: column; gap: 7px; }
+.service-row strong { font-size: 13px; font-weight: 600; }
+.service-row div > span { color: var(--muted); font-size: 11px; }
+.source-note { display: flex; align-items: flex-start; justify-content: center; gap: 10px; font-size: 12px; color: var(--muted); margin: 26px auto 0; line-height: 1.7; }
+.source-note .icon { width: 16px; height: 16px; margin-top: 2px; }
+.source-note strong { color: #c0c0cf; font-weight: 600; }
+.site-footer { max-width: 1080px; margin: 28px auto 0; padding: 0 0 36px; display: flex; justify-content: space-between; gap: 20px; color: #9394a2; font-size: 11px; line-height: 1.6; }
+.error-notice { padding: 42px 24px; background: var(--surface); border-radius: var(--radius); border: 1px solid var(--line); text-align: center; }
+.error-notice > .icon { width: 30px; height: 30px; color: #a89cd5; margin: 0 auto 18px; }
+.error-notice p { font-size: 14px; line-height: 1.7; color: var(--muted); margin: 12px 0 24px; }
+.loading-state, .empty-state { color: var(--muted); padding: 28px 0; font-size: 13px; text-align: center; }
+.loading-state { display: flex; align-items: center; justify-content: center; gap: 10px; }
+.loading-dot { width: 8px; height: 8px; background: var(--blue); border-radius: 50%; }
+/* The overview uses two split panels, like the compact surfaces in RainbowKit. */
+.health-grid, .activity-panel { background: var(--surface); border: 1px solid #ffffff0c; border-radius: var(--radius); box-shadow: 0 16px 60px #0003; }
+.health-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 42px; }
+.health-card { display: flex; flex-direction: column; border: 0; border-radius: 0; box-shadow: none; background: transparent; padding: 28px; }
+.health-card + .health-card { border-left: 1px solid var(--line); }
+.health-heading { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; }
+.health-heading h2 { font-size: 20px; font-weight: 750; letter-spacing: -.15px; margin-bottom: 6px; }
+.health-illustration { display: grid; place-items: center; width: 54px; height: 54px; flex: 0 0 54px; border-radius: 16px; color: #9da4b2; background: #25282e; border: 1px solid #ffffff08; }
+.health-illustration.positive { color: #b6caeb; background: #252c38; }
+.health-illustration.waiting { color: #e4bf72; background: #302b22; }
+.health-illustration.negative { color: #e5a1a1; background: #312529; }
+.health-illustration > .icon { width: 28px; height: 28px; }
+.health-tag { display: inline-flex; align-items: center; gap: 6px; color: #aaa9b8; font-size: 12px; font-weight: 600; white-space: nowrap; }
+.health-tag.positive { color: #83d7ba; }
+.health-tag.waiting { color: #e4bf72; }
+.health-tag.negative { color: #efa19c; }
+.health-tag.unknown, .health-tag.inactive { color: #aaa9b8; }
+.protection-checks { font-size: 14px; margin-bottom: 18px; }
+.protection-checks > div { display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: 54px; padding: 9px 0; }
+.protection-checks dt { display: flex; align-items: center; gap: 12px; color: #e4e4ea; font-weight: 650; }
+.check-icon { display: grid; place-items: center; width: 32px; height: 32px; flex: 0 0 32px; color: #aeb7c8; }
+.check-icon .icon { width: 21px; height: 21px; }
+.protection-checks dd { margin: 0; text-align: right; }
+.quality-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding: 8px 0 19px; }
+.quality-metrics > div + div { border-left: 1px solid var(--line); padding-left: 24px; }
+.quality-metrics dt { display: flex; align-items: center; gap: 9px; color: #b4b4c0; font-size: 12px; font-weight: 600; }
+.quality-symbol { display: grid; place-items: center; width: 26px; height: 28px; flex: 0 0 26px; }
+.response-symbol { color: #aeb7c8; }
+.response-symbol .icon { width: 23px; height: 23px; }
+.signal-bars { display: inline-flex; color: #aeb7c8; }
+.signal-bars .icon { width: 23px; height: 23px; }
+.signal-bars.unknown { color: #777e8c; }
+.signal-bars.weak { color: #e4bf72; }
+.quality-metrics dd { margin: 12px 0 0; font-size: 40px; line-height: 1.2; font-weight: 750; letter-spacing: -.8px; font-variant-numeric: tabular-nums; }
+.quality-metrics .unit { font-size: 17px; }
+.quality-metrics .missing-value { font-size: 22px; letter-spacing: -.5px; }
+.quality-metrics .quality-note { color: #a3a3b0; font-size: 11px; line-height: 1.5; font-weight: 400; letter-spacing: 0; margin-top: 7px; }
+.quality-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px 16px; font-size: 11px; color: #a6a4b2; padding: 5px 0 18px; }
+.quality-bottom > span { display: inline-flex; align-items: center; gap: 7px; }
+.quality-bottom .icon { width: 14px; height: 14px; color: #9293a5; }
+.quality-bottom strong { color: #e0dfea; font-weight: 650; margin-left: 1px; }
+.health-footer { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-top: auto; padding-top: 15px; border-top: 1px solid var(--line); color: #a3a2b0; font-size: 11px; }
+.health-timestamp { display: inline-flex; gap: 6px; align-items: center; }
+.health-footer a { display: inline-flex; align-items: center; gap: 7px; color: #69b0ff; font-size: 12px; font-weight: 700; min-height: 28px; }
+.health-footer .icon { width: 14px; height: 14px; }
+.health-footer a:hover { color: #c0d8ff; }
+.activity-panel .metrics-grid { gap: 0; margin: 0; padding: 26px 0; }
+.activity-panel .metric-card { border: 0; border-radius: 0; background: transparent; padding: 0 28px; }
+.activity-panel .metric-card + .metric-card { border-left: 1px solid var(--line); }
+.activity-panel .blue .metric-icon { color: #99bce8; }
+.activity-panel .purple .metric-icon { color: #b9abe0; }
+.activity-panel .teal .metric-icon { color: #9ac8bc; }
+.activity-panel .metric-icon { background: #ffffff04; }
+.activity-panel .traffic-card { border: 0; border-top: 1px solid var(--line); border-radius: 0; background: transparent; box-shadow: none; }
+.activity-panel .traffic-card h2 { font-size: 16px; color: #cccdd6; }
+.activity-panel .chart-legend { margin-top: 6px; }
+@media (min-width: 1500px) {
+  main { padding-top: 24px; }
+  .page-heading { padding-top: 60px; padding-bottom: 48px; }
+}
+@media (max-width: 1160px) {
+  main, .site-footer { margin-left: 36px; margin-right: 36px; }
+  .site-header { padding-left: 36px; padding-right: 36px; }
+  .card, .metric-card { padding-left: 22px; padding-right: 22px; }
+}
+@media (max-width: 800px) {
+  main, .site-footer { margin-left: 24px; margin-right: 24px; }
+  .site-header { padding: 22px 24px; min-height: 90px; }
+  .brand { gap: 10px; font-size: 20px; }
+  .local-label { display: none; }
+  .page-heading { padding: 42px 0 34px; }
+  h1 { font-size: 38px; letter-spacing: -1.3px; }
+  .metric-value { font-size: 33px; letter-spacing: -1.2px; }
+  .unit { font-size: 15px; }
+  .metric-card { padding: 20px; }
+  .metric-label { font-size: 12px; gap: 7px; }
+  .metric-label .icon { width: 15px; height: 15px; }
+  .two-column { grid-template-columns: 1fr; }
+  .health-grid { grid-template-columns: 1fr; }
+  .health-card + .health-card { border-left: 0; border-top: 1px solid var(--line); }
+  .activity-panel .metric-card { padding: 0 22px; }
+  .activity-panel .metric-label { font-size: 12px; }
+  .activity-panel .metric-icon { width: 28px; height: 28px; border-radius: 9px; }
+}
+@media (max-width: 580px) {
+  .site-header { padding: 20px; gap: 12px; flex-wrap: wrap; }
+  .brand { font-size: 21px; }
+  .brand-mark { width: 44px; height: 37px; }
+  .header-actions { gap: 8px; }
+  .demo-control { display: contents; }
+  .demo-control select { position: absolute; top: 90px; left: 50%; transform: translateX(-50%); min-height: 30px; padding-top: 5px; padding-bottom: 5px; font-size: 11px; }
+  .source-label { padding: 5px 8px; font-size: 10px; }
+  .icon-button { width: 34px; height: 34px; border-radius: 11px; }
+  main, .site-footer { margin-left: 20px; margin-right: 20px; }
+  main { padding-top: 57px; }
+  .main-nav { width: 100%; gap: 2px; padding: 4px; border-radius: 100px; justify-content: center; }
+  .main-nav a { padding: 10px 0; flex: 1; text-align: center; font-size: 11px; min-height: 37px; border-radius: 100px; }
+  .page-heading { padding: 34px 0 32px; }
+  .eyebrow { font-size: 26px; margin-bottom: 10px; }
+  h1 { font-size: 36px; line-height: 1.12; letter-spacing: -.5px; }
+  .page-description { font-size: 15px; line-height: 1.55; margin-top: 14px; padding: 0 4px; }
+  .hero-state { margin-top: 21px; }
+  .connection-pill { font-size: 13px; padding: 11px 17px; min-height: 42px; }
+  .section-toolbar { gap: 8px; margin-bottom: 14px; }
+  .section-toolbar h2 { font-size: 18px; }
+  .period-control select { font-size: 11px; padding-left: 11px; padding-right: 29px; }
+  .metrics-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 16px; }
+  .metric-card { padding: 18px 17px; border-radius: 20px; }
+  .metric-card:last-child { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr auto; gap: 7px 10px; align-items: center; }
+  .metric-card:last-child .metric-value { grid-row: 1 / 3; grid-column: 2; margin: 0; }
+  .metric-card:last-child .metric-detail { margin: 0; grid-row: 2; }
+  .metric-value { font-size: 33px; margin-top: 18px; letter-spacing: -1.1px; }
+  .unit { font-size: 13px; margin-left: 0; }
+  .metric-label { font-size: 11px; }
+  .metric-detail { font-size: 10px; margin-top: 9px; }
+  .missing-value { font-size: 19px; }
+  .card { border-radius: 24px; padding: 24px 20px; }
+  .card-heading { margin-bottom: 19px; }
+  h2 { font-size: 15px; }
+  .card-heading > .small { font-size: 10px; }
+  .clients-card, .queries-card { margin-top: 20px; }
+  .chart-legend { font-size: 10px; gap: 15px; }
+  .chart-label { font-size: 17px; }
+  .traffic-chart { margin-top: 6px; }
+  .traffic-totals { gap: 8px 14px; font-size: 10px; }
+  .connection-path { max-width: 280px !important; }
+  .client-row { gap: 10px; flex-wrap: wrap; }
+  .client-icon { width: 35px; }
+  .client-name { font-size: 12px; }
+  .client-address { font-size: 10px; }
+  .client-row > .status-tag { margin-left: 0; font-size: 10px; }
+  .client-row > .status-tag .status-dot { display: none; }
+  .blocked-list { grid-template-columns: 1fr; }
+  .query-filters { flex-wrap: wrap; }
+  .search-field { flex-basis: 100%; }
+  .query-filters > label:not(.search-field) { flex: 1; }
+  .query-filters select { width: 100%; }
+  .button.secondary { min-height: 40px; font-size: 12px; }
+  .site-footer { margin-top: 23px; padding-bottom: 25px; flex-direction: column; gap: 5px; text-align: center; font-size: 10px; }
+  .source-note { font-size: 11px; }
+  .health-grid, .activity-panel { border-radius: 24px; }
+  .health-grid { margin-bottom: 30px; }
+  .health-card { border-radius: 0; }
+  .health-heading { gap: 14px; margin-bottom: 18px; }
+  .health-heading h2 { font-size: 18px; }
+  .health-tag { font-size: 11px; }
+  .protection-checks { font-size: 12px; margin-bottom: 14px; }
+  .protection-checks > div { gap: 10px; padding: 9px 0; }
+  .protection-checks dt { gap: 10px; }
+  .quality-metrics { gap: 18px; padding-top: 3px; }
+  .quality-metrics > div + div { padding-left: 18px; }
+  .quality-metrics dt { flex-direction: column; align-items: flex-start; gap: 9px; font-size: 11px; }
+  .quality-metrics dd { font-size: 35px; }
+  .quality-metrics .unit { font-size: 14px; }
+  .quality-metrics .missing-value { font-size: 20px; }
+  .quality-metrics .quality-note { font-size: 10px; }
+  .quality-bottom { font-size: 10px; gap: 8px; }
+  .health-footer { font-size: 10px; }
+  .health-footer a { font-size: 11px; }
+  .activity-panel .metrics-grid { padding: 0; }
+  .activity-panel .metric-card { padding: 22px 20px; }
+  .activity-panel .metric-card:last-child { padding-top: 18px; padding-bottom: 18px; border-left: 0; border-top: 1px solid var(--line); }
+  .activity-panel .metric-label { font-size: 11px; gap: 8px; }
+  .activity-panel .metric-icon { width: 25px; height: 25px; border-radius: 8px; }
+  .activity-panel .metric-detail { font-size: 11px; }
+  .activity-panel .metric-card:last-child .metric-detail { padding-left: 33px; }
+  .activity-panel .traffic-card { border-radius: 0; }
+  .protection-card .card-heading { align-items: flex-start; flex-direction: column; }
+}
+@media (max-width: 360px) {
+  main, .site-footer { margin-left: 14px; margin-right: 14px; }
+  .site-header { padding-left: 14px; padding-right: 14px; }
+  .brand { font-size: 19px; gap: 8px; }
+  .header-actions { gap: 6px; }
+  .metric-card { padding: 16px 13px; }
+  .metric-value { font-size: 29px; }
+  .metric-label { font-size: 10px; gap: 5px; }
+  .card { padding-left: 17px; padding-right: 17px; }
+  .client-address { margin-left: 0; }
+  .client-row > .status-tag { margin-left: auto; }
+  h1 { font-size: 32px; }
+  .health-heading h2 { font-size: 16px; }
+  .health-illustration { width: 48px; height: 48px; flex-basis: 48px; border-radius: 15px; }
+  .protection-checks { font-size: 11px; }
+  .health-tag { font-size: 10px; }
+  .activity-panel .metric-card { padding-left: 16px; padding-right: 16px; }
+  .activity-panel .metric-label { gap: 6px; font-size: 10px; }
+  .section-toolbar h2 { font-size: 16px; }
+}
+/* Header + overview introduction occupy the first viewport. Content may grow
+   on small screens or with larger text, so readings are never clipped. */
+body[data-page="overview"] main { padding-top: 0; }
+body[data-page="overview"] .view-intro {
+  min-height: calc(100vh - var(--site-header-height, 88px));
+  min-height: calc(100svh - var(--site-header-height, 88px));
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0 24px;
+}
+body[data-page="overview"] .view-intro > .main-nav { flex-shrink: 0; }
+body[data-page="overview"] .page-heading { flex: 1 0 auto; display: flex; flex-direction: column; justify-content: center; padding: 24px 0 32px; }
+body[data-page="overview"] #overview-health { flex-shrink: 0; }
+body[data-page="overview"] .health-grid { margin-bottom: 0; }
+body[data-page="overview"] #content:not(:empty) { padding-top: 36px; }
+@media (min-width: 801px) and (max-height: 820px) {
+  body[data-page="overview"] .view-intro { padding-top: 8px; padding-bottom: 20px; }
+  body[data-page="overview"] .page-heading { padding: 16px 0 22px; }
+  body[data-page="overview"] .eyebrow { font-size: 24px; margin-bottom: 8px; }
+  body[data-page="overview"] h1 { font-size: 42px; }
+  body[data-page="overview"] .page-description { font-size: 15px; margin-top: 10px; }
+  body[data-page="overview"] .hero-state { margin-top: 16px; }
+  body[data-page="overview"] .connection-pill { min-height: 38px; padding: 8px 16px; font-size: 12px; }
+  body[data-page="overview"] .health-card { padding: 20px 24px; }
+  body[data-page="overview"] .health-heading { margin-bottom: 14px; }
+  body[data-page="overview"] .health-heading h2 { font-size: 18px; }
+  body[data-page="overview"] .health-illustration { width: 44px; height: 44px; flex-basis: 44px; border-radius: 13px; }
+  body[data-page="overview"] .protection-checks { margin-bottom: 12px; }
+  body[data-page="overview"] .protection-checks > div { min-height: 44px; padding: 6px 0; }
+  body[data-page="overview"] .quality-metrics { padding: 4px 0 12px; }
+  body[data-page="overview"] .quality-metrics dd { font-size: 34px; margin-top: 9px; }
+  body[data-page="overview"] .quality-metrics .quality-note { font-size: 10px; }
+  body[data-page="overview"] .quality-bottom { padding: 4px 0 12px; }
+  body[data-page="overview"] .health-footer { padding-top: 10px; }
+}
+@media (max-width: 580px) {
+  body[data-page="overview"] .view-intro { padding-top: 57px; padding-bottom: 20px; }
+  body[data-page="overview"] .page-heading { padding-top: 34px; }
+  body[data-page="overview"] #content:not(:empty) { padding-top: 24px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+</style>
+    <script type="module">
+// Change to 'api' when the verified Pi collector is available on the same origin.
+// The live adapter never substitutes demo readings after a failed request.
+const dashboardConfig = Object.freeze({ dataSource: 'mock', pollIntervalMs: 5000 });
+
+/**
+ * API v1 uses SI units: Mbps, bytes, Celsius, seconds, ISO-8601 UTC timestamps.
+ * null means unavailable; a measurement of 0 is a real zero.
+ * See API.md for the Pi collector integration and source-of-truth requirements.
+ */
+class DataSourceError extends Error {}
+
+function validateSnapshot(data, expectedSource) {
+  const bad = message => { throw new DataSourceError(`Nieprawidłowe dane panelu: ${message}.`); };
+  const numeric = (value, name, nullable = false) => {
+    if (nullable && value === null) return;
+    if (!Number.isFinite(value)) bad(name);
+  };
+  if (!data || data.schemaVersion !== 1) bad('wersja API');
+  if (data.source !== expectedSource) bad('źródło danych');
+  if (!Number.isFinite(Date.parse(data.collectedAt))) bad('czas pomiaru');
+  if (!['protected', 'reconnecting', 'offline', 'unknown'].includes(data.state)) bad('stan połączenia');
+  if (!['1h', '6h', '24h'].includes(data.period)) bad('okres');
+  if (!data.traffic || !data.dns || !data.lte || !data.tor || !data.system || !Array.isArray(data.clients) || !Array.isArray(data.interfaces)) bad('brak sekcji');
+  for (const field of ['downloadMbps', 'uploadMbps', 'downloadBytes', 'uploadBytes']) numeric(data.traffic[field], field, true);
+  for (const field of ['total', 'blocked']) numeric(data.dns[field], field, true);
+  if (!Array.isArray(data.traffic.history) || !Array.isArray(data.dns.queries) || !Array.isArray(data.dns.topBlocked)) bad('brak historii');
+  if (data.traffic.recentHistory !== undefined && !Array.isArray(data.traffic.recentHistory)) bad('historia bieżąca');
+  for (const point of [...data.traffic.history, ...(data.traffic.recentHistory || [])]) {
+    if (!Number.isFinite(Date.parse(point.at))) bad('czas próbki');
+    numeric(point.download, 'pobieranie próbki', true);
+    numeric(point.upload, 'wysyłanie próbki', true);
+    if (point.download < 0 || point.upload < 0) bad('ujemny transfer próbki');
+  }
+  if (!Array.isArray(data.system.services)) bad('usługi');
+  const flag = (value, name) => { if (value !== null && typeof value !== 'boolean') bad(name); };
+  const text = (value, name) => { if (value !== null && typeof value !== 'string') bad(name); };
+  const positive = (value, name, max = Infinity) => {
+    numeric(value, name, true);
+    if (value !== null && (value < 0 || value > max)) bad(name);
+  };
+  for (const field of ['downloadMbps', 'uploadMbps', 'downloadBytes', 'uploadBytes']) positive(data.traffic[field], field);
+  for (const field of ['total', 'blocked', 'ruleCount']) positive(data.dns[field], field);
+  if (data.dns.total !== null && data.dns.blocked !== null && data.dns.blocked > data.dns.total) bad('licznik blokad');
+  flag(data.dns.enabled, 'filtr DNS');
+  flag(data.lte.connected, 'połączenie LTE');
+  for (const field of ['operator', 'technology', 'model', 'band', 'interface']) text(data.lte[field], field);
+  for (const field of ['rsrpDbm', 'rsrqDb', 'sinrDb']) numeric(data.lte[field], field, true);
+  positive(data.lte.signalPercent, 'sygnał', 100);
+  positive(data.lte.latencyMs, 'opóźnienie');
+  if (data.connectivity != null) {
+    const check = data.connectivity;
+    flag(check.torReachable, 'dostępność przez Tor');
+    positive(check.torResponseMs, 'czas odpowiedzi przez Tor');
+    positive(check.lteDisconnectsLastHour, 'zerwania LTE');
+    if (check.lteDisconnectsLastHour !== null && !Number.isInteger(check.lteDisconnectsLastHour)) bad('licznik zerwań LTE');
+    if (check.checkedAt !== null && (typeof check.checkedAt !== 'string' || !Number.isFinite(Date.parse(check.checkedAt)))) bad('czas testu połączenia');
+    if (check.torReachable !== null && check.checkedAt === null) bad('brak czasu testu połączenia');
+    if (check.torResponseMs !== null && check.torReachable !== true) bad('czas odpowiedzi bez udanego testu');
+  }
+  if (!['ready', 'connecting', 'offline', 'unknown'].includes(data.tor.status)) bad('stan Tora');
+  positive(data.tor.bootstrapPercent, 'postęp Tora', 100);
+  for (const field of ['bridge', 'killSwitch', 'dnsProtected', 'ipv6Blocked', 'udpBlocked']) flag(data.tor[field], field);
+  for (const field of ['exitCountry', 'exitIp']) text(data.tor[field], field);
+  if (data.state === 'protected' && (data.lte.connected !== true || data.tor.status !== 'ready' || ['killSwitch', 'dnsProtected', 'ipv6Blocked', 'udpBlocked'].some(key => data.tor[key] !== true))) bad('ochrona bez potwierdzenia');
+  if (['reconnecting', 'offline'].includes(data.state) && data.tor.killSwitch !== true) bad('brak potwierdzenia blokady ruchu');
+  for (const field of ['name', 'model', 'hostname', 'version']) text(data.system[field], field);
+  for (const field of ['cpuPercent', 'batteryPercent']) positive(data.system[field], field, 100);
+  for (const field of ['memoryUsedBytes', 'memoryTotalBytes', 'diskUsedBytes', 'diskTotalBytes', 'uptimeSeconds']) positive(data.system[field], field);
+  numeric(data.system.temperatureC, 'temperatura', true);
+  for (const service of data.system.services) {
+    text(service.name, 'nazwa usługi'); text(service.detail, 'opis usługi');
+    if (!['active', 'waiting', 'offline', 'unknown'].includes(service.status)) bad('stan usługi');
+  }
+  for (const client of data.clients) {
+    for (const field of ['id', 'name', 'address', 'connection']) text(client[field], field);
+    flag(client.active, 'stan klienta');
+  }
+  for (const net of data.interfaces) {
+    for (const field of ['name', 'role', 'address']) text(net[field], field);
+  }
+  for (const row of data.dns.topBlocked) {
+    text(row.domain, 'domena'); text(row.category, 'kategoria'); positive(row.count, 'licznik domeny');
+  }
+  for (const query of data.dns.queries) {
+    if (typeof query.domain !== 'string') bad('domena zapytania');
+    if (!Number.isFinite(Date.parse(query.at))) bad('czas zapytania');
+    if (!['allowed', 'blocked'].includes(query.status)) bad('status zapytania');
+    for (const field of ['id', 'category', 'client']) text(query[field], field);
+    positive(query.responseMs, 'czas odpowiedzi');
+  }
+  return data;
+}
+
+
+const periodHours = { '1h': 1, '6h': 6, '24h': 24 };
+const sampleIntervalMs = 5000;
+const retentionMs = 24 * 3600000;
+
+// Timestamp-seeded traffic: brief downloads/uploads separated by quiet periods.
+// A timestamp always has the same value, including after a range change.
+function noise(seed) {
+  let n = Math.imul(seed ^ (seed >>> 16), 0x45d9f3b);
+  n = Math.imul(n ^ (n >>> 16), 0x45d9f3b);
+  return ((n ^ (n >>> 16)) >>> 0) / 4294967296;
+}
+
+function burst(tick, blockSize, salt, peak) {
+  const block = Math.floor(tick / blockSize);
+  const seed = block + salt;
+  const duration = 1 + Math.floor(noise(seed + 17) * 3);
+  const offset = Math.floor(noise(seed + 31) * (blockSize - duration));
+  const phase = tick - block * blockSize - offset;
+  if (noise(seed + 53) < .15 || phase < 0 || phase >= duration) return 0;
+  const shape = phase === 0 ? 1 : phase === 1 ? .35 + noise(seed + 71) * .6 : .12;
+  return peak * (.4 + noise(seed + 97) * .6) * shape;
+}
+
+function trafficSample(at, connected) {
+  const tick = Math.floor(at / sampleIntervalMs);
+  const background = noise(tick + 7) > .9 ? noise(tick + 11) * 2 : noise(tick + 13) * .12;
+  const download = connected ? burst(tick, 12, 101, 28) + background : 0;
+  const upload = connected ? burst(tick, 17, 503, 8) + download * .018 + noise(tick + 19) * .06 : 0;
+  return { at, download: +download.toFixed(2), upload: +upload.toFixed(2) };
+}
+
+const serializeSample = sample => ({ ...sample, at: new Date(sample.at).toISOString() });
+const domains = [
+  ['telemetry.example.com', 'Telemetria', 'blocked'],
+  ['metrics.example.net', 'Analityka', 'blocked'],
+  ['cdn.example.org', 'Treści', 'allowed'],
+  ['ads.example.com', 'Reklamy', 'blocked'],
+  ['docs.example.org', 'Treści', 'allowed'],
+  ['tracking.example.net', 'Śledzenie', 'blocked'],
+  ['static.example.com', 'Treści', 'allowed'],
+  ['api.example.org', 'Treści', 'allowed'],
+];
+
+class MockDataSource {
+  kind = 'mock';
+  samples = [];
+  trafficConnected = true;
+  lteConnected = true;
+  lteDisconnects = [];
+
+  sampleTraffic(now, connected, hours) {
+    const end = Math.floor(now / sampleIntervalMs) * sampleIntervalMs;
+    const earliest = end - retentionMs;
+    const previous = this.samples.at(-1)?.at;
+    // Bounded backfill also handles a sleeping tab or a clock adjustment.
+    if (previous == null || previous > end) {
+      this.samples = [];
+      this.trafficConnected = true;
+    }
+    const from = Math.max(earliest, (this.samples.at(-1)?.at ?? earliest - sampleIntervalMs) + sampleIntervalMs);
+    for (let at = from; at <= end; at += sampleIntervalMs) {
+      this.samples.push(trafficSample(at, at === end ? connected : this.trafficConnected));
+    }
+    // A demo scenario change may update the current, unfinished 5-second slot.
+    if (this.trafficConnected !== connected) this.samples[this.samples.length - 1] = trafficSample(end, connected);
+    this.trafficConnected = connected;
+    const first = this.samples.findIndex(point => point.at >= earliest);
+    if (first > 0) this.samples.splice(0, first);
+    const duration = hours * 3600000;
+    const window = this.samples.filter(point => point.at >= end - duration);
+    // Sample the longer view on a fixed clock grid, never a moving array index.
+    const history = window.filter((point, i) => i === 0 || i === window.length - 1 || point.at % (duration / 48) === 0).map(serializeSample);
+    const recentHistory = this.samples.slice(-61).map(serializeSample);
+    const current = this.samples.at(-1);
+    const total = key => Math.round(window.slice(0, -1).reduce((sum, point) => sum + point[key] * sampleIntervalMs * 125, 0));
+    return { downloadMbps: current.download, uploadMbps: current.upload, downloadBytes: total('download'), uploadBytes: total('upload'), history, recentHistory };
+  }
+
+  async getSnapshot({ period = '24h', scenario = 'protected', signal } = {}) {
+    if (signal?.aborted) throw new DOMException('Aborted', 'AbortError');
+    const now = Date.now();
+    const hours = periodHours[period] || 24;
+    const connected = scenario !== 'offline';
+    const weakSignal = scenario === 'weak-signal';
+    const protectedState = scenario === 'protected' || weakSignal;
+    if (this.lteConnected && !connected) this.lteDisconnects.push(now);
+    this.lteConnected = connected;
+    this.lteDisconnects = this.lteDisconnects.filter(at => at > now - 3600000 && at <= now);
+    const total = Math.round(18462 * hours / 24);
+    const blocked = Math.round(3284 * hours / 24);
+    const queries = Array.from({ length: 32 }, (_, i) => {
+      const [domain, category, status] = domains[(i * 3) % domains.length];
+      return { id: `demo-query-${i}`, at: new Date(now - i * hours * 34000).toISOString(), domain, category, status, client: 'iPhone', responseMs: status === 'blocked' ? 0 : 24 + i % 17 };
+    });
+    const data = {
+      schemaVersion: 1, source: 'mock', collectedAt: new Date(now).toISOString(), period, state: protectedState ? 'protected' : scenario,
+      traffic: this.sampleTraffic(now, protectedState, hours),
+      lte: { connected, operator: 'T-Mobile', technology: 'LTE', model: 'Quectel EG25-G', band: 'B3 · 1800 MHz', rsrpDbm: connected ? weakSignal ? -112 : -87 : null, rsrqDb: connected ? weakSignal ? -17 : -9 : null, sinrDb: connected ? weakSignal ? 2 : 18 : null, signalPercent: connected ? weakSignal ? 24 : 76 : 0, latencyMs: connected ? weakSignal ? 165 : 42 : null, interface: 'wwan0' },
+      connectivity: {
+        torReachable: protectedState ? true : null,
+        torResponseMs: protectedState ? Math.round((weakSignal ? 1250 : 340) + noise(Math.floor(now / 5000) + 991) * (weakSignal ? 400 : 140)) : null,
+        checkedAt: protectedState ? new Date(now).toISOString() : null,
+        lteDisconnectsLastHour: this.lteDisconnects.length,
+      },
+      tor: {
+        status: protectedState ? 'ready' : connected ? 'connecting' : 'offline', bootstrapPercent: protectedState ? 100 : connected ? 42 : 0,
+        exitCountry: protectedState ? 'Holandia' : null, exitIp: protectedState ? '198.51.100.24' : null,
+        bridge: false, killSwitch: true, dnsProtected: protectedState, ipv6Blocked: true, udpBlocked: true,
+      },
+      dns: { total, blocked, ruleCount: 128450, enabled: true, topBlocked: [
+        { domain: 'telemetry.example.com', category: 'Telemetria', count: Math.round(blocked * .39) },
+        { domain: 'metrics.example.net', category: 'Analityka', count: Math.round(blocked * .28) },
+        { domain: 'ads.example.com', category: 'Reklamy', count: Math.round(blocked * .18) },
+        { domain: 'tracking.example.net', category: 'Śledzenie', count: Math.round(blocked * .10) },
+      ], queries },
+      clients: [{ id: 'demo-phone', name: 'iPhone', address: '192.168.76.72', connection: 'Ethernet', active: true }],
+      interfaces: [
+        { name: 'Telefon / Ethernet', role: 'LAN · brama i DNS', address: '192.168.76.1' },
+        { name: 'Administracja / USB-C', role: 'Połączenie z komputerem', address: '10.12.194.1' },
+      ],
+      system: { name: 'SafeWall One', model: 'Raspberry Pi 4', hostname: 'safewall.local', cpuPercent: 17, memoryUsedBytes: 482000000, memoryTotalBytes: 2000000000, temperatureC: 46.2, uptimeSeconds: 15432, diskUsedBytes: 4200000000, diskTotalBytes: 32000000000, batteryPercent: null, version: '0.1.0', services: [
+        { name: 'Tor', detail: 'Chronione połączenie', status: protectedState ? 'active' : 'waiting' },
+        { name: 'Filtr DNS', detail: 'Reguły i lokalne zapytania', status: 'active' },
+        { name: 'Zapora', detail: 'Blokada ruchu poza Torem', status: 'active' },
+        { name: 'Modem LTE', detail: 'Połączenie komórkowe', status: connected ? 'active' : 'offline' },
+      ] },
+    };
+    return validateSnapshot(data, 'mock');
+  }
+}
+
+class PiDataSource {
+  kind = 'api';
+
+  async getSnapshot({ period = '24h', signal } = {}) {
+    const response = await fetch(`/api/v1/dashboard?period=${encodeURIComponent(period)}`, {
+      signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(8000)]) : AbortSignal.timeout(8000),
+      cache: 'no-store', headers: { Accept: 'application/json' },
+    });
+    if (!response.ok) {
+      if (response.status === 503) throw new DataSourceError('Raspberry Pi nie dostarcza jeszcze odczytów.');
+      throw new DataSourceError(`Nie udało się pobrać danych z urządzenia (HTTP ${response.status}).`);
+    }
+    const data = validateSnapshot(await response.json(), 'live');
+    if (data.period !== period) throw new DataSourceError('Urządzenie zwróciło dane dla innego okresu.');
+    const age = Date.now() - Date.parse(data.collectedAt);
+    if (age > 30000 || age < -10000) throw new DataSourceError('Odczyty są nieaktualne lub zegar urządzenia jest niezgodny.');
+    return data;
+  }
+}
+
+function createDataSource() {
+  const useApi = dashboardConfig.dataSource === 'api' || new URLSearchParams(window.location.search).get('source') === 'api';
+  return useApi ? new PiDataSource() : new MockDataSource();
+}
+
+
+const $ = selector => document.querySelector(selector);
+const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({
+  '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+}[char]));
+const number = (value, decimals = 0) => value == null ? 'Brak danych' : new Intl.NumberFormat('pl-PL', {
+  maximumFractionDigits: decimals, minimumFractionDigits: decimals,
+}).format(value);
+const measurement = (value, unit, decimals = 0) => value == null ? 'Brak danych' : `${number(value, decimals)} ${unit}`;
+const bytes = value => {
+  if (value == null) return 'Brak danych';
+  const divisor = value >= 1e9 ? 1e9 : value >= 1e6 ? 1e6 : 1e3;
+  return measurement(value / divisor, divisor === 1e9 ? 'GB' : divisor === 1e6 ? 'MB' : 'kB', 2);
+};
+const time = value => new Date(value).toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit' });
+const sampleTime = value => new Date(value).toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+const flag = (value, yes = 'Aktywne', no = 'Nieaktywne') => value == null ? 'Brak danych' : value ? yes : no;
+const text = value => escape(value ?? 'Brak danych');
+const periods = { '1h': 'Ostatnia godzina', '6h': 'Ostatnie 6 godzin', '24h': 'Ostatnie 24 godziny' };
+const pages = {
+  overview: ['Przegląd', 'Twoja sieć w jednym miejscu.'],
+  network: ['Twoje połączenie.', 'Od modemu do sieci Tor.'],
+  dns: ['Mniej niechcianego ruchu.', 'Twoje zapytania. Twój filtr DNS.'],
+  system: ['Twój SafeWall.', 'Sprawdź, jak pracuje urządzenie.'],
+};
+const source = createDataSource();
+const state = { page: 'overview', period: '24h', scenario: 'protected', dnsFilter: 'all', search: '', snapshot: null, busy: false, error: null, chartMode: 'live', recentTraffic: [], liveChartCeiling: 0 };
+let requestId = 0;
+let controller;
+
+/*
+ * Local SVG subset from lucide-static 1.51.0 (https://lucide.dev).
+ * The original icon geometry is unchanged.
+ *
+ * ISC License
+ *
+ * Copyright (c) 2026 Lucide Icons and Contributors
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ *
+ * ---
+ *
+ * The following Lucide icons are derived from the Feather project:
+ *
+ * airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+ *
+ * The MIT License (MIT) (for the icons listed above)
+ *
+ * Copyright (c) 2013-present Cole Bemis
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+const icons = {
+  down: "<path d=\"M12 5v14\" /> <path d=\"m19 12-7 7-7-7\" />", // arrow-down
+  up: "<path d=\"m5 12 7-7 7 7\" /> <path d=\"M12 19V5\" />", // arrow-up
+  arrow: "<path d=\"M5 12h14\" /> <path d=\"m12 5 7 7-7 7\" />", // arrow-right
+  shield: "<path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\" /> <path d=\"m9 12 2 2 4-4\" />", // shield-check
+  shieldUnknown: "<path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\" /> <path d=\"M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3\" /> <path d=\"M12 17h.01\" />", // shield-question-mark
+  shieldLocked: "<path d=\"M20 9.807V6a1 1 0 00-1-1c-2 0-4.49-1.19-6.24-2.72a1.17 1.17 0 00-1.52 0C9.5 3.8 7 5 5 5a1 1 0 00-1 1v7c0 3.88 2.107 6.254 5 7.796\" /> <path d=\"M19 17v-2a2 2 0 00-4 0v2\" /> <rect x=\"13\" y=\"17\" width=\"8\" height=\"5\" rx=\"1\" />", // shield-lock
+  signal: "<path d=\"M2 20h.01\" /> <path d=\"M7 20v-4\" /> <path d=\"M12 20v-8\" /> <path d=\"M17 20V8\" /> <path d=\"M22 4v16\" />", // signal
+  signalHigh: "<path d=\"M2 20h.01\" /> <path d=\"M7 20v-4\" /> <path d=\"M12 20v-8\" /> <path d=\"M17 20V8\" />", // signal-high
+  signalMedium: "<path d=\"M2 20h.01\" /> <path d=\"M7 20v-4\" /> <path d=\"M12 20v-8\" />", // signal-medium
+  signalLow: "<path d=\"M2 20h.01\" /> <path d=\"M7 20v-4\" />", // signal-low
+  signalZero: "<path d=\"M2 20h.01\" />", // signal-zero
+  globe: "<circle cx=\"12\" cy=\"12\" r=\"10\" /> <path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\" /> <path d=\"M2 12h20\" />", // globe
+  phone: "<rect width=\"14\" height=\"20\" x=\"5\" y=\"2\" rx=\"2\" ry=\"2\" /> <path d=\"M12 18h.01\" />", // smartphone
+  cpu: "<path d=\"M12 20v2\" /> <path d=\"M12 2v2\" /> <path d=\"M17 20v2\" /> <path d=\"M17 2v2\" /> <path d=\"M2 12h2\" /> <path d=\"M2 17h2\" /> <path d=\"M2 7h2\" /> <path d=\"M20 12h2\" /> <path d=\"M20 17h2\" /> <path d=\"M20 7h2\" /> <path d=\"M7 20v2\" /> <path d=\"M7 2v2\" /> <rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" /> <rect x=\"8\" y=\"8\" width=\"8\" height=\"8\" rx=\"1\" />", // cpu
+  memory: "<path d=\"M12 12v-2\" /> <path d=\"M12 18v-2\" /> <path d=\"M16 12v-2\" /> <path d=\"M16 18v-2\" /> <path d=\"M2 11h1.5\" /> <path d=\"M20 18v-2\" /> <path d=\"M20.5 11H22\" /> <path d=\"M4 18v-2\" /> <path d=\"M8 12v-2\" /> <path d=\"M8 18v-2\" /> <rect x=\"2\" y=\"6\" width=\"20\" height=\"10\" rx=\"2\" />", // memory-stick
+  temperature: "<path d=\"M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z\" />", // thermometer
+  search: "<path d=\"m21 21-4.34-4.34\" /> <circle cx=\"11\" cy=\"11\" r=\"8\" />", // search
+  check: "<path d=\"M20 6 9 17l-5-5\" />", // check
+  lock: "<circle cx=\"12\" cy=\"16\" r=\"1\" /> <rect x=\"3\" y=\"10\" width=\"18\" height=\"12\" rx=\"2\" /> <path d=\"M7 10V7a5 5 0 0 1 10 0v3\" />", // lock-keyhole
+  timer: "<line x1=\"10\" x2=\"14\" y1=\"2\" y2=\"2\" /> <line x1=\"12\" x2=\"15\" y1=\"14\" y2=\"11\" /> <circle cx=\"12\" cy=\"14\" r=\"8\" />", // timer
+  clock: "<circle cx=\"12\" cy=\"12\" r=\"10\" /> <path d=\"M12 6v6l4 2\" />", // clock
+  disconnect: "<path d=\"m19 5 3-3\" /> <path d=\"m2 22 3-3\" /> <path d=\"M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z\" /> <path d=\"M7.5 13.5 10 11\" /> <path d=\"M10.5 16.5 13 14\" /> <path d=\"m12 6 6 6 2.3-2.3a2.4 2.4 0 0 0 0-3.4l-2.6-2.6a2.4 2.4 0 0 0-3.4 0Z\" />", // unplug
+  route: "<path d=\"m10.586 5.414-5.172 5.172\" /> <path d=\"m18.586 13.414-5.172 5.172\" /> <path d=\"M6 12h12\" /> <circle cx=\"12\" cy=\"20\" r=\"2\" /> <circle cx=\"12\" cy=\"4\" r=\"2\" /> <circle cx=\"20\" cy=\"12\" r=\"2\" /> <circle cx=\"4\" cy=\"12\" r=\"2\" />", // waypoints
+  dns: "<rect width=\"20\" height=\"8\" x=\"2\" y=\"2\" rx=\"2\" ry=\"2\" /> <rect width=\"20\" height=\"8\" x=\"2\" y=\"14\" rx=\"2\" ry=\"2\" /> <line x1=\"6\" x2=\"6.01\" y1=\"6\" y2=\"6\" /> <line x1=\"6\" x2=\"6.01\" y1=\"18\" y2=\"18\" />", // server
+  refresh: "<path d=\"M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8\" /> <path d=\"M21 3v5h-5\" /> <path d=\"M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16\" /> <path d=\"M8 16H3v5\" />", // refresh-cw
+};
+const icon = name => `<svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">${icons[name] || icons.shield}</svg>`;
+const statusTag = (value, yes = 'Aktywne', no = 'Nieaktywne') => `<span class="status-tag ${value == null ? 'unknown' : value ? 'positive' : 'inactive'}"><span class="status-dot"></span>${flag(value, yes, no)}</span>`;
+const ratio = (used, total) => used == null || total == null ? null : total ? used / total * 100 : 0;
+const units = (value, unit, decimals = 0) => value == null ? '<span class="missing-value">Brak danych</span>' : `${number(value, decimals)} <span class="unit">${unit}</span>`;
+
+// Values are formatted or escaped by the caller.
+function definitions(rows) {
+  return `<dl class="data-list">${rows.map(([label, value]) => `<div><dt>${escape(label)}</dt><dd>${value}</dd></div>`).join('')}</dl>`;
+}
+
+function periodControl(label = 'Aktywność sieci') {
+  return `<div class="section-toolbar"><h2 id="activity-heading">${label}</h2><label class="period-control"><span class="sr-only">Okres statystyk</span><select id="period">${Object.entries(periods).map(([value, label]) => `<option value="${value}"${state.period === value ? ' selected' : ''}>${label}</option>`).join('')}</select></label></div>`;
+}
+
+function statusInfo(data) {
+  if (data.state === 'protected') return { title: 'Ochrona ruchu aktywna', description: 'Tor połączony. Ruch poza Torem jest blokowany.', tone: 'positive' };
+  if (data.state === 'reconnecting') return { title: 'Ruch do internetu zablokowany', description: 'Tor nawiązuje połączenie. Blokada wyjścia pozostaje aktywna.', tone: 'waiting' };
+  if (data.state === 'offline') return { title: 'Ruch do internetu zablokowany', description: 'Brak LTE. Panel lokalny i blokada wyjścia nadal działają.', tone: 'inactive' };
+  return { title: 'Brak potwierdzenia ochrony', description: 'Brakuje pomiarów potrzebnych do potwierdzenia ochrony ruchu.', tone: 'unknown' };
+}
+
+function metric({ label, value, detail, name, tone = 'blue', id = '' }) {
+  return `<section class="metric-card ${tone}"><div class="metric-label"><span class="metric-icon">${icon(name)}</span><h3>${label}</h3></div><p class="metric-value"${id ? ` id="${id}"` : ''}>${value}</p><p class="metric-detail">${detail}</p></section>`;
+}
+
+function protection(data) {
+  const status = statusInfo(data);
+  return `<section class="card protection-card"><div class="card-heading"><h2 id="connection-state">${status.title}</h2>${statusTag(data.state === 'unknown' ? null : data.state === 'protected', 'Połączono', 'Wstrzymano')}</div><p class="muted">${status.description}</p>${connectionPath(data)}${definitions([
+    ['Blokada wyjścia poza Tor', statusTag(data.tor.killSwitch)],
+    ['Wyjście Tor', text(data.tor.exitCountry)],
+    ['Adres IP wyjścia', `<span class="mono">${text(data.tor.exitIp)}</span>`],
+  ])}</section>`;
+}
+
+function connectionPath(data) {
+  const nodes = [
+    ['signal', 'LTE', data.lte.connected],
+    ['shield', 'Tor', data.tor.status === 'unknown' ? null : data.tor.status === 'ready'],
+    ['globe', 'Internet', data.state === 'unknown' ? null : data.state === 'protected'],
+  ];
+  return `<div class="connection-path" aria-label="Ścieżka połączenia">${nodes.map(([name, label, active], i) => `${i ? '<span class="path-connector" aria-hidden="true"></span>' : ''}<div class="path-node ${active === true ? 'connected' : 'disconnected'}"><span class="path-icon">${icon(name)}</span><span>${label}</span><span class="sr-only">: ${flag(active, 'Połączono', 'Brak połączenia')}</span></div>`).join('')}</div>`;
+}
+
+function rememberTraffic(data) {
+  const end = Date.parse(data.collectedAt);
+  // A Pi without recentHistory builds the live view from actual received readings.
+  const points = data.traffic.recentHistory ?? [
+    ...state.recentTraffic, ...data.traffic.history,
+    { at: data.collectedAt, download: data.traffic.downloadMbps, upload: data.traffic.uploadMbps },
+  ];
+  state.recentTraffic = [...new Map(points.filter(point => Date.parse(point.at) >= end - 305000 && Date.parse(point.at) <= end).map(point => [point.at, point])).values()].sort((a, b) => Date.parse(a.at) - Date.parse(b.at));
+}
+
+function trafficChart(history) {
+  if (!history.some(point => point.download != null || point.upload != null)) return '<p class="empty-state">Brak historii transferu.</p>';
+  const live = state.chartMode === 'live';
+  const width = 640, height = 164, left = 35, top = 12;
+  const values = history.flatMap(point => [point.download, point.upload]).filter(Number.isFinite);
+  let max = Math.max(5, Math.ceil(Math.max(...values) / 5) * 5);
+  if (live) max = state.liveChartCeiling = Math.max(state.liveChartCeiling, max);
+  const end = Math.max(...history.map(p => Date.parse(p.at)));
+  const start = live ? end - 300000 : Math.min(...history.map(p => Date.parse(p.at)));
+  const x = point => left + (end === start ? 0.5 : (Date.parse(point.at) - start) / (end - start)) * width;
+  const y = value => top + height * (1 - value / max);
+  // Missing measurements split the path, so gaps never become a false zero.
+  const paths = key => {
+    const segments = [];
+    let segment = [];
+    let previousTime;
+    for (const point of history) {
+      const at = Date.parse(point.at);
+      if (live && previousTime != null && at - previousTime > dashboardConfig.pollIntervalMs * 1.5) {
+        if (segment.length) segments.push(segment);
+        segment = [];
+      }
+      previousTime = at;
+      if (point[key] == null) { if (segment.length) segments.push(segment); segment = []; }
+      else segment.push([x(point), y(point[key])]);
+    }
+    if (segment.length) segments.push(segment);
+    return segments.map(points => {
+      const line = points.map(([px, py], i) => `${i ? 'L' : 'M'}${px.toFixed(2)},${py.toFixed(2)}`).join(' ');
+      const area = `${line} L${points.at(-1)[0]},${top + height} L${points[0][0]},${top + height} Z`;
+      return `${key === 'download' && points.length > 1 ? `<path d="${area}" fill="url(#traffic-fill)"/>` : ''}<path d="${line}" class="chart-line ${key}"/>${points.length === 1 ? `<circle cx="${points[0][0]}" cy="${points[0][1]}" r="3" class="chart-point ${key}"/>` : ''}`;
+    }).join('');
+  };
+  return `<svg class="traffic-chart" data-mode="${state.chartMode}" data-start="${start}" data-end="${end}" viewBox="0 0 690 206" role="img" aria-labelledby="chart-title chart-description"><title id="chart-title">Transfer · ${live ? 'ostatnie 5 minut' : periods[state.period]}</title><desc id="chart-description">Pobieranie i wysyłanie w Mb/s. Dokładne odczyty w rozwijanej historii transferu.</desc><defs><linearGradient id="traffic-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3898ff" stop-opacity=".22"/><stop offset="100%" stop-color="#3898ff" stop-opacity="0"/></linearGradient><clipPath id="traffic-clip"><rect x="${left}" y="${top - 4}" width="${width}" height="${height + 8}"/></clipPath></defs>${[max, max / 2, 0].map(value => `<line class="chart-grid" x1="${left}" y1="${y(value)}" x2="${left + width}" y2="${y(value)}"/><text class="chart-label" x="24" y="${y(value) + 4}" text-anchor="end">${number(value, Number.isInteger(value) ? 0 : 1)}</text>`).join('')}<g clip-path="url(#traffic-clip)"><g class="chart-series">${paths('download')}${paths('upload')}</g></g>${[0, .25, .5, .75, 1].map((fraction, i) => `<text class="chart-label" x="${left + width * fraction}" y="201" text-anchor="${i === 0 ? 'start' : i === 4 ? 'end' : 'middle'}">${live && i === 4 ? 'Teraz' : time(start + (end - start) * fraction)}</text>`).join('')}</svg>`;
+}
+
+function traffic(data) {
+  const live = state.chartMode === 'live';
+  const history = live ? state.recentTraffic : data.traffic.history;
+  const chartPeriod = live ? 'Ostatnie 5 minut · próbki co 5 s' : periods[state.period];
+  return `<section class="card traffic-card" aria-labelledby="traffic-heading">
+    <div class="card-heading"><h2 id="traffic-heading">Transfer</h2><label class="chart-mode"><span class="sr-only">Widok wykresu</span><select id="traffic-view"><option value="live"${live ? ' selected' : ''}>Na żywo · 5 min</option><option value="history"${live ? '' : ' selected'}>${periods[state.period]}</option></select></label></div>
+    <div class="chart-legend"><span><i class="legend-dot blue"></i>Pobieranie</span><span><i class="legend-dot purple"></i>Wysyłanie</span><span class="chart-units">Mb/s</span></div>
+    ${trafficChart(history)}
+    <div class="traffic-totals"><span>Pobrano <strong>${bytes(data.traffic.downloadBytes)}</strong></span><span>Wysłano <strong>${bytes(data.traffic.uploadBytes)}</strong></span><span>${periods[state.period]}</span></div>
+    <details id="traffic-history" class="disclosure"><summary>Historia transferu</summary><div id="history-table" class="table-scroll" tabindex="0" role="region" aria-label="Historia transferu"><table><caption class="sr-only">${chartPeriod}</caption><thead><tr><th scope="col">Czas</th><th scope="col">Pobieranie (Mb/s)</th><th scope="col">Wysyłanie (Mb/s)</th></tr></thead><tbody>${history.length ? history.map(point => `<tr data-at="${escape(point.at)}"><td>${live ? sampleTime(point.at) : time(point.at)}</td><td>${number(point.download, 2)}</td><td>${number(point.upload, 2)}</td></tr>`).join('') : '<tr><td colspan="3">Brak historii dla tego okresu.</td></tr>'}</tbody></table></div></details>
+  </section>`;
+}
+
+function healthTag(label, tone = 'unknown') {
+  return `<span class="health-tag ${tone}"><span class="status-dot"></span>${escape(label)}</span>`;
+}
+
+function protectionIllustration(data) {
+  const protectedState = data.state === 'protected';
+  const blocked = ['reconnecting', 'offline'].includes(data.state);
+  const tone = protectedState ? 'positive' : blocked ? 'waiting' : 'unknown';
+  const name = protectedState ? 'shield' : blocked ? 'shieldLocked' : 'shieldUnknown';
+  return `<span class="health-illustration ${tone}" aria-hidden="true">${icon(name)}</span>`;
+}
+
+function signalIllustration(signal) {
+  const name = signal == null || signal === 0 ? 'signalZero' : signal <= 25 ? 'signalLow' : signal <= 50 ? 'signalMedium' : signal <= 75 ? 'signalHigh' : 'signal';
+  return `<span class="signal-bars${signal == null ? ' unknown' : signal < 30 ? ' weak' : ''}">${icon(name)}</span>`;
+}
+
+function protectionOverview(data) {
+  const blocked = ['reconnecting', 'offline'].includes(data.state);
+  const status = data.state === 'protected' ? healthTag('Aktywna', 'positive') : blocked ? healthTag('Ruch zablokowany', 'waiting') : healthTag('Niepotwierdzona');
+  const torState = {
+    ready: healthTag('Gotowy', 'positive'), connecting: healthTag(`Łączenie${data.tor.bootstrapPercent == null ? '' : ` · ${number(data.tor.bootstrapPercent)}%`}`, 'waiting'),
+    offline: healthTag('Rozłączony', 'inactive'), unknown: healthTag('Brak danych'),
+  }[data.tor.status];
+  const firewallState = data.tor.killSwitch === true ? healthTag('Aktywna', 'positive') : data.tor.killSwitch === false ? healthTag('Nieaktywna', 'negative') : healthTag('Brak danych');
+  const dnsState = data.tor.dnsProtected === true ? healthTag('Przez Tor', 'positive') : data.tor.dnsProtected === null ? healthTag('Brak danych') : blocked ? healthTag('Ruch wstrzymany', 'waiting') : healthTag('Niechroniony', 'negative');
+  return `<section id="protection-summary" class="card health-card" aria-labelledby="protection-title">
+    <div class="health-heading">${protectionIllustration(data)}<div><h2 id="protection-title">Stan ochrony</h2>${status}</div></div>
+    <dl class="protection-checks">
+      <div><dt><span class="check-icon">${icon('route')}</span><span>Połączenie Tor</span></dt><dd id="protection-tor">${torState}</dd></div>
+      <div><dt><span class="check-icon">${icon('lock')}</span><span>Blokada poza Torem</span></dt><dd id="protection-firewall">${firewallState}</dd></div>
+      <div><dt><span class="check-icon">${icon('dns')}</span><span>Ochrona DNS</span></dt><dd id="protection-dns">${dnsState}</dd></div>
+    </dl>
+    <div class="health-footer"><span class="health-timestamp">${icon('clock')}<span>Odczyt <time id="protection-checked-at" datetime="${escape(data.collectedAt)}">${sampleTime(data.collectedAt)}</time></span></span><a id="protection-details" href="#network">Szczegóły ${icon('arrow')}</a></div>
+  </section>`;
+}
+
+function connectionQuality(data) {
+  const check = data.connectivity;
+  const age = check?.checkedAt == null ? Infinity : Date.now() - Date.parse(check.checkedAt);
+  const fresh = age >= -10000 && age <= 30000;
+  const available = data.lte.connected === true && data.tor.status === 'ready';
+  const tested = available && fresh && check?.torReachable != null;
+  let status = healthTag('Brak pomiaru');
+  if (data.lte.connected === false) status = healthTag('Brak LTE', 'negative');
+  else if (data.tor.status === 'connecting') status = healthTag('Tor łączy się', 'waiting');
+  else if (data.tor.status === 'offline') status = healthTag('Tor niedostępny', 'negative');
+  else if (tested) status = check.torReachable ? healthTag('Internet odpowiada', 'positive') : healthTag('Brak odpowiedzi', 'negative');
+  const response = tested && check.torReachable ? check.torResponseMs : null;
+  const signal = data.lte.connected === true ? data.lte.signalPercent : null;
+  const responseNote = data.lte.connected === false ? 'Brak połączenia LTE' : data.lte.connected == null ? 'Brak danych LTE' : !available ? 'Tor nie jest gotowy' : tested && !check.torReachable ? 'Test połączenia nieudany' : fresh && check?.torReachable === true ? 'Pomiar dostępności internetu' : 'Brak aktualnego testu';
+  const signalNote = data.lte.connected === false ? 'Brak połączenia LTE' : data.lte.connected == null ? 'Brak danych LTE' : data.lte.rsrpDbm == null ? 'Brak pomiaru RSRP' : `RSRP ${measurement(data.lte.rsrpDbm, 'dBm')}`;
+  const qualityTone = tested ? check.torReachable ? 'positive' : 'negative' : 'unknown';
+  return `<section id="connection-quality" class="card health-card" aria-labelledby="quality-title">
+    <div class="health-heading"><span class="health-illustration connection-illustration ${qualityTone}" aria-hidden="true">${icon('globe')}</span><div><h2 id="quality-title">Jakość połączenia</h2><span id="quality-state">${status}</span></div></div>
+    <dl class="quality-metrics">
+      <div><dt><span class="quality-symbol response-symbol">${icon('timer')}</span>Odpowiedź przez Tor</dt><dd id="tor-response">${units(response, 'ms')}</dd><dd class="quality-note">${responseNote}</dd></div>
+      <div><dt><span class="quality-symbol">${signalIllustration(signal)}</span>Sygnał LTE</dt><dd id="lte-signal">${units(signal, '%')}</dd><dd class="quality-note">${signalNote}</dd></div>
+    </dl>
+    <div class="quality-bottom"><span>${icon('signal')}${text(data.lte.operator)} · ${text(data.lte.technology)}</span><span>${icon('disconnect')}Zerwania LTE · 1 h <strong id="lte-disconnects">${number(check?.lteDisconnectsLastHour)}</strong></span></div>
+    <div class="health-footer"><span class="health-timestamp">${icon('clock')}<span id="quality-checked-at">${tested ? `Test ${sampleTime(check.checkedAt)}` : 'Oczekiwanie na test'}</span></span><a id="quality-details" href="#network">Szczegóły ${icon('arrow')}</a></div>
+  </section>`;
+}
+
+function lte(data) {
+  return `<section class="card"><div class="card-heading"><h2>Łącze komórkowe</h2>${statusTag(data.lte.connected, 'Połączono', 'Rozłączono')}</div>${definitions([
+    ['Operator', text(data.lte.operator)], ['Technologia', text(data.lte.technology)],
+    ['Sygnał', measurement(data.lte.signalPercent, '%')], ['Opóźnienie', measurement(data.lte.latencyMs, 'ms')],
+  ])}<details id="lte-details" class="disclosure"><summary>Parametry modemu</summary>${definitions([
+    ['Modem', text(data.lte.model)], ['Pasmo', text(data.lte.band)], ['RSRP', measurement(data.lte.rsrpDbm, 'dBm')],
+    ['RSRQ', measurement(data.lte.rsrqDb, 'dB')], ['SINR', measurement(data.lte.sinrDb, 'dB')], ['Interfejs', text(data.lte.interface)],
+  ])}</details></section>`;
+}
+
+function clients(data) {
+  return `<section class="card clients-card" aria-labelledby="clients-heading"><div class="card-heading"><h2 id="clients-heading">Urządzenia w sieci <span class="count-badge">${data.clients.length}</span></h2><span class="small muted">Sieć lokalna</span></div><div class="client-list">${data.clients.length ? data.clients.map(client => `<div class="client-row"><span class="client-icon">${icon('phone')}</span><div class="client-name"><strong>${text(client.name)}</strong><span>${text(client.connection)}</span></div><span class="client-address mono">${text(client.address)}</span>${statusTag(client.active, 'Online', 'Offline')}</div>`).join('') : '<p class="empty-state">Brak podłączonych urządzeń.</p>'}</div></section>`;
+}
+
+function dnsStatistics(data) {
+  return `<div class="metrics-grid">${metric({ label: 'Wszystkie zapytania', value: number(data.dns.total), detail: periods[state.period], name: 'globe' })}${metric({ label: 'Zablokowane DNS', value: number(data.dns.blocked), detail: `${measurement(ratio(data.dns.blocked, data.dns.total), '%', 1)} zapytań`, name: 'shield', tone: 'purple' })}${metric({ label: 'Domeny na liście', value: number(data.dns.ruleCount), detail: statusTag(data.dns.enabled, 'Filtr włączony', 'Filtr wyłączony'), name: 'lock', tone: 'teal' })}</div>`;
+}
+
+function dnsTop(data) {
+  return `<section class="card" aria-labelledby="blocked-heading"><div class="card-heading"><h2 id="blocked-heading">Najczęściej blokowane</h2><span class="small muted">${periods[state.period]}</span></div><div class="blocked-list">${data.dns.topBlocked.length ? data.dns.topBlocked.map(row => `<div class="blocked-row"><div><strong>${text(row.domain)}</strong><span>${text(row.category)}</span></div><span class="blocked-count">${number(row.count)}</span></div>`).join('') : '<p class="empty-state">Brak zablokowanych domen.</p>'}</div></section>`;
+}
+
+function overview(data) {
+  return `<section class="activity-section" aria-labelledby="activity-heading">
+      ${periodControl()}
+      <div class="activity-panel">
+        <div class="metrics-grid">
+          ${metric({ label: 'Pobieranie', value: units(data.traffic.downloadMbps, 'Mb/s', 1), detail: 'Teraz', name: 'down', id: 'download-speed' })}
+          ${metric({ label: 'Wysyłanie', value: units(data.traffic.uploadMbps, 'Mb/s', 1), detail: 'Teraz', name: 'up', tone: 'purple' })}
+          ${metric({ label: 'Zablokowane DNS', value: number(data.dns.blocked), detail: `${measurement(ratio(data.dns.blocked, data.dns.total), '%', 1)} zapytań · ${state.period === '1h' ? '1 godz.' : state.period === '6h' ? '6 godz.' : '24 godz.'}`, name: 'shield', tone: 'teal' })}
+        </div>
+        ${traffic(data)}
+      </div>
+    </section>${clients(data)}`;
+}
+
+function network(data) {
+  return `<div class="two-column">${protection(data)}${lte(data)}<section class="card"><div class="card-heading"><h2>Ochrona ruchu</h2><span class="section-icon purple">${icon('shield')}</span></div>${definitions([
+    ['Połączenie Tor', measurement(data.tor.bootstrapPercent, '%')], ['Mosty', flag(data.tor.bridge, 'Włączone', 'Wyłączone')],
+    ['DNS przez Tor', statusTag(data.tor.dnsProtected)], ['Blokada IPv6', statusTag(data.tor.ipv6Blocked)], ['Blokada UDP / QUIC', statusTag(data.tor.udpBlocked)],
+  ])}<p class="card-note">Tor nie ukrywa tożsamości podanej przy logowaniu.</p></section><section class="card"><div class="card-heading"><h2>Interfejsy lokalne</h2><span class="section-icon blue">${icon('globe')}</span></div>${data.interfaces.length ? data.interfaces.map(net => `<div class="interface-row"><strong>${text(net.name)}</strong><span class="muted small">${text(net.role)}</span><span class="mono">${text(net.address)}</span></div>`).join('') : '<p class="empty-state">Brak interfejsów.</p>'}</section></div>${clients(data)}`;
+}
+
+function dns(data) {
+  return `${periodControl('Statystyki DNS')}${dnsStatistics(data)}${dnsTop(data)}<section class="card queries-card" aria-labelledby="queries-heading"><div class="card-heading"><h2 id="queries-heading">Ostatnie zapytania</h2><span id="query-count" class="small muted" role="status"></span></div><form id="query-filters" class="query-filters"><label class="search-field">${icon('search')}<span class="sr-only">Szukaj domeny</span><input id="domain-search" name="domain" type="search" placeholder="Szukaj domeny…" value="${escape(state.search)}" autocomplete="off"></label><label><span class="sr-only">Status zapytania</span><select id="dns-filter">${[['all', 'Wszystkie zapytania'], ['blocked', 'Zablokowane'], ['allowed', 'Dozwolone']].map(([value, label]) => `<option value="${value}"${state.dnsFilter === value ? ' selected' : ''}>${label}</option>`).join('')}</select></label><button type="submit" class="button secondary">Szukaj</button></form><div id="queries-table" class="table-scroll" tabindex="0" role="region" aria-label="Ostatnie zapytania DNS"><table><caption class="sr-only">${source.kind === 'mock' ? 'Przykładowe zapytania DNS' : 'Zapytania z urządzenia'}</caption><thead><tr><th scope="col">Czas</th><th scope="col">Domena</th><th scope="col">Urządzenie</th><th scope="col">Kategoria</th><th scope="col">Status</th></tr></thead><tbody id="query-rows"></tbody></table></div><details id="dns-info" class="disclosure"><summary>Co oznaczają te dane?</summary><p class="card-note">Licznik pokazuje zablokowane zapytania DNS. Nie oznacza liczby udaremnionych prób śledzenia. Filtr domen nie rozpoznaje całej zaszyfrowanej telemetrii.</p></details></section>`;
+}
+
+function renderQueries() {
+  const rows = $('#query-rows');
+  if (!rows || !state.snapshot) return;
+  const filtered = state.snapshot.dns.queries.filter(query =>
+    (state.dnsFilter === 'all' || query.status === state.dnsFilter) && query.domain.toLowerCase().includes(state.search.toLowerCase()),
+  );
+  rows.innerHTML = filtered.length ? filtered.map(query => `<tr><td class="muted">${time(query.at)}</td><td class="domain-cell">${escape(query.domain)}</td><td>${text(query.client)}</td><td class="muted">${text(query.category)}</td><td><span class="query-status ${query.status}">${query.status === 'blocked' ? 'Zablokowano' : 'Dozwolono'}</span></td></tr>`).join('') : '<tr><td colspan="5" class="empty-state">Brak zapytań pasujących do filtrów.</td></tr>';
+  $('#query-count').textContent = `${filtered.length} z ${state.snapshot.dns.queries.length}`;
+}
+
+function system(data) {
+  const sys = data.system;
+  const uptime = sys.uptimeSeconds == null ? 'Brak danych' : `${Math.floor(sys.uptimeSeconds / 3600)} h ${Math.floor(sys.uptimeSeconds % 3600 / 60)} min`;
+  const serviceStates = { active: 'Działa', waiting: 'Łączenie', offline: 'Nie działa', unknown: 'Brak danych' };
+  return `<div class="metrics-grid">${metric({ label: 'Procesor', value: units(sys.cpuPercent, '%'), detail: text(sys.model), name: 'cpu' })}${metric({ label: 'Pamięć RAM', value: units(ratio(sys.memoryUsedBytes, sys.memoryTotalBytes), '%', 1), detail: `${bytes(sys.memoryUsedBytes)} z ${bytes(sys.memoryTotalBytes)}`, name: 'memory', tone: 'purple' })}${metric({ label: 'Temperatura', value: units(sys.temperatureC, '°C', 1), detail: 'Procesor', name: 'temperature', tone: 'teal' })}</div><div class="two-column"><section class="card"><div class="card-heading"><h2>${text(sys.name)}</h2><span class="section-icon blue">${icon('cpu')}</span></div>${definitions([
+    ['Model', text(sys.model)], ['Host', `<span class="mono">${text(sys.hostname)}</span>`], ['Czas działania', uptime],
+    ['Nośnik', `${bytes(sys.diskUsedBytes)} / ${bytes(sys.diskTotalBytes)}`], ['Bateria / UPS', measurement(sys.batteryPercent, '%')], ['Wersja panelu', text(sys.version)],
+  ])}</section><section class="card"><div class="card-heading"><h2>Usługi</h2><span class="small muted">Stan systemu</span></div><div class="services-list">${sys.services.length ? sys.services.map(service => `<div class="service-row"><div><strong>${text(service.name)}</strong><span>${text(service.detail)}</span></div><span class="status-tag ${service.status === 'active' ? 'positive' : service.status === 'waiting' ? 'waiting' : 'inactive'}"><span class="status-dot"></span>${serviceStates[service.status] || 'Brak danych'}</span></div>`).join('') : '<p class="empty-state">Brak usług.</p>'}</div></section></div><div class="source-note">${icon('globe')}<p>${source.kind === 'mock' ? 'Panel nie zmienia konfiguracji routera.' : '<strong>Raspberry Pi.</strong> Odczyty z urządzenia.'} Aktualizacja co ${dashboardConfig.pollIntervalMs / 1000} s.</p></div>`;
+}
+
+function render() {
+  const previousChart = $('.traffic-chart');
+  const previousEnd = previousChart?.dataset.mode === 'live' ? Number(previousChart.dataset.end) : null;
+  const focusedId = document.activeElement?.id;
+  const focusedLink = $('#content').contains(document.activeElement) ? document.activeElement?.getAttribute('href') : null;
+  const selection = focusedId === 'domain-search' ? [document.activeElement.selectionStart, document.activeElement.selectionEnd] : null;
+  const openDetails = [...document.querySelectorAll('#content details[open]')].map(element => element.id);
+  const focusedSummary = document.activeElement?.matches('summary') ? document.activeElement.parentElement.id : null;
+  const scrollPositions = [...document.querySelectorAll('#content .table-scroll')].map(element => [element.scrollLeft, element.scrollTop]);
+  const [title, description] = pages[state.page];
+  $('#page-title').textContent = title;
+  $('#page-description').textContent = description;
+  $('#page-kicker').textContent = state.page === 'overview' ? 'SafeWall One' : ({ network: 'Połączenie', dns: 'Filtr DNS', system: 'Urządzenie' })[state.page];
+  $('#hero-state').innerHTML = '';
+  document.body.dataset.page = state.page;
+  document.title = `SafeWall — ${state.page === 'overview' ? 'Przegląd' : $('#page-kicker').textContent}`;
+  document.querySelectorAll('[data-page]').forEach(link => {
+    if (link.dataset.page === state.page) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  });
+  const errorEl = $('#error-notice');
+  errorEl.hidden = !state.error;
+  const health = $('#overview-health');
+  health.hidden = state.page !== 'overview' || !state.snapshot || !!state.error;
+  health.innerHTML = '';
+  if (state.error) {
+    $('#page-title').textContent = 'Czekamy na urządzenie.';
+    $('#page-description').textContent = 'Nie można potwierdzić stanu połączenia.';
+    errorEl.innerHTML = `${icon('signal')}<h2>Brak aktualnych danych</h2><p>${escape(state.error)}</p><button type="button" class="button" data-action="retry">Spróbuj ponownie ${icon('arrow')}</button>`;
+    $('#content').innerHTML = '';
+    $('#updated-at').textContent = 'Odczyty niedostępne';
+    return;
+  }
+  if (!state.snapshot) return;
+  if (state.page === 'overview') {
+    const status = statusInfo(state.snapshot);
+    health.innerHTML = `<div class="health-grid">${protectionOverview(state.snapshot)}${connectionQuality(state.snapshot)}</div>`;
+    $('#page-title').innerHTML = `<span id="connection-state">${status.title}</span>`;
+    $('#page-description').textContent = status.description;
+    $('#hero-state').innerHTML = `<a id="connection-link" class="connection-pill ${status.tone}" href="#network">${icon('shield')}Szczegóły ochrony ${icon('arrow')}</a>`;
+  }
+
+  $('#content').innerHTML = ({ overview, network, dns, system })[state.page](state.snapshot);
+  const chart = $('.traffic-chart');
+  const advance = chart && previousEnd != null ? Number(chart.dataset.end) - previousEnd : 0;
+  if (chart?.dataset.mode === 'live' && advance > 0 && advance <= 15000 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    chart.querySelector('.chart-series')?.animate([
+      { transform: `translateX(${advance / 300000 * 640}px)` }, { transform: 'translateX(0px)' },
+    ], { duration: 450, easing: 'ease-out' });
+  }
+  $('#updated-at').textContent = `Odczyt ${new Date(state.snapshot.collectedAt).toLocaleTimeString('pl-PL')}`;
+  if (state.page === 'dns') renderQueries();
+  document.querySelectorAll('#content .table-scroll').forEach((element, i) => {
+    if (scrollPositions[i]) [element.scrollLeft, element.scrollTop] = scrollPositions[i];
+  });
+  for (const id of openDetails) {
+    const detail = document.getElementById(id);
+    if (detail) detail.open = true;
+  }
+  if (focusedId && document.getElementById(focusedId)) {
+    const element = document.getElementById(focusedId);
+    element.focus({ preventScroll: true });
+    if (selection) element.setSelectionRange(...selection);
+  } else if (focusedSummary) {
+    document.getElementById(focusedSummary)?.querySelector('summary')?.focus({ preventScroll: true });
+  } else if (focusedLink) {
+    [...document.querySelectorAll('#content a')].find(link => link.getAttribute('href') === focusedLink)?.focus({ preventScroll: true });
+  }
+}
+
+async function refresh(announce = false) {
+  const id = ++requestId;
+  controller?.abort();
+  controller = new AbortController();
+  state.busy = true;
+  $('#refresh').disabled = true;
+  $('#content').setAttribute('aria-busy', 'true');
+  $('#overview-health').setAttribute('aria-busy', 'true');
+  try {
+    const data = await source.getSnapshot({ period: state.period, scenario: state.scenario, signal: controller.signal });
+    if (id !== requestId) return;
+    state.snapshot = data;
+    rememberTraffic(data);
+    state.error = null;
+    render();
+    if (announce) $('#announcer').textContent = `Odświeżono dane. ${statusInfo(data).title}.`;
+  } catch (error) {
+    if (id !== requestId || error.name === 'AbortError') return;
+    state.error = error.name === 'TimeoutError' ? 'Urządzenie nie odpowiedziało w ciągu 8 sekund.' : error.message || 'Nie udało się odczytać danych.';
+    state.snapshot = null;
+    state.recentTraffic = [];
+    render();
+  } finally {
+    if (id === requestId) {
+      state.busy = false;
+      $('#refresh').disabled = false;
+      $('#content').setAttribute('aria-busy', 'false');
+      $('#overview-health').setAttribute('aria-busy', 'false');
+    }
+  }
+}
+
+function navigate() {
+  const requested = window.location.hash.slice(1) || 'overview';
+  state.page = Object.hasOwn(pages, requested) ? requested : 'overview';
+  render();
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+// Account for the real header height, including wrapping and browser zoom.
+const header = $('.site-header');
+const sizeIntro = () => document.documentElement.style.setProperty('--site-header-height', `${header.getBoundingClientRect().height}px`);
+new ResizeObserver(sizeIntro).observe(header);
+sizeIntro();
+
+window.addEventListener('hashchange', navigate);
+$('#refresh').addEventListener('click', () => refresh(true));
+$('#scenario').addEventListener('change', event => { state.scenario = event.target.value; refresh(true); });
+document.addEventListener('change', event => {
+  if (event.target.id === 'period') { state.period = event.target.value; state.chartMode = 'history'; refresh(true); }
+  if (event.target.id === 'traffic-view') { state.chartMode = event.target.value; render(); }
+  if (event.target.id === 'dns-filter') { state.dnsFilter = event.target.value; renderQueries(); }
+});
+document.addEventListener('click', event => {
+  if (event.target.closest('[data-action="retry"]')) refresh(true);
+});
+document.addEventListener('input', event => {
+  if (event.target.id === 'domain-search') { state.search = event.target.value; renderQueries(); }
+});
+document.addEventListener('submit', event => {
+  if (event.target.id === 'query-filters') { event.preventDefault(); renderQueries(); }
+});
+document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
+if (source.kind === 'api') {
+  $('#demo-notice').hidden = true;
+  $('#source-name').textContent = 'Raspberry Pi';
+  $('#footer-mode').textContent = `Źródło: Raspberry Pi · odświeżanie co ${dashboardConfig.pollIntervalMs / 1000} s`;
+}
+navigate();
+refresh();
+setInterval(() => { if (!document.hidden && !state.busy) refresh(); }, dashboardConfig.pollIntervalMs);
+
+</script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Przejdź do treści</a>
+    <header class="site-header">
+      <a class="brand" href="#overview" aria-label="SafeWall — przegląd">
+        <span class="brand-mark" aria-hidden="true"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4NTYgNDQyIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUiPgogIDx0aXRsZSBpZD0idGl0bGUiPlNhZmVXYWxsPC90aXRsZT4KICA8cGF0aCBmaWxsPSIjN0Q2N0U5IiBkPSJNMzAgMEgxNjhBMzAgMzAgMCAwIDEgMTk4IDMwVjg4QTI0IDI0IDAgMCAwIDIyMiAxMTJIMzA0QTI0IDI0IDAgMCAwIDMyOCA4OFYzMEEzMCAzMCAwIDAgMSAzNTggMEg0OThBMzAgMzAgMCAwIDEgNTI4IDMwVjg4QTI0IDI0IDAgMCAwIDU1MiAxMTJINjM0QTI0IDI0IDAgMCAwIDY1OCA4OFYzMEEzMCAzMCAwIDAgMSA2ODggMEg4MjZBMzAgMzAgMCAwIDEgODU2IDMwVjQxNEEyOCAyOCAwIDAgMSA4MjggNDQySDI4QTI4IDI4IDAgMCAxIDAgNDE0VjMwQTMwIDMwIDAgMCAxIDMwIDBaIi8+CiAgPHBhdGggZmlsbD0iI0IzOUFGQiIgZD0iTTMwIDBIMTY4QTMwIDMwIDAgMCAxIDE5OCAzMFY4OEEyNCAyNCAwIDAgMCAyMjIgMTEySDMwNEEyNCAyNCAwIDAgMCAzMjggODhWMzBBMzAgMzAgMCAwIDEgMzU4IDBINDk4QTMwIDMwIDAgMCAxIDUyOCAzMFY4OEEyNCAyNCAwIDAgMCA1NTIgMTEySDYzNEEyNCAyNCAwIDAgMCA2NTggODhWMzBBMzAgMzAgMCAwIDEgNjg4IDBIODI2QTMwIDMwIDAgMCAxIDg1NiAzMFYxNzhIMFYzMEEzMCAzMCAwIDAgMSAzMCAwWiIvPgo8L3N2Zz4K" width="54" height="28" alt=""></span>
+        <span>SafeWall</span><span class="local-label">local</span>
+      </a>
+      <div class="header-actions">
+        <span class="source-label" id="source-name">Dane demo</span>
+        <fieldset id="demo-notice" class="demo-control">
+          <legend class="sr-only">Scenariusz nie zmienia ustawień routera.</legend>
+          <label class="sr-only" for="scenario">Scenariusz</label>
+          <select id="scenario" title="Scenariusz">
+            <option value="protected">Tor połączony</option>
+            <option value="weak-signal">Słabe LTE</option>
+            <option value="reconnecting">Tor łączy się</option>
+            <option value="offline">Brak LTE</option>
+          </select>
+        </fieldset>
+        <button type="button" class="icon-button" id="refresh" aria-label="Odśwież dane" title="Odśwież dane"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" /> <path d="M21 3v5h-5" /> <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" /> <path d="M8 16H3v5" /></svg></button>
+      </div>
+    </header>
+    <main id="main" tabindex="-1">
+      <div class="view-intro">
+        <nav class="main-nav" aria-label="Nawigacja główna">
+          <a href="#overview" data-page="overview" aria-current="page">Przegląd</a>
+          <a href="#network" data-page="network">Połączenie</a>
+          <a href="#dns" data-page="dns">Filtr DNS</a>
+          <a href="#system" data-page="system">Urządzenie</a>
+        </nav>
+        <div class="page-heading">
+          <p class="eyebrow" id="page-kicker">SafeWall One</p>
+          <h1 id="page-title">Twoja sieć w jednym miejscu.</h1>
+          <p class="page-description" id="page-description">Oczekiwanie na odczyty…</p>
+          <div id="hero-state" class="hero-state"></div>
+        </div>
+        <div id="error-notice" class="error-notice" role="alert" hidden></div>
+        <div id="overview-health" hidden></div>
+      </div>
+      <div id="content" aria-busy="true"><div class="loading-state"><span class="loading-dot"></span>Pobieranie danych…</div></div>
+      <p id="announcer" class="sr-only" role="status" aria-live="polite"></p>
+    </main>
+    <footer class="site-footer">
+      <span id="footer-mode">Odświeżanie co 5 s</span>
+      <span id="updated-at">Oczekiwanie na dane</span>
+    </footer>
+    <noscript><p class="error-notice">Włącz JavaScript, aby otworzyć panel SafeWall.</p></noscript>
+  </body>
+</html>

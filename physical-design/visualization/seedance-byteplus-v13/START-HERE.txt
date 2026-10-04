@@ -1,0 +1,28 @@
+BYTEPLUS — SAFEWALL / SEEDANCE 2.5 / PIERWSZA PRÓBA v13
+
+1. Otwórz BytePlus ModelArk i wybierz Dreamina Seedance 2.5, tryb Reference / omni reference.
+2. Dodaj 01-product-appearance.png jako pierwszy obraz, potem 02-handoff-composition.png jako drugi. Oba są referencjami, nie pierwszą klatką filmu.
+3. Wklej cały PROMPT-PASTE.txt. Dopasuj oznaczenia @Image1 i @Image2 do etykiet utworzonych przez interfejs, zachowując kolejność.
+4. Ustaw 16:9, 16 sekund, Draft / 480p, Audio OFF. Jeżeli konsola nie pokazuje Draft, zwykłe Reference 480p wystarczy. Jeśli dostępne: MP4 i zwrot ostatniej klatki. Pozostałe ustawienia pozostaw domyślne; nie zakładaj ręcznej kontroli FPS.
+5. Wygeneruj jedną próbę i pobierz oryginalny plik wyniku. Jeśli konsola udostępnia ostatnią klatkę, pobierz ją też do dopasowania Blendera.
+
+CEL MONTAŻOWY
+Wstęp lektora kończy się przy 14.12 s. Potrzebujemy około 14 sekund obrazu z kontaktem urządzenia blisko tej granicy. Pozostałe 2 s są zapasem montażowym. Czasy prompta prowadzą model; nie stanowią gwarancji klatki co do sekundy.
+Pierwsza referencja określa wygląd. Druga to nowy kadr z Blendera: zamknięta obudowa na blacie, OLED u góry i USB-C na dole. Nie przenosić płaskiego cieniowania Workbench do sceny aktorskiej.
+Tryb Reference nie blokuje ostatniej klatki matematycznie. Po pierwszej generacji dopasujemy kadr Blendera do rzeczywistego kontaktu albo poprawimy końcowe ujęcie. Mamy już kontrolowaną referencję i osobny plik Handoff-composition-v13.blend.
+Tryb first/last frame w BytePlus wymaga innego zestawu obrazów; pierwszy obraz narzuca proporcje, a ratio=adaptive. W tym pakiecie używamy Reference, aby film zaczynał się od reportera.
+
+DŹWIĘK I MATERIAŁY
+Seedance tworzy tylko niemy wstęp. Nie dodawaj pełnego lektora ani IMG_4626.MOV do tej generacji. Gotowy polski lektor i prawdziwe demo połączymy w montażu.
+Nowe nagranie jest w references/live-demo-v13/IMG_4626-upright.mp4, obrócone w lewo o 90°. Oryginał w Documents jest zachowany.
+Z renderu przechodzimy do początku tego klipu PRZED wpięciem Ethernetu. Ręce, właściwe podłączenie i odświeżenie pokazujemy z realnego nagrania.
+Zapasowy krótki packshot produktu nie jest pierwszą klatką, nie należy więc wybierać dla niego roli First frame.
+
+ZWERYFIKOWANE PARAMETRY BYTEPLUS
+ModelArk dokumentuje reference images, generate_audio=false oraz Draft w 480p. Nie uruchamiać konwersji Draft→final przy tym preview: ten tryb generuje 1080p, którego użytkownik teraz nie chce.
+API i konsola mogą różnić się ekspozycją opcji. Identyfikator modelu w dokumentacji: dreamina-seedance-2-5-260628. Nie wysłano żadnego płatnego zadania i nie przesłano plików z tego komputera do BytePlus.
+
+ŹRÓDŁA (sprawdzone 2026-10-04)
+https://docs.byteplus.com/es/docs/modelark/seedance-2-5
+https://docs.byteplus.com/fr/docs/modelark/seedance-2-5-prompt-guide?redirect=1
+https://docs.byteplus.com/de/docs/modelark/create-video-generation-task-api

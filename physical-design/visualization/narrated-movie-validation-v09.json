@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "movie": "Full-sequence-voice-v09.mp4",
+  "model_id": "eleven_v4",
+  "voice_id": "nPczCjzI2devNBz1zQrb",
+  "voice_language": "pl",
+  "voice_native_speed": true,
+  "voice_offset_seconds": 0.16666666666666666,
+  "spoken_end_seconds": 7.8567,
+  "duration_seconds": 8.5,
+  "resolution": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames_decoded": 204,
+  "render_seconds": 94.38,
+  "replacement_pixel_difference": 5.416878858024691,
+  "click_seconds": 6.375,
+  "click_pitch_preserved": true,
+  "click_gain_db": -8,
+  "premium_master_unchanged": true,
+  "freeze_check": {
+    "threshold_db": -70,
+    "minimum_duration_seconds": 0.2,
+    "events": []
+  },
+  "audio_loudness": {
+    "input_i": "-16.51",
+    "input_tp": "-2.00",
+    "input_lra": "3.70",
+    "input_thresh": "-27.23",
+    "output_i": "-16.26",
+    "output_tp": "-1.92",
+    "output_lra": "1.40",
+    "output_thresh": "-26.91",
+    "normalization_type": "dynamic",
+    "target_offset": "0.26"
+  },
+  "photo_blend_frames": [
+    151,
+    204
+  ],
+  "reused_render_frames": 0,
+  "source_scene": "Full-sequence-voice-v09.blend",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "204"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "399"
+      }
+    ],
+    "format": {
+      "duration": "8.500000"
+    }
+  },
+  "movie_bytes": 1279496,
+  "review_scope": "Frame/image inspection, timestamp sync, complete decode, loudness/peak and freeze checks. No human pronunciation review yet."
+}

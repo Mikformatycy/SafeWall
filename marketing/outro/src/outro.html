@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SafeWall · outro</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #0e0c14; }
+    .stage {
+      position: absolute; left: 50%; top: 50%;
+      width: var(--width, 1920px); height: var(--height, 1080px);
+      transform: translate(-50%, -50%) scale(var(--scale, 1));
+      overflow: hidden; display: grid; place-items: center; background: #0e0c14;
+    }
+    .glow {
+      position: absolute; left: 50%; top: calc(50% - var(--offset, 30px));
+      width: 1400px; height: 1400px; transform: translate(-50%, -50%);
+      background: radial-gradient(circle, rgba(125,103,233,.10) 0%, rgba(125,103,233,.04) 40%, transparent 68%);
+    }
+    .lockup { position: relative; display: flex; flex-direction: column; align-items: center; gap: 14px; transform: translateY(calc(-1 * var(--offset, 30px))); }
+    .logo-enter { position: relative; animation: logoIn 900ms cubic-bezier(.22,1,.36,1) both; }
+    .logo-row { width: 780px; height: 150px; display: flex; align-items: center; justify-content: center; gap: 36px; }
+    .logo-row img { display: block; width: 260px; height: auto; flex: none; }
+    .wordmark {
+      font-family: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      font-size: 112px; line-height: 1; font-weight: 700; letter-spacing: -4px;
+      color: #eeeaf7; white-space: nowrap; -webkit-font-smoothing: antialiased;
+    }
+    .tagline {
+      margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 34px; line-height: 41px; font-weight: 400; letter-spacing: .06em;
+      color: #9690a7; white-space: nowrap; -webkit-font-smoothing: antialiased;
+      animation: textIn 900ms cubic-bezier(.22,1,.36,1) 450ms both;
+    }
+    .tagline strong { color: #b39afb; font-weight: 600; }
+    /* The reference's light sweep uses a dark reflection, not a white flash.
+       One masked duplicate crosses the symbol, name and subtitle continuously. */
+    .shine-overlay {
+      position: absolute; inset: 0; pointer-events: none; filter: brightness(0);
+      display: flex; flex-direction: column; align-items: center; gap: 14px;
+      --band: linear-gradient(45deg,
+        transparent 47%, rgba(255,255,255,.3) 48.5%,
+        rgba(255,255,255,.45) 49.5%, rgba(255,255,255,.45) 50.5%,
+        rgba(255,255,255,.3) 51.5%, transparent 53%);
+      -webkit-mask-image: var(--band); mask-image: var(--band);
+      -webkit-mask-size: 300% 100%; mask-size: 300% 100%;
+      -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+      animation: sweep 3600ms cubic-bezier(.85,0,.15,1) 2700ms both;
+    }
+    .shine-overlay .tagline { animation: none; opacity: 1; transform: none; }
+    @keyframes logoIn {
+      from { opacity: 0; transform: translateY(26px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes textIn {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes sweep {
+      from { -webkit-mask-position: 90% 0; mask-position: 90% 0; }
+      to { -webkit-mask-position: 10% 0; mask-position: 10% 0; }
+    }
+  </style>
+</head>
+<body>
+  <main class="stage" aria-label="Animowane logo SafeWall">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="lockup">
+      <div class="logo-enter">
+        <div class="logo-row">
+          <img src="../../../brand/svg/safewall-logo.svg" alt="">
+          <span class="wordmark">SafeWall</span>
+        </div>
+      </div>
+      <p class="tagline">Bo za każdą historią stoi <strong>człowiek.</strong></p>
+      <div class="shine-overlay" aria-hidden="true">
+        <div class="logo-row">
+          <img src="../../../brand/svg/safewall-logo.svg" alt="">
+          <span class="wordmark">SafeWall</span>
+        </div>
+        <p class="tagline">Bo za każdą historią stoi <strong>człowiek.</strong></p>
+      </div>
+    </div>
+  </main>
+  <script>
+    const landscape = new URLSearchParams(location.search).get('format') !== 'portrait';
+    const width = landscape ? 1920 : 1080;
+    const height = landscape ? 1080 : 1920;
+    const root = document.documentElement;
+    root.style.setProperty('--width', `${width}px`);
+    root.style.setProperty('--height', `${height}px`);
+    root.style.setProperty('--offset', landscape ? '30px' : '70px');
+    function resize() { root.style.setProperty('--scale', Math.min(innerWidth / width, innerHeight / height)); }
+    addEventListener('resize', resize);
+    resize();
+    window.outro = {
+      fps: 60, duration: 6200, width, height,
+      setTime(ms) {
+        for (const animation of document.getAnimations()) {
+          animation.pause();
+          animation.currentTime = ms;
+        }
+      },
+      replay() {
+        for (const animation of document.getAnimations()) { animation.currentTime = 0; animation.play(); }
+      }
+    };
+  </script>
+</body>
+</html>

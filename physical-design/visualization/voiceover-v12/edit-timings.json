@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "start": 0,
+    "end": 14.12,
+    "visual": "Deszczowy plener; historia i cenzura. Pod koniec kontakt obudowy z blatem i match cut.",
+    "paragraphs": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 2,
+    "start": 14.12,
+    "end": 21.74,
+    "visual": "Prezentacja SafeWall; równoczesne składanie 5 s, boczne zbliżenie MagSafe 2–3 s bez dodatkowej wypowiedzi.",
+    "paragraphs": [
+      3
+    ]
+  },
+  {
+    "id": 3,
+    "start": 21.74,
+    "end": 43.62,
+    "visual": "Tor: czytelny schemat przekaźników i osobnej bramy. Bez inscenizowanego testu awarii. Ruch kamery/elementów trwa.",
+    "paragraphs": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": 4,
+    "start": 43.62,
+    "end": 63.14,
+    "visual": "Widoczność/AirDrop iPhone (Piotrek), wyłączenie radiów, Raspberry Pi/LTE, kabel i morph do realnego testu Tor Check.",
+    "paragraphs": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 5,
+    "start": 63.14,
+    "end": 73.28,
+    "visual": "Prawdziwy prototyp, kolejny etap i finał SafeWall.",
+    "paragraphs": [
+      9,
+      10
+    ]
+  }
+]

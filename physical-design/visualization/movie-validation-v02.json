@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "video": "SafeWall-assembly-v02.mp4",
+  "metadata": {
+    "codec_name": "h264",
+    "width": 1280,
+    "height": 720,
+    "r_frame_rate": "24/1",
+    "duration": "10.000000",
+    "nb_read_frames": "240"
+  },
+  "PNG_frames_checked": 240,
+  "all_frames_decode": true,
+  "all_frames_inside_camera": true,
+  "video_bytes": 1247336,
+  "sha256": "8d314f8886045c070e4d7b32f4e7d1633cdabc44abe4693c2644ee7e7f9324f9",
+  "source_scene": "SafeWall-keynote-v02.blend",
+  "source_resolution": [
+    1920,
+    1080
+  ],
+  "renderer": "Cycles GPU",
+  "review_samples": 8,
+  "resumed_frames": 50,
+  "denoiser": "OpenImageDenoise",
+  "GPU_denoising_for_resumed_render": true,
+  "render_seconds": 413,
+  "display_percentage_is_demo": true
+}

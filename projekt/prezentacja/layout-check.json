@@ -1,0 +1,985 @@
+{
+  "size": [
+    1600,
+    900
+  ],
+  "pages": 8,
+  "text": [
+    {
+      "page": 1,
+      "text": "SafeWall",
+      "x": 147,
+      "y": 41,
+      "width": 108.6,
+      "height": 29
+    },
+    {
+      "page": 1,
+      "text": "Ktoś powierzył ci",
+      "x": 564.9,
+      "y": 192,
+      "width": 470.2,
+      "height": 67
+    },
+    {
+      "page": 1,
+      "text": "swoją historię.",
+      "x": 601.0,
+      "y": 265,
+      "width": 398.1,
+      "height": 67
+    },
+    {
+      "page": 1,
+      "text": "Teraz chcesz ją przekazać dalej i chronić osobę, która ci zaufała.",
+      "x": 440.2,
+      "y": 363,
+      "width": 719.7,
+      "height": 27
+    },
+    {
+      "page": 1,
+      "text": "Dla dziennikarzy",
+      "x": 392,
+      "y": 424.0,
+      "width": 136.7,
+      "height": 20
+    },
+    {
+      "page": 1,
+      "text": "Dla aktywistów",
+      "x": 661,
+      "y": 424.0,
+      "width": 125.9,
+      "height": 20
+    },
+    {
+      "page": 1,
+      "text": "Dla organizacji",
+      "x": 909,
+      "y": 424.0,
+      "width": 121.8,
+      "height": 20
+    },
+    {
+      "page": 1,
+      "text": "DLATEGO PROJEKTUJEMY SAFEWALL",
+      "x": 174,
+      "y": 558,
+      "width": 307.1,
+      "height": 18
+    },
+    {
+      "page": 1,
+      "text": "Są miejsca, w których dostęp do",
+      "x": 174,
+      "y": 600,
+      "width": 322.3,
+      "height": 24
+    },
+    {
+      "page": 1,
+      "text": "informacji ogranicza cenzura.",
+      "x": 174,
+      "y": 631,
+      "width": 292.5,
+      "height": 24
+    },
+    {
+      "page": 1,
+      "text": "Właśnie tam prywatność ma",
+      "x": 174,
+      "y": 662,
+      "width": 282.3,
+      "height": 24
+    },
+    {
+      "page": 1,
+      "text": "szczególne znaczenie.",
+      "x": 174,
+      "y": 693,
+      "width": 226.0,
+      "height": 24
+    },
+    {
+      "page": 1,
+      "text": "Sprzętowa brama prywatności",
+      "x": 174,
+      "y": 748,
+      "width": 278.3,
+      "height": 22
+    },
+    {
+      "page": 1,
+      "text": "Koncepcja obudowy",
+      "x": 952,
+      "y": 776.5,
+      "width": 162.4,
+      "height": 19
+    },
+    {
+      "page": 2,
+      "text": "SafeWall",
+      "x": 147,
+      "y": 41,
+      "width": 108.6,
+      "height": 29
+    },
+    {
+      "page": 2,
+      "text": "FILM DEMONSTRACYJNY",
+      "x": 64,
+      "y": 139,
+      "width": 203.7,
+      "height": 18
+    },
+    {
+      "page": 2,
+      "text": "Zobacz, jak działa",
+      "x": 64,
+      "y": 181,
+      "width": 478.3,
+      "height": 64
+    },
+    {
+      "page": 2,
+      "text": "SafeWall.",
+      "x": 64,
+      "y": 252,
+      "width": 256.0,
+      "height": 64
+    },
+    {
+      "page": 2,
+      "text": "Zeskanuj kod QR",
+      "x": 1020,
+      "y": 174,
+      "width": 214.5,
+      "height": 30
+    },
+    {
+      "page": 2,
+      "text": "lub otwórz link",
+      "x": 1020,
+      "y": 225,
+      "width": 137.3,
+      "height": 23
+    },
+    {
+      "page": 2,
+      "text": "youtube.com",
+      "x": 1020,
+      "y": 271,
+      "width": 138.2,
+      "height": 25
+    },
+    {
+      "page": 2,
+      "text": "Obejrzyj film",
+      "x": 178,
+      "y": 399,
+      "width": 160.8,
+      "height": 31
+    },
+    {
+      "page": 2,
+      "text": "Podłączenie telefonu i test połączenia",
+      "x": 1157.9,
+      "y": 411,
+      "width": 344.1,
+      "height": 22
+    },
+    {
+      "page": 2,
+      "text": "01",
+      "x": 94,
+      "y": 741,
+      "width": 22.0,
+      "height": 21
+    },
+    {
+      "page": 2,
+      "text": "Projekt i składanie",
+      "x": 140,
+      "y": 738,
+      "width": 195.1,
+      "height": 26
+    },
+    {
+      "page": 2,
+      "text": "02",
+      "x": 574,
+      "y": 741,
+      "width": 24.6,
+      "height": 21
+    },
+    {
+      "page": 2,
+      "text": "Podłączenie prototypu",
+      "x": 620,
+      "y": 738,
+      "width": 244.2,
+      "height": 26
+    },
+    {
+      "page": 2,
+      "text": "03",
+      "x": 1054,
+      "y": 741,
+      "width": 25.2,
+      "height": 21
+    },
+    {
+      "page": 2,
+      "text": "Wynik Tor Check",
+      "x": 1100,
+      "y": 738,
+      "width": 186.7,
+      "height": 26
+    },
+    {
+      "page": 3,
+      "text": "SafeWall",
+      "x": 147,
+      "y": 41,
+      "width": 108.6,
+      "height": 29
+    },
+    {
+      "page": 3,
+      "text": "TELEFON MOŻE UJAWNIAĆ SWOJĄ OBECNOŚĆ",
+      "x": 64,
+      "y": 139,
+      "width": 384.6,
+      "height": 18
+    },
+    {
+      "page": 3,
+      "text": "„iPhone (Piotrek)”.",
+      "x": 64,
+      "y": 197.0,
+      "width": 547.3,
+      "height": 70
+    },
+    {
+      "page": 3,
+      "text": "Nietrudno się domyślić,",
+      "x": 64,
+      "y": 304,
+      "width": 439.1,
+      "height": 45
+    },
+    {
+      "page": 3,
+      "text": "do kogo należy.",
+      "x": 64,
+      "y": 358,
+      "width": 294.5,
+      "height": 45
+    },
+    {
+      "page": 3,
+      "text": "Z SafeWall możesz wyłączyć Wi-Fi, Bluetooth i łączność",
+      "x": 64,
+      "y": 639.0,
+      "width": 656.0,
+      "height": 28
+    },
+    {
+      "page": 3,
+      "text": "komórkową telefonu. Łączysz go przewodem z bramą, która",
+      "x": 64,
+      "y": 677.64,
+      "width": 699.0,
+      "height": 28
+    },
+    {
+      "page": 3,
+      "text": "ma własny modem LTE.",
+      "x": 64,
+      "y": 716.28,
+      "width": 278.5,
+      "height": 28
+    },
+    {
+      "page": 3,
+      "text": "AirDrop",
+      "x": 1131.4,
+      "y": 218,
+      "width": 109.1,
+      "height": 34
+    },
+    {
+      "page": 3,
+      "text": "iPhone (Piotrek)",
+      "x": 1046.1,
+      "y": 527,
+      "width": 279.7,
+      "height": 42
+    },
+    {
+      "page": 3,
+      "text": "Nazwa widoczna urządzeniom w pobliżu",
+      "x": 992.1,
+      "y": 592,
+      "width": 387.9,
+      "height": 23
+    },
+    {
+      "page": 4,
+      "text": "SafeWall",
+      "x": 147,
+      "y": 41,
+      "width": 108.6,
+      "height": 29
+    },
+    {
+      "page": 4,
+      "text": "Kontrolę połączenia",
+      "x": 64,
+      "y": 136,
+      "width": 494.8,
+      "height": 60
+    },
+    {
+      "page": 4,
+      "text": "przenosimy poza telefon.",
+      "x": 64,
+      "y": 203,
+      "width": 627.5,
+      "height": 60
+    },
+    {
+      "page": 4,
+      "text": "Tor prowadzi ruch przez kilka przekaźników, utrudniając ustalenie, kto z kim się komunikuje.",
+      "x": 64,
+      "y": 298,
+      "width": 1025.1,
+      "height": 27
+    },
+    {
+      "page": 4,
+      "text": "SafeWall",
+      "x": 480,
+      "y": 379,
+      "width": 112.4,
+      "height": 30
+    },
+    {
+      "page": 4,
+      "text": "Telefon",
+      "x": 88,
+      "y": 502,
+      "width": 98.3,
+      "height": 31
+    },
+    {
+      "page": 4,
+      "text": "Radia wyłączone",
+      "x": 88,
+      "y": 552,
+      "width": 140.5,
+      "height": 20
+    },
+    {
+      "page": 4,
+      "text": "LTE",
+      "x": 452,
+      "y": 502,
+      "width": 51.4,
+      "height": 31
+    },
+    {
+      "page": 4,
+      "text": "Własny modem",
+      "x": 452,
+      "y": 552,
+      "width": 130.6,
+      "height": 20
+    },
+    {
+      "page": 4,
+      "text": "Tor",
+      "x": 872,
+      "y": 502,
+      "width": 44.0,
+      "height": 31
+    },
+    {
+      "page": 4,
+      "text": "Klient Tor",
+      "x": 872,
+      "y": 552,
+      "width": 79.8,
+      "height": 20
+    },
+    {
+      "page": 4,
+      "text": "Internet",
+      "x": 1304,
+      "y": 502,
+      "width": 99.6,
+      "height": 31
+    },
+    {
+      "page": 4,
+      "text": "Usługi przez HTTPS",
+      "x": 1304,
+      "y": 552,
+      "width": 168.1,
+      "height": 20
+    },
+    {
+      "page": 4,
+      "text": "USB-C / Ethernet",
+      "x": 100,
+      "y": 628.5,
+      "width": 138.6,
+      "height": 19
+    },
+    {
+      "page": 4,
+      "text": "Brama łączy się z siecią Tor przez LTE.",
+      "x": 428,
+      "y": 638,
+      "width": 368.1,
+      "height": 23
+    },
+    {
+      "page": 4,
+      "text": "Jeśli Tor przestanie działać, internet ma się odłączyć.",
+      "x": 842,
+      "y": 686,
+      "width": 593.4,
+      "height": 27
+    },
+    {
+      "page": 4,
+      "text": "Brama ma blokować bezpośrednie wyjście do internetu po awarii Tora.",
+      "x": 842,
+      "y": 739.0,
+      "width": 671.0,
+      "height": 23
+    },
+    {
+      "page": 4,
+      "text": "Działanie tej blokady musimy jeszcze przetestować.",
+      "x": 842,
+      "y": 770.74,
+      "width": 494.8,
+      "height": 23
+    },
+    {
+      "page": 5,
+      "text": "SafeWall",
+      "x": 147,
+      "y": 41,
+      "width": 108.6,
+      "height": 29
+    },
+    {
+      "page": 5,
+      "text": "TO NASZ PROTOTYP",
+      "x": 64,
+      "y": 139,
+      "width": 166.6,
+      "height": 18
+    },
+    {
+      "page": 5,
+      "text": "Podłączasz przewód.",
+      "x": 64,
+      "y": 181,
+      "width": 550.6,
+      "height": 62
+    },
+    {
+      "page": 5,
+      "text": "Nadal masz internet.",
+      "x": 64,
+      "y": 250,
+      "width": 530.5,
+      "height": 62
+    },
+    {
+      "page": 5,
+      "text": "SPRZĘT",
+      "x": 1030,
+      "y": 366,
+      "width": 63.4,
+      "height": 18
+    },
+    {
+      "page": 5,
+      "text": "Raspberry Pi + PiTalk",
+      "x": 1030,
+      "y": 404,
+      "width": 282.9,
+      "height": 32
+    },
+    {
+      "page": 5,
+      "text": "Raspberry Pi 4, modem Quectel EG25-G oraz",
+      "x": 1030,
+      "y": 455.0,
+      "width": 475.0,
+      "height": 25
+    },
+    {
+      "page": 5,
+      "text": "telefon połączony przez adapter Ethernet.",
+      "x": 1030,
+      "y": 489.5,
+      "width": 434.1,
+      "height": 25
+    },
+    {
+      "page": 5,
+      "text": "TEST POŁĄCZENIA",
+      "x": 1030,
+      "y": 596,
+      "width": 151.0,
+      "height": 18
+    },
+    {
+      "page": 5,
+      "text": "Sprawdzasz w przeglądarce",
+      "x": 1030,
+      "y": 635,
+      "width": 363.3,
+      "height": 31
+    },
+    {
+      "page": 5,
+      "text": "Po podłączeniu przewodu i odświeżeniu strony",
+      "x": 1030,
+      "y": 686.0,
+      "width": 485.8,
+      "height": 25
+    },
+    {
+      "page": 5,
+      "text": "Tor Check pojawia się pozytywny wynik.",
+      "x": 1030,
+      "y": 720.5,
+      "width": 419.5,
+      "height": 25
+    },
+    {
+      "page": 6,
+      "text": "SafeWall",
+      "x": 147,
+      "y": 41,
+      "width": 108.6,
+      "height": 29
+    },
+    {
+      "page": 6,
+      "text": "PROJEKT OBUDOWY",
+      "x": 64,
+      "y": 139,
+      "width": 168.0,
+      "height": 18
+    },
+    {
+      "page": 6,
+      "text": "Z zewnątrz przypomina",
+      "x": 64,
+      "y": 181,
+      "width": 595.1,
+      "height": 61
+    },
+    {
+      "page": 6,
+      "text": "zwykły powerbank.",
+      "x": 64,
+      "y": 249,
+      "width": 488.0,
+      "height": 61
+    },
+    {
+      "page": 6,
+      "text": "01",
+      "x": 1007.6,
+      "y": 370,
+      "width": 18.9,
+      "height": 18
+    },
+    {
+      "page": 6,
+      "text": "Obudowa i ekran",
+      "x": 1054,
+      "y": 365,
+      "width": 211.9,
+      "height": 30
+    },
+    {
+      "page": 6,
+      "text": "Obudowa z małym ekranem. Model wyświetlacza",
+      "x": 1054,
+      "y": 410.0,
+      "width": 472.2,
+      "height": 23
+    },
+    {
+      "page": 6,
+      "text": "nie został jeszcze wybrany.",
+      "x": 1054,
+      "y": 441.74,
+      "width": 260.0,
+      "height": 23
+    },
+    {
+      "page": 6,
+      "text": "02",
+      "x": 1006.4,
+      "y": 517,
+      "width": 21.1,
+      "height": 18
+    },
+    {
+      "page": 6,
+      "text": "Komputer i łączność",
+      "x": 1054,
+      "y": 512,
+      "width": 254.2,
+      "height": 30
+    },
+    {
+      "page": 6,
+      "text": "Moduł obliczeniowy, modem LTE i płytka łącząca",
+      "x": 1054,
+      "y": 557.0,
+      "width": 468.7,
+      "height": 23
+    },
+    {
+      "page": 6,
+      "text": "podzespoły.",
+      "x": 1054,
+      "y": 588.74,
+      "width": 117.7,
+      "height": 23
+    },
+    {
+      "page": 6,
+      "text": "03",
+      "x": 1006.2,
+      "y": 664,
+      "width": 21.6,
+      "height": 18
+    },
+    {
+      "page": 6,
+      "text": "Własne zasilanie",
+      "x": 1054,
+      "y": 659,
+      "width": 208.2,
+      "height": 30
+    },
+    {
+      "page": 6,
+      "text": "Akumulator w obudowie i mocowanie do",
+      "x": 1054,
+      "y": 704.0,
+      "width": 386.5,
+      "height": 23
+    },
+    {
+      "page": 6,
+      "text": "telefonu. Zasilanie oraz mocowanie wymagają",
+      "x": 1054,
+      "y": 735.74,
+      "width": 439.9,
+      "height": 23
+    },
+    {
+      "page": 6,
+      "text": "testów.",
+      "x": 1054,
+      "y": 767.48,
+      "width": 70.8,
+      "height": 23
+    },
+    {
+      "page": 6,
+      "text": "Model koncepcyjny. Projekt płytki i obudowy wymaga dalszych prac.",
+      "x": 64,
+      "y": 812,
+      "width": 541.3,
+      "height": 19
+    },
+    {
+      "page": 7,
+      "text": "SafeWall",
+      "x": 147,
+      "y": 41,
+      "width": 108.6,
+      "height": 29
+    },
+    {
+      "page": 7,
+      "text": "Kolejny krok:",
+      "x": 64,
+      "y": 138,
+      "width": 342.2,
+      "height": 64
+    },
+    {
+      "page": 7,
+      "text": "miniaturyzacja.",
+      "x": 64,
+      "y": 209,
+      "width": 402.8,
+      "height": 64
+    },
+    {
+      "page": 7,
+      "text": "Projektowana obudowa pomieści elektronikę i własne zasilanie.",
+      "x": 64,
+      "y": 302,
+      "width": 706.8,
+      "height": 27
+    },
+    {
+      "page": 7,
+      "text": "WYMIARY PROJEKTU",
+      "x": 92,
+      "y": 411,
+      "width": 170.8,
+      "height": 18
+    },
+    {
+      "page": 7,
+      "text": "110 × 70 × 24",
+      "x": 92,
+      "y": 468,
+      "width": 315.7,
+      "height": 54
+    },
+    {
+      "page": 7,
+      "text": "mm",
+      "x": 92,
+      "y": 547,
+      "width": 40.2,
+      "height": 25
+    },
+    {
+      "page": 7,
+      "text": "Projektowane wymiary obudowy.",
+      "x": 92,
+      "y": 600,
+      "width": 330.5,
+      "height": 24
+    },
+    {
+      "page": 7,
+      "text": "Długość × szerokość × grubość.",
+      "x": 92,
+      "y": 632,
+      "width": 322.9,
+      "height": 24
+    },
+    {
+      "page": 7,
+      "text": "CEL PROJEKTOWY",
+      "x": 846,
+      "y": 411,
+      "width": 151.0,
+      "height": 18
+    },
+    {
+      "page": 7,
+      "text": "2 godziny",
+      "x": 846,
+      "y": 468,
+      "width": 253.5,
+      "height": 62
+    },
+    {
+      "page": 7,
+      "text": "pracy",
+      "x": 846,
+      "y": 547,
+      "width": 58.7,
+      "height": 25
+    },
+    {
+      "page": 7,
+      "text": "Zakładany czas pracy na baterii.",
+      "x": 846,
+      "y": 600,
+      "width": 320.7,
+      "height": 24
+    },
+    {
+      "page": 7,
+      "text": "Jeszcze niezmierzony.",
+      "x": 846,
+      "y": 632,
+      "width": 226.3,
+      "height": 24
+    },
+    {
+      "page": 8,
+      "text": "SafeWall",
+      "x": 147,
+      "y": 41,
+      "width": 108.6,
+      "height": 29
+    },
+    {
+      "page": 8,
+      "text": "SafeWall.",
+      "x": 676.0,
+      "y": 145,
+      "width": 248.0,
+      "height": 62
+    },
+    {
+      "page": 8,
+      "text": "Bo za każdą historią stoi człowiek.",
+      "x": 363.4,
+      "y": 218,
+      "width": 873.2,
+      "height": 62
+    },
+    {
+      "page": 8,
+      "text": "Kolejny krok: miniaturyzacja, testy bezpieczeństwa i próby z przyszłymi użytkownikami.",
+      "x": 293.4,
+      "y": 329,
+      "width": 1013.2,
+      "height": 28
+    },
+    {
+      "page": 8,
+      "text": "TERAZ",
+      "x": 92,
+      "y": 452,
+      "width": 53.6,
+      "height": 18
+    },
+    {
+      "page": 8,
+      "text": "Prototyp i projekt",
+      "x": 92,
+      "y": 497,
+      "width": 234.0,
+      "height": 33
+    },
+    {
+      "page": 8,
+      "text": "Prototyp sprzętowy, projekt obudowy i",
+      "x": 92,
+      "y": 553,
+      "width": 383.7,
+      "height": 24
+    },
+    {
+      "page": 8,
+      "text": "nagranie testu Tor Check. Panel działa na",
+      "x": 92,
+      "y": 585,
+      "width": 411.9,
+      "height": 24
+    },
+    {
+      "page": 8,
+      "text": "danych demo.",
+      "x": 92,
+      "y": 617,
+      "width": 143.2,
+      "height": 24
+    },
+    {
+      "page": 8,
+      "text": "NASTĘPNIE",
+      "x": 594,
+      "y": 452,
+      "width": 92.0,
+      "height": 18
+    },
+    {
+      "page": 8,
+      "text": "Testy bezpieczeństwa",
+      "x": 594,
+      "y": 497,
+      "width": 308.3,
+      "height": 33
+    },
+    {
+      "page": 8,
+      "text": "Sprawdzimy DNS, IPv6 i zachowanie po",
+      "x": 594,
+      "y": 553,
+      "width": 398.5,
+      "height": 24
+    },
+    {
+      "page": 8,
+      "text": "awarii Tora. Podłączymy panel i filtry do",
+      "x": 594,
+      "y": 585,
+      "width": 392.6,
+      "height": 24
+    },
+    {
+      "page": 8,
+      "text": "urządzenia.",
+      "x": 594,
+      "y": 617,
+      "width": 115.8,
+      "height": 24
+    },
+    {
+      "page": 8,
+      "text": "DOCELOWO",
+      "x": 1096,
+      "y": 452,
+      "width": 100.1,
+      "height": 18
+    },
+    {
+      "page": 8,
+      "text": "Wersja przenośna",
+      "x": 1096,
+      "y": 497,
+      "width": 247.8,
+      "height": 33
+    },
+    {
+      "page": 8,
+      "text": "Własna płytka, bateria i obudowa. Testy",
+      "x": 1096,
+      "y": 553,
+      "width": 397.4,
+      "height": 24
+    },
+    {
+      "page": 8,
+      "text": "w terenie z dziennikarzami i",
+      "x": 1096,
+      "y": 585,
+      "width": 272.5,
+      "height": 24
+    },
+    {
+      "page": 8,
+      "text": "organizacjami społecznymi.",
+      "x": 1096,
+      "y": 617,
+      "width": 276.7,
+      "height": 24
+    },
+    {
+      "page": 8,
+      "text": "Kod i dokumentacja",
+      "x": 1222.4,
+      "y": 742,
+      "width": 223.1,
+      "height": 27
+    }
+  ]
+}

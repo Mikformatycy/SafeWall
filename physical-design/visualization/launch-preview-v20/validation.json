@@ -1,0 +1,78 @@
+{
+  "status": "technical_checks_passed",
+  "movie": "SafeWall-launch-preview-v20.mp4",
+  "duration_seconds": 71.0,
+  "resolution": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "frames_decoded": 1704,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 960,
+        "height": 540,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "1704"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "3329"
+      }
+    ],
+    "format": {
+      "duration": "71.000000",
+      "size": "6629919"
+    }
+  },
+  "loudness": {
+    "input_i": "-14.56",
+    "input_tp": "-1.37",
+    "input_lra": "4.40",
+    "input_thresh": "-25.07",
+    "output_i": "-17.11",
+    "output_tp": "-2.02",
+    "output_lra": "4.10",
+    "output_thresh": "-27.61",
+    "normalization_type": "dynamic",
+    "target_offset": "0.11"
+  },
+  "all_new_CG": "BLENDER_WORKBENCH",
+  "new_scenes": [
+    "tor",
+    "radios",
+    "closing",
+    "docking"
+  ],
+  "flat_slides": false,
+  "premium_master_unchanged": true,
+  "narrator": "Daniel / Eleven v4; original audio plus Tor sentence pickup",
+  "approved_text": "../VOICEOVER-APPROVED-v20.txt",
+  "independent_narration_ASR_all_121_tokens_match": true,
+  "narration_time_stretch": false,
+  "live_demo_time_stretch": false,
+  "live_demo_source_frames": 215,
+  "live_demo_seconds": [
+    57.75,
+    66.70833333333333
+  ],
+  "green_result_approx_seconds": [
+    63.75,
+    66.708
+  ],
+  "future_steps_removed": true,
+  "connection_narration_removed": true,
+  "seedance_opening_retained": true,
+  "seedance_new_generation": false,
+  "original_live_audio_used": false,
+  "music_added": false,
+  "transition_method": "Framing-matched eased cross-dissolves, no alteration of real browser result",
+  "subjective_audio_listening": "Not claimed; transcript and level checks only"
+}

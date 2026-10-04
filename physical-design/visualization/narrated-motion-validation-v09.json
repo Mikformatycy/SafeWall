@@ -1,0 +1,3006 @@
+{
+  "status": "ready",
+  "revision": "v09",
+  "model_id": "eleven_v4",
+  "voice_id": "nPczCjzI2devNBz1zQrb",
+  "voice_name": "Brian",
+  "language": "pl",
+  "script": "Po\u0142\u0105czenie na twoich zasadach. Od projektu do prawdziwego prototypu. Jeden kabel. Zobacz, jak to dzia\u0142a.",
+  "request": "voiceover-v09/request-pl-a.json",
+  "voice_audio": "voiceover-v09/voice-pl-a-v09.mp3",
+  "alignment": "voiceover-v09/voice-pl-a-v09-alignment.json",
+  "voice_offset_seconds": 0.16666666666666666,
+  "spoken_end_seconds": 7.8567,
+  "duration_seconds": 8.5,
+  "frames": 204,
+  "fps": 24,
+  "resolution": [
+    960,
+    540
+  ],
+  "assembly_frames": [
+    1,
+    61
+  ],
+  "slide_frames": [
+    29,
+    85
+  ],
+  "replacement_frames": [
+    81,
+    113
+  ],
+  "phone_arrival_frames": [
+    48,
+    85
+  ],
+  "phone_visible_frame": 30,
+  "cable_arrival_frames": [
+    105,
+    131
+  ],
+  "insertion_frames": [
+    126,
+    154
+  ],
+  "photo_frames": [
+    151,
+    204
+  ],
+  "click_frame": 154,
+  "click_seconds": 6.375,
+  "photo_blend_curve": "linear",
+  "static_holds": false,
+  "words": [
+    {
+      "word": "Po\u0142\u0105czenie",
+      "start": 0.2567,
+      "end": 0.8167
+    },
+    {
+      "word": "na",
+      "start": 0.8967,
+      "end": 0.9767
+    },
+    {
+      "word": "twoich",
+      "start": 1.0567,
+      "end": 1.3767
+    },
+    {
+      "word": "zasadach.",
+      "start": 1.4567,
+      "end": 2.2167
+    },
+    {
+      "word": "Od",
+      "start": 2.4167,
+      "end": 2.4967
+    },
+    {
+      "word": "projektu",
+      "start": 2.5767,
+      "end": 3.2167
+    },
+    {
+      "word": "do",
+      "start": 3.2967,
+      "end": 3.3767
+    },
+    {
+      "word": "prawdziwego",
+      "start": 3.4567,
+      "end": 4.0967
+    },
+    {
+      "word": "prototypu.",
+      "start": 4.1767,
+      "end": 4.7767
+    },
+    {
+      "word": "Jeden",
+      "start": 5.3767,
+      "end": 5.6167
+    },
+    {
+      "word": "kabel.",
+      "start": 5.6967,
+      "end": 6.2967
+    },
+    {
+      "word": "Zobacz,",
+      "start": 6.6297,
+      "end": 7.0167
+    },
+    {
+      "word": "jak",
+      "start": 7.0567,
+      "end": 7.1367
+    },
+    {
+      "word": "to",
+      "start": 7.2167,
+      "end": 7.2967
+    },
+    {
+      "word": "dzia\u0142a.",
+      "start": 7.3367,
+      "end": 7.8567
+    }
+  ],
+  "phrase_cues": [
+    {
+      "phrase": "Po\u0142\u0105czenie na twoich zasadach.",
+      "visual": "Simultaneous sandwich assembly; slide starts before closure finishes."
+    },
+    {
+      "phrase": "Od projektu do prawdziwego prototypu.",
+      "visual": "Camera moves overhead and case changes into Raspberry Pi/LTE prototype."
+    },
+    {
+      "phrase": "Jeden kabel.",
+      "visual": "Cable arrives and plugs insert. Contact click just after the phrase."
+    },
+    {
+      "phrase": "Zobacz, jak to dzia\u0142a.",
+      "visual": "Continuous aligned dissolve into the real photograph."
+    }
+  ],
+  "motion_checks": [
+    {
+      "frame": 1,
+      "assembly": 0,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 2,
+      "assembly": 8.916645233196158e-05,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 3,
+      "assembly": 0.0006866529492455417,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 4,
+      "assembly": 0.00222984375,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 5,
+      "assembly": 0.005083566529492455,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 6,
+      "assembly": 0.009545262131344306,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 7,
+      "assembly": 0.015850000000000003,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 8,
+      "assembly": 0.02417533929183814,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 9,
+      "assembly": 0.03464603566529492,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 10,
+      "assembly": 0.04733859374999999,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 11,
+      "assembly": 0.06228566529492454,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 12,
+      "assembly": 0.07948029299554181,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 13,
+      "assembly": 0.09888000000000002,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 14,
+      "assembly": 0.1204107250943073,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 15,
+      "assembly": 0.14397060356652955,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 16,
+      "assembly": 0.16943359375,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 17,
+      "assembly": 0.1966529492455418,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 18,
+      "assembly": 0.22546453682270223,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 19,
+      "assembly": 0.25568999999999986,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 20,
+      "assembly": 0.2871397683041838,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 21,
+      "assembly": 0.31961591220850466,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 22,
+      "assembly": 0.35291484374999993,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 23,
+      "assembly": 0.3868298628257885,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 24,
+      "assembly": 0.4211535491683813,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 25,
+      "assembly": 0.4556800000000002,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 26,
+      "assembly": 0.49020691336591227,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 27,
+      "assembly": 0.5245375171467765,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 28,
+      "assembly": 0.5584823437500003,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 29,
+      "assembly": 0.5918608504801101,
+      "slide": 0,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 30,
+      "assembly": 0.6245028855881342,
+      "slide": 5.542807103253108e-05,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 31,
+      "assembly": 0.65625,
+      "slide": 0.00043148409144999096,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 32,
+      "assembly": 0.686956604723937,
+      "slide": 0.0014165480075731091,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 33,
+      "assembly": 0.7164909739368993,
+      "slide": 0.0032650086273576483,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 34,
+      "assembly": 0.7447360937500005,
+      "slide": 0.006198570971869981,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 35,
+      "assembly": 0.7715903566529484,
+      "slide": 0.010407563626762657,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 36,
+      "assembly": 0.796968101637518,
+      "slide": 0.01605224609375,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 37,
+      "assembly": 0.8207999999999989,
+      "slide": 0.023264116142083652,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 38,
+      "assembly": 0.8430332868227032,
+      "slide": 0.0321472171600282,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 39,
+      "assembly": 0.8636318381344308,
+      "slide": 0.042779445506336645,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 40,
+      "assembly": 0.8825760937499995,
+      "slide": 0.05521385786172613,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 41,
+      "assembly": 0.8998628257887502,
+      "slide": 0.06947997858035342,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 42,
+      "assembly": 0.9155047528720854,
+      "slide": 0.08558510704129046,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 43,
+      "assembly": 0.9295299999999995,
+      "slide": 0.103515625,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 44,
+      "assembly": 0.9419814041066537,
+      "slide": 0.12323830393981115,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 45,
+      "assembly": 0.9529156652949229,
+      "slide": 0.144701612423395,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 46,
+      "assembly": 0.96240234375,
+      "slide": 0.1678370234442401,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 47,
+      "assembly": 0.9705227023319623,
+      "slide": 0.1925603217781282,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 48,
+      "assembly": 0.977368394847391,
+      "slide": 0.21877291133460944,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 49,
+      "assembly": 0.9830400000000012,
+      "slide": 0.2463631225084786,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 50,
+      "assembly": 0.9876454010202336,
+      "slide": 0.27520751953125,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 51,
+      "assembly": 0.9912980109739387,
+      "slide": 0.30517220782263343,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 52,
+      "assembly": 0.9941148437500029,
+      "slide": 0.3361141413420096,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 53,
+      "assembly": 0.9962144307270258,
+      "slide": 0.367882429939906,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 54,
+      "assembly": 0.997714583118996,
+      "slide": 0.40031964670947195,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 55,
+      "assembly": 0.9987300000000037,
+      "slide": 0.43326313533795435,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 56,
+      "assembly": 0.9993697220078861,
+      "slide": 0.46654631745817404,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 57,
+      "assembly": 0.9997344307270257,
+      "slide": 0.5,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 58,
+      "assembly": 0.9999135937499943,
+      "slide": 0.533453682541826,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 59,
+      "assembly": 0.9999824554183796,
+      "slide": 0.5667368646620455,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 60,
+      "assembly": 0.9999988732424523,
+      "slide": 0.599680353290528,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 61,
+      "assembly": 1,
+      "slide": 0.6321175700600941,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 62,
+      "assembly": 1,
+      "slide": 0.6638858586579903,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 63,
+      "assembly": 1,
+      "slide": 0.6948277921773665,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 64,
+      "assembly": 1,
+      "slide": 0.72479248046875,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 65,
+      "assembly": 1,
+      "slide": 0.7536368774915215,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 66,
+      "assembly": 1,
+      "slide": 0.7812270886653907,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 67,
+      "assembly": 1,
+      "slide": 0.8074396782218718,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 68,
+      "assembly": 1,
+      "slide": 0.8321629765557599,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 69,
+      "assembly": 1,
+      "slide": 0.8552983875766048,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 70,
+      "assembly": 1,
+      "slide": 0.8767616960601887,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 71,
+      "assembly": 1,
+      "slide": 0.896484375,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 72,
+      "assembly": 1,
+      "slide": 0.9144148929587097,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 73,
+      "assembly": 1,
+      "slide": 0.9305200214196468,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 74,
+      "assembly": 1,
+      "slide": 0.9447861421382739,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 75,
+      "assembly": 1,
+      "slide": 0.9572205544936631,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 76,
+      "assembly": 1,
+      "slide": 0.9678527828399713,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 77,
+      "assembly": 1,
+      "slide": 0.9767358838579168,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 78,
+      "assembly": 1,
+      "slide": 0.98394775390625,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 79,
+      "assembly": 1,
+      "slide": 0.9895924363732376,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 80,
+      "assembly": 1,
+      "slide": 0.9938014290281306,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 81,
+      "assembly": 1,
+      "slide": 0.9967349913726419,
+      "replacement": 0,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 82,
+      "assembly": 1,
+      "slide": 0.9985834519924272,
+      "replacement": 0.0002910494804382324,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 83,
+      "assembly": 1,
+      "slide": 0.999568515908549,
+      "replacement": 0.0022182464599609375,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 84,
+      "assembly": 1,
+      "slide": 0.9999445719289671,
+      "replacement": 0.007124483585357666,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 85,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.01605224609375,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 86,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.029765069484710693,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 87,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.04876899719238281,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 88,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.07333403825759888,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 89,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.103515625,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 90,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.13917607069015503,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 91,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.1800060272216797,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 92,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.2255459427833557,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 93,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.27520751953125,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 94,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.32829517126083374,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 95,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.38402748107910156,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 96,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.4415586590766907,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 97,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.5,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 98,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.5584413409233093,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 99,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.6159725189208984,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 100,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.6717048287391663,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 101,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.72479248046875,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 102,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.7744540572166443,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 103,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.8199939727783203,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 104,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.860823929309845,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 105,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.896484375,
+      "cable_arrival": 0,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 106,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.9266659617424011,
+      "cable_arrival": 0.0005366381806282371,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 107,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.9512310028076172,
+      "cable_arrival": 0.004042629405886996,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 108,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.9702349305152893,
+      "cable_arrival": 0.01282578718155204,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 109,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.98394775390625,
+      "cable_arrival": 0.028527335554400436,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 110,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.9928755164146423,
+      "cable_arrival": 0.05218250815393773,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 111,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.9977817535400391,
+      "cable_arrival": 0.08428114723412508,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 112,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 0.9997089505195618,
+      "cable_arrival": 0.12482830271510638,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 113,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.17340483122493558,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 114,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.2292279951413035,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 115,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.2912120616332654,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 116,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.35802890170296775,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 117,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.4281685892273758,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 118,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.5,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 119,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.5718314107726242,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 120,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.6419710982970321,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 121,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.7087879383667347,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 122,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.7707720048586967,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 123,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.8265951687750642,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 124,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.8751716972848933,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 125,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.9157188527658753,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 126,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.9478174918460625,
+      "insertion": 0,
+      "photo": 0
+    },
+    {
+      "frame": 127,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.9714726644455991,
+      "insertion": 0.00043148409144999096,
+      "photo": 0
+    },
+    {
+      "frame": 128,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.9871742128184469,
+      "insertion": 0.0032650086273576483,
+      "photo": 0
+    },
+    {
+      "frame": 129,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.9959573705941124,
+      "insertion": 0.010407563626762657,
+      "photo": 0
+    },
+    {
+      "frame": 130,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 0.9994633618193717,
+      "insertion": 0.023264116142083652,
+      "photo": 0
+    },
+    {
+      "frame": 131,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.042779445506336645,
+      "photo": 0
+    },
+    {
+      "frame": 132,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.06947997858035342,
+      "photo": 0
+    },
+    {
+      "frame": 133,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.103515625,
+      "photo": 0
+    },
+    {
+      "frame": 134,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.144701612423395,
+      "photo": 0
+    },
+    {
+      "frame": 135,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.1925603217781282,
+      "photo": 0
+    },
+    {
+      "frame": 136,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.2463631225084786,
+      "photo": 0
+    },
+    {
+      "frame": 137,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.30517220782263343,
+      "photo": 0
+    },
+    {
+      "frame": 138,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.367882429939906,
+      "photo": 0
+    },
+    {
+      "frame": 139,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.43326313533795435,
+      "photo": 0
+    },
+    {
+      "frame": 140,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.5,
+      "photo": 0
+    },
+    {
+      "frame": 141,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.5667368646620455,
+      "photo": 0
+    },
+    {
+      "frame": 142,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.6321175700600941,
+      "photo": 0
+    },
+    {
+      "frame": 143,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.6948277921773665,
+      "photo": 0
+    },
+    {
+      "frame": 144,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.7536368774915215,
+      "photo": 0
+    },
+    {
+      "frame": 145,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.8074396782218718,
+      "photo": 0
+    },
+    {
+      "frame": 146,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.8552983875766048,
+      "photo": 0
+    },
+    {
+      "frame": 147,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.896484375,
+      "photo": 0
+    },
+    {
+      "frame": 148,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.9305200214196468,
+      "photo": 0
+    },
+    {
+      "frame": 149,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.9572205544936631,
+      "photo": 0
+    },
+    {
+      "frame": 150,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.9767358838579168,
+      "photo": 0
+    },
+    {
+      "frame": 151,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.9895924363732376,
+      "photo": 0
+    },
+    {
+      "frame": 152,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.9967349913726419,
+      "photo": 0.018867924528301886
+    },
+    {
+      "frame": 153,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 0.999568515908549,
+      "photo": 0.03773584905660377
+    },
+    {
+      "frame": 154,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.05660377358490566
+    },
+    {
+      "frame": 155,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.07547169811320754
+    },
+    {
+      "frame": 156,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.09433962264150944
+    },
+    {
+      "frame": 157,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.11320754716981132
+    },
+    {
+      "frame": 158,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.1320754716981132
+    },
+    {
+      "frame": 159,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.1509433962264151
+    },
+    {
+      "frame": 160,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.16981132075471697
+    },
+    {
+      "frame": 161,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.18867924528301888
+    },
+    {
+      "frame": 162,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.20754716981132076
+    },
+    {
+      "frame": 163,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.22641509433962265
+    },
+    {
+      "frame": 164,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.24528301886792453
+    },
+    {
+      "frame": 165,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.2641509433962264
+    },
+    {
+      "frame": 166,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.2830188679245283
+    },
+    {
+      "frame": 167,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.3018867924528302
+    },
+    {
+      "frame": 168,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.32075471698113206
+    },
+    {
+      "frame": 169,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.33962264150943394
+    },
+    {
+      "frame": 170,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.3584905660377358
+    },
+    {
+      "frame": 171,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.37735849056603776
+    },
+    {
+      "frame": 172,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.39622641509433965
+    },
+    {
+      "frame": 173,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.41509433962264153
+    },
+    {
+      "frame": 174,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.4339622641509434
+    },
+    {
+      "frame": 175,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.4528301886792453
+    },
+    {
+      "frame": 176,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.4716981132075472
+    },
+    {
+      "frame": 177,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.49056603773584906
+    },
+    {
+      "frame": 178,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.5094339622641509
+    },
+    {
+      "frame": 179,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.5283018867924528
+    },
+    {
+      "frame": 180,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.5471698113207547
+    },
+    {
+      "frame": 181,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.5660377358490566
+    },
+    {
+      "frame": 182,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.5849056603773585
+    },
+    {
+      "frame": 183,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.6037735849056604
+    },
+    {
+      "frame": 184,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.6226415094339622
+    },
+    {
+      "frame": 185,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.6415094339622641
+    },
+    {
+      "frame": 186,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.660377358490566
+    },
+    {
+      "frame": 187,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.6792452830188679
+    },
+    {
+      "frame": 188,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.6981132075471698
+    },
+    {
+      "frame": 189,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.7169811320754716
+    },
+    {
+      "frame": 190,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.7358490566037735
+    },
+    {
+      "frame": 191,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.7547169811320755
+    },
+    {
+      "frame": 192,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.7735849056603774
+    },
+    {
+      "frame": 193,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.7924528301886793
+    },
+    {
+      "frame": 194,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.8113207547169812
+    },
+    {
+      "frame": 195,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.8301886792452831
+    },
+    {
+      "frame": 196,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.8490566037735849
+    },
+    {
+      "frame": 197,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.8679245283018868
+    },
+    {
+      "frame": 198,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.8867924528301887
+    },
+    {
+      "frame": 199,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.9056603773584906
+    },
+    {
+      "frame": 200,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.9245283018867925
+    },
+    {
+      "frame": 201,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.9433962264150944
+    },
+    {
+      "frame": 202,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.9622641509433962
+    },
+    {
+      "frame": 203,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 0.9811320754716981
+    },
+    {
+      "frame": 204,
+      "assembly": 1,
+      "slide": 1,
+      "replacement": 1,
+      "cable_arrival": 1,
+      "insertion": 1,
+      "photo": 1
+    }
+  ],
+  "framing_checks": [
+    {
+      "frame": 1,
+      "bounds": [
+        0.3323177099227905,
+        0.04716916382312775,
+        0.686566174030304,
+        0.9530583620071411
+      ]
+    },
+    {
+      "frame": 2,
+      "bounds": [
+        0.33231160044670105,
+        0.04716891422867775,
+        0.6865701675415039,
+        0.9530569911003113
+      ]
+    },
+    {
+      "frame": 3,
+      "bounds": [
+        0.33227065205574036,
+        0.04716477915644646,
+        0.6865969896316528,
+        0.9530459642410278
+      ]
+    },
+    {
+      "frame": 4,
+      "bounds": [
+        0.3321644067764282,
+        0.04715671390295029,
+        0.6866660118103027,
+        0.9530200958251953
+      ]
+    },
+    {
+      "frame": 5,
+      "bounds": [
+        0.331967830657959,
+        0.04714090749621391,
+        0.686793863773346,
+        0.9529712796211243
+      ]
+    },
+    {
+      "frame": 6,
+      "bounds": [
+        0.3316601514816284,
+        0.04711533710360527,
+        0.6869940161705017,
+        0.9528936743736267
+      ]
+    },
+    {
+      "frame": 7,
+      "bounds": [
+        0.3312245011329651,
+        0.04707915335893631,
+        0.6872776746749878,
+        0.9527832269668579
+      ]
+    },
+    {
+      "frame": 8,
+      "bounds": [
+        0.330647736787796,
+        0.047030188143253326,
+        0.6876537203788757,
+        0.9526351094245911
+      ]
+    },
+    {
+      "frame": 9,
+      "bounds": [
+        0.32991909980773926,
+        0.0469677560031414,
+        0.6881283521652222,
+        0.9524461030960083
+      ]
+    },
+    {
+      "frame": 10,
+      "bounds": [
+        0.32903170585632324,
+        0.04688965156674385,
+        0.6887071132659912,
+        0.9522111415863037
+      ]
+    },
+    {
+      "frame": 11,
+      "bounds": [
+        0.32798054814338684,
+        0.046795476227998734,
+        0.6893932223320007,
+        0.951927661895752
+      ]
+    },
+    {
+      "frame": 12,
+      "bounds": [
+        0.32676297426223755,
+        0.04668257012963295,
+        0.6901891827583313,
+        0.951590359210968
+      ]
+    },
+    {
+      "frame": 13,
+      "bounds": [
+        0.32537803053855896,
+        0.04655122011899948,
+        0.6910958886146545,
+        0.9511968493461609
+      ]
+    },
+    {
+      "frame": 14,
+      "bounds": [
+        0.3238269090652466,
+        0.046399056911468506,
+        0.6921139359474182,
+        0.9507417678833008
+      ]
+    },
+    {
+      "frame": 15,
+      "bounds": [
+        0.3221113979816437,
+        0.046224888414144516,
+        0.6932423710823059,
+        0.9502206444740295
+      ]
+    },
+    {
+      "frame": 16,
+      "bounds": [
+        0.3202356696128845,
+        0.046027831733226776,
+        0.6944804787635803,
+        0.9496285915374756
+      ]
+    },
+    {
+      "frame": 17,
+      "bounds": [
+        0.31820374727249146,
+        0.045807480812072754,
+        0.6958261728286743,
+        0.9489616751670837
+      ]
+    },
+    {
+      "frame": 18,
+      "bounds": [
+        0.31602177023887634,
+        0.045562874525785446,
+        0.6972780227661133,
+        0.9482141137123108
+      ]
+    },
+    {
+      "frame": 19,
+      "bounds": [
+        0.3136961758136749,
+        0.04529305547475815,
+        0.6988334655761719,
+        0.947380542755127
+      ]
+    },
+    {
+      "frame": 20,
+      "bounds": [
+        0.311233788728714,
+        0.0449991449713707,
+        0.7004894614219666,
+        0.94645756483078
+      ]
+    },
+    {
+      "frame": 21,
+      "bounds": [
+        0.308643102645874,
+        0.044679705053567886,
+        0.7022436857223511,
+        0.945438027381897
+      ]
+    },
+    {
+      "frame": 22,
+      "bounds": [
+        0.30593255162239075,
+        0.04433610290288925,
+        0.7040925621986389,
+        0.9443183541297913
+      ]
+    },
+    {
+      "frame": 23,
+      "bounds": [
+        0.30311119556427,
+        0.04396950080990791,
+        0.706032395362854,
+        0.9430959224700928
+      ]
+    },
+    {
+      "frame": 24,
+      "bounds": [
+        0.30018919706344604,
+        0.04358069226145744,
+        0.7080591917037964,
+        0.9417668581008911
+      ]
+    },
+    {
+      "frame": 25,
+      "bounds": [
+        0.2971770167350769,
+        0.04317012056708336,
+        0.7101685404777527,
+        0.940328061580658
+      ]
+    },
+    {
+      "frame": 26,
+      "bounds": [
+        0.29408571124076843,
+        0.04274075850844383,
+        0.7123547792434692,
+        0.9387805461883545
+      ]
+    },
+    {
+      "frame": 27,
+      "bounds": [
+        0.2909274101257324,
+        0.04229510575532913,
+        0.7146118879318237,
+        0.9371253252029419
+      ]
+    },
+    {
+      "frame": 28,
+      "bounds": [
+        0.28771528601646423,
+        0.041834328323602676,
+        0.7169333100318909,
+        0.9353639483451843
+      ]
+    },
+    {
+      "frame": 29,
+      "bounds": [
+        0.28446221351623535,
+        0.04136217013001442,
+        0.7193102240562439,
+        0.9335023164749146
+      ]
+    },
+    {
+      "frame": 30,
+      "bounds": [
+        0.2811753749847412,
+        0.040908798575401306,
+        0.7217016816139221,
+        0.9315746426582336
+      ]
+    },
+    {
+      "frame": 31,
+      "bounds": [
+        0.27783188223838806,
+        0.04062115401029587,
+        0.7239355444908142,
+        0.9297221899032593
+      ]
+    },
+    {
+      "frame": 32,
+      "bounds": [
+        0.27440717816352844,
+        0.04067313298583031,
+        0.725805401802063,
+        0.9280864000320435
+      ]
+    },
+    {
+      "frame": 33,
+      "bounds": [
+        0.2708824872970581,
+        0.041236959397792816,
+        0.7271036505699158,
+        0.9267820715904236
+      ]
+    },
+    {
+      "frame": 34,
+      "bounds": [
+        0.2672468423843384,
+        0.042482078075408936,
+        0.7283191680908203,
+        0.9259000420570374
+      ]
+    },
+    {
+      "frame": 35,
+      "bounds": [
+        0.2634946405887604,
+        0.044561631977558136,
+        0.7288382053375244,
+        0.9254999756813049
+      ]
+    },
+    {
+      "frame": 36,
+      "bounds": [
+        0.2596255838871002,
+        0.04761844128370285,
+        0.7282189130783081,
+        0.9256240129470825
+      ]
+    },
+    {
+      "frame": 37,
+      "bounds": [
+        0.2556457221508026,
+        0.05176679417490959,
+        0.7262904047966003,
+        0.926285982131958
+      ]
+    },
+    {
+      "frame": 38,
+      "bounds": [
+        0.25156503915786743,
+        0.057090356945991516,
+        0.7229099273681641,
+        0.9274775385856628
+      ]
+    },
+    {
+      "frame": 39,
+      "bounds": [
+        0.24739804863929749,
+        0.06363721191883087,
+        0.7179734706878662,
+        0.9291714429855347
+      ]
+    },
+    {
+      "frame": 40,
+      "bounds": [
+        0.24316087365150452,
+        0.07141079008579254,
+        0.7114217281341553,
+        0.9313183426856995
+      ]
+    },
+    {
+      "frame": 41,
+      "bounds": [
+        0.23887191712856293,
+        0.08037051558494568,
+        0.7032466530799866,
+        0.9338511824607849
+      ]
+    },
+    {
+      "frame": 42,
+      "bounds": [
+        0.23454928398132324,
+        0.09043371677398682,
+        0.6934912800788879,
+        0.9366892576217651
+      ]
+    },
+    {
+      "frame": 43,
+      "bounds": [
+        0.23021015524864197,
+        0.10147484391927719,
+        0.6822473406791687,
+        0.939735472202301
+      ]
+    },
+    {
+      "frame": 44,
+      "bounds": [
+        0.22586983442306519,
+        0.11334025859832764,
+        0.6696482300758362,
+        0.9428859949111938
+      ]
+    },
+    {
+      "frame": 45,
+      "bounds": [
+        0.22154103219509125,
+        0.12584882974624634,
+        0.6558611392974854,
+        0.946026086807251
+      ]
+    },
+    {
+      "frame": 46,
+      "bounds": [
+        0.21723344922065735,
+        0.13880906999111176,
+        0.6410748958587646,
+        0.9490391612052917
+      ]
+    },
+    {
+      "frame": 47,
+      "bounds": [
+        0.21295462548732758,
+        0.15202493965625763,
+        0.6254899501800537,
+        0.9518060684204102
+      ]
+    },
+    {
+      "frame": 48,
+      "bounds": [
+        0.20870982110500336,
+        0.16530101001262665,
+        0.6093085408210754,
+        0.954204261302948
+      ]
+    },
+    {
+      "frame": 49,
+      "bounds": [
+        0.20450280606746674,
+        0.17845645546913147,
+        0.5927252769470215,
+        0.9561182260513306
+      ]
+    },
+    {
+      "frame": 50,
+      "bounds": [
+        0.20033688843250275,
+        0.19132615625858307,
+        0.5759217143058777,
+        0.9574370384216309
+      ]
+    },
+    {
+      "frame": 51,
+      "bounds": [
+        0.19621655344963074,
+        0.20376217365264893,
+        0.5590633153915405,
+        0.9580563306808472
+      ]
+    },
+    {
+      "frame": 52,
+      "bounds": [
+        0.19214625656604767,
+        0.21563903987407684,
+        0.542294979095459,
+        0.9578842520713806
+      ]
+    },
+    {
+      "frame": 53,
+      "bounds": [
+        0.18813283741474152,
+        0.2268507033586502,
+        0.5257431864738464,
+        0.9568407535552979
+      ]
+    },
+    {
+      "frame": 54,
+      "bounds": [
+        0.184185191988945,
+        0.23731252551078796,
+        0.5095157623291016,
+        0.9548635482788086
+      ]
+    },
+    {
+      "frame": 55,
+      "bounds": [
+        0.18031443655490875,
+        0.24695855379104614,
+        0.4937039017677307,
+        0.9519067406654358
+      ]
+    },
+    {
+      "frame": 56,
+      "bounds": [
+        0.17653381824493408,
+        0.255742609500885,
+        0.47838374972343445,
+        0.947947084903717
+      ]
+    },
+    {
+      "frame": 57,
+      "bounds": [
+        0.17285838723182678,
+        0.26363417506217957,
+        0.46361857652664185,
+        0.9433060884475708
+      ]
+    },
+    {
+      "frame": 58,
+      "bounds": [
+        0.16930438578128815,
+        0.270621120929718,
+        0.44946035742759705,
+        0.9378054141998291
+      ]
+    },
+    {
+      "frame": 59,
+      "bounds": [
+        0.16588903963565826,
+        0.2767040431499481,
+        0.43595218658447266,
+        0.9312930703163147
+      ]
+    },
+    {
+      "frame": 60,
+      "bounds": [
+        0.16262906789779663,
+        0.28190067410469055,
+        0.4231279492378235,
+        0.9238690733909607
+      ]
+    },
+    {
+      "frame": 61,
+      "bounds": [
+        0.15954042971134186,
+        0.28623899817466736,
+        0.4110143184661865,
+        0.9156400561332703
+      ]
+    },
+    {
+      "frame": 62,
+      "bounds": [
+        0.1566375344991684,
+        0.28976213932037354,
+        0.39963090419769287,
+        0.9067232012748718
+      ]
+    },
+    {
+      "frame": 63,
+      "bounds": [
+        0.15393145382404327,
+        0.2925221621990204,
+        0.3889896273612976,
+        0.8972454071044922
+      ]
+    },
+    {
+      "frame": 64,
+      "bounds": [
+        0.15142980217933655,
+        0.29458126425743103,
+        0.3790951073169708,
+        0.8873422741889954
+      ]
+    },
+    {
+      "frame": 65,
+      "bounds": [
+        0.1491362303495407,
+        0.29600879549980164,
+        0.3699447512626648,
+        0.8771553039550781
+      ]
+    },
+    {
+      "frame": 66,
+      "bounds": [
+        0.14705117046833038,
+        0.2968790531158447,
+        0.3615298271179199,
+        0.866828441619873
+      ]
+    },
+    {
+      "frame": 67,
+      "bounds": [
+        0.1451713889837265,
+        0.29726970195770264,
+        0.3538358807563782,
+        0.8565048575401306
+      ]
+    },
+    {
+      "frame": 68,
+      "bounds": [
+        0.1434912234544754,
+        0.29725879430770874,
+        0.34684380888938904,
+        0.846323549747467
+      ]
+    },
+    {
+      "frame": 69,
+      "bounds": [
+        0.14200210571289062,
+        0.2969236373901367,
+        0.34053048491477966,
+        0.8364166617393494
+      ]
+    },
+    {
+      "frame": 70,
+      "bounds": [
+        0.14069411158561707,
+        0.2963384985923767,
+        0.3348696827888489,
+        0.8269068002700806
+      ]
+    },
+    {
+      "frame": 71,
+      "bounds": [
+        0.13955546915531158,
+        0.2955741584300995,
+        0.32983261346817017,
+        0.8179052472114563
+      ]
+    },
+    {
+      "frame": 72,
+      "bounds": [
+        0.13857361674308777,
+        0.29469484090805054,
+        0.3253888785839081,
+        0.8095085620880127
+      ]
+    },
+    {
+      "frame": 73,
+      "bounds": [
+        0.13773559033870697,
+        0.2937582731246948,
+        0.3215066194534302,
+        0.8017978072166443
+      ]
+    },
+    {
+      "frame": 74,
+      "bounds": [
+        0.1370282918214798,
+        0.2928149700164795,
+        0.3181532621383667,
+        0.7948371767997742
+      ]
+    },
+    {
+      "frame": 75,
+      "bounds": [
+        0.13643884658813477,
+        0.29190707206726074,
+        0.31529560685157776,
+        0.7886725068092346
+      ]
+    },
+    {
+      "frame": 76,
+      "bounds": [
+        0.13595488667488098,
+        0.2910687327384949,
+        0.3128999173641205,
+        0.7833303213119507
+      ]
+    },
+    {
+      "frame": 77,
+      "bounds": [
+        0.13556502759456635,
+        0.2903249263763428,
+        0.31093212962150574,
+        0.7788179516792297
+      ]
+    },
+    {
+      "frame": 78,
+      "bounds": [
+        0.1352580189704895,
+        0.28960365056991577,
+        0.3093568980693817,
+        0.7751216292381287
+      ]
+    },
+    {
+      "frame": 79,
+      "bounds": [
+        0.1350238025188446,
+        0.2887759506702423,
+        0.308137983083725,
+        0.772208571434021
+      ]
+    },
+    {
+      "frame": 80,
+      "bounds": [
+        0.13485272228717804,
+        0.2881498634815216,
+        0.3072371482849121,
+        0.7700250744819641
+      ]
+    },
+    {
+      "frame": 81,
+      "bounds": [
+        0.13473518192768097,
+        0.2877088785171509,
+        0.3066132962703705,
+        0.7684974670410156
+      ]
+    },
+    {
+      "frame": 82,
+      "bounds": [
+        0.13466189801692963,
+        0.28742918372154236,
+        0.3062218129634857,
+        0.767532467842102
+      ]
+    },
+    {
+      "frame": 83,
+      "bounds": [
+        0.13462293148040771,
+        0.287279337644577,
+        0.30601370334625244,
+        0.7670174837112427
+      ]
+    },
+    {
+      "frame": 84,
+      "bounds": [
+        0.13460811972618103,
+        0.287222295999527,
+        0.3059343695640564,
+        0.7668208479881287
+      ]
+    },
+    {
+      "frame": 85,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 86,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 87,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 88,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 89,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 90,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 91,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 92,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 93,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 94,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 95,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 96,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 97,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 98,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 99,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 100,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 101,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 102,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 103,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 104,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 105,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 106,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 107,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 108,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 109,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 110,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 111,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 112,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    },
+    {
+      "frame": 113,
+      "bounds": [
+        0.1346059888601303,
+        0.28721386194229126,
+        0.30592265725135803,
+        0.766791820526123
+      ]
+    }
+  ]
+}
